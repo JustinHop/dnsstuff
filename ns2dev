@@ -1,1 +1,1 @@
-rsync -avb /autofs/ns1/WINDOWS/system32/dns ~/dev/systems/cfengine/trunk/build
+rsync -avb /autofs/ns1/WINDOWS/system32/dns ~/NS1/
