@@ -1,0 +1,35 @@
+;
+;  Database file netreach.biz.dns for netreach.biz zone.
+;      Zone version:  2008042210
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2008042210   ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	691200       ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.135
+@                       MX	10	mail.global.frontbridge.com.
+att                     A	167.167.24.135
+dev                     A	192.251.67.96
+localhost               A	127.0.0.1
+prod                    A	192.251.67.166
+smbsweeps               3600	A	192.251.67.71
+test                    A	192.251.67.94
+www                     CNAME	netreach.biz.

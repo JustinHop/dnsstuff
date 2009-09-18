@@ -1,0 +1,34 @@
+;
+;  Database file rsmusicgroup.com.dns for rsmusicgroup.com zone.
+;      Zone version:  2005060220
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2005060220   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.10
+@                       MX	10	mail.rsmusicgroup.com.
+images                  CNAME	images.islanddefjam.com.
+localhost               A	127.0.0.1
+mail                    A	68.142.142.146
+www                     CNAME	rsmusicgroup.com.
+www6                    A	167.167.9.101

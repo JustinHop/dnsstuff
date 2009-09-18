@@ -1,0 +1,29 @@
+;
+;  Database file stroke9.com.dns for stroke9.com zone.
+;      Zone version:  2002080913
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2002080913   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; minimum TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	12.110.193.132
+
+;
+;  Zone records
+;
+
+@                       900	A	65.116.82.123
+@                       MX	20	mail.unistudios.com.
+@                       MX	10	mail.usfsh.umusic.com.
+localhost               A	127.0.0.1
+www                     CNAME	stroke9.com.

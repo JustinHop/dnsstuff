@@ -1,0 +1,28 @@
+;
+;  Database file bet-emusic.com.dns for bet-emusic.com zone.
+;      Zone version:  20090128
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	20090128     ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       3600	NS	ns2.umusic.com.
+ns2.umusic.com.         3600	A	167.167.9.132
+@                       3600	NS	ns5.umusic.com.
+ns5.umusic.com.         3600	A	167.167.1.132
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.135
+www                     CNAME	bet-emusic.com.

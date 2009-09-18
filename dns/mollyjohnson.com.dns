@@ -1,0 +1,33 @@
+;
+;  Database file mollyjohnson.com.dns for mollyjohnson.com zone.
+;      Zone version:  2006103011
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2006103011   ; serial number
+                        	1800         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+
+;
+;  Zone records
+;
+
+@                       A	192.251.67.80
+@                       MX	10	mx1c25.carrierzone.com.
+@                       MX	100	mx2c25.carrierzone.com.
+@                       MX	110	mx3c25.carrierzone.com.
+@                       MX	120	mx4c25.carrierzone.com.
+localhost               A	127.0.0.1
+www                     CNAME	mollyjohnson.com.

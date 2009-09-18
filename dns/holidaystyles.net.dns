@@ -1,0 +1,38 @@
+;
+;  Database file holidaystyles.net.dns for holidaystyles.net zone.
+;      Zone version:  2006032106
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006032106   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+@                       NS	ns5.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.70
+@                       MX	10	mail.holidaystyles.net.
+*                       A	216.193.195.52
+cp                      CNAME	cp.netservers.net.
+ftp                     A	216.193.195.55
+localhost               A	127.0.0.1
+mail                    A	216.193.195.61
+netshow                 CNAME	netshow.netservers.net.
+pop                     CNAME	c1.popmail1.netservers.net.
+real2                   CNAME	real.netservers.net.
+smtp                    CNAME	smtp.netservers.net.
+staging                 A	216.193.195.55
+webmail                 CNAME	hpmail.netservers.net.
+www                     CNAME	holidaystyles.net.

@@ -1,0 +1,46 @@
+;
+;  Database file deccalabelgroup.com.dns for deccalabelgroup.com zone.
+;      Zone version:  2007033027
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2007033027   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.135
+att                     A	167.167.24.135
+att01                   A	167.167.24.132
+att02                   A	167.167.24.133
+att03                   A	167.167.24.134
+att.chantmusicforthesoul CNAME	att.deccalabelgroup.com.
+att.deccabroadway       CNAME	att.deccalabelgroup.com.
+att01.deccabroadway     CNAME	att01.deccalabelgroup.com.
+att02.deccabroadway     CNAME	att02.deccalabelgroup.com.
+att03.deccabroadway     CNAME	att03.deccalabelgroup.com.
+att.deccarecords-us     CNAME	att.deccalabelgroup.com.
+dev                     A	192.251.67.124
+dev-pop                 A	192.251.67.124
+att.hadenfamilyandfriends CNAME	att.deccalabelgroup.com.
+localhost               A	127.0.0.1
+att.universalmusicclassical CNAME	att.deccalabelgroup.com.
+att01.universalmusicclassical CNAME	att01.deccalabelgroup.com.
+att02.universalmusicclassical CNAME	att02.deccalabelgroup.com.
+att03.universalmusicclassical CNAME	att03.deccalabelgroup.com.
+www                     CNAME	deccalabelgroup.com.

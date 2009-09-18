@@ -1,0 +1,36 @@
+;
+;  Database file umgdb2b.com.dns for umgdb2b.com zone.
+;      Zone version:  2006041821
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006041821   ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	900        ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+
+;
+;  Zone records
+;
+
+@                       A	167.167.2.106
+amazon                  7200	A	167.167.24.135
+att.amazon              A	167.167.24.135
+dev.amazon              A	192.251.67.94
+gwenandben              A	192.251.67.34
+localhost               A	127.0.0.1
+services                A	167.167.2.106
+stage                   A	167.167.2.55
+www                     CNAME	umgdb2b.com.

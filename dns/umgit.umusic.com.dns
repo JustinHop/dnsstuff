@@ -1,0 +1,22 @@
+;
+;  Database file umgit.umusic.com.dns for umgit.umusic.com zone.
+;      Zone version:  1
+;
+
+@                       IN  SOA ns1.umusic.com.  admin.umusic.com. (
+                        	1            ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; minimum TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+

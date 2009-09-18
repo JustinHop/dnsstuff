@@ -1,0 +1,39 @@
+;
+;  Database file sanctuarygroup.com.dns for sanctuarygroup.com zone.
+;      Zone version:  2008060439
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2008060439   ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+
+;
+;  Zone records
+;
+
+@                       A	66.147.242.90
+@                       MX	10	mail.global.frontbridge.com.
+intranet                A	213.86.112.4
+localhost               A	127.0.0.1
+mail-hs                 A	213.86.119.82
+mail-ny                 A	38.98.107.65
+mail-sh                 A	212.162.212.11
+mail-sm                 A	75.12.182.233
+mailhostsf              A	213.86.112.4
+vpn-ny                  A	38.98.107.66
+vpn-sm                  A	4.19.93.50
+www                     CNAME	sanctuarygroup.com.

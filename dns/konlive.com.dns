@@ -1,0 +1,34 @@
+;
+;  Database file konlive.com.dns for konlive.com zone.
+;      Zone version:  20080617
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	20080617     ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       3600	NS	ns2.umusic.com.
+ns2.umusic.com.         3600	A	167.167.9.132
+@                       3600	NS	ns5.umusic.com.
+ns5.umusic.com.         3600	A	167.167.1.132
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.70
+@                       MX	10	mx1c25.carrierzone.com.
+@                       MX	100	mx2c25.carrierzone.com.
+@                       MX	110	mx3c25.carrierzone.com.
+@                       MX	120	mx4c25.carrierzone.com.
+mail                    A	64.29.145.40
+webmail                 A	64.29.145.44
+www                     CNAME	konlive.com.

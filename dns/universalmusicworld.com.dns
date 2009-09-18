@@ -1,0 +1,32 @@
+;
+;  Database file universalmusicworld.com.dns for universalmusicworld.com zone.
+;      Zone version:  2006030213
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006030213   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+
+;
+;  Zone records
+;
+
+@                       600	A	212.162.212.35
+@                       MX	10	gate1.dehan.umusic.com.
+localhost               A	127.0.0.1
+www                     CNAME	universalmusicworld.com.
+www2b                   CNAME	universalmusicworld.com.

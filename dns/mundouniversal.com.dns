@@ -1,0 +1,31 @@
+;
+;  Database file mundouniversal.com.dns for mundouniversal.com zone.
+;      Zone version:  2004110526
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2004110526   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+
+;
+;  Zone records
+;
+
+@                       A	167.167.2.106
+localhost               A	127.0.0.1
+stage                   A	167.167.2.55
+www                     CNAME	mundouniversal.com.

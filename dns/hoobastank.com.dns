@@ -1,0 +1,41 @@
+;
+;  Database file hoobastank.com.dns for hoobastank.com zone.
+;      Zone version:  2002050359
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2002050359   ; serial number
+                        	600          ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	600        ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+
+;
+;  Zone records
+;
+
+@                       7200	A	167.167.24.7
+@                       MX	10	smtp-in.load.com.
+fanclub                 CNAME	hoobastank.com.
+fcmedia                 CNAME	fcmedia.islandrecords.com.
+hoobastankfanclubmerch  CNAME	www.merchdirect.net.
+localhost               A	127.0.0.1
+myturn                  A	72.32.147.161
+post                    900	A	66.185.161.6
+send                    CNAME	www3.islanddefjam.com.
+support                 CNAME	support.hoobastank.com.sparkart.net.
+webmail                 CNAME	clients.loadmail.com.
+webservices             CNAME	webservices.islanddefjam.com.
+www                     CNAME	hoobastank.com.
+www6                    CNAME	www6.islandrecords.com.

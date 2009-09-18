@@ -1,0 +1,38 @@
+;
+;  Database file paulinarubio.com.dns for paulinarubio.com zone.
+;      Zone version:  2002042542
+;
+
+@                       600	IN  SOA ns1.umusic.com.  hostmaster-umusic.com. (
+                        	2002042542   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+
+;
+;  Zone records
+;
+
+@                       900	A	200.61.33.174
+@                       MX	10	mail.paulinarubio.com.
+boards                  900	A	192.251.67.82
+bordergirl              A	216.154.235.19
+localhost               A	127.0.0.1
+mail                    A	200.61.33.175
+prod                    900	A	167.167.2.113
+stage                   A	192.251.67.244
+staging                 A	200.61.33.174
+test                    A	192.251.67.244
+www                     CNAME	paulinarubio.com.

@@ -1,0 +1,38 @@
+;
+;  Database file suretone.com.dns for suretone.com zone.
+;      Zone version:  2006032126
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006032126   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	70.32.68.239
+@                       MX	20	suretone.com.inbound20.mxlogic.net.
+@                       MX	30	suretone.com.inbound30.mxlogic.net.
+@                       MX	10	suretone.com.inbound10.mxlogic.net.
+*                       A	205.134.240.58
+community               A	208.76.217.20
+streaming.community     A	72.32.147.226
+ftp                     A	216.193.195.55
+localhost               A	127.0.0.1
+mail                    A	216.193.195.61
+staging                 A	216.193.195.55
+store                   A	208.99.208.234
+webmail                 A	167.167.24.80
+www                     CNAME	suretone.com.

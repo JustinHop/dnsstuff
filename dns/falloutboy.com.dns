@@ -1,0 +1,31 @@
+;
+;  Database file falloutboy.com.dns for falloutboy.com zone.
+;      Zone version:  2007031629
+;
+
+@                       600	IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2007031629   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       3600	NS	ns5.umusic.com.
+ns5.umusic.com.         3600	A	167.167.1.132
+@                       NS	ns1.umusic.com.
+@                       3600	NS	ns2.umusic.com.
+ns2.umusic.com.         3600	A	167.167.9.132
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.10
+localhost               A	127.0.0.1
+music                   A	167.167.9.53
+store                   A	216.82.85.130
+www                     CNAME	falloutboy.com.

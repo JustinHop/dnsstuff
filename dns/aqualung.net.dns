@@ -1,0 +1,32 @@
+;
+;  Database file aqualung.net.dns for aqualung.net zone.
+;      Zone version:  12
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	12           ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.135
+@                       MX	10	mail.aqualung.net.
+@                       MX	20	mail2.aqualung.net.
+mail                    A	69.73.181.206
+mail2                   A	69.73.181.206
+www                     CNAME	aqualung.net.

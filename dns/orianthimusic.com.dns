@@ -1,0 +1,25 @@
+;
+;  Database file orianthimusic.com.dns for orianthimusic.com zone.
+;      Zone version:  4
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	4            ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       7200	A	167.167.24.76
+att                     CNAME	orianthimusic.com.
+www                     CNAME	orianthimusic.com.

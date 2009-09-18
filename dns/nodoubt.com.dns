@@ -1,0 +1,56 @@
+;
+;  Database file nodoubt.com.dns for nodoubt.com zone.
+;      Zone version:  2006032122
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006032122   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+@                       NS	ns5.umusic.com.
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.77
+@                       MX	100	mx2c25.carrierzone.com.
+@                       MX	110	mx3c25.carrierzone.com.
+@                       MX	120	mx4c25.carrierzone.com.
+@                       MX	10	mx1c25.carrierzone.com.
+*                       A	216.193.195.53
+cp                      CNAME	cp.netservers.net.
+
+;
+;  Delegated sub-zone:  download.nodoubt.com.
+;
+download                NS	ns3.sudjam.com.
+ns3.sudjam.com.         A	216.193.231.21
+download                NS	ns1.sudjam.com.
+ns1.sudjam.com.         A	208.81.236.21
+download                NS	ns2.sudjam.com.
+ns2.sudjam.com.         A	204.68.170.21
+;  End delegation
+
+eit                     A	216.193.195.52
+forums                  A	192.251.67.34
+ftp                     A	216.193.195.55
+localhost               A	127.0.0.1
+mail                    A	64.29.145.40
+netshow                 CNAME	netshow.netservers.net.
+pop                     CNAME	c1.popmail1.netservers.net.
+real2                   CNAME	real.netservers.net.
+smtp                    CNAME	smtp.netservers.net.
+staging                 A	216.193.195.55
+tourclub                A	167.167.24.77
+webmail                 A	64.29.145.44
+www                     CNAME	nodoubt.com.

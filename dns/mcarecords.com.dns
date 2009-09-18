@@ -1,0 +1,157 @@
+;
+;  Database file mcarecords.com.dns for mcarecords.com zone.
+;      Zone version:  2002063011
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2002063011   ; serial number
+                        	600          ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+
+;
+;  Zone records
+;
+
+@                       900	A	167.167.24.80
+@                       300	MX	10	mail.global.frontbridge.com.
+admin                   900	A	192.251.67.23
+dev.artist              A	192.251.67.166
+test.artist             A	192.251.67.147
+askmelater              A	192.251.67.27
+dev.askmelater          A	192.251.67.147
+dev.atticusfault        900	A	192.251.67.166
+dev.avant               A	192.251.67.147
+bbking                  A	192.251.67.27
+dev.bbking              A	192.251.67.147
+test.bbking             900	A	192.251.67.147
+bielerbros              A	192.251.67.240
+dev.bielerbros          A	192.251.67.147
+blink182                A	192.251.67.27
+dev.blink182            A	192.251.67.147
+test.blink182           900	A	192.251.67.147
+boards                  900	A	192.251.67.23
+boxcarracer             900	A	192.251.67.240
+dev.boxcarracer         900	A	192.251.67.147
+brownsugar              A	192.251.67.27
+dev.brownsugar          A	192.251.67.166
+test.brownsugar         A	192.251.67.147
+cafetacuba              A	192.251.67.27
+dev.cafetacuba          A	192.251.67.147
+cgi                     900	A	192.251.67.23
+common                  A	192.251.67.183
+dev.common              A	192.251.67.147
+contest                 900	A	192.251.67.23
+dev.contest             900	A	192.251.67.166
+prod.contest            A	192.251.67.27
+test.contest            900	A	192.251.67.147
+darwinswaitingroom      A	192.251.67.27
+dev.darwinswaitingroom  A	192.251.67.147
+test.darwinswaitingroom A	192.251.67.147
+dev                     900	A	192.251.67.147
+doggystylerecords       A	192.251.67.27
+dev.doggystylerecords   A	192.251.67.166
+test.doggystylerecords  A	192.251.67.147
+feeds                   900	A	192.251.67.23
+fenixtx                 A	192.251.67.27
+test.fenixtx            900	A	192.251.67.147
+fictionplane            A	192.251.67.27
+dev.fictionplane        A	192.251.67.147
+fieldmob                A	192.251.67.27
+dev.fieldmob            A	192.251.67.166
+test.fieldmob           A	192.251.67.147
+finch                   A	192.251.67.183
+dev.finch               A	192.251.67.147
+ftp                     900	CNAME	cgi.mcarecords.com.
+h2o                     A	192.251.67.27
+dev.h2o                 A	192.251.67.147
+test.h2o                900	A	192.251.67.147
+houseofllama            A	192.251.67.27
+test.houseofllama       A	192.251.67.147
+kardinaloffishall       A	192.251.67.27
+dev.kardinaloffishall   A	192.251.67.147
+dev.kciandjojo          A	192.251.67.147
+test.label              A	192.251.67.147
+dev.legendsofrodeo      A	192.251.67.147
+leonanaess              A	192.251.67.27
+test.leonanaess         900	A	192.251.67.147
+llama                   A	192.251.67.27
+dev.lo-pro              A	192.251.67.147
+prod.lo-pro             A	192.251.67.27
+localhost               A	127.0.0.1
+luisfonsi               A	192.251.67.27
+test.luisfonsi          A	192.251.67.147
+dev.lylelovett          A	192.251.67.147
+midtown                 900	A	192.251.67.240
+dev.midtown             900	A	192.251.67.147
+test.midtown            900	A	192.251.67.147
+mjblige                 A	192.251.67.27
+dev.mjblige             A	192.251.67.147
+test.mjblige            900	A	192.251.67.147
+newfoundglory           A	192.251.67.27
+dev.newfoundglory       900	A	192.251.67.166
+test.newfoundglory      A	192.251.67.147
+nonpoint                A	192.251.67.27
+dev.nonpoint            900	A	192.251.67.147
+test.nonpoint           A	192.251.67.147
+press                   CNAME	umvd.com.
+dev.promo               A	192.251.67.166
+test.promo              A	192.251.67.147
+radio                   CNAME	umvd.com.
+rawkus                  A	192.251.67.27
+dev.rawkus              900	A	192.251.67.166
+test.rawkus             900	A	192.251.67.147
+register                A	192.251.67.27
+test.register           A	192.251.67.147
+render                  A	192.251.67.179
+dev.res                 A	192.251.67.147
+retail                  900	A	192.251.67.23
+prod.retail             A	192.251.67.27
+test.retail             A	192.251.67.147
+sales                   A	192.251.67.180
+shaggy                  A	192.251.67.27
+dev.shaggy              A	192.251.67.147
+test.shaggy             900	A	192.251.67.147
+sigurros                900	A	192.251.67.240
+dev.sigurros            900	A	192.251.67.166
+test.sigurros           A	192.251.67.147
+skillz                  A	192.251.67.27
+dev.skillz              A	192.251.67.147
+skindred                A	192.251.67.27
+dev.skindred            A	192.251.67.147
+slavesondope            A	192.251.67.27
+dev.slavesondope        A	192.251.67.147
+somethingcorporate      900	A	192.251.67.240
+dev.somethingcorporate  900	A	192.251.67.147
+prod.somethingcorporate A	192.251.67.27
+test.somethingcorporate 900	A	192.251.67.147
+southfm                 900	A	192.251.67.27
+dev.southfm             A	192.251.67.147
+stage-sales             A	167.167.2.106
+sunsetblack             A	192.251.67.27
+dev.sunsetblack         A	192.251.67.147
+test.sunsetblack        A	192.251.67.147
+talibkweli              A	192.251.67.27
+dev.talibkweli          A	192.251.67.166
+test.talibkweli         A	192.251.67.147
+test                    900	A	192.251.67.147
+tommylee                900	A	192.251.67.27
+dev.tommylee            900	A	192.251.67.166
+test.tommylee           A	192.251.67.147
+twistedmethod           A	192.251.67.27
+dev.twistedmethod       A	192.251.67.147
+venushum                A	192.251.67.27
+dev.venushum            A	192.251.67.147
+www                     CNAME	mcarecords.com.

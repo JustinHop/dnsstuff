@@ -1,0 +1,32 @@
+;
+;  Database file i15music.com.dns for i15music.com zone.
+;      Zone version:  14
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	14           ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+
+;
+;  Zone records
+;
+
+@                       A	57.77.2.144
+@                       MX	10	mx.i15music.com.
+localhost               A	127.0.0.1
+mx                      A	216.219.253.196
+webmail                 A	216.219.253.138
+www                     CNAME	i15music.com.

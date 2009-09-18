@@ -1,0 +1,40 @@
+;
+;  Database file david-banner.com.dns for david-banner.com zone.
+;      Zone version:  2003031440
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2003031440   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+
+;
+;  Zone records
+;
+
+@                       900	A	167.167.24.102
+@                       MX	10	aspmx2.googlemail.com.
+@                       MX	10	aspmx3.googlemail.com.
+@                       MX	1	aspmx.l.google.com.
+@                       MX	5	alt2.aspmx.l.google.com.
+@                       MX	5	alt1.aspmx.l.google.com.
+boards                  900	A	192.251.67.82
+google91f00b80168da13   CNAME	google.com.
+localhost               A	127.0.0.1
+prod                    900	A	167.167.2.113
+stage                   A	192.251.67.244
+test                    A	192.251.67.244
+www                     CNAME	david-banner.com.

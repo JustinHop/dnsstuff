@@ -1,0 +1,44 @@
+;
+;  Database file umvd.com.dns for umvd.com zone.
+;      Zone version:  2002080547
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2002080547   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+
+;
+;  Zone records
+;
+
+@                       900	A	167.167.2.106
+@                       900	TXT	( "v=spf1 ptr ?all" )
+bulkasset               A	192.251.67.85
+feeds                   900	A	167.167.2.106
+images                  900	A	167.167.2.103
+pre                     900	A	206.83.188.15
+www.pre                 900	CNAME	pre.umvd.com.
+reggaebluesxl           CNAME	umvd.com.
+render                  900	A	192.251.67.179
+rim                     A	192.251.67.221
+server                  900	A	192.251.67.64
+stage                   A	167.167.2.55
+stage-feeds             A	167.167.2.55
+stage-images            A	167.167.2.55
+stage-uni-motown        A	167.167.2.106
+uni-motown              900	A	192.251.67.180
+www                     CNAME	umvd.com.

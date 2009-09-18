@@ -1,0 +1,56 @@
+;
+;  Database file lost-highway.com.dns for lost-highway.com zone.
+;      Zone version:  2003053050
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2003053050   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.135
+att                     A	167.167.24.135
+att01                   A	167.167.24.132
+att02                   A	167.167.24.133
+att03                   A	167.167.24.134
+att.blackjoe            CNAME	att.lost-highway.com.
+dev.blackjoe            CNAME	dev.lost-highway.com.
+prod.blackjoe           A	192.251.67.166
+dev                     A	192.251.67.124
+test.donavonf           A	192.251.67.244
+facebook                A	192.251.67.35
+hayescarll              A	192.251.67.166
+att.hayescarll          CNAME	att.lost-highway.com.
+att01.hayescarll        CNAME	att01.lost-highway.com.
+att02.hayescarll        CNAME	att02.lost-highway.com.
+att03.hayescarll        CNAME	att03.lost-highway.com.
+dev.hayescarll          A	192.251.67.124
+iga-dev                 A	192.251.67.124
+lance-sandbox           A	192.251.67.124
+localhost               A	127.0.0.1
+att.lucindawilliams     CNAME	att.lost-highway.com.
+dev.lucindawilliams     CNAME	dev.lost-highway.com.
+att.momofukudownload    CNAME	att.lost-highway.com.
+shelbylynne             A	192.251.67.166
+att.shelbylynne         CNAME	att.lost-highway.com.
+att01.shelbylynne       CNAME	att01.lost-highway.com.
+att02.shelbylynne       CNAME	att02.lost-highway.com.
+att03.shelbylynne       CNAME	att03.lost-highway.com.
+dev.shelbylynne         A	192.251.67.124
+www                     CNAME	lost-highway.com.

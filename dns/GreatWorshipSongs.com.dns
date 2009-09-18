@@ -1,0 +1,33 @@
+;
+;  Database file GreatWorshipSongs.com.dns for GreatWorshipSongs.com zone.
+;      Zone version:  2008102721
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2008102721   ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	209.196.48.25
+@                       MX	10	mail.global.frontbridge.com.
+35a37b93-df97-4c1b-8cc6-ab5a42ff0a66 CNAME	mail.messaging.microsoft.com.
+ftp                     CNAME	greatworshipsongs.com.
+localhost               A	127.0.0.1
+mail                    A	66.18.108.164
+www                     CNAME	greatworshipsongs.com.

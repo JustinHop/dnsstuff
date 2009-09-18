@@ -1,0 +1,29 @@
+;
+;  Database file maniband.com.dns for maniband.com zone.
+;      Zone version:  2007011716
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2007011716   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       3600	NS	ns2.umusic.com.
+ns2.umusic.com.         3600	A	167.167.9.132
+@                       3600	NS	ns5.umusic.com.
+ns5.umusic.com.         3600	A	167.167.1.132
+
+;
+;  Zone records
+;
+
+@                       A	57.77.2.144
+localhost               A	127.0.0.1
+www                     CNAME	maniband.com.

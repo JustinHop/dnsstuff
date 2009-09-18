@@ -1,0 +1,62 @@
+;
+;  Database file eminem.com.dns for eminem.com zone.
+;      Zone version:  2006032113
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006032113   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+@                       NS	ns5.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.76
+@                       MX	10	smtp-in.load.com.
+*                       A	216.193.195.53
+beltonen                CNAME	diomede.homere.jmsp.net.
+bonus                   A	216.193.195.52
+staging.bonus           A	216.193.195.55
+csengohang              CNAME	diomede.homere.jmsp.net.
+dzwonki                 CNAME	diomede.homere.jmsp.net.
+ftp                     A	216.193.195.55
+handy                   CNAME	diomede.homere.jmsp.net.
+klingeltoene            CNAME	diomede.homere.jmsp.net.
+localhost               A	127.0.0.1
+logo                    CNAME	diomede.homere.jmsp.net.
+logoer                  CNAME	diomede.homere.jmsp.net.
+logos                   CNAME	diomede.homere.jmsp.net.
+melodia                 CNAME	diomede.homere.jmsp.net.
+melodias                CNAME	diomede.homere.jmsp.net.
+mobile                  A	167.167.24.74
+nada                    CNAME	diomede.homere.jmsp.net.
+portable                CNAME	diomede.homere.jmsp.net.
+realtone                CNAME	diomede.homere.jmsp.net.
+ringetoner              CNAME	diomede.homere.jmsp.net.
+ringsignaler            CNAME	diomede.homere.jmsp.net.
+ringtoner               CNAME	diomede.homere.jmsp.net.
+ringtones               CNAME	diomede.homere.jmsp.net.
+shade45                 A	216.193.195.52
+staging.shade45         A	216.193.195.55
+soittoaanet             CNAME	diomede.homere.jmsp.net.
+sonneries               CNAME	diomede.homere.jmsp.net.
+staging                 A	216.193.195.55
+suonerie                CNAME	diomede.homere.jmsp.net.
+tonos                   CNAME	diomede.homere.jmsp.net.
+toques                  CNAME	diomede.homere.jmsp.net.
+truetone                CNAME	diomede.homere.jmsp.net.
+vyzvaneni               CNAME	diomede.homere.jmsp.net.
+wap-gift                A	216.183.112.230
+webmail                 CNAME	clients.loadmail.com.
+www                     CNAME	eminem.com.

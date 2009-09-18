@@ -1,0 +1,34 @@
+;
+;  Database file 10yearsmusic.com.dns for 10yearsmusic.com zone.
+;      Zone version:  2005052320
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2005052320   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.103
+@                       MX	10	mxmail.register.com.
+dev                     A	192.251.67.124
+localhost               A	127.0.0.1
+mail                    CNAME	webmail.register.com.
+test                    A	192.251.67.94
+www                     CNAME	10yearsmusic.com.

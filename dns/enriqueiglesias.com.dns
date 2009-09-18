@@ -1,0 +1,33 @@
+;
+;  Database file enriqueiglesias.com.dns for enriqueiglesias.com zone.
+;      Zone version:  2006033112
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006033112   ; serial number
+                        	300          ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       300	A	8.6.19.68
+@                       MX	10	mail.enriqueiglesias.com.
+bonus                   A	216.193.195.52
+staging.bonus           A	216.193.195.55
+ftp                     A	216.193.195.55
+localhost               A	127.0.0.1
+mail                    A	216.193.195.61
+staging                 A	216.193.195.55
+www                     CNAME	enriqueiglesias.com.
+www2                    CNAME	enriqueiglesias.com.

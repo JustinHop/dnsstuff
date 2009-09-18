@@ -1,0 +1,29 @@
+;
+;  Database file youngcashonline.com.dns for youngcashonline.com zone.
+;      Zone version:  2007050304
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2007050304   ; serial number
+                        	1800         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+
+;
+;  Zone records
+;
+
+@                       A	167.167.2.113
+localhost               A	127.0.0.1
+www                     CNAME	youngcashonline.com.

@@ -1,0 +1,35 @@
+;
+;  Database file d12online.com.dns for d12online.com zone.
+;      Zone version:  2006032115
+;
+
+@                       900	IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006032115   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.76
+@                       MX	10	mail.d12online.com.
+*                       A	57.77.2.145
+ftp                     A	216.193.195.55
+localhost               A	127.0.0.1
+mail                    A	216.193.195.61
+staging                 A	216.193.195.55
+www                     CNAME	d12online.com.

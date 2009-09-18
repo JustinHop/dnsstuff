@@ -1,0 +1,37 @@
+;
+;  Database file dre2001.com.dns for dre2001.com zone.
+;      Zone version:  2006032118
+;
+
+@                       900	IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006032118   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.71
+@                       MX	100	mx2c25.carrierzone.com.
+@                       MX	10	mx1c25.carrierzone.com.
+@                       MX	110	mx3c25.carrierzone.com.
+@                       MX	120	mx4c25.carrierzone.com.
+*                       A	57.77.2.145
+ftp                     A	216.193.195.55
+localhost               A	127.0.0.1
+mail                    A	64.29.145.40
+staging                 A	216.193.195.55
+webmail                 A	64.29.145.44
+www                     CNAME	dre2001.com.

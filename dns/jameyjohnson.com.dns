@@ -1,0 +1,38 @@
+;
+;  Database file jameyjohnson.com.dns for jameyjohnson.com zone.
+;      Zone version:  2008041819
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2008041819   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.135
+@                       MX	20	aspmx2.googlemail.com.
+@                       MX	20	aspmx3.googlemail.com.
+@                       MX	20	aspmx4.googlemail.com.
+@                       MX	20	aspmx5.googlemail.com.
+@                       MX	5	aspmx.l.google.com.
+@                       MX	20	alt1.aspmx.l.google.com.
+@                       MX	20	alt2.aspmx.l.google.com.
+googleffffffffc9b96fdc  CNAME	google.com.
+sweeps                  CNAME	affiliate.kickapps.com.
+www                     CNAME	jameyjohnson.com.

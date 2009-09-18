@@ -1,0 +1,47 @@
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+news:x:9:13:news:/etc/news:
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+rpm:x:37:37::/var/lib/rpm:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+rpc:x:32:32:Portmapper RPC user:/:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+pcap:x:77:77::/var/arpwatch:/sbin/nologin
+distcache:x:94:94:Distcache:/:/sbin/nologin
+apache:x:48:48:Apache:/var/www:/sbin/nologin
+mysql:x:27:27:MySQL Server:/var/lib/mysql:/bin/bash
+webalizer:x:67:67:Webalizer:/var/www/usage:/sbin/nologin
+squid:x:23:23::/var/spool/squid:/sbin/nologin
+nguyenja:x:500:501::/home/nguyenja:/bin/bash
+huidort:x:501:502::/home/huidort:/bin/bash
+velvess:x:502:503::/home/velvess:/bin/bash
+fletchm:x:503:504::/home/fletchm:/bin/bash
+gonzalal:x:504:505::/home/gonzalal:/bin/bash
+hammonl:x:505:506::/home/hammonl:/bin/bash
+kipperm:x:506:507::/home/kipperm:/bin/bash
+yosefr:x:507:508::/home/yosefr:/bin/bash
+voloviv:x:508:509::/home/voloviv:/bin/bash
+frixiov:x:509:510::/home/frixiov:/bin/bash
+hoppenj:x:510:511:Justin Hoppensteadt:/home/hoppenj:/bin/bash
+umgn_linux:x:511:512::/LX_Web/UMGN_Linux_Sites/:/bin/bash
+replication.sv:x:512:513::/home/replication.sv:/bin/bash
+ntp:x:38:38::/etc/ntp:/sbin/nologin

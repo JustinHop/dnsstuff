@@ -1,0 +1,27 @@
+;
+;  Database file sticky-fingaz.com.dns for sticky-fingaz.com zone.
+;      Zone version:  2002050615
+;
+
+@                       3600	IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2002050615   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; minimum TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	12.110.193.132
+
+;
+;  Zone records
+;
+
+@                       A	128.11.100.108
+localhost               A	127.0.0.1
+www                     CNAME	sticky-fingaz.com.

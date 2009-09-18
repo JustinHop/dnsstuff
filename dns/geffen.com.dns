@@ -1,0 +1,219 @@
+;
+;  Database file geffen.com.dns for geffen.com zone.
+;      Zone version:  2006033314
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006033314   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns2.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.75
+@                       MX	110	mx3c25.carrierzone.com.
+@                       MX	120	mx4c25.carrierzone.com.
+@                       MX	10	mx1c25.carrierzone.com.
+@                       MX	100	mx2c25.carrierzone.com.
+*                       A	192.251.67.164
+alexband                A	192.251.67.95
+prod.alexband           A	192.251.67.251
+andyvargas              A	192.251.67.95
+prod.andyvargas         A	192.251.67.251
+angelsandairwaves       A	192.251.67.95
+prod.angelsandairwaves  A	192.251.67.251
+apps                    A	192.251.67.251
+artist                  A	192.251.67.95
+artistname              A	192.251.67.95
+prod.artistname         A	192.251.67.251
+ashleesimpson           A	192.251.67.95
+flux.ashleesimpson      A	192.251.67.95
+prod.ashleesimpson      A	192.251.67.251
+assets                  A	192.251.67.251
+dev.assets              A	192.251.67.95
+avant                   A	192.251.67.95
+prod.avant              A	192.251.67.251
+backlightburns          A	192.251.67.95
+prod.backlightburns     A	192.251.67.251
+barefoot                A	192.251.67.95
+prod.barefoot           A	192.251.67.251
+bbking                  A	192.251.67.95
+prod.bbking             A	192.251.67.251
+beta                    A	192.251.67.95
+blink182                A	192.251.67.95
+prod.blink182           A	192.251.67.251
+blockparty              A	192.251.67.95
+prod.blockparty         A	192.251.67.251
+boxcarracer             A	192.251.67.95
+prod.boxcarracer        A	192.251.67.251
+bratz                   A	192.251.67.95
+prod.bratz              A	192.251.67.251
+brickandlace            A	192.251.67.95
+prod.brickandlace       A	192.251.67.251
+butterflyboucher        A	192.251.67.95
+prod.butterflyboucher   A	192.251.67.251
+charlottesometimes      A	192.251.67.95
+cherrybomb              A	192.251.67.95
+chrisglover             A	192.251.67.95
+prod.chrisglover        A	192.251.67.251
+chrisjames              A	192.251.67.95
+prod.chrisjames         A	192.251.67.251
+common                  A	192.251.67.95
+prod.common             A	192.251.67.251
+cure                    A	192.251.67.95
+prod.cure               A	192.251.67.251
+dev                     A	192.251.67.95
+dev-apps                A	192.251.67.95
+driveblind              A	192.251.67.95
+prod.driveblind         A	192.251.67.251
+emmyrossum              A	192.251.67.95
+prod.emmyrossum         A	192.251.67.251
+enriqueiglesias         A	192.251.67.95
+prod.enriqueiglesias    A	192.251.67.251
+eve                     A	192.251.67.95
+prod.eve                A	192.251.67.251
+feeds                   CNAME	feeds.feedburner.com.
+fictionplane            A	192.251.67.95
+prod.fictionplane       A	192.251.67.251
+fieldmob                A	192.251.67.95
+prod.fieldmob           A	192.251.67.251
+flawless                A	192.251.67.95
+prod.flawless           A	192.251.67.251
+flawlessrecords         A	192.251.67.95
+prod.flawlessrecords    A	192.251.67.251
+floetry                 A	192.251.67.95
+prod.floetry            A	192.251.67.251
+ftp                     A	216.193.195.55
+girlicious              A	192.251.67.95
+prod.girlicious         A	192.251.67.251
+griffithfrank           A	192.251.67.95
+prod.griffithfrank      A	192.251.67.251
+gunsandroses            A	192.251.67.95
+prod.gunsandroses       A	192.251.67.251
+headway                 A	192.251.67.95
+prod.headway            A	192.251.67.251
+jibbs                   A	192.251.67.95
+prod.jibbs              A	192.251.67.251
+jimmyfallon             A	192.251.67.95
+joanna                  A	192.251.67.95
+prod.joanna             A	192.251.67.251
+keyshiacole             A	192.251.67.95
+prod.keyshiacole        A	192.251.67.251
+klaxons                 A	192.251.67.95
+prod.klaxons            A	192.251.67.251
+lifehouse               A	192.251.67.95
+prod.lifehouse          A	192.251.67.251
+like                    A	192.251.67.95
+prod.like               A	192.251.67.251
+limpbizkit              A	192.251.67.95
+prod.limpbizkit         A	192.251.67.251
+localhost               A	127.0.0.1
+macygray                A	192.251.67.95
+prod.macygray           A	192.251.67.251
+macygray2               A	192.251.67.95
+mail                    A	216.193.195.61
+                        A	64.29.145.40
+mattwhite               A	192.251.67.95
+prod.mattwhite          A	192.251.67.251
+missez                  A	192.251.67.95
+prod.missez             A	192.251.67.251
+mjblige                 A	192.251.67.95
+prod.mjblige            A	192.251.67.251
+mjblige2                A	192.251.67.95
+mosdef                  A	192.251.67.95
+prod.mosdef             A	192.251.67.251
+nellyfurtado            A	192.251.67.95
+prod.nellyfurtado       A	192.251.67.251
+newfoundglory           A	192.251.67.95
+prod.newfoundglory      A	192.251.67.251
+nlt                     A	192.251.67.95
+prod.nlt                A	192.251.67.251
+orianthi                A	192.251.67.95
+prod.orianthi           A	192.251.67.251
+paparoach               A	192.251.67.95
+prod.paparoach          A	192.251.67.251
+pinkspiders             A	192.251.67.95
+prod.pinkspiders        A	192.251.67.251
+pom                     A	192.251.67.95
+primaj                  A	192.251.67.95
+prod.primaj             A	192.251.67.251
+puddleofmudd            A	192.251.67.95
+prod.puddleofmudd       A	192.251.67.251
+rawkus                  A	192.251.67.95
+prod.rawkus             A	192.251.67.251
+raylav                  A	192.251.67.95
+prod.raylav             A	192.251.67.251
+raylavender             A	192.251.67.95
+reader                  CNAME	ondemand.newsgator.com.
+ringside                A	192.251.67.95
+prod.ringside           A	192.251.67.251
+ringsideband            A	192.251.67.95
+riseagainst             A	192.251.67.95
+prod.riseagainst        A	192.251.67.251
+riverscuomo             A	192.251.67.95
+prod.riverscuomo        A	192.251.67.251
+robzombie               A	192.251.67.95
+prod.robzombie          A	192.251.67.251
+rooney                  A	192.251.67.95
+prod.rooney             A	192.251.67.251
+rootsplayer             A	192.251.67.95
+prod.rootsplayer        A	192.251.67.251
+rufuswainwright         A	192.251.67.95
+prod.rufuswainwright    A	192.251.67.251
+rufuswainwright2        A	192.251.67.95
+sales                   A	192.251.67.251
+salesdev                A	192.251.67.95
+sandbox                 A	192.251.67.95
+schwayze                A	192.251.67.95
+prod.schwayze           A	192.251.67.95
+shaggy                  A	192.251.67.95
+prod.shaggy             A	192.251.67.251
+shewantsrevenge         A	192.251.67.95
+prod.shewantsrevenge    A	192.251.67.251
+shwayze                 A	192.251.67.95
+prod.shwayze            A	192.251.67.251
+sigurrosplayer          A	192.251.67.95
+prod.sigurrosplayer     A	192.251.67.251
+slimthug                A	192.251.67.95
+prod.slimthug           A	192.251.67.251
+slumberpartygirls       A	192.251.67.95
+prod.slumberpartygirls  A	192.251.67.251
+snoopdogg               A	192.251.67.95
+flux.snoopdogg          A	192.251.67.95
+prod.snoopdogg          A	192.251.67.251
+snoopmobile             A	192.251.67.95
+prod.snoopmobile        A	192.251.67.251
+somethingcorporate      A	192.251.67.95
+prod.somethingcorporate A	192.251.67.251
+soundthealarm           A	192.251.67.95
+prod.soundthealarm      A	192.251.67.251
+spenschabaker           A	192.251.67.95
+prod.spenschabaker      A	192.251.67.251
+spenshabaker            A	192.251.67.95
+spg                     A	192.251.67.95
+prod.spg                A	192.251.67.251
+staging                 A	216.193.195.55
+thecure                 A	192.251.67.95
+torikelly               A	192.251.67.95
+prod.torikelly          A	192.251.67.251
+trevorhall              A	192.251.67.95
+prod.trevorhall         A	192.251.67.251
+webmail                 A	64.29.145.44
+weezer                  A	192.251.67.95
+prod.weezer             A	192.251.67.251
+www                     CNAME	geffen.com.
+www01                   A	192.251.67.91
+www02                   A	192.251.67.92

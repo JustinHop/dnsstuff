@@ -1,0 +1,33 @@
+;
+;  Database file theeels.com.dns for theeels.com zone.
+;      Zone version:  2006032105
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006032105   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+@                       NS	ns5.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	57.77.2.144
+@                       MX	10	mail.theeels.com.
+*                       A	216.193.195.52
+bb                      A	216.193.195.43
+chat                    A	216.193.195.43
+ftp                     A	216.193.195.55
+localhost               A	127.0.0.1
+staging                 A	216.193.195.55
+www                     CNAME	theeels.com.

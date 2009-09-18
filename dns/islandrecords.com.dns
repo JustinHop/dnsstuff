@@ -1,0 +1,147 @@
+;
+;  Database file islandrecords.com.dns for islandrecords.com zone.
+;      Zone version:  2002050722
+;
+
+@                       IN  SOA ns1.umusic.net.  hostmaster.umusic.com. (
+                        	2002050722   ; serial number
+                        	1800         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+
+;
+;  Zone records
+;
+
+@                       A	167.167.9.55
+@                       MX	10	mx1c25.carrierzone.com.
+@                       MX	100	mx2c25.carrierzone.com.
+@                       MX	110	mx3c25.carrierzone.com.
+@                       MX	120	mx4c25.carrierzone.com.
+9thward                 CNAME	redirect.islanddefjam.com.
+www.9thward             CNAME	redirect.islanddefjam.com.
+agirlcalledjane         CNAME	redirect.islanddefjam.com.
+aisfeed                 CNAME	awsservices.umusic.com.
+anastacia               CNAME	redirect.islanddefjam.com.
+www.anastacia           CNAME	redirect.islanddefjam.com.
+att-redirect            A	167.167.24.10
+babyface                CNAME	redirect.islanddefjam.com.
+bbstest                 CNAME	bbstest.islanddefjam.com.
+bonjovi                 CNAME	redirect.islanddefjam.com.
+bonjovimail             CNAME	clients.loadmail.com.
+boykillboy              CNAME	redirect.islanddefjam.com.
+bridgetjones            A	167.167.24.10
+www.bridgetjones        CNAME	bridgetjones.islandrecords.com.
+
+;
+;  Delegated sub-zone:  cart.islandrecords.com.
+;
+cart                    NS	ns5.bthree.net.
+ns5.bthree.net.         A	216.206.183.254
+cart                    NS	ns4.bthree.net.
+ns4.bthree.net.         A	12.129.166.254
+;  End delegation
+
+chat                    CNAME	chat.islanddefjam.com.
+damone                  CNAME	redirect.islanddefjam.com.
+danielbedingfield       CNAME	redirect.islanddefjam.com.
+www.danielbedingfield   CNAME	danielbedingfield.islandrecords.com.
+djfellifel              CNAME	redirect.islanddefjam.com.
+www.djfellifel          CNAME	redirect.islanddefjam.com.
+dondria                 CNAME	redirect.islanddefjam.com.
+www.dondria             CNAME	redirect.islanddefjam.com.
+duffy                   CNAME	redirect.islanddefjam.com.
+falloutboy              CNAME	redirect.islanddefjam.com.
+www.falloutboy          CNAME	redirect.islanddefjam.com.
+fcmedia                 CNAME	thrice.bandbuilder.com.
+gitfresh                CNAME	redirect.islanddefjam.com.
+www.gitfresh            CNAME	redirect.islanddefjam.com.
+goonplatoon             CNAME	hoobastank.com.
+goonplatoonmerch        CNAME	www.merchdirect.net.
+hoobastank              CNAME	att-redirect.islandrecords.com.
+hotdollar               CNAME	redirect.islanddefjam.com.
+images                  CNAME	images.islanddefjam.com.
+innerpartysystem        CNAME	redirect.islanddefjam.com.
+www.innerpartysystem    CNAME	redirect.islanddefjam.com.
+ips                     CNAME	redirect.islanddefjam.com.
+islandrockteam          CNAME	redirect.islanddefjam.com.
+jaggededge              CNAME	redirect.islanddefjam.com.
+jaggedege               CNAME	redirect.islanddefjam.com.
+janet                   CNAME	redirect.islanddefjam.com.
+www.janet               CNAME	redirect.islanddefjam.com.
+janetjackson            CNAME	redirect.islanddefjam.com.
+www.janetjackson        CNAME	redirect.islanddefjam.com.
+jasonfox                CNAME	redirect.islanddefjam.com.
+johntaaustin            CNAME	redirect.islanddefjam.com.
+jonmclaughlin           CNAME	redirect.islanddefjam.com.
+kerli                   CNAME	redirect.islanddefjam.com.
+laurawarshauer          CNAME	redirect.islanddefjam.com.
+lionelrichie            CNAME	redirect.islanddefjam.com.
+www.lionelrichie        CNAME	lionelrichie.islandrecords.com.
+listen                  CNAME	redirect.islanddefjam.com.
+localhost               A	127.0.0.1
+lucywalsh               CNAME	redirect.islanddefjam.com.
+ludo                    CNAME	redirect.islanddefjam.com.
+maestro                 CNAME	redirect.islanddefjam.com.
+mail                    A	64.29.145.40
+marcbroussard           CNAME	redirect.islanddefjam.com.
+mariah                  CNAME	redirect.islanddefjam.com.
+mariahcarey             CNAME	redirect.islanddefjam.com.
+melissaetheridge        CNAME	redirect.islanddefjam.com.
+mjcole                  A	167.167.24.10
+www.mjcole              CNAME	mjcole.islandrecords.com.
+music                   CNAME	www6.islandrecords.com.
+obr                     CNAME	redirect.islanddefjam.com.
+www.obr                 CNAME	redirect.islanddefjam.com.
+oneblockradius          CNAME	redirect.islanddefjam.com.
+www.oneblockradius      CNAME	redirect.islanddefjam.com.
+pixie                   CNAME	redirect.islanddefjam.com.
+pjharvey                CNAME	redirect.islanddefjam.com.
+playradioplay           CNAME	redirect.islanddefjam.com.
+prp                     CNAME	redirect.islanddefjam.com.
+razah                   CNAME	redirect.islanddefjam.com.
+www.razah               CNAME	redirect.islanddefjam.com.
+revrun                  CNAME	redirect.islanddefjam.com.
+rocko                   CNAME	redirect.islanddefjam.com.
+saliva                  CNAME	redirect.islanddefjam.com.
+sampler                 CNAME	redirect.islanddefjam.com.
+stereomcs               CNAME	redirect.islanddefjam.com.
+sum41                   CNAME	redirect.islanddefjam.com.
+sum41mail               CNAME	clients.loadmail.com.
+the88                   CNAME	redirect.islanddefjam.com.
+thebravery              CNAME	redirect.islanddefjam.com.
+thebronx                CNAME	redirect.islanddefjam.com.
+thekillers              CNAME	redirect.islanddefjam.com.
+therocketsummer         CNAME	redirect.islanddefjam.com.
+theurgency              CNAME	redirect.islanddefjam.com.
+www.theurgency          CNAME	redirect.islanddefjam.com.
+thrice                  CNAME	redirect.islanddefjam.com.
+thricealliancemerch     CNAME	www.merchdirect.net.
+thricemail              CNAME	clients.loadmail.com.
+thursday                CNAME	redirect.islanddefjam.com.
+toc                     CNAME	redirect.islanddefjam.com.
+www.toc                 CNAME	toc.islandrecords.com.
+utada                   CNAME	redirect.islanddefjam.com.
+www.utada               CNAME	redirect.islanddefjam.com.
+utiog                   CNAME	redirect.islanddefjam.com.
+video                   A	167.167.24.37
+voice                   A	64.207.157.126
+webmail                 A	64.29.145.44
+widgets                 CNAME	widgets.clearspring.com.
+win                     CNAME	cmsserver01.umusic.com.
+www                     CNAME	islandrecords.com.
+www6                    A	167.167.9.55
+www7                    A	167.167.9.103
+younglove               CNAME	redirect.islanddefjam.com.

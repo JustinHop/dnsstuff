@@ -1,0 +1,43 @@
+;
+;  Database file bonjovi.com.dns for bonjovi.com zone.
+;      Zone version:  2002042674
+;
+
+@                       3600	IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2002042674   ; serial number
+                        	300          ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns1.umusic.com.
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+
+;
+;  Zone records
+;
+
+@                       A	167.167.9.55
+@                       MX	10	smtp-in.load.com.
+americanxs              CNAME	bonjovi.com.
+axp                     A	167.167.24.10
+b2b                     A	192.251.67.180
+discuss                 A	167.167.24.10
+images                  CNAME	images.islanddefjam.com.
+localhost               A	127.0.0.1
+mlbpreorder             A	167.167.24.10
+mp3store                CNAME	redirect.islanddefjam.com.
+music                   CNAME	www6.islandrecords.com.
+render                  A	192.251.67.179
+signup                  CNAME	vureg.mp3.com.
+stage-b2b               A	167.167.2.106
+team                    CNAME	bonjovi.com.
+www                     CNAME	bonjovi.com.
+www6                    CNAME	www6.islandrecords.com.

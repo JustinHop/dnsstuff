@@ -1,0 +1,47 @@
+;
+;  Database file getmusic.com.dns for getmusic.com zone.
+;      Zone version:  2008060430
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2008060430   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+
+;
+;  Zone records
+;
+
+@                       900	A	199.106.104.143
+@                       MX	10	mail.global.frontbridge.com.
+35a37b93-df97-4c1b-8cc6-ab5a42ff0a66 CNAME	mail.messaging.microsoft.com.
+asia                    A	202.130.103.220
+*.d                     A	199.106.104.142
+d2c                     CNAME	getmusic.com.
+iga                     CNAME	getmusic.com.
+d2c.iga                 CNAME	getmusic.com.
+localhost               A	127.0.0.1
+*.m                     900	A	199.106.104.143
+motricity               900	A	199.106.104.143
+pv-motricity            A	199.106.104.143
+redeem                  CNAME	getmusic.com.
+d2c.redeem              CNAME	getmusic.com.
+www.redeem              A	167.167.24.136
+ringle                  A	199.106.104.143
+umm                     A	167.167.2.99
+wap                     CNAME	getmusic.mobi.
+www                     CNAME	getmusic.com.
+d2c.www                 CNAME	getmusic.com.

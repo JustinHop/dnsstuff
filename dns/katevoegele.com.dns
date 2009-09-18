@@ -1,0 +1,30 @@
+;
+;  Database file katevoegele.com.dns for katevoegele.com zone.
+;      Zone version:  2009012911
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2009012911   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.70
+afinemess               CNAME	afinemess.katevoegele.echospin.com.
+archive                 A	204.13.208.13
+www                     CNAME	katevoegele.com.

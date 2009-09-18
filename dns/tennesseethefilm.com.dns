@@ -1,0 +1,33 @@
+;
+;  Database file tennesseethefilm.com.dns for tennesseethefilm.com zone.
+;      Zone version:  2008120410
+;
+
+@                       600	IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2008120410   ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	36000      ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.135
+att                     A	167.167.24.135
+att01                   A	167.167.24.132
+att02                   A	167.167.24.133
+att03                   A	167.167.24.134
+dev                     A	192.251.67.94
+www                     CNAME	tennesseethefilm.com.

@@ -1,0 +1,42 @@
+;
+;  Database file tjmartellfoundation.org.dns for tjmartellfoundation.org zone.
+;      Zone version:  2002041870
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2002041870   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	64.85.3.134
+@                       MX	10	mail.fearlessconcepts.com.
+admin                   600	A	167.167.9.95
+dev01                   600	A	167.167.9.98
+donate                  600	A	167.167.9.95
+fe                      A	167.167.9.179
+ftp-dev01               600	A	167.167.9.98
+images                  CNAME	images.islanddefjam.com.
+imap                    CNAME	mail.fearlessconcepts.com.
+localhost               A	127.0.0.1
+reweb                   A	167.167.9.179
+smtp                    CNAME	mail.fearlessconcepts.com.
+sql01                   600	A	167.167.9.100
+webmail                 CNAME	mail.fearlessconcepts.com.
+www                     CNAME	tjmartellfoundation.org.
+www6                    A	167.167.9.101

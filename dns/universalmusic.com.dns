@@ -1,0 +1,49 @@
+;
+;  Database file universalmusic.com.dns for universalmusic.com zone.
+;      Zone version:  2004011661
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2004011661   ; serial number
+                        	600          ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.36
+@                       MX	10	mail.global.frontbridge.com.
+asia                    A	202.130.103.220
+att                     A	167.167.24.36
+att01                   A	167.167.24.32
+att02                   A	167.167.24.33
+att03                   A	167.167.24.34
+att04                   A	167.167.24.35
+att2                    A	167.167.24.37
+audioplayer             CNAME	universalmusic.com.
+dev                     A	192.251.67.13
+*.dev                   CNAME	dev.universalmusic.com.
+attida.dev              A	167.167.24.37
+ida.dev                 CNAME	dev.universalmusic.com.
+idaphp.dev              A	192.251.67.14
+dev2                    A	192.251.67.13
+fanlists                A	128.167.39.65
+localhost               A	127.0.0.1
+newmusic                A	128.167.39.66
+signup                  CNAME	universalm-iscmxmmjx.janrain.ws.
+staging                 CNAME	umgstaging.fearlessconcepts.com.
+www                     CNAME	universalmusic.com.

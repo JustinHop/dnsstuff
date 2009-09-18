@@ -1,0 +1,35 @@
+;
+;  Database file colbyo.com.dns for colbyo.com zone.
+;      Zone version:  2008031215
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2008031215   ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.70
+@                       MX	1	smtp.secureservers.net.
+@                       MX	10	mailstore1.secureservers.net.
+localhsot               A	127.0.0.1
+mail                    CNAME	mail.secureserver.net.
+pop                     CNAME	pop.secureserver.net.
+smtp                    CNAME	smtp.secureserver.net.
+webmail                 CNAME	webmail.secureserver.net.
+www                     CNAME	colbyo.com.

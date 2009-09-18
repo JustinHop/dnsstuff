@@ -1,0 +1,34 @@
+;
+;  Database file vagrantmail.com.dns for vagrantmail.com zone.
+;      Zone version:  2006032104
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006032104   ; serial number
+                        	28800        ; refresh
+                        	10800        ; retry
+                        	2419200      ; expire
+                        	300        ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+@                       NS	ns5.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	216.193.195.52
+@                       MX	10	mail.barantmail.com.
+*                       A	216.193.195.52
+audiolearningcenter     A	216.193.195.55
+ftp                     A	216.193.195.55
+localhost               A	127.0.0.1
+mail                    A	216.193.195.61
+sensesfail              A	216.193.195.55
+staging                 A	216.193.195.55
+www                     CNAME	vagrantmail.com.

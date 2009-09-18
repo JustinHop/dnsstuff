@@ -1,0 +1,35 @@
+;
+;  Database file umgdownloads.com.dns for umgdownloads.com zone.
+;      Zone version:  2003020544
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2003020544   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+
+;
+;  Zone records
+;
+
+@                       A	192.251.67.71
+fye                     CNAME	cmsserver01.umusic.com.
+www.fye                 CNAME	cmsserver01.umusic.com.
+localhost               A	127.0.0.1
+musicrebellion          CNAME	cmsserver01.umusic.com.
+www.musicrebellion      CNAME	cmsserver01.umusic.com.
+tower                   CNAME	cmsserver01.umusic.com.
+www.tower               CNAME	cmsserver01.umusic.com.
+www                     CNAME	cmsserver01.umusic.com.

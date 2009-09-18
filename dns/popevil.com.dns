@@ -1,0 +1,35 @@
+;
+;  Database file popevil.com.dns for popevil.com zone.
+;      Zone version:  15
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	15           ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.99
+@                       7200	MX	10	aspmx.l.google.com.
+@                       7200	MX	20	alt1.aspmx.l.google.com.
+@                       7200	MX	20	alt2.aspmx.l.google.com.
+@                       7200	MX	30	aspmx2.googlemail.com.
+@                       7200	MX	30	aspmx3.googlemail.com.
+@                       7200	MX	30	aspmx4.googlemail.com.
+@                       7200	MX	30	aspmx5.googlemail.com.
+www                     CNAME	popevil.com.

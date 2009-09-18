@@ -1,0 +1,25 @@
+;
+;  Database file greatestthrill.com.dns for greatestthrill.com zone.
+;      Zone version:  6
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	6            ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	66.39.100.90
+dev                     CNAME	usucplvapp001.global.umusic.com.
+www                     CNAME	greatestthrill.com.

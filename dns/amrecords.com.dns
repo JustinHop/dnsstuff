@@ -1,0 +1,39 @@
+;
+;  Database file amrecords.com.dns for amrecords.com zone.
+;      Zone version:  2002042347
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2002042347   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.75
+@                       MX	10	mail.amrecords.com.
+blackeyedpeas           A	216.193.195.52
+civictour               A	72.10.45.133
+ftp                     A	216.193.195.55
+localhost               A	127.0.0.1
+mail                    A	216.193.195.61
+maroon5                 A	167.167.24.75
+snowpatrol              A	167.167.24.76
+ftp.snowpatrol          A	216.193.195.55
+staging.snowpatrol      A	216.193.195.55
+staging                 A	216.193.195.55
+www                     CNAME	amrecords.com.

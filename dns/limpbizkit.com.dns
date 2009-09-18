@@ -1,0 +1,38 @@
+;
+;  Database file limpbizkit.com.dns for limpbizkit.com zone.
+;      Zone version:  2006033108
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006033108   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.75
+@                       MX	10	mail.limpbizkit.com.
+*                       A	216.193.195.53
+admin                   A	216.193.195.55
+cdkey                   A	216.193.195.53
+dev                     A	216.193.195.55
+ftp                     A	216.193.195.55
+global                  A	216.193.195.53
+localhost               A	127.0.0.1
+mail                    CNAME	bluewhale.sparkart.net.
+staging                 A	216.193.195.55
+win154                  A	216.193.195.53
+win159                  A	216.193.195.53
+www                     CNAME	limpbizkit.com.

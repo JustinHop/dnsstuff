@@ -1,0 +1,49 @@
+;
+;  Database file hiposelect.com.dns for hiposelect.com zone.
+;      Zone version:  2004040223
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2004040223   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.136
+
+;
+;  Delegated sub-zone:  cart.hiposelect.com.
+;
+cart                    NS	ns4.bthree.net.
+ns4.bthree.net.         A	216.206.183.254
+cart                    NS	ns5.bthree.net.
+ns5.bthree.net.         A	216.206.183.254
+;  End delegation
+
+
+;
+;  Delegated sub-zone:  digital.hiposelect.com.
+;
+digital                 NS	ns5.bthree.net.
+ns5.bthree.net.         A	216.206.183.254
+digital                 NS	ns4.bthree.net.
+ns4.bthree.net.         A	216.206.183.254
+;  End delegation
+
+localhost               A	127.0.0.1
+www                     CNAME	hiposelect.com.

@@ -1,0 +1,55 @@
+;
+;  Database file ilovethatsong.com.dns for ilovethatsong.com zone.
+;      Zone version:  2004090862
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2004090862   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.135
+att                     A	167.167.24.135
+att01                   A	167.167.24.132
+att02                   A	167.167.24.133
+att03                   A	167.167.24.134
+dev.babyitsyou          CNAME	dev.ilovethatsong.com.
+att.classicmotown       CNAME	att.ilovethatsong.com.
+att.deanmartin          CNAME	att.ilovethatsong.com.
+dev.deanmartin          A	192.251.67.124
+prod.deanmartin         A	192.251.67.166
+deluxe                  A	167.167.24.136
+dev                     A	192.251.67.124
+att.dontquit            CNAME	att.ilovethatsong.com.
+att.hiposelect          CNAME	att.ilovethatsong.com.
+localhost               A	127.0.0.1
+missing                 CNAME	ilovethatsong.com.
+mom                     CNAME	ilovethatsong.com.
+att.motown50            CNAME	att.ilovethatsong.com.
+att.oldclassicmotown    CNAME	att.ilovethatsong.com.
+dev.oldclassicmotown    CNAME	dev.ilovethatsong.com.
+att.playlistyourway     CNAME	att.ilovethatsong.com.
+prod                    A	192.251.67.166
+rick                    A	167.167.24.136
+att.roadsinger          CNAME	att.ilovethatsong.com.
+shoemakerbonus          A	167.167.24.136
+att.universalsm         CNAME	att.ilovethatsong.com.
+vault                   A	167.167.24.136
+www                     CNAME	ilovethatsong.com.

@@ -1,0 +1,75 @@
+;
+;  Database file islanddefjam.com.dns for islanddefjam.com zone.
+;      Zone version:  2002041323
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2002041323   ; serial number
+                        	1800         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	600        ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.10
+@                       MX	10	mx1c25.carrierzone.com.
+@                       MX	110	mx3c25.carrierzone.com.
+@                       MX	120	mx4c25.carrierzone.com.
+@                       MX	100	mx2c25.carrierzone.com.
+aisfeed                 CNAME	awsservices.umusic.com.
+allaccess               A	64.27.23.111
+arftp                   A	167.167.1.143
+backend                 CNAME	www2.islanddefjam.com.
+bbs                     CNAME	www2.islanddefjam.com.
+bbstest                 A	167.167.9.82
+
+;
+;  Delegated sub-zone:  cart.islanddefjam.com.
+;
+cart                    NS	ns5.bthree.net.
+ns5.bthree.net.         A	216.206.183.254
+cart                    NS	ns4.bthree.net.
+ns4.bthree.net.         A	12.129.166.254
+;  End delegation
+
+chat                    A	167.167.9.160
+creativeservices        A	72.32.147.161
+ecard                   CNAME	www3.islanddefjam.com.
+images                  A	167.167.9.105
+localhost               A	127.0.0.1
+mail                    A	64.29.145.40
+media                   A	167.167.2.100
+message                 A	167.167.9.162
+mobile                  CNAME	dtmoecom.moviso.com.
+music                   CNAME	www6.islanddefjam.com.
+redirect                7200	A	167.167.24.10
+spencer                 CNAME	www2.islanddefjam.com.
+staging                 A	167.167.9.173
+streetteam              A	167.167.9.159
+tones                   CNAME	redirect.islanddefjam.com.
+tools                   A	167.167.24.7
+utility                 7200	A	167.167.9.103
+w2                      CNAME	www2.islanddefjam.com.
+w3                      CNAME	www3.islanddefjam.com.
+webmail                 A	64.29.145.44
+webservices             A	167.167.9.104
+www                     CNAME	islanddefjam.com.
+www2                    A	167.167.9.53
+www3                    CNAME	message.islanddefjam.com.
+www4                    CNAME	media.islanddefjam.com.
+www5                    A	167.167.9.104
+www6                    A	167.167.9.53

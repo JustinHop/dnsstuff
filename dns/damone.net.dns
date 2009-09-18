@@ -1,0 +1,39 @@
+;
+;  Database file damone.net.dns for damone.net zone.
+;      Zone version:  2005131028
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2005131028   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.10
+@                       MX	10	morphine.cybercom.net.
+@                       MX	5	mail.cybercom.net.
+admin                   CNAME	admin.cybercom.net.
+ftp                     CNAME	damone.net.
+localhost               A	127.0.0.1
+mail                    CNAME	mail.cybercom.net.
+music                   CNAME	www6.islandrecords.com.
+smtp                    CNAME	mail.cybercom.net.
+webmail                 CNAME	webmail.cybercom.net.
+www                     CNAME	damone.net.
+www6                    CNAME	www6.islandrecords.com.

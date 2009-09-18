@@ -1,0 +1,38 @@
+;
+;  Database file theinc-records.com.dns for theinc-records.com zone.
+;      Zone version:  2004011433
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2004011433   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.10
+@                       MX	10	mta1.bizmailsrvcs.net.
+@                       MX	10	mta2.bizmailsrvcs.net.
+imap                    CNAME	imap.managedmail.com.
+intermanager            CNAME	intermanager.managedmail.com.
+localhost               A	127.0.0.1
+mail                    CNAME	pop.bizmailsrvcs.net.
+pop                     CNAME	pop.bizmailsrvcs.net.
+smtp                    CNAME	smtp.bizmailsrvcs.net.
+webmail                 CNAME	webmail.managedmail.com.
+www                     CNAME	theinc-records.com.

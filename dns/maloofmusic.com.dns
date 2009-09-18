@@ -1,0 +1,37 @@
+;
+;  Database file maloofmusic.com.dns for maloofmusic.com zone.
+;      Zone version:  2006032106
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006032106   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+@                       NS	ns5.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.72
+@                       MX	10	mail.maloofmusic.net.
+@                       MX	100	maloofmusic.net.mail9.psmtp.com.
+@                       MX	200	maloofmusic.net.mail10.psmtp.com.
+@                       MX	300	maloofmusic.net.mail11.psmtp.com.
+@                       MX	400	maloofmusic.net.mail12.psmtp.com.
+@                       MX	500	mail.
+*                       A	216.193.195.52
+ftp                     A	216.193.195.55
+localhost               A	127.0.0.1
+mail                    A	66.89.109.135
+staging                 A	216.193.195.55
+www                     CNAME	maloofmusic.com.

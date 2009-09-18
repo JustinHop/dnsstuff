@@ -1,0 +1,55 @@
+;
+;  Database file sherylcrow.com.dns for sherylcrow.com zone.
+;      Zone version:  2006121914
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006121914   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+@                       NS	ns5.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.71
+@                       MX	10	mx1c25.carrierzone.com.
+@                       MX	100	mx2c25.carrierzone.com.
+@                       MX	110	mx3c25.carrierzone.com.
+@                       MX	120	mx4c25.carrierzone.com.
+*                       A	216.193.195.52
+bonus                   A	216.193.195.52
+
+;
+;  Delegated sub-zone:  cmon.sherylcrow.com.
+;
+cmon                    NS	ns1.umusic.com.
+cmon                    NS	ns2.umusic.com.
+;  End delegation
+
+community               A	208.76.217.20
+ftp                     A	216.193.195.55
+localhost               A	127.0.0.1
+mail                    A	64.29.145.40
+staging                 A	216.193.195.55
+webmail                 A	64.29.145.44
+win154                  A	216.193.195.52
+win155                  A	216.193.195.52
+win156                  A	216.193.195.52
+win157                  A	216.193.195.52
+win158                  A	216.193.195.52
+win159                  A	216.193.195.52
+win161                  A	216.193.195.52
+win162                  A	216.193.195.52
+win163                  A	216.193.195.52
+www                     CNAME	sherylcrow.com.

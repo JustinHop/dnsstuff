@@ -1,0 +1,41 @@
+;
+;  Database file stolentransmission.com.dns for stolentransmission.com zone.
+;      Zone version:  2006030651
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006030651   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+
+;
+;  Zone records
+;
+
+@                       A	72.32.206.18
+@                       MX	10	aspmx4.googlemail.com.
+@                       MX	10	aspmx5.googlemail.com.
+@                       MX	1	aspmx.l.google.com.
+@                       MX	5	alt1.aspmx.l.google.com.
+@                       MX	5	alt2.aspmx.l.google.com.
+@                       MX	10	aspmx2.googlemail.com.
+@                       MX	10	aspmx3.googlemail.com.
+images                  CNAME	images.islanddefjam.com.
+localhost               A	127.0.0.1
+mail                    A	24.248.88.186
+music                   CNAME	www.stolentransmission.com.
+playradioplay           A	167.167.9.104
+www                     A	72.32.206.18

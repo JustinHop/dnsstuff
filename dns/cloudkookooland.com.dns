@@ -1,0 +1,41 @@
+;
+;  Database file cloudkookooland.com.dns for cloudkookooland.com zone.
+;      Zone version:  2006033104
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006033104   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+@                       NS	ns5.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	64.74.128.100
+@                       MX	10	mail.cloudkookooland.com.
+*                       CNAME	accel.sparkart.net.
+cp                      CNAME	cp.netservers.net.
+ftp                     A	216.193.195.55
+localhost               A	127.0.0.1
+login                   CNAME	login.ckkl.com.
+mail                    CNAME	destro.sparkart.net.
+netshow                 CNAME	netshow.netservers.net.
+pop                     CNAME	c1.popmail1.netservers.net.
+real2                   CNAME	real.netservers.net.
+secure                  CNAME	wolf.sparkart.net.
+smtp                    CNAME	smtp.netservers.net.
+staging                 A	216.193.195.55
+support                 CNAME	apache.sparkart.net.
+webmail                 CNAME	hpmail.netservers.net.
+www                     CNAME	cloudkookooland.com.

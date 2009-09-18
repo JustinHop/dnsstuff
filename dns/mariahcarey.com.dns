@@ -1,0 +1,47 @@
+;
+;  Database file mariahcarey.com.dns for mariahcarey.com zone.
+;      Zone version:  2002111461
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2002111461   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+
+;
+;  Zone records
+;
+
+@                       A	167.167.9.103
+@                       MX	10	mail.islandrecords.com.
+aisfeed                 CNAME	awsservices.umusic.com.
+chat                    CNAME	chat.islanddefjam.com.
+eteam                   A	167.167.9.53
+fanclub                 CNAME	mariahcarey.com.
+honeybflymail           CNAME	clients.loadmail.com.
+honeybflymerch          CNAME	www.merchdirect.net.
+internationalinsider    CNAME	redirect.islanddefjam.com.
+localhost               A	127.0.0.1
+mail                    A	207.101.87.189
+ncsmtp                  A	65.49.73.55
+secure                  CNAME	secure.monarc.com.sparkart.net.
+smtp                    A	12.110.192.109
+support                 CNAME	support.monarc.com.sparkart.net.
+voice                   A	64.207.157.126
+webmail                 A	12.110.192.109
+www                     CNAME	mariahcarey.com.
+www3                    CNAME	www3.islanddefjam.com.
+www6                    A	167.167.9.101

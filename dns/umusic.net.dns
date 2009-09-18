@@ -1,0 +1,54 @@
+;
+;  Database file umusic.net.dns for umusic.net zone.
+;      Zone version:  2002041256
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2002041256   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+
+;
+;  Zone records
+;
+
+@                       MX	10	mail.global.frontbridge.com.
+1-this-is-an-external-stub-zone A	127.0.0.1
+2-please-do-not-modify  A	127.0.0.1
+3-new-entries-require-approval A	127.0.0.1
+rms.amer                300	A	192.251.67.22
+rmspnd.amer             A	192.251.67.7
+rmstraining.amer        A	192.251.67.19
+usfshcsse01.amer        A	10.130.254.12
+usfshwsmsg005.amer      A	10.130.110.97
+llvp2.att               A	167.167.24.37
+gate1.dehan             A	62.206.191.5
+smtp1.dehan             A	62.206.191.5
+dehan2kex04.emea        900	A	62.206.191.22
+dehan2kex07.emea        900	A	62.206.191.23
+ukrom2kex05.emea        900	A	212.162.212.23
+ukromntex03.emea        900	A	212.162.212.22
+zajhbrd01.emea          A	10.127.1.6
+                        A	10.127.1.5
+usfshwviis013.global    A	167.167.1.167
+usucplvapp001.global    300	A	192.251.67.13
+usucplvmys001.global    120	A	192.251.67.14
+gluetest                A	10.144.14.101
+localhost               A	127.0.0.1
+r2                      A	167.167.2.23
+r2test                  A	167.167.2.24
+rms                     A	192.251.67.22
+rmstraining             A	192.251.67.19

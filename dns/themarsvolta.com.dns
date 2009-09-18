@@ -1,0 +1,33 @@
+;
+;  Database file themarsvolta.com.dns for themarsvolta.com zone.
+;      Zone version:  200212068
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	200212068    ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+
+;
+;  Zone records
+;
+
+@                       900	A	167.167.24.103
+@                       1800	MX	10	hm-mx1.solinus.com.
+@                       1800	MX	20	hm-mx2.solinus.com.
+boards                  900	A	192.251.67.82
+localhost               A	127.0.0.1
+www                     CNAME	themarsvolta.com.

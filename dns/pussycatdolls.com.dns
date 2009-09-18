@@ -1,0 +1,38 @@
+;
+;  Database file pussycatdolls.com.dns for pussycatdolls.com zone.
+;      Zone version:  2006032124
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006032124   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.75
+@                       MX	10	server58.appriver.com.
+@                       MX	20	server59.appriver.com.
+*                       A	216.193.195.52
+audition                A	216.193.195.40
+ftp                     A	216.193.195.55
+localhost               A	127.0.0.1
+mail                    A	64.29.145.40
+ringtones               A	216.193.195.52
+staging                 A	216.193.195.55
+staging2                A	216.193.195.55
+webmail                 A	64.29.145.44
+www                     CNAME	pussycatdolls.com.

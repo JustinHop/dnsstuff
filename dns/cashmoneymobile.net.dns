@@ -1,0 +1,57 @@
+;
+;  Database file cashmoneymobile.net.dns for cashmoneymobile.net zone.
+;      Zone version:  2008052826
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2008052826   ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+
+;
+;  Zone records
+;
+
+@                       A	212.235.1.10
+@                       MX	1	aspmx.l.google.com.
+@                       MX	5	alt2.aspmx.l.google.com.
+@                       MX	5	alt1.aspmx.l.google.com.
+@                       MX	10	aspmx2.googlemail.com.
+@                       MX	10	aspmx3.googlemail.com.
+
+;
+;  Delegated sub-zone:  d2c.cashmoneymobile.net.
+;
+d2c                     NS	colo-redirect.netvision.net.il.
+colo-redirect.netvision.net.il. A	199.203.54.63
+;  End delegation
+
+google7c518b7e0168da13  CNAME	google.com.
+
+;
+;  Delegated sub-zone:  wap.cashmoneymobile.net.
+;
+wap                     NS	colo-redirect.netvision.net.il.
+colo-redirect.netvision.net.il. A	199.203.54.63
+;  End delegation
+
+
+;
+;  Delegated sub-zone:  www.cashmoneymobile.net.
+;
+www                     NS	colo-redirect.netvision.net.il.
+colo-redirect.netvision.net.il. A	199.203.54.63
+;  End delegation
+

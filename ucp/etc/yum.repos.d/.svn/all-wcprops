@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/systems/!svn/ver/23/cfengine/trunk/build/ucp/etc/yum.repos.d
+END
+RPMForge.repo
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/systems/!svn/ver/23/cfengine/trunk/build/ucp/etc/yum.repos.d/RPMForge.repo
+END
+CentOS-Base.repo
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/systems/!svn/ver/23/cfengine/trunk/build/ucp/etc/yum.repos.d/CentOS-Base.repo
+END
+CentOS-Media.repo
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/systems/!svn/ver/23/cfengine/trunk/build/ucp/etc/yum.repos.d/CentOS-Media.repo
+END

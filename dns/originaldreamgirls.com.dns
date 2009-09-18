@@ -1,0 +1,30 @@
+;
+;  Database file originaldreamgirls.com.dns for originaldreamgirls.com zone.
+;      Zone version:  2006112916
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2006112916   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.135
+att                     A	167.167.24.135
+localhost               A	127.0.0.1
+www                     CNAME	originaldreamgirls.com.

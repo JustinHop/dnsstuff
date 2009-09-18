@@ -1,0 +1,57 @@
+;
+;  Database file akonmobile.net.dns for akonmobile.net zone.
+;      Zone version:  16
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	16           ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+
+;
+;  Zone records
+;
+
+@                       A	212.235.1.10
+@                       MX	1	aspmx.l.google.com.
+@                       MX	5	alt1.aspmx.l.google.com.
+@                       MX	5	alt2.aspmx.l.google.com.
+@                       MX	10	aspmx2.googlemail.com.
+@                       MX	10	aspmx3.googlemail.com.
+
+;
+;  Delegated sub-zone:  d2c.akonmobile.net.
+;
+d2c                     NS	colo-redirect.netvision.net.il.
+colo-redirect.netvision.net.il. A	199.203.54.63
+;  End delegation
+
+google179ca29a09035ba4  CNAME	google.com.
+
+;
+;  Delegated sub-zone:  wap.akonmobile.net.
+;
+wap                     NS	colo-redirect.netvision.net.il.
+colo-redirect.netvision.net.il. A	199.203.54.63
+;  End delegation
+
+
+;
+;  Delegated sub-zone:  www.akonmobile.net.
+;
+www                     NS	colo-redirect.netvision.net.il.
+colo-redirect.netvision.net.il. A	199.203.54.63
+;  End delegation
+

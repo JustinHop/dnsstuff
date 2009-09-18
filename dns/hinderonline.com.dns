@@ -1,0 +1,38 @@
+;
+;  Database file hinderonline.com.dns for hinderonline.com zone.
+;      Zone version:  2009050100
+;
+
+@                       3600	IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2009050100   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.103
+@                       MX	10	aspmx3.googlemail.com.
+@                       MX	1	aspmx.l.google.com.
+@                       MX	5	alt1.aspmx.l.google.com.
+@                       MX	5	alt2.aspmx.l.google.com.
+@                       MX	10	aspmx2.googlemail.com.
+googlef5b17bca0168da13  3600	CNAME	google.com.
+localhost               A	127.0.0.1
+mail                    CNAME	googlef5b17bca0168da13.google.com.
+webmail                 CNAME	webmail.register.com.
+www                     CNAME	hinderonline.com.

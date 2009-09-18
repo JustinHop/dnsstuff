@@ -1,0 +1,76 @@
+;
+;  Database file pcdmusic.com.dns for pcdmusic.com zone.
+;      Zone version:  2006032126
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006032126   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+@                       NS	ns5.umusic.com.
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	208.76.217.20
+@                       MX	10	server58.appriver.com.
+@                       MX	20	server59.appriver.com.
+*                       A	216.193.195.52
+
+;
+;  Delegated sub-zone:  d2c.pcdmusic.com.
+;
+d2c                     NS	colo-redirect.netvision.net.il.
+colo-redirect.netvision.net.il. A	199.203.54.63
+;  End delegation
+
+ftp                     A	216.193.195.55
+localhost               A	127.0.0.1
+m                       A	57.77.2.140
+mail                    A	216.193.195.61
+mobile                  A	212.235.1.10
+
+;
+;  Delegated sub-zone:  d2c.mobile.pcdmusic.com.
+;
+d2c.mobile              NS	colo-redirect.netvision.net.il.
+colo-redirect.netvision.net.il. A	199.203.54.63
+;  End delegation
+
+
+;
+;  Delegated sub-zone:  wap.mobile.pcdmusic.com.
+;
+wap.mobile              NS	colo-redirect.netvision.net.il.
+colo-redirect.netvision.net.il. A	199.203.54.63
+;  End delegation
+
+
+;
+;  Delegated sub-zone:  www.mobile.pcdmusic.com.
+;
+www.mobile              NS	colo-redirect.netvision.net.il.
+colo-redirect.netvision.net.il. A	199.203.54.63
+;  End delegation
+
+pcd                     A	72.10.45.58
+staging                 A	216.193.195.55
+
+;
+;  Delegated sub-zone:  wap.pcdmusic.com.
+;
+wap                     NS	colo-redirect.netvision.net.il.
+colo-redirect.netvision.net.il. A	199.203.54.63
+;  End delegation
+
+www                     CNAME	pcdmusic.com.

@@ -1,0 +1,36 @@
+;
+;  Database file dep.ca.dns for dep.ca zone.
+;      Zone version:  2009052119
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2009052119   ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+
+;
+;  Zone records
+;
+
+@                       A	209.104.82.138
+@                       300	MX	10	mail.global.frontbridge.com.
+35a37b93-df97-4c1b-8cc6-ab5a42ff0a66 CNAME	mail.messaging.microsoft.com.
+autodiscover            CNAME	autodiscover.umusic.com.
+localhost               A	127.0.0.1
+mail                    300	A	207.134.66.24
+pop                     A	207.134.66.24
+secure                  A	209.104.82.138
+smtp                    A	207.134.66.24
+www                     CNAME	dep.ca.

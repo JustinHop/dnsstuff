@@ -1,0 +1,28 @@
+;
+;  Database file swagsurfin.com.dns for swagsurfin.com zone.
+;      Zone version:  2009030908
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2009030908   ; serial number
+                        	120          ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+
+;
+;  Zone records
+;
+
+@                       A	72.32.147.134
+www                     CNAME	swagsurfin.com.

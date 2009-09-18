@@ -1,0 +1,52 @@
+;
+;  Database file mail2fans.com.dns for mail2fans.com zone.
+;      Zone version:  2006032114
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006032114   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+@                       NS	ns5.umusic.com.
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	216.193.195.52
+@                       MX	10	mx1c25.carrierzone.com.
+@                       MX	100	mx2c25.carrierzone.com.
+@                       MX	110	mx3c25.carrierzone.com.
+@                       MX	120	mx4c25.carrierzone.com.
+*                       A	216.193.195.52
+admin                   A	216.193.195.55
+admin2                  A	216.193.195.55
+ais                     A	167.167.1.165
+bhg                     A	216.193.195.52
+staging.bhg             A	216.193.195.55
+fromautumntoashes       A	216.193.195.52
+ftp                     A	216.193.195.55
+gallery                 A	216.193.195.52
+h2                      A	216.193.195.56
+htmlemail               A	167.167.2.107
+htmlimages              A	167.167.2.107
+images                  A	216.193.195.52
+localhost               A	127.0.0.1
+mail                    A	64.29.145.40
+pop                     A	64.29.145.40
+pussycatdolls           A	216.193.195.40
+staging                 A	216.193.195.55
+webmail                 A	64.29.145.44
+webservices             A	216.193.195.55
+work                    A	216.193.195.52
+staging.work            A	216.193.195.55
+www                     CNAME	mail2fans.com.

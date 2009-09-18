@@ -1,0 +1,33 @@
+;
+;  Database file vivendient.com.dns for vivendient.com zone.
+;      Zone version:  2008021416
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2008021416   ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.135
+@                       MX	10	mail.global.frontbridge.com.
+att                     A	167.167.24.135
+autodiscover            CNAME	autodiscover.umusic.com.
+dev                     A	192.251.67.94
+localhost               A	127.0.0.1
+www                     CNAME	vivendient.com.

@@ -1,0 +1,32 @@
+;
+;  Database file bobschneidermusic.com.dns for bobschneidermusic.com zone.
+;      Zone version:  2002042624
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2002042624   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; minimum TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	12.110.193.132
+
+;
+;  Zone records
+;
+
+@                       900	A	65.116.82.123
+@                       MX	10	mail.unistudios.com.
+boards                  900	A	192.251.67.82
+localhost               A	127.0.0.1
+prod                    900	A	65.116.82.123
+stage                   A	192.251.67.244
+test                    A	192.251.67.244
+www                     CNAME	bobschneidermusic.com.

@@ -1,0 +1,179 @@
+;
+;  Database file defjam.com.dns for defjam.com zone.
+;      Zone version:  2002051565
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2002051565   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	167.167.9.54
+@                       MX	100	mx2c25.carrierzone.com.
+@                       MX	10	mx1c25.carrierzone.com.
+@                       MX	110	mx3c25.carrierzone.com.
+@                       MX	120	mx4c25.carrierzone.com.
+112                     CNAME	redirect.islanddefjam.com.
+www.112                 CNAME	redirect.islanddefjam.com.
+334mobb                 CNAME	redirect.islanddefjam.com.
+www.334mobb             CNAME	redirect.islanddefjam.com.
+acehood                 CNAME	redirect.islanddefjam.com.
+www.acehood             CNAME	redirect.islanddefjam.com.
+aisfeed                 CNAME	awsservices.umusic.com.
+bbstest                 CNAME	bbstest.islanddefjam.com.
+blackbuddafly           CNAME	redirect.islanddefjam.com.
+www.blackbuddafly       CNAME	redirect.islanddefjam.com.
+bloodraw                CNAME	redirect.islanddefjam.com.
+www.bloodraw            CNAME	redirect.islanddefjam.com.
+bobby                   CNAME	redirect.islanddefjam.com.
+www.bobby               CNAME	redirect.islanddefjam.com.
+bobbyvalentino          CNAME	redirect.islanddefjam.com.
+www.bobbyvalentino      CNAME	redirect.islanddefjam.com.
+brutha                  CNAME	redirect.islanddefjam.com.
+btino                   CNAME	redirect.islanddefjam.com.
+www.btino               CNAME	redirect.islanddefjam.com.
+
+;
+;  Delegated sub-zone:  cart.defjam.com.
+;
+cart                    NS	ns5.bthree.net.
+ns5.bthree.net.         A	216.206.183.254
+cart                    NS	ns4.bthree.net.
+ns4.bthree.net.         A	12.129.166.254
+;  End delegation
+
+chat                    CNAME	chat.islanddefjam.com.
+chingy                  CNAME	redirect.islanddefjam.com.
+www.chingy              CNAME	redirect.islanddefjam.com.
+chrisettemichele        CNAME	redirect.islanddefjam.com.
+www.chrisettemichele    CNAME	redirect.islanddefjam.com.
+defdigital              CNAME	www2.islanddefjam.com.
+defjam25                A	167.167.24.11
+disturbingthapeace      CNAME	redirect.islanddefjam.com.
+dmx                     CNAME	redirect.islanddefjam.com.
+dtp                     CNAME	redirect.islanddefjam.com.
+www.dtp                 CNAME	redirect.islanddefjam.com.
+electrikred             CNAME	redirect.islanddefjam.com.
+fabolous                CNAME	redirect.islanddefjam.com.
+www.fabolous            CNAME	redirect.islanddefjam.com.
+firstlook               CNAME	redirect.islanddefjam.com.
+ghostface               CNAME	redirect.islanddefjam.com.
+www.ghostface           CNAME	redirect.islanddefjam.com.
+hot                     A	167.167.9.170
+images                  CNAME	images.islanddefjam.com.
+isleybros               CNAME	redirect.islanddefjam.com.
+isleybrothers           CNAME	redirect.islanddefjam.com.
+jasonfox                CNAME	redirect.islanddefjam.com.
+joebudden               CNAME	redirect.islanddefjam.com.
+www.joebudden           CNAME	redirect.islanddefjam.com.
+juelz                   CNAME	redirect.islanddefjam.com.
+www.juelz               CNAME	redirect.islanddefjam.com.
+juelzsantana            CNAME	redirect.islanddefjam.com.
+www.juelzsantana        CNAME	redirect.islanddefjam.com.
+karina                  CNAME	redirect.islanddefjam.com.
+www.karina              CNAME	redirect.islanddefjam.com.
+karinapasian            CNAME	redirect.islanddefjam.com.
+www.karinapasian        CNAME	redirect.islanddefjam.com.
+ladysov                 CNAME	redirect.islanddefjam.com.
+ladysovereign           CNAME	redirect.islanddefjam.com.
+www.ladysovereign       CNAME	redirect.islanddefjam.com.
+llcoolj                 CNAME	redirect.islanddefjam.com.
+www.llcoolj             CNAME	redirect.islanddefjam.com.
+localhost               A	127.0.0.1
+ludacris                CNAME	redirect.islanddefjam.com.
+www.ludacris            CNAME	redirect.islanddefjam.com.
+mail                    900	A	64.29.145.40
+meetbrutha              A	167.167.24.10
+meganrochell            CNAME	redirect.islanddefjam.com.
+www.meganrochell        CNAME	redirect.islanddefjam.com.
+methodman               CNAME	redirect.islanddefjam.com.
+www.methodman           CNAME	redirect.islanddefjam.com.
+miclittle               CNAME	redirect.islanddefjam.com.
+mikelittle              CNAME	redirect.islanddefjam.com.
+www.mikelittle          CNAME	redirect.islanddefjam.com.
+music                   CNAME	defjam.com.
+musiq                   CNAME	redirect.islanddefjam.com.
+nas                     CNAME	redirect.islanddefjam.com.
+www.nas                 CNAME	redirect.islanddefjam.com.
+ne-yo                   CNAME	redirect.islanddefjam.com.
+www.ne-yo               CNAME	redirect.islanddefjam.com.
+neyo                    CNAME	redirect.islanddefjam.com.
+www.neyo                CNAME	redirect.islanddefjam.com.
+neyomobile              CNAME	diomede.homere.jmsp.net.
+nore                    CNAME	redirect.islanddefjam.com.
+www.nore                CNAME	redirect.islanddefjam.com.
+pattilabelle            CNAME	redirect.islanddefjam.com.
+pittsburghslim          CNAME	redirect.islanddefjam.com.
+playazcircle            CNAME	redirect.islanddefjam.com.
+qdakid                  CNAME	redirect.islanddefjam.com.
+www.qdakid              CNAME	redirect.islanddefjam.com.
+razah                   CNAME	redirect.islanddefjam.com.
+redman                  CNAME	redirect.islanddefjam.com.
+www.redman              CNAME	redirect.islanddefjam.com.
+remix                   CNAME	redirect.islanddefjam.com.
+rickross                CNAME	redirect.islanddefjam.com.
+www.rickross            CNAME	redirect.islanddefjam.com.
+rihanna                 CNAME	redirect.islanddefjam.com.
+www.rihanna             CNAME	redirect.islanddefjam.com.
+ronaldisley             CNAME	redirect.islanddefjam.com.
+ronisley                CNAME	redirect.islanddefjam.com.
+samscarfo               CNAME	redirect.islanddefjam.com.
+www.samscarfo           CNAME	redirect.islanddefjam.com.
+serius                  CNAME	redirect.islanddefjam.com.
+seriusjones             CNAME	redirect.islanddefjam.com.
+shareefa                CNAME	redirect.islanddefjam.com.
+www.shareefa            CNAME	redirect.islanddefjam.com.
+shawnna                 CNAME	redirect.islanddefjam.com.
+www.shawnna             CNAME	redirect.islanddefjam.com.
+shyne                   CNAME	redirect.islanddefjam.com.
+slickrick               CNAME	redirect.islanddefjam.com.
+smallworld              CNAME	redirect.islanddefjam.com.
+stephjones              CNAME	redirect.islanddefjam.com.
+www.stephjones          CNAME	redirect.islanddefjam.com.
+sterling                CNAME	redirect.islanddefjam.com.
+www.sterling            CNAME	redirect.islanddefjam.com.
+sterlingsimms           CNAME	redirect.islanddefjam.com.
+summer                  CNAME	redirect.islanddefjam.com.
+tagboard                A	167.167.9.170
+team                    CNAME	www2.islanddefjam.com.
+the-dream               CNAME	redirect.islanddefjam.com.
+theisleybrothers        CNAME	redirect.islanddefjam.com.
+www.theisleybrothers    CNAME	redirect.islanddefjam.com.
+theroots                CNAME	redirect.islanddefjam.com.
+www.theroots            CNAME	redirect.islanddefjam.com.
+tour                    A	167.167.9.170
+unladylike              CNAME	redirect.islanddefjam.com.
+usda                    CNAME	redirect.islanddefjam.com.
+www.usda                CNAME	redirect.islanddefjam.com.
+user                    CNAME	defjam.com.
+vendettatour            CNAME	redirect.islanddefjam.com.
+video                   A	167.167.24.37
+voice                   A	64.207.157.126
+webmail                 A	64.29.145.44
+widgets                 CNAME	widgets.clearspring.com.
+win                     CNAME	cmsserver01.umusic.com.
+www                     CNAME	defjam.com.
+www2                    CNAME	www3.islanddefjam.com.
+www6                    CNAME	defjam.com.
+www7                    A	167.167.9.103
+younggunz               CNAME	defjam.com.
+youngjeezy              CNAME	redirect.islanddefjam.com.
+www.youngjeezy          CNAME	redirect.islanddefjam.com.
+youngleek               CNAME	redirect.islanddefjam.com.
+www.youngleek           CNAME	redirect.islanddefjam.com.

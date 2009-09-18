@@ -1,0 +1,36 @@
+;
+;  Database file getmusic.ca.dns for getmusic.ca zone.
+;      Zone version:  2008052930
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2008052930   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       3600	NS	ns2.umusic.com.
+ns2.umusic.com.         3600	A	167.167.9.132
+@                       3600	NS	ns5.umusic.com.
+ns5.umusic.com.         3600	A	167.167.1.132
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.37
+att                     CNAME	lvp2.umusic.ca.
+dev                     A	192.251.67.13
+dev2                    A	192.251.67.124
+facebook                A	167.167.24.37
+att.facebook            CNAME	lvp2.umusic.ca.
+universaldigital        CNAME	getmusic.ca.
+dev.universaldigital    CNAME	dev.getmusic.ca.
+web3                    CNAME	web3.umusic.ca.
+www                     CNAME	getmusic.ca.

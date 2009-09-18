@@ -1,0 +1,236 @@
+;
+;  Database file mca.com.dns for mca.com zone.
+;      Zone version:  2004050395
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2004050395   ; serial number
+                        	900          ; refresh
+                        	450          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+apis                    CNAME	apis.udh.unistudios.com.
+apis1                   CNAME	apis1.udh.unistudios.com.
+bbking                  900	A	192.251.67.170
+www.bbking              900	CNAME	bbking.mca.com.
+catman-prod-batch       CNAME	usushsp043.udh.unistudios.com.
+catman-prod-dsa         CNAME	spnode33.udh.unistudios.com.
+catman-prod-dw          CNAME	usushsp057.udh.unistudios.com.
+catman-prod-exidb       CNAME	usushsp037.udh.unistudios.com.
+catman-prod-inf         900	CNAME	spnode41.udh.unistudios.com.
+catman-prod-oltp        CNAME	usushntap28.udh.unistudios.com.
+catman-temp             A	192.251.67.19
+catman-test-batch       CNAME	usushsp031.udh.unistudios.com.
+catman-test-dsa         CNAME	spnode29.udh.unistudios.com.
+catman-test-dw          CNAME	spnode29.udh.unistudios.com.
+catman-test-exidb       CNAME	usushsp029.udh.unistudios.com.
+catman-test-inf         900	CNAME	spnode31.udh.unistudios.com.
+catman-test-metadb      CNAME	usushsp029.udh.unistudios.com.
+catoas01                CNAME	catoras01.global.umusic.net.
+cf-walmart              CNAME	cf-walmart.udh.unistudios.com.
+concerts                CNAME	ucsntfs52.mca.com.
+corpcom                 900	A	192.251.67.170
+cosmosd                 CNAME	spnode19.udh.unistudios.com.
+cosmosd2                CNAME	spnode19.udh.unistudios.com.
+d-agent                 CNAME	d-agent.udh.unistudios.com.
+damftp                  CNAME	damftp.udh.unistudios.com.
+dehanmf2                CNAME	dehanmf2.emea.sclnet.com.
+era-dev-sybase          900	CNAME	usushsp047.udh.unistudios.com.
+era-prod-sybase         900	CNAME	usushsp053.udh.unistudios.com.
+ereq-devl-ora           900	CNAME	usushssap012.udh.unistudios.com.
+ereq-prod-ora           900	CNAME	usushssap013.udh.unistudios.com.
+feg-prod-dw             CNAME	spnode35.udh.unistudios.com.
+feg-test-dw             CNAME	spnode45.udh.unistudios.com.
+ftp                     A	192.251.67.148
+ftp1                    900	A	199.182.254.2
+ftpdeals                CNAME	usinwbk03lax.udh.unistudios.com.
+ftpusj                  A	192.251.67.148
+gate                    CNAME	ns1.umusic.com.
+holiday                 A	192.215.161.4
+                        A	192.215.162.4
+hvdw-prod-db            CNAME	usushsp081.udh.unistudios.com.
+hvdw-prod-stg           CNAME	usushsp097.udh.unistudios.com.
+jdeush-prod-ora         900	CNAME	usushsp1001.udh.unistudios.com.
+jdeush-test-ora         900	CNAME	usushsp1101.udh.unistudios.com.
+jerseyfilm              CNAME	jerseyfilm.udh.unistudios.com.
+kenosis                 CNAME	kenosis.udh.unistudios.com.
+listserv                MX	10	www4.mca.com.
+localhost               A	127.0.0.1
+loopback                A	127.0.0.1
+mca4001                 CNAME	ucs401.mca.com.
+mca4002                 CNAME	ucs402.mca.com.
+mcars004                CNAME	mcars004.udh.unistudios.com.
+mcars006                CNAME	mcars006.udh.unistudios.com.
+mcasp003                CNAME	mcasp003.udh.unistudios.com.
+mcasp003f               CNAME	mcasp003f.udh.unistudios.com.
+mcasp005                CNAME	spnode27.udh.unistudios.com.
+catman-prod.metadb      CNAME	usushsp059.udh.unistudios.com.
+mpdw-prod-db            CNAME	usushsp081.udh.unistudios.com.
+mpdw-prod-stg           CNAME	usushsp097.udh.unistudios.com.
+nashpu21                A	10.130.109.135
+neighborhood            CNAME	www.mca.com.
+netgravity              CNAME	netgravity.udh.unistudios.com.
+newseag                 90	A	192.251.67.219
+ns2                     CNAME	ns2.umusic.com.
+nwftp                   CNAME	nwftp.amer.sclnet.com.
+oc-test-dw              CNAME	oc-test-dw.udh.unistudios.com.
+paytv-prod-sybase       CNAME	mcasp003.udh.unistudios.com.
+psg-ucs-ntex01          CNAME	psg-ucs-ntex01.udh.unistudios.com.
+psg-ucs-ntfs01          CNAME	psg-ucs-ntfs01.udh.unistudios.com.
+psg-ucs-ntfs02          CNAME	psg-ucs-ntfs02.udh.unistudios.com.
+psgether                CNAME	psgether.udh.unistudios.com.
+psgntex01lax            CNAME	psgntex01lax.udh.unistudios.com.
+rights-prod-sybase      CNAME	usisp021f.udh.unistudios.com.
+rms-prod-ora            900	CNAME	usushrsdb001.amer.umusic.net.
+rsdw-prod-db            CNAME	usushsp081.udh.unistudios.com.
+rsdw-prod-stg           CNAME	usushsp097.udh.unistudios.com.
+s390                    CNAME	usfshmf7.mca.com.
+s390-db2gw-test         CNAME	s390-db2gw-test.udh.unistudios.com.
+saa-508                 A	10.130.108.66
+saa-508-b               A	10.130.108.67
+sems                    900	A	192.251.67.183
+sems-test               900	A	192.168.25.133
+sjdenni                 A	231.145.0.80
+spnode19                CNAME	spnode19.udh.unistudios.com.
+spnode29                CNAME	spnode29.udh.unistudios.com.
+spnode31                CNAME	spnode31.udh.unistudios.com.
+spnode33                CNAME	spnode33.udh.unistudios.com.
+spnode35                CNAME	spnode35.udh.unistudios.com.
+spnode37                CNAME	spnode37.udh.unistudios.com.
+spnode39                CNAME	spnode39.udh.unistudios.com.
+spnode41                CNAME	spnode41.udh.unistudios.com.
+spnode43                CNAME	spnode43.udh.unistudios.com.
+spnode45                CNAME	spnode45.udh.unistudios.com.
+spnode47                CNAME	spnode47.udh.unistudios.com.
+stats                   900	A	192.251.67.22
+take2-test-sybase       CNAME	spnode19.udh.unistudios.com.
+testseag                900	A	192.251.67.170
+testspencer             900	A	192.251.67.222
+ticket-prod-dw          CNAME	usisp021t.udh.unistudios.com.
+ticket-test-dw          CNAME	mcasp005.udh.unistudios.com.
+tompetty                900	A	192.251.67.170
+www.tompetty            900	CNAME	tompetty.mca.com.
+ucs400                  A	10.130.108.138
+                        A	10.130.109.138
+ucs401                  A	10.130.108.131
+                        A	10.130.109.131
+ucs402                  A	172.22.100.163
+ucsmf01                 CNAME	usfshmf7.mca.com.
+ucsntfs52               A	172.30.1.22
+uhvfulfillment          CNAME	mcars007.udh.unistudios.com.
+umg-filemaker-server    CNAME	umg-filemaker-server.udh.unistudios.com.
+univcorp                MX	10	usi-ucs-ntex52.mca.com.
+universalcan            900	A	192.251.67.102
+universalcanada         CNAME	universalcanada.amer.umusic.net.
+univuip                 CNAME	univuip.udh.unistudios.com.
+uscscmf1                A	10.130.7.91
+uscscmf7                CNAME	uscscmf1.mca.com.
+usdelntap05             CNAME	usdelntap05.amer.umusic.net.
+usdelntws06             CNAME	usdelntws06.amer.umusic.net.
+usfas02                 CNAME	ucs402.mca.com.
+usfsh-ecs-prod          CNAME	usfshux02.amer.sclnet.com.
+usfsh10                 CNAME	usfshas10.amer.umusic.net.
+usfsh11                 CNAME	usfshas11.amer.umusic.net.
+usfsh12                 CNAME	usfshas12.amer.umusic.net.
+usfsh13                 CNAME	usfshas13.amer.umusic.net.
+usfsh20                 CNAME	usfshas20.amer.umusic.net.
+usfsh41                 CNAME	usfshas41.amer.sclnet.com.
+usfshas10               CNAME	usfshas10.amer.umusic.net.
+usfshas11               CNAME	usfshas11.amer.sclnet.com.
+usfshas12               CNAME	usfshas12.amer.umusic.net.
+usfshas13               CNAME	usfshas13.amer.umusic.net.
+usfshas20               CNAME	usfshas20.amer.umusic.net.
+usfshmf1                CNAME	usfshmf1.amer.umusic.net.
+usfshmf4                CNAME	usfshmf4.amer.umusic.net.
+usfshmf5                CNAME	usfshmf5.amer.umusic.net.
+usfshmf7                CNAME	uscscmf7.mca.com.
+usfshntap18             CNAME	usfshntap18.amer.umusic.net.
+usfshntex03             CNAME	usfshntex03.amer.umusic.net.
+usfshnwfp01             CNAME	usfshnwfp01.amer.umusic.net.
+usfshnwfp02             CNAME	usfshnwfp02.amer.sclnet.com.
+usfshnwfp07             CNAME	usfshnwfp07.amer.sclnet.com.
+usfshux01               900	A	10.130.253.6
+usfshux02               900	A	10.130.253.8
+usfsmf01                CNAME	usfshmf1.amer.umusic.net.
+usi-ucs-ntex52          CNAME	usi-ucs-ntex52.udh.unistudios.com.
+usi390                  CNAME	usfshmf7.mca.com.
+usi402                  CNAME	ucs402.mca.com.
+usimftst                CNAME	usimftst.udh.unistudios.com.
+usintap21lax            CNAME	usintap21lax.udh.unistudios.com.
+usintap44lax            CNAME	usintap44lax.udh.unistudios.com.
+usinwbk03lax            CNAME	usinwbk03lax.amer.sclnet.com.
+usinwds01               CNAME	usinwds01.amer.sclnet.com.
+usinwds02               CNAME	usinwds02.amer.sclnet.com.
+usirs008                CNAME	usirs008.udh.unistudios.com.
+usisp007f               CNAME	usisp007f.udh.unistudios.com.
+usisp009f               CNAME	usisp009f.udh.unistudios.com.
+usisp021f               CNAME	usisp021f.udh.unistudios.com.
+usisp025f               CNAME	usisp025f.udh.unistudios.com.
+usisp205                CNAME	spnode27.udh.unistudios.com.
+usissap01lax            CNAME	usissap01lax.udh.unistudios.com.
+usissap02lax            CNAME	usissap02lax.udh.unistudios.com.
+usissap03lax            CNAME	usissap03lax.udh.unistudios.com.
+usissap04lax            CNAME	usissap04lax.udh.unistudios.com.
+usissap05lax            CNAME	usissap05lax.udh.unistudios.com.
+uslax038uniagg          CNAME	uslax038uniagg.unistudios.com.
+uslax038unindd          CNAME	uslax038unindd.unistudios.com.
+uslax051mplsndd         CNAME	uslax051mplsndd.unistudios.com.
+usof91                  CNAME	ucs400.mca.com.
+usushlx01               CNAME	usushlx01.amer.sclnet.com.
+usushntap150            CNAME	usushntap150.udh.unistudios.com.
+usushntws515            A	192.168.66.55
+usushsp055              CNAME	usushsp055.amer.umusic.net.
+usushssap002            900	A	192.168.25.50
+usushssap006            900	A	192.168.25.51
+usushssap033            CNAME	usushssap033.amer.umusic.net.
+usushssap034            CNAME	usushssap034.udh.unistudios.com.
+usushssap042            A	192.168.25.187
+usushsswl001            900	A	192.251.67.103
+ususo00ex01             A	172.22.145.25
+ususo00ex03             A	172.22.145.21
+ususo00ex07             A	172.22.145.20
+uswwpntap48             CNAME	uswwpntap48.amer.umusic.net.
+vfdigiu                 A	67.167.85.63
+vid1                    A	207.240.78.254
+vid2                    A	207.240.78.250
+webmaster               A	192.251.67.129
+www                     900	A	192.251.67.170
+www1                    900	A	192.251.67.164
+www10                   900	A	192.251.67.60
+www11                   900	A	192.251.67.61
+www12                   900	A	192.251.67.87
+www13                   900	A	192.215.3.22
+www14                   900	A	192.215.3.23
+www15                   900	A	192.251.67.90
+www16                   900	A	192.251.67.91
+www17                   A	66.77.124.249
+www18                   A	66.77.124.250
+www19                   900	A	192.251.67.95
+www2                    A	192.251.67.77
+www20                   900	A	192.251.67.96
+www21                   900	A	192.251.67.97
+www22                   900	A	192.251.67.98
+www3                    A	66.77.124.247
+www4                    900	A	192.251.67.162
+                        900	MX	10	www4.mca.com.
+www4-128                A	192.251.67.128
+www5                    900	A	192.251.67.163
+www6                    900	A	192.251.67.6
+www7                    900	A	192.251.67.184
+www8                    900	A	192.251.67.189
+www9                    A	66.77.124.248

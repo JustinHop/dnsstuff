@@ -1,0 +1,33 @@
+;
+;  Database file gnronline.com.dns for gnronline.com zone.
+;      Zone version:  2006033108
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006033108   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns2.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.80
+@                       MX	10	mail.gnronline.com.
+*                       A	216.193.195.52
+ftp                     A	216.193.195.55
+localhost               A	127.0.0.1
+mail                    A	216.193.195.61
+staging                 A	216.193.195.55
+www                     CNAME	gnronline.com.

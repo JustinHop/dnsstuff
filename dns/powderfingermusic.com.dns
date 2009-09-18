@@ -1,0 +1,24 @@
+;
+;  Database file powderfingermusic.com.dns for powderfingermusic.com zone.
+;      Zone version:  2002042503
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2002042503   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; minimum TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	12.110.193.132
+
+;
+;  Zone records
+;
+

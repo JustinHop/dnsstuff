@@ -1,0 +1,30 @@
+;
+;  Database file bee-gees.net.dns for bee-gees.net zone.
+;      Zone version:  2002042627
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2002042627   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+
+;
+;  Zone records
+;
+
+@                       900	A	128.167.39.9
+@                       900	A	128.11.103.35
+localhost               A	127.0.0.1
+www                     CNAME	bee-gees.net.

@@ -1,0 +1,43 @@
+;
+;  Database file allamericanrejects.com.dns for allamericanrejects.com zone.
+;      Zone version:  2006030126
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006030126   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+
+;
+;  Zone records
+;
+
+@                       A	8.6.19.68
+@                       MX	100	mx2c25.carrierzone.com.
+@                       MX	110	mx3c25.carrierzone.com.
+@                       MX	120	mx4c25.carrierzone.com.
+@                       MX	10	mx1c25.carrierzone.com.
+bb                      A	216.193.195.43
+board                   A	216.193.195.43
+boards                  A	72.10.45.133
+chat                    A	216.193.195.43
+ftp                     A	216.193.195.55
+m                       CNAME	redirect.interscope.com.
+mail                    A	64.29.145.40
+smtp                    CNAME	mail.allamericanrejects.com.
+staging                 A	57.77.2.144
+webmail                 A	64.29.145.44
+www                     CNAME	allamericanrejects.com.

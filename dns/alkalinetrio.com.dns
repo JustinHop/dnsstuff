@@ -1,0 +1,34 @@
+;
+;  Database file alkalinetrio.com.dns for alkalinetrio.com zone.
+;      Zone version:  2006032102
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006032102   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+@                       NS	ns5.umusic.com.
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	57.77.2.144
+@                       MX	10	mail.alkalinetrio.com.
+*                       A	216.193.195.52
+crimson                 A	216.193.195.52
+ftp.crimson             CNAME	ftp.alkalinetrio.com.
+staging.crimson         CNAME	staging.alkalinetrio.com.
+ftp                     A	216.193.195.55
+mail                    A	216.193.195.61
+staging                 A	216.193.195.55
+www                     CNAME	alkalinetrio.com.

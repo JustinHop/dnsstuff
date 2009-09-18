@@ -1,0 +1,31 @@
+;
+;  Database file umgtemp.com.dns for umgtemp.com zone.
+;      Zone version:  2006041918
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2006041918   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+
+;
+;  Zone records
+;
+
+@                       MX	10	mail.global.frontbridge.com.
+@                       TXT	( "v=spf1 ip4:167.167.0.0/16 ip4:172.16.0.0/12 ip4:192.251.66.0/23 ip4:209.135.36.206/26 ip4:209.17.134.64/26 ip4:64.141.83.0/25 ip4:209.135.37.206 ip4:213.61.130.224/28 ip4:65.54.32.0/24 ip4:65.54.36.0/24 ip4:10.0.0.0/8 ip4:192.168.0.0/16 -all" )
+autodiscover            CNAME	autodiscover.umusic.com.
+localhost               A	127.0.0.1

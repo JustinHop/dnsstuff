@@ -1,0 +1,30 @@
+;
+;  Database file elizabethandthecatapult.com.dns for elizabethandthecatapult.com zone.
+;      Zone version:  9
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	9            ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.136
+@                       MX	1	aspmx.l.google.com.
+@                       MX	5	alt1.aspmx.l.google.com.
+@                       MX	5	alt2.aspmx.l.google.com.
+@                       MX	10	aspmx2.googlemail.com.
+@                       MX	10	aspmx3.googlemail.com.
+google42a217a50168da13  CNAME	google.com.
+www                     CNAME	elizabethandthecatapult.com.

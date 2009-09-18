@@ -1,0 +1,113 @@
+;
+;  Database file vervemusicgroup.com.dns for vervemusicgroup.com zone.
+;      Zone version:  2003010939
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2003010939   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.137
+@                       MX	10	mail.global.frontbridge.com.
+att.16frames            CNAME	att.vervemusicgroup.com.
+att01.16frames          CNAME	att01.vervemusicgroup.com.
+att02.16frames          CNAME	att02.vervemusicgroup.com.
+att03.16frames          CNAME	att03.vervemusicgroup.com.
+dev.16frames            CNAME	dev.vervemusicgroup.com.
+prod.16frames           CNAME	prod.vervemusicgroup.com.
+att.amongtheoakandash   CNAME	att.vervemusicgroup.com.
+dev.amongtheoakandash   CNAME	dev.vervemusicgroup.com.
+att.aqualung            CNAME	att.vervemusicgroup.com.
+dev.aqualung            CNAME	dev.vervemusicgroup.com.
+prod.aqualung           CNAME	prod.vervemusicgroup.com.
+att                     A	167.167.24.137
+att01                   A	167.167.24.132
+att02                   A	167.167.24.133
+att03                   A	167.167.24.134
+att.braziliangirls      CNAME	att.vervemusicgroup.com.
+dev.braziliangirls      CNAME	dev.vervemusicgroup.com.
+prod.braziliangirls     CNAME	prod.vervemusicgroup.com.
+att.brianblade          CNAME	att.vervemusicgroup.com.
+dev.brianblade          CNAME	dev.vervemusicgroup.com.
+prod.brianblade         CNAME	prod.vervemusicgroup.com.
+dev.brianblades         CNAME	dev.vervemusicgroup.com.
+prod.brianblades        CNAME	prod.vervemusicgroup.com.
+cms                     CNAME	vervemusicgroup.com.
+dev                     A	192.251.67.124
+dev-teddy               A	192.251.67.124
+dev2                    A	192.251.67.124
+att.dianakrall          CNAME	att.vervemusicgroup.com.
+dev.dianakrall          CNAME	dev.vervemusicgroup.com.
+prod.dianakrall         CNAME	prod.vervemusicgroup.com.
+dev.ecards              A	192.251.67.13
+att.elizabethandthecatapult A	167.167.24.136
+dev.elizabethandthecatapult A	192.251.67.124
+att.findthe13           CNAME	att.vervemusicgroup.com.
+dev.findthe13           CNAME	dev.vervemusicgroup.com.
+greatestthrill          CNAME	usucplvapp001.global.umusic.com.
+att.greatestthrill      CNAME	llvp2.att.umusic.com.
+dev.greatestthrill      CNAME	usucplvapp001.global.umusic.com.
+att.jessiebaylin        CNAME	att.vervemusicgroup.com.
+dev.jessiebaylin        CNAME	dev.vervemusicgroup.com.
+prod.jessiebaylin       CNAME	prod.vervemusicgroup.com.
+att.johnfogerty         CNAME	att.vervemusicgroup.com.
+dev.johnfogerty         CNAME	dev.vervemusicgroup.com.
+att.katharinemcphee     CNAME	att.vervemusicgroup.com.
+att.kennylattimore      CNAME	att.vervemusicgroup.com.
+dev.kennylattimore      CNAME	dev.vervemusicgroup.com.
+prod.kennylattimore     CNAME	prod.vervemusicgroup.com.
+att.labelle             CNAME	att.vervemusicgroup.com.
+dev.labelle             A	192.251.67.124
+prod.labelle            A	192.251.67.166
+att.ledisi              CNAME	att.vervemusicgroup.com.
+dev.ledisi              CNAME	dev.vervemusicgroup.com.
+att.lizzwright          CNAME	att.vervemusicgroup.com.
+att01.lizzwright        CNAME	att01.vervemusicgroup.com.
+att02.lizzwright        CNAME	att02.vervemusicgroup.com.
+att03.lizzwright        CNAME	att03.vervemusicgroup.com.
+dev.lizzwright          A	192.251.67.124
+localhost               A	127.0.0.1
+mobile                  A	167.167.24.136
+prod                    A	192.251.67.166
+att.susantedeschi       CNAME	att.vervemusicgroup.com.
+dev.susantedeschi       CNAME	dev.vervemusicgroup.com.
+prod.susantedeschi      CNAME	prod.vervemusicgroup.com.
+teddy                   A	192.251.67.166
+att.teddythompson       CNAME	att.vervemusicgroup.com.
+dev.teddythompson       CNAME	dev.vervemusicgroup.com.
+prod.teddythompson      CNAME	prod.vervemusicgroup.com.
+test                    A	192.251.67.244
+att.thebridges          CNAME	att.vervemusicgroup.com.
+att01.thebridges        CNAME	att01.vervemusicgroup.com.
+att02.thebridges        CNAME	att02.vervemusicgroup.com.
+att03.thebridges        CNAME	att03.vervemusicgroup.com.
+dev.thebridges          CNAME	dev.vervemusicgroup.com.
+prod.thebridges         CNAME	prod.vervemusicgroup.com.
+att.ultimateledhead     CNAME	att.vervemusicgroup.com.
+dev.ultimateledhead     CNAME	dev.vervemusicgroup.com.
+att.ververemixed        CNAME	att.vervemusicgroup.com.
+dev.ververemixed        CNAME	dev.vervemusicgroup.com.
+prod.ververemixed       CNAME	prod.vervemusicgroup.com.
+willdowning             A	192.251.67.166
+att.willdowning         CNAME	att.vervemusicgroup.com.
+dev.willdowning         A	192.251.67.124
+www                     CNAME	vervemusicgroup.com.
+att.yoav                CNAME	att.vervemusicgroup.com.

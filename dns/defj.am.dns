@@ -1,0 +1,24 @@
+;
+;  Database file defj.am.dns for defj.am zone.
+;      Zone version:  3
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	3            ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	209.234.249.30
+www                     CNAME	defj.am.

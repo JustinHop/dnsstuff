@@ -1,0 +1,43 @@
+;
+;  Database file monarc.com.dns for monarc.com zone.
+;      Zone version:  2002120456
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2002120456   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+
+;
+;  Zone records
+;
+
+@                       A	167.167.9.53
+@                       MX	10	mail.monarc.com.
+@                       1800	MX	20	ncsmtp.monarc.com.
+aisfeed                 CNAME	awsservices.umusic.com.
+chat                    CNAME	chat.islanddefjam.com.
+honeybflymail           CNAME	clients.loadmail.com.
+localhost               A	127.0.0.1
+mail                    A	68.236.183.34
+ncsmtp                  A	64.49.73.55
+secure                  CNAME	secure.monarc.com.sparkart.net.
+smtp                    A	12.110.192.109
+support                 CNAME	support.monarc.com.sparkart.net.
+voice                   A	64.207.157.126
+webmail                 CNAME	mail.monarc.com.
+www                     CNAME	monarc.com.
+www3                    CNAME	www3.islanddefjam.com.
+www6                    A	167.167.9.101

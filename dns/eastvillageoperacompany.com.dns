@@ -1,0 +1,33 @@
+;
+;  Database file eastvillageoperacompany.com.dns for eastvillageoperacompany.com zone.
+;      Zone version:  2005040521
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2005040521   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+
+;
+;  Zone records
+;
+
+@                       1800	A	67.199.88.126
+@                       1800	MX	10	in1.magma.ca.
+@                       1800	MX	15	queue1.magma.ca.
+localhost               A	127.0.0.1
+prod                    A	167.167.2.109
+www                     CNAME	eastvillageoperacompany.com.

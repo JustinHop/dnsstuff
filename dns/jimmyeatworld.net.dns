@@ -1,0 +1,33 @@
+;
+;  Database file jimmyeatworld.net.dns for jimmyeatworld.net zone.
+;      Zone version:  2004000012
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2004000012   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	300        ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+@                       NS	ns5.umusic.com.
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.74
+@                       MX	10	sitemail.everyone.net.
+*                       A	216.193.195.52
+bb                      A	216.193.195.43
+board                   A	216.193.195.43
+localhost               A	127.0.0.1
+staging                 A	216.193.195.55
+store                   A	69.44.16.156
+www                     CNAME	jimmyeatworld.net.

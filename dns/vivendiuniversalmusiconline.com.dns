@@ -1,0 +1,26 @@
+;
+;  Database file vivendiuniversalmusiconline.com.dns for vivendiuniversalmusiconline.com zone.
+;      Zone version:  2002041714
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2002041714   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; minimum TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	12.110.193.132
+
+;
+;  Zone records
+;
+
+localhost               A	127.0.0.1
+www                     CNAME	www.umusic.com.

@@ -1,0 +1,35 @@
+;
+;  Database file jamesmorrison-us.igadev.com.dns for jamesmorrison-us.igadev.com zone.
+;      Zone version:  2006110821
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2006110821   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+
+;
+;  Zone records
+;
+
+@                       A	57.77.2.145
+localhost               A	127.0.0.1
+sdk                     A	192.251.67.100
+www01                   CNAME	jamesmorrison-us.igadev.com.
+www02                   CNAME	jamesmorrison-us.igadev.com.
+www03                   CNAME	jamesmorrison-us.igadev.com.
+www04                   CNAME	jamesmorrison-us.igadev.com.
+www05                   CNAME	jamesmorrison-us.igadev.com.
+www06                   CNAME	jamesmorrison-us.igadev.com.

@@ -1,0 +1,34 @@
+;
+;  Database file williamtell.com.dns for williamtell.com zone.
+;      Zone version:  2007290135
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2007290135   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns1.umusic.com.
+@                       3600	NS	ns5.umusic.com.
+ns5.umusic.com.         3600	A	167.167.1.132
+
+;
+;  Zone records
+;
+
+@                       A	192.251.67.34
+@                       MX	10	ams.ftl.affinity.com.
+dev                     A	192.251.67.244
+localhost               A	127.0.0.1
+mail                    CNAME	ams.ftl.affinity.com.
+prod                    A	192.251.67.34
+webmail                 CNAME	webmail.valueweb.com.
+www                     CNAME	williamtell.com.

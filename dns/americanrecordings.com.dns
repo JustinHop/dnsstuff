@@ -1,0 +1,32 @@
+;
+;  Database file americanrecordings.com.dns for americanrecordings.com zone.
+;      Zone version:  2002042333
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2002042333   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+
+;
+;  Zone records
+;
+
+@                       600	A	167.167.9.103
+aisfeed                 CNAME	awsservices.umusic.com.
+bbstest                 CNAME	bbstest.islanddefjam.com.
+localhost               A	127.0.0.1
+www                     CNAME	americanrecordings.com.
+www6                    CNAME	www6.islanddefjam.com.

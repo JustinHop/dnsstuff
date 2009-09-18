@@ -1,0 +1,31 @@
+;
+;  Database file rubyhorse.com.dns for rubyhorse.com zone.
+;      Zone version:  2002061711
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2002061711   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; minimum TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	12.110.193.132
+
+;
+;  Zone records
+;
+
+@                       A	12.110.193.55
+@                       MX	10	indefatigable.cnchost.com.
+@                       MX	20	invincible.cnchost.com.
+@                       MX	30	hood.cnchost.com.
+@                       MX	40	dauntless.cnchost.com.
+localhost               A	127.0.0.1
+www                     CNAME	rubyhorse.com.

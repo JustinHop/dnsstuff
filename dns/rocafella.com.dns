@@ -1,0 +1,70 @@
+;
+;  Database file rocafella.com.dns for rocafella.com zone.
+;      Zone version:  2002043139
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2002043139   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	167.167.2.18
+@                       300	MX	10	mail.global.frontbridge.com.
+aisfeed                 CNAME	awsservices.umusic.com.
+dev02                   600	A	167.167.9.88
+djclue                  A	167.167.24.10
+www.djclue              CNAME	djclue.rocafella.com.
+foxybrown               A	167.167.24.10
+www.foxybrown           CNAME	foxybrown.rocafella.com.
+freeway                 A	167.167.24.10
+www.freeway             CNAME	freeway.rocafella.com.
+images                  CNAME	images.islanddefjam.com.
+jadakiss                CNAME	redirect.islanddefjam.com.
+jay-z                   A	167.167.24.10
+www.jay-z               CNAME	jay-z.rocafella.com.
+jayz                    A	167.167.24.10
+www.jayz                CNAME	jayz.rocafella.com.
+kanyewest               A	167.167.24.10
+www.kanyewest           CNAME	kanyewest.rocafella.com.
+localhost               A	127.0.0.1
+memphisbleek            A	167.167.24.10
+www.memphisbleek        CNAME	memphisbleek.rocafella.com.
+music                   CNAME	music.islanddefjam.com.
+peedi                   A	167.167.24.10
+www.peedi               CNAME	peedi.rocafella.com.
+peedicrakk              A	167.167.24.10
+www.peedicrakk          CNAME	peedicrakk.rocafella.com.
+peedipeedi              A	167.167.24.10
+www.peedipeedi          CNAME	peedipeedi.rocafella.com.
+prod                    A	167.167.2.18
+sql01                   600	A	167.167.9.93
+staging                 A	167.167.9.88
+ftp.staging             A	167.167.9.88
+teairramari             A	167.167.24.10
+www.teairramari         CNAME	teairramari.rocafella.com.
+tru-life                CNAME	redirect.islanddefjam.com.
+trulife                 CNAME	redirect.islanddefjam.com.
+video                   CNAME	www6.rocafella.com.
+www                     CNAME	rocafella.com.
+www2                    600	A	167.167.9.103
+www3                    600	A	167.167.9.82
+www4                    CNAME	www4.islanddefjam.com.
+www6                    A	167.167.9.101
+younggunz               A	167.167.24.10
+www.younggunz           CNAME	younggunz.rocafella.com.

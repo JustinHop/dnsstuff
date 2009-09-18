@@ -1,0 +1,28 @@
+;
+;  Database file ray-lmusic.com.dns for ray-lmusic.com zone.
+;      Zone version:  2007081408
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2007081408   ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	100800     ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       3600	NS	ns2.umusic.com.
+ns2.umusic.com.         3600	A	167.167.9.132
+@                       3600	NS	ns5.umusic.com.
+ns5.umusic.com.         3600	A	167.167.1.132
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.72
+www                     CNAME	ray-lmusic.com.

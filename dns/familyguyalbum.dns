@@ -1,0 +1,22 @@
+;
+;  Database file familyguyalbum.dns for familyguyalbum zone.
+;      Zone version:  1
+;
+
+@                       IN  SOA usfshntns02.amer.umusic.net.  hostmaster.amer.umusic.net. (
+                        	1            ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	usfshntns02.amer.umusic.net.
+
+;
+;  Zone records
+;
+

@@ -1,0 +1,39 @@
+;
+;  Database file shadyrecords.com.dns for shadyrecords.com zone.
+;      Zone version:  2006032117
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006032117   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+@                       NS	ns5.umusic.com.
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.73
+@                       MX	10	aspmx.l.google.com.
+@                       MX	20	alt1.aspmx.l.google.com.
+@                       MX	20	alt2.aspmx.l.google.com.
+@                       MX	30	aspmx2.googlemail.com.
+@                       MX	30	aspmx3.googlemail.com.
+@                       MX	30	aspmx4.googlemail.com.
+@                       MX	30	aspmx5.googlemail.com.
+*                       A	216.193.195.52
+community               A	208.76.217.20
+ftp                     A	216.193.195.55
+googleffffffffe54e569c  CNAME	google.com.
+localhost               A	127.0.0.1
+staging                 A	216.193.195.55
+www                     CNAME	shadyrecords.com.

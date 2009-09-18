@@ -1,0 +1,40 @@
+;
+;  Database file comptongame.com.dns for comptongame.com zone.
+;      Zone version:  2006032122
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006032122   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.75
+@                       MX	10	mail.comptongame.com.
+*                       A	216.193.195.52
+90220                   A	63.251.163.212
+dev                     A	216.193.195.55
+ftp                     A	216.193.195.55
+localhost               A	127.0.0.1
+m                       A	167.167.24.75
+mail                    A	216.193.195.61
+staging                 A	216.193.195.55
+themovie                A	216.193.195.52
+staging.themovie        A	216.193.195.55
+www                     CNAME	comptongame.com.

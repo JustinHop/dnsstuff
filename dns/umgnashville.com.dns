@@ -1,0 +1,96 @@
+;
+;  Database file umgnashville.com.dns for umgnashville.com zone.
+;      Zone version:  2004120294
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2004120294   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.135
+@                       MX	10	mail.global.frontbridge.com.
+35a37b93-df97-4c1b-8cc6-ab5a42ff0a66 CNAME	mail.messaging.microsoft.com.
+artist                  A	192.251.67.124
+artistdev1              A	192.251.67.124
+artistdev2              A	192.251.67.124
+ashtonshepherd          A	192.251.67.166
+att.ashtonshepherd      CNAME	att.umgnashville.com.
+dev.ashtonshepherd      A	192.251.67.124
+att                     A	167.167.24.135
+att01                   A	167.167.24.132
+att02                   A	167.167.24.133
+att03                   A	167.167.24.134
+audioarchive            A	192.251.67.166
+aw                      A	174.129.233.169
+att.billycurrington     CNAME	att.umgnashville.com.
+att01.billycurrington   CNAME	att01.umgnashville.com.
+att02.billycurrington   CNAME	att02.umgnashville.com.
+att03.billycurrington   CNAME	att03.umgnashville.com.
+dev.billycurrington     CNAME	dev.umgnashville.com.
+dev2.billycurrington    CNAME	dev2.umgnashville.com.
+prod.billycurrington    CNAME	prod.umgnashville.com.
+test.dasblog            A	192.251.67.94
+davidnail               A	192.251.67.166
+att.davidnail           CNAME	att.umgnashville.com.
+dev.davidnail           A	192.251.67.124
+dev                     A	192.251.67.124
+dev-artist              A	192.251.67.124
+dev2                    A	192.251.67.13
+att.eastoncorbin        CNAME	hvp1.umgnashville.com.
+dev.eastoncorbin        CNAME	dev.umgnashville.com.
+att.hollywilliams       CNAME	hvp1.umgnashville.com.
+dev.hollywilliams       CNAME	dev.umgnashville.com.
+prod.hollywilliams      CNAME	prod.umgnashville.com.
+hvp1                    A	167.167.24.135
+hvp2                    A	167.167.24.136
+iga-dev                 A	192.251.67.124
+jameyjohnson            A	192.251.67.166
+att.jameyjohnson        CNAME	att.umgnashville.com.
+dev.jameyjohnson        A	192.251.67.124
+juliannehough           A	192.251.67.166
+att.juliannehough       CNAME	att.umgnashville.com.
+dev.juliannehough       A	192.251.67.124
+att.julieroberts        CNAME	att.umgnashville.com.
+dev.julieroberts        CNAME	dev.umgnashville.com.
+leeannwomack            CNAME	linux.leeannwomack.umgnashville.com.
+att.leeannwomack        CNAME	att.umgnashville.com.
+dev.leeannwomack        CNAME	dev.umgnashville.com.
+dev-wp.leeannwomack     A	192.251.67.13
+linux.leeannwomack      A	167.167.24.37
+prod.leeannwomack       CNAME	prod.umgnashville.com.
+localhost               A	127.0.0.1
+att.mallaryhope         A	167.167.24.135
+dev.mallaryhope         CNAME	dev.umgnashville.com.
+matt-sandbox            A	192.251.67.124
+mobile                  A	167.167.2.109
+peoplearecrazy          CNAME	att.peoplearecrazy.umgnashville.com.
+att.peoplearecrazy      A	167.167.24.37
+dev.peoplearecrazy      300	A	192.251.67.13
+prod                    A	192.251.67.166
+sugarland               A	192.251.67.166
+att.sugarland           CNAME	att.umgnashville.com.
+dev.sugarland           A	192.251.67.124
+prod.sugarland          A	192.251.67.166
+dev.umgnpress           A	192.251.67.13
+att.votejameyacm        CNAME	hvp2.umgnashville.com.
+dev.votejameyacm        CNAME	dev.umgnashville.com.
+prod.votejameyacm       CNAME	prod.umgnashville.com.
+www                     CNAME	umgnashville.com.

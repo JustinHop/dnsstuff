@@ -1,0 +1,40 @@
+;
+;  Database file grammydownloads.com.dns for grammydownloads.com zone.
+;      Zone version:  2003012932
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2003012932   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+
+;
+;  Zone records
+;
+
+@                       A	192.251.67.144
+fye                     A	192.251.67.144
+test.fye                A	192.251.67.166
+www.fye                 CNAME	grammydownloads.com.
+localhost               A	127.0.0.1
+musicrebellion          A	192.251.67.144
+test.musicrebellion     A	192.251.67.166
+www.musicrebellion      CNAME	grammydownloads.com.
+test                    A	192.251.67.166
+tower                   A	192.251.67.144
+test.tower              A	192.251.67.166
+www.tower               CNAME	grammydownloads.com.
+www                     CNAME	grammydownloads.com.

@@ -1,0 +1,33 @@
+;
+;  Database file gunitrecords.com.dns for gunitrecords.com zone.
+;      Zone version:  2006032110
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006032110   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+@                       NS	ns5.umusic.com.
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.75
+@                       MX	10	server60.appriver.com.
+@                       MX	20	server61.appriver.com.
+*                       A	167.167.24.75
+ftp                     A	216.193.195.55
+localhost               A	127.0.0.1
+mail                    A	216.193.195.61
+staging                 A	216.193.195.55
+www                     CNAME	gunitrecords.com.

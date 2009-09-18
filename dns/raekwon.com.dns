@@ -1,0 +1,29 @@
+;
+;  Database file raekwon.com.dns for raekwon.com zone.
+;      Zone version:  2003030710
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2003030710   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; minimum TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	65.116.83.132
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	12.110.193.132
+
+;
+;  Zone records
+;
+
+@                       900	A	128.167.36.145
+localhost               A	127.0.0.1
+test                    A	192.251.67.244
+www                     CNAME	raekwon.com.

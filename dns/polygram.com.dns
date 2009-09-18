@@ -1,0 +1,36 @@
+;
+;  Database file polygram.com.dns for polygram.com zone.
+;      Zone version:  2002041139
+;
+
+@                       3600	IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2002041139   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+
+;
+;  Zone records
+;
+
+@                       MX	10	mailirpt.usfsh.umusic.com.
+gate1.de                CNAME	gate1.dehan.umusic.com.
+mail.de                 CNAME	smtp1.dehan.umusic.com.
+ns.de                   A	62.206.191.5
+fdv.fr                  MX	10	mx0.imaginet.fr.
+gate3.fr                A	195.68.38.195
+localhost               A	127.0.0.1
+gate2.uk                CNAME	gate2.ukrom.umusic.com.
+www                     CNAME	www.umusic.com.

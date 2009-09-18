@@ -1,0 +1,29 @@
+;
+;  Database file viewinglounge.com.dns for viewinglounge.com zone.
+;      Zone version:  2004030515
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2004030515   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	12.110.193.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	65.116.83.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+
+;
+;  Zone records
+;
+
+localhost               A	127.0.0.1
+www                     CNAME	viewinglounge.com.

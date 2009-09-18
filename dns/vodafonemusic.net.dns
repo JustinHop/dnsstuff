@@ -1,0 +1,26 @@
+;
+;  Database file vodafonemusic.net.dns for vodafonemusic.net zone.
+;      Zone version:  2002041713
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2002041713   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; minimum TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	12.110.193.132
+
+;
+;  Zone records
+;
+
+localhost               A	127.0.0.1
+www                     CNAME	artists.universalrecords.com.

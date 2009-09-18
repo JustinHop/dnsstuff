@@ -1,0 +1,36 @@
+;
+;  Database file evendeeper.com.dns for evendeeper.com zone.
+;      Zone version:  2006032112
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006032112   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+@                       NS	ns5.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	64.15.234.116
+@                       MX	10	mx1c25.carrierzone.com.
+@                       MX	100	mx2c25.carrierzone.com.
+@                       MX	110	mx3c25.carrierzone.com.
+@                       MX	120	mx4c25.carrierzone.com.
+*                       A	64.15.234.116
+ftp                     A	216.193.195.55
+localhost               A	127.0.0.1
+mail                    A	64.29.145.40
+staging                 A	216.193.195.55
+webmail                 A	64.29.145.44
+www                     CNAME	evendeeper.com.

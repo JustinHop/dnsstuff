@@ -1,0 +1,27 @@
+;
+;  Database file islandrecords50th.com.dns for islandrecords50th.com zone.
+;      Zone version:  6
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	6            ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.6
+att                     A	167.167.24.6
+dev                     CNAME	dev.islandrecords50th.idjmg.com.
+test                    CNAME	dev.islandrecords50th.idjmg.com.
+www                     CNAME	islandrecords50th.com.

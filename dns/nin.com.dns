@@ -1,0 +1,32 @@
+;
+;  Database file nin.com.dns for nin.com zone.
+;      Zone version:  2006120821
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006120821   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+@                       NS	ns5.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	57.77.2.145
+@                       MX	10	destro.sparkart.net.
+halo22                  CNAME	nin.com.
+localhost               A	127.0.0.1
+mail                    CNAME	fanmail.musictoday.com.
+staging                 A	57.77.2.145
+www                     CNAME	nin.com.
+yearzero                A	57.77.2.145

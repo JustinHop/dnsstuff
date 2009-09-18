@@ -1,0 +1,29 @@
+;
+;  Database file aaliyahicare4u.us.dns for aaliyahicare4u.us zone.
+;      Zone version:  2002102411
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2002102411   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; minimum TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	65.116.83.132
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	12.110.193.132
+
+;
+;  Zone records
+;
+
+@                       900	A	65.116.82.123
+localhost               A	127.0.0.1
+prod                    900	A	65.116.82.123
+www                     CNAME	aaliyahicare4u.us.

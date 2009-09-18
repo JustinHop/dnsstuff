@@ -1,0 +1,33 @@
+;
+;  Database file flaw.com.dns for flaw.com zone.
+;      Zone version:  2002042935
+;
+
+@                       3600	IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2002042935   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+
+;
+;  Zone records
+;
+
+@                       900	A	167.167.2.113
+@                       300	MX	10	mail-lb.usfsh.umusic.com.
+@                       1800	MX	20	mailgw.deber.umusic.com.
+boards                  A	192.251.67.82
+localhost               A	127.0.0.1
+www                     CNAME	flaw.com.

@@ -1,0 +1,32 @@
+;
+;  Database file fiftycent.com.dns for fiftycent.com zone.
+;      Zone version:  2006032106
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006032106   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+@                       NS	ns5.umusic.com.
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.74
+@                       MX	10	mail.50cent.com.
+*                       A	216.193.195.53
+ftp                     CNAME	ftp.50cent.com.
+localhost               A	127.0.0.1
+mail                    CNAME	mail.50cent.com.
+staging                 CNAME	staging.50cent.com.
+www                     CNAME	fiftycent.com.

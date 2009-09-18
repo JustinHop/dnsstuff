@@ -1,0 +1,32 @@
+;
+;  Database file nataliecole.com.dns for nataliecole.com zone.
+;      Zone version:  2002062121
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2002062121   ; serial number
+                        	1800         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns1.umusic.com.
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+
+;
+;  Zone records
+;
+
+@                       A	192.251.67.144
+boards                  A	192.251.67.34
+boards-test             A	192.251.67.244
+localhost               A	127.0.0.1
+test                    A	192.251.67.166
+www                     CNAME	nataliecole.com.

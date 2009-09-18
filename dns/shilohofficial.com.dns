@@ -1,0 +1,31 @@
+;
+;  Database file shilohofficial.com.dns for shilohofficial.com zone.
+;      Zone version:  2008080812
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2008080812   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.37
+att                     CNAME	lvp2.umusic.ca.
+att1                    CNAME	lvp2.umusic.ca.
+dev                     CNAME	dev.umusic.ca.
+www                     CNAME	shilohofficial.com.

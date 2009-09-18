@@ -1,0 +1,25 @@
+;
+;  Database file 5bam.com.dns for 5bam.com zone.
+;      Zone version:  7
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	7            ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       7200	A	167.167.24.135
+autodiscover            CNAME	autodiscover.umusic.com.
+www                     CNAME	5bam.com.

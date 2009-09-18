@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/systems/!svn/ver/23/cfengine/trunk/build/ucp/etc
+END
+passwd
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/systems/!svn/ver/23/cfengine/trunk/build/ucp/etc/passwd
+END
+sudoers
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/systems/!svn/ver/23/cfengine/trunk/build/ucp/etc/sudoers
+END
+shadow
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/systems/!svn/ver/23/cfengine/trunk/build/ucp/etc/shadow
+END
+group
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/systems/!svn/ver/23/cfengine/trunk/build/ucp/etc/group
+END

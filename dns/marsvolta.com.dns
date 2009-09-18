@@ -1,0 +1,33 @@
+;
+;  Database file marsvolta.com.dns for marsvolta.com zone.
+;      Zone version:  2003040331
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2003040331   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+
+;
+;  Zone records
+;
+
+@                       900	A	167.167.24.100
+localhost               A	127.0.0.1
+prod                    900	A	167.167.2.113
+store                   A	65.77.210.250
+test                    A	192.251.67.244
+www                     CNAME	marsvolta.com.

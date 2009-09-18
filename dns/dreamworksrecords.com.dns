@@ -1,0 +1,36 @@
+;
+;  Database file dreamworksrecords.com.dns for dreamworksrecords.com zone.
+;      Zone version:  2006032110
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006032110   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+@                       NS	ns5.umusic.com.
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.75
+@                       1800	MX	10	mail.global.frontbridge.com.
+*                       A	216.193.195.52
+bb                      A	216.193.195.43
+boards                  A	65.115.117.5
+chat                    A	216.193.195.43
+localhost               A	127.0.0.1
+stage                   A	216.193.195.44
+vista                   A	65.115.117.8
+world                   CNAME	world.dreamworks.com.
+www                     CNAME	dreamworksrecords.com.
+www2                    A	216.193.195.52

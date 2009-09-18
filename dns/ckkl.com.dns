@@ -1,0 +1,33 @@
+;
+;  Database file ckkl.com.dns for ckkl.com zone.
+;      Zone version:  2004000007
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2004000007   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+@                       NS	ns5.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	64.74.128.100
+@                       MX	10	mail.ckkl.com.
+*                       CNAME	accel.sparkart.net.
+ftp                     A	216.193.195.55
+localhost               A	127.0.0.1
+login                   A	216.193.195.52
+mail                    CNAME	destro.sparkart.net.
+staging                 A	216.193.195.55
+www                     CNAME	ckkl.com.

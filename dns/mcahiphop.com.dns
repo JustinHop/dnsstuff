@@ -1,0 +1,28 @@
+;
+;  Database file mcahiphop.com.dns for mcahiphop.com zone.
+;      Zone version:  2002072408
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2002072408   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; minimum TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	65.116.83.132
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	12.110.193.132
+
+;
+;  Zone records
+;
+
+@                       A	192.251.67.27
+localhost               A	127.0.0.1
+www                     CNAME	mcahiphop.com.

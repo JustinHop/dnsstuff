@@ -1,0 +1,32 @@
+;
+;  Database file helterskelter.co.uk.dns for helterskelter.co.uk zone.
+;      Zone version:  2008060424
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2008060424   ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+
+;
+;  Zone records
+;
+
+@                       A	89.238.145.131
+@                       MX	10	mail.global.frontbridge.com.
+autodiscover            CNAME	autodiscover.umusic.com.
+localhost               A	127.0.0.1
+www                     CNAME	helterskelter.co.uk.

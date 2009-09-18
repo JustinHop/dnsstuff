@@ -1,0 +1,33 @@
+;
+;  Database file blackeyedpeas.com.dns for blackeyedpeas.com zone.
+;      Zone version:  2006032105
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2006032105   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+@                       NS	ns5.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	216.193.195.52
+@                       MX	10	mail.blackeyedpeas.com.
+*                       A	216.193.195.52
+ftp                     A	216.193.195.55
+localhost               A	127.0.0.1
+mail                    A	67.15.233.195
+shop                    A	209.235.229.243
+staging                 A	216.193.195.55
+www                     CNAME	blackeyedpeas.com.

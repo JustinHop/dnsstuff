@@ -1,0 +1,51 @@
+;
+;  Database file motown.com.dns for motown.com zone.
+;      Zone version:  2002041272
+;
+
+@                       3600	IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2002041272   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+
+;
+;  Zone records
+;
+
+@                       900	A	167.167.24.101
+apps                    A	192.251.67.82
+test.apps               A	192.251.67.82
+artists                 A	128.11.101.48
+asp                     A	167.167.9.170
+boards                  A	192.251.67.34
+buy                     A	192.251.67.82
+test.buy                A	192.251.67.82
+classic                 A	167.167.24.135
+admin.classic           A	167.167.24.132
+dev.classic             A	192.251.67.124
+old.classic             A	192.251.67.144
+www.classic             CNAME	classic.motown.com.
+fanlists                A	204.198.131.136
+                        A	128.167.39.67
+localhost               A	127.0.0.1
+newmusic                A	192.251.67.82
+test.newmusic           A	192.251.67.82
+prod                    900	A	167.167.2.113
+stage                   A	192.251.67.244
+staging                 A	192.251.67.244
+test                    A	192.251.67.244
+testing                 A	192.251.67.244
+www                     CNAME	motown.com.

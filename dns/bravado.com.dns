@@ -1,0 +1,34 @@
+;
+;  Database file bravado.com.dns for bravado.com zone.
+;      Zone version:  2008060427
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2008060427   ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+
+;
+;  Zone records
+;
+
+@                       A	64.74.128.116
+@                       MX	10	mail.global.frontbridge.com.
+autodiscover            CNAME	autodiscover.umusic.com.
+ftp                     A	89.167.181.36
+localhost               A	127.0.0.1
+roadman                 A	213.86.112.5
+www                     CNAME	bravado.com.

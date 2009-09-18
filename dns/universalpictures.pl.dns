@@ -1,0 +1,30 @@
+;
+;  Database file universalpictures.pl.dns for universalpictures.pl zone.
+;      Zone version:  2004122302
+;
+
+@                       IN  SOA ns1.unistudios.com.  domains.nbcuni.com. (
+                        	2004122302   ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.unistudios.com.
+ns1.unistudios.com.     A	66.77.124.144
+@                       NS	ns2.unistudios.com.
+ns2.unistudios.com.     A	66.77.124.145
+@                       NS	ns3.unistudios.com.
+ns3.unistudios.com.     A	66.77.124.7
+
+;
+;  Zone records
+;
+
+@                       A	62.129.198.84
+localhost               A	127.0.0.1
+www                     CNAME	universalpictures.pl.

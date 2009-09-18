@@ -1,0 +1,31 @@
+;
+;  Database file iclassics.nl.dns for iclassics.nl zone.
+;      Zone version:  2003121823
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2003121823   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+
+;
+;  Zone records
+;
+
+@                       A	192.251.67.152
+localhost               A	127.0.0.1
+test                    A	192.251.67.152
+www                     CNAME	iclassics.nl.

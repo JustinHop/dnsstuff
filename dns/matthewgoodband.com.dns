@@ -1,0 +1,41 @@
+;
+;  Database file matthewgoodband.com.dns for matthewgoodband.com zone.
+;      Zone version:  2002071721
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
+                        	2002071721   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; minimum TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	65.116.83.132
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	12.110.193.132
+
+;
+;  Zone records
+;
+
+@                       A	192.251.67.170
+@                       MX	10	mail.unistudios.com.
+bitterpill              A	192.251.67.170
+blindsquirrel           A	192.251.67.170
+daystar                 A	192.251.67.170
+filthymouth             A	192.251.67.170
+justtired               A	192.251.67.170
+keptinthedark           A	192.251.67.170
+localhost               A	127.0.0.1
+nogain                  A	192.251.67.170
+nopain                  A	192.251.67.170
+sheep                   A	192.251.67.170
+squealfordaddy          A	192.251.67.170
+stayuplate              A	192.251.67.170
+trustus                 A	192.251.67.170
+www                     CNAME	matthewgoodband.com.

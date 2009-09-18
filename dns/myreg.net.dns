@@ -1,0 +1,1286 @@
+;
+;  Database file myreg.net.dns for myreg.net zone.
+;      Zone version:  2003114574
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2003114574   ; serial number
+                        	7200         ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+
+;
+;  Zone records
+;
+
+@                       MX	10	mailrx.myreg.net.
+@                       TXT	( "v=spf1 ip4:167.167.3.0/24 mx ptr ~all" )
+@                       TXT	( "v=spf1 ip4:167.167.0.0/16 -all" )
+universal._domainkey    300	TXT	( "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ0POvmDGFkRc8xTbH/91tSTXtx5l0s+OqE6qoI5+AcLxBn2Q21pOOKmVTYGfId7Ke9xYi7gJzirXo3BiCvNXX07gTfGgyPdWIFvjqa06Un6baBf4kvi8oK1rnBM5GNDtT0wX+AN/fGAgpyBimXQOrZ5tsfs2iNItsAs8M3s6JsQIDAQAB;" )
+abc                     MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.abc.myreg.net a:usfshlxmx07.abc.myreg.net -all" )
+abc._domainkey.abc      TXT	( "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ0POvmDGFkRc8xTbH/91tSTXtx5l0s+OqE6qoI5+AcLxBn2Q21pOOKmVTYGfId7Ke9xYi7gJzirXo3BiCvNXX07gTfGgyPdWIFvjqa06Un6baBf4kvi8oK1rnBM5GNDtT0wX+AN/fGAgpyBimXQOrZ5tsfs2iNItsAs8M3s6JsQIDAQAB;" )
+usfshlxmx06.internal.abc A	192.168.78.220
+usfshlxmx07.internal.abc A	192.168.78.212
+pobox.abc               MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 include:abc.myreg.net -all" )
+usfshlxmx06.abc         A	167.167.3.220
+usfshlxmx07.abc         A	167.167.3.212
+amoctone                MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.amoctone.myreg.net a:usfshlxmx07.amoctone.myreg.net -all" )
+amoctone._domainkey.amoctone TXT	( "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ0POvmDGFkRc8xTbH/91tSTXtx5l0s+OqE6qoI5+AcLxBn2Q21pOOKmVTYGfId7Ke9xYi7gJzirXo3BiCvNXX07gTfGgyPdWIFvjqa06Un6baBf4kvi8oK1rnBM5GNDtT0wX+AN/fGAgpyBimXQOrZ5tsfs2iNItsAs8M3s6JsQIDAQAB;" )
+usfshlxmx06.internal.amoctone A	192.168.78.224
+usfshlxmx07.internal.amoctone A	192.168.78.223
+pobox.amoctone          MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 include:amoctone.myreg.net -all" )
+usfshlxmx06.amoctone    A	167.167.3.224
+usfshlxmx07.amoctone    A	167.167.3.223
+childrencollide         MX	10	mailrx.musicreg.net.
+                        TXT	( "v=spv1 a mx a:usfshlxmx06.childrencollide.myreg.net a:usfshlxmx07.childrencollide.myreg.net -all" )
+childrencollide._domainkey.childrencollide TXT	( "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ0POvmDGFkRc8xTbH/91tSTXtx5l0s+OqE6qoI5+AcLxBn2Q21pOOKmVTYGfId7Ke9xYi7gJzirXo3BiCvNXX07gTfGgyPdWIFvjqa06Un6baBf4kvi8oK1rnBM5GNDtT0wX+AN/fGAgpyBimXQOrZ5tsfs2iNItsAs8M3s6JsQIDAQAB;" )
+usfshlxmx06.internal.childrencollide A	192.168.78.218
+usfshlxmx07.internal.childrencollide A	192.168.78.210
+pobox.childrencollide   MX	10	mailrx.musicreg.net.
+                        TXT	( "v=spf1 include:childrencollide.myreg.net -all" )
+usfshlxmx06.childrencollide A	167.167.3.218
+usfshlxmx07.childrencollide A	167.167.3.210
+chronicles              MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.chronicles.myreg.net a:usfshlxmx07.chronicles.myreg.net a:usfshlxmx08.chronicles.myreg.net -all" )
+chronicles._domainkey.chronicles TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDuWoyyjs6W1aZILYrhLKD/nuvsWHUnVUwxnO1rDNj/Rf2ZOii/NhdICBqQv1eGyUQU+qiGy1CzW+JPqUEC8tpDmVfLPw8hjOO+8d8upwwfx5AJchzVoFETunwyF8PkyY/Q64e8/1oQ/GeeJ4bofOTuvybpsOPcQ4I9bi2dURYKIwIDAQAB;" )
+usfshlxmx06.internal.chronicles A	192.168.78.122
+usfshlxmx07.internal.chronicles A	192.168.78.123
+usfshlxmx08.internal.chronicles A	192.168.78.124
+pobox.chronicles        MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 include:chronicles.myreg.net -all" )
+usfshlxmx06.chronicles  A	167.167.3.122
+usfshlxmx07.chronicles  A	167.167.3.123
+usfshlxmx08.chronicles  A	167.167.3.124
+classicmotown           MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.classicmotown.myreg.net a:usfshlxmx07.classicmotown.myreg.net a:usfshlxmx08.classicmotown.myreg.net -all" )
+classicmotown._domainkey.classicmotown TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2gMAZnmXR+h0Wjo/d85nGt2MypY0W72lzR5BaZRxWduFNcRu/4/WOiaq7Vl6uYZWP4zOj3X2xaTPIoR2CeT69TNJLqHTe1g4hB2Xbo6fQ0Cl9fmO65JvaozIREd/B5GN6Kwre+ikng/r2iDr5DfjEl5OqL6/lJbwfW6YvvxicCQIDAQAB;" )
+usfshlxmx06.internal.classicmotown A	192.168.78.119
+usfshlxmx07.internal.classicmotown A	192.168.78.120
+usfshlxmx08.internal.classicmotown A	192.168.78.121
+pobox.classicmotown     MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 include:classicmotown.myreg.net -all" )
+usfshlxmx06.classicmotown A	167.167.3.119
+usfshlxmx07.classicmotown A	167.167.3.120
+usfshlxmx08.classicmotown A	167.167.3.121
+click                   A	167.167.3.12
+                        TXT	( "v=spf1 a -all" )
+*.clink                 A	192.168.76.13
+damondash               MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.damondash.myreg.net a:usfshlxmx07.damondash.myreg.net a:usfshlxmx08.damondash.myreg.net -all" )
+damondash._domainkey.damondash TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUpb5C2q5usx5LCk3vOgFif5I5ykFvOGXdANG0jxUgTWy4JsPPsBTDcAl/unp5TGrjJI+D87isMAbugo8vMvW6JusdCkV5cAtiwGnMflwd3fppQMaqp1ytgzfuSHDt0UENtv6tO57oaXb15XuAI177JC8kiOLYicLbJYZ6u1zeEQIDAQAB;" )
+usfshlxmx06.internal.damondash A	192.168.78.62
+usfshlxmx07.internal.damondash A	192.168.78.63
+usfshlxmx08.internal.damondash A	192.168.78.64
+pobox.damondash         MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 include:damondash.myreg.net -all" )
+usfshlxmx06.damondash   A	167.167.3.62
+usfshlxmx07.damondash   A	167.167.3.63
+usfshlxmx08.damondash   A	167.167.3.64
+cdm-data.db             CNAME	usfshlsmys001.internal.myreg.net.
+changepw.db             CNAME	usfshlsmys001.internal.myreg.net.
+cust.db                 CNAME	usfshlsmys001.internal.myreg.net.
+dim-extract.db          CNAME	usfshlsmys001.internal.myreg.net.
+ecrm.db                 CNAME	usfshlsmys001.internal.myreg.net.
+ecrmstats.db            CNAME	usfshlsmys001.internal.myreg.net.
+events.db               CNAME	usfshlsmys001.internal.myreg.net.
+listpull.db             CNAME	usfshlsmys001.internal.myreg.net.
+mail.db                 CNAME	usfshlsmys001.internal.myreg.net.
+mail-queues.db          CNAME	usfshlsmys001.internal.myreg.net.
+partner.db              CNAME	usfshlsmys001.internal.myreg.net.
+session.db              CNAME	usfshlsmys001.internal.myreg.net.
+universal-register.db   CNAME	usfshlsmys001.internal.myreg.net.
+deccabroadway           MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.deccabroadway.myreg.net a:usfshlxmx07.deccabroadway.myreg.net a:usfshlxmx08.deccabroadway.myreg.net -all" )
+deccabroadway._domainkey.deccabroadway TXT	( "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ0POvmDGFkRc8xTbH/91tSTXtx5l0s+OqE6qoI5+AcLxBn2Q21pOOKmVTYGfId7Ke9xYi7gJzirXo3BiCvNXX07gTfGgyPdWIFvjqa06Un6baBf4kvi8oK1rnBM5GNDtT0wX+AN/fGAgpyBimXQOrZ5tsfs2iNItsAs8M3s6JsQIDAQAB;" )
+usfshlxmx06.internal.deccabroadway A	192.168.78.230
+usfshlxmx07.internal.deccabroadway A	192.168.78.229
+pobox.deccabroadway     MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 include:deccabroadway.myreg.net -all" )
+usfshlxmx06.deccabroadway A	167.167.3.230
+usfshlxmx07.deccabroadway A	167.167.3.229
+deccalabels             MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.deccalabels.myreg.net a:usfshlxmx07.deccalabels.myreg.net a:usfshlxmx08.deccalabels.myreg.net -all" )
+deccalabels._domainkey.deccalabels TXT	( "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ0POvmDGFkRc8xTbH/91tSTXtx5l0s+OqE6qoI5+AcLxBn2Q21pOOKmVTYGfId7Ke9xYi7gJzirXo3BiCvNXX07gTfGgyPdWIFvjqa06Un6baBf4kvi8oK1rnBM5GNDtT0wX+AN/fGAgpyBimXQOrZ5tsfs2iNItsAs8M3s6JsQIDAQAB;" )
+usfshlxmx06.internal.deccalabels A	192.168.78.232
+usfshlxmx07.internal.deccalabels A	192.168.78.231
+pobox.deccalabels       MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 include:deccalabels.myreg.net -all" )
+usfshlxmx06.deccalabels A	167.167.3.232
+usfshlxmx07.deccalabels A	167.167.3.231
+deccarecords            MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.deccarecords.myreg.net a:usfshlxmx07.deccarecords.myreg.net a:usfshlxmx08.deccarecords.myreg.net -all" )
+deccarecords._domainkey.deccarecords TXT	( "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ0POvmDGFkRc8xTbH/91tSTXtx5l0s+OqE6qoI5+AcLxBn2Q21pOOKmVTYGfId7Ke9xYi7gJzirXo3BiCvNXX07gTfGgyPdWIFvjqa06Un6baBf4kvi8oK1rnBM5GNDtT0wX+AN/fGAgpyBimXQOrZ5tsfs2iNItsAs8M3s6JsQIDAQAB;" )
+usfshlxmx06.internal.deccarecords A	192.168.78.41
+usfshlxmx07.internal.deccarecords A	192.168.78.42
+usfshlxmx08.internal.deccarecords A	192.168.78.43
+pobox.deccarecords      MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 include:deccarecords.myreg.net -all" )
+usfshlxmx06.deccarecords A	167.167.3.41
+usfshlxmx07.deccarecords A	167.167.3.42
+usfshlxmx08.deccarecords A	167.167.3.43
+defjam                  MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.defjam.myreg.net a:usfshlxmx07.defjam.myreg.net a:usfshlxmx08.defjam.myreg.net -all" )
+defjam._domainkey.defjam TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDT9Q6Z/wQZV6nQsfEvrXzh/cY2ksftGlwUN0w6laakwgU+QQlWC0wEQMji++hHqyFsor3dFet4JwY7F/SgC+0TTT9p3rit8NH1T3h9wrt+CAL4FGjiSGaxVjxx53L2p/lgdz9eN0YcPKKiDRABpeLaGAMJ70bWghFeUyL3NSUYFQIDAQAB;" )
+usfshlxmx06.internal.defjam A	192.168.78.23
+usfshlxmx07.internal.defjam A	192.168.78.24
+usfshlxmx08.internal.defjam A	192.168.78.25
+pobox.defjam            MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 include:defjam.myreg.net -all" )
+usfshlxmx06.defjam      A	167.167.3.23
+usfshlxmx07.defjam      A	167.167.3.24
+usfshlxmx08.defjam      A	167.167.3.25
+defjamsouth             MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.defjamsouth.myreg.net a:usfshlxmx07.defjamsouth.myreg.net a:usfshlxmx08.defjamsouth.myreg.net -all" )
+defjamsouth._domainkey.defjamsouth TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDP4ZjN5kiMdIdtVpU/yddsrrBh6xeHrC2z+b/2XFvdoGmU6n/srPjajJGx1r41vnL2QDZaeumZYp0i8VkXPXINEztQrHks3wg1UJFuKpD604Ly+Dev9AedFzlt/SfeRiC2pmwwais0VYSF4jJ5F9+17pskGtFuq3DdZvE2L2w3VwIDAQAB;" )
+usfshlxmx06.internal.defjamsouth A	192.168.78.26
+usfshlxmx07.internal.defjamsouth A	192.168.78.27
+usfshlxmx08.internal.defjamsouth A	192.168.78.28
+pobox.defjamsouth       MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 include:defjamsouth.myreg.net -all" )
+usfshlxmx06.defjamsouth A	167.167.3.26
+usfshlxmx07.defjamsouth A	167.167.3.27
+usfshlxmx08.defjamsouth A	167.167.3.28
+defsoul                 MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.defsoul.myreg.net a:usfshlxmx07.defsoul.myreg.net a:usfshlxmx08.defsoul.myreg.net -all" )
+defsoul._domainkey.defsoul TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDqQ95SKcvSHQftqLK9iPEllu3lvgZRiKQNhYX0xM3mguMXUzrIcDitOtBj/s1cBgjJB9D4cE8qufynJn5fcfCvFJtDqWqTVoDWLcw2nKAb+kZfJ2QtfPKc06PqHkPkOqU3WQm4q02a2xoXqF8NHdI3cngqLAd+mkYvCcWJbqYK8wIDAQAB;" )
+usfshlxmx06.internal.defsoul A	192.168.78.29
+usfshlxmx07.internal.defsoul A	192.168.78.30
+usfshlxmx08.internal.defsoul A	192.168.78.31
+pobox.defsoul           MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 include:defsoul.myreg.net -all" )
+usfshlxmx06.defsoul     A	167.167.3.29
+usfshlxmx07.defsoul     A	167.167.3.30
+usfshlxmx08.defsoul     A	167.167.3.31
+devclick                A	167.167.3.21
+dewprocess              MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.dewprocess.myreg.net a:usfshlxmx07.dewprocess.myreg.net a:usfshlxmx08.dewprocess.myreg.net -all" )
+dewprocess._domainkey.dewprocess TXT	( "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ0POvmDGFkRc8xTbH/91tSTXtx5l0s+OqE6qoI5+AcLxBn2Q21pOOKmVTYGfId7Ke9xYi7gJzirXo3BiCvNXX07gTfGgyPdWIFvjqa06Un6baBf4kvi8oK1rnBM5GNDtT0wX+AN/fGAgpyBimXQOrZ5tsfs2iNItsAs8M3s6JsQIDAQAB;" )
+usfshlxmx06.internal.dewprocess A	192.168.78.214
+usfshlxmx07.internal.dewprocess A	192.168.78.206
+pobox.dewprocess        MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 include:dewprocess.myreg.net -all" )
+usfshlxmx06.dewprocess  A	167.167.3.214
+usfshlxmx07.dewprocess  A	167.167.3.206
+dukesofwindsor          MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.dukesofwindsor.myreg.net a:usfshlxmx07.dukesofwindsor.myreg.net a:usfshlxmx08.dukesofwindsor.myreg.net -all" )
+dukesofwindsor._domainkey.dukesofwindsor TXT	( "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ0POvmDGFkRc8xTbH/91tSTXtx5l0s+OqE6qoI5+AcLxBn2Q21pOOKmVTYGfId7Ke9xYi7gJzirXo3BiCvNXX07gTfGgyPdWIFvjqa06Un6baBf4kvi8oK1rnBM5GNDtT0wX+AN/fGAgpyBimXQOrZ5tsfs2iNItsAs8M3s6JsQIDAQAB;" )
+usfshlxmx06.internal.dukesofwindsor A	192.168.78.219
+usfshlxmx07.internal.dukesofwindsor A	192.168.78.211
+pobox.dukesofwindsor    MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 include:dukesofwindsor.myreg.net -all" )
+usfshlxmx06.dukesofwindsor A	167.167.3.219
+usfshlxmx07.dukesofwindsor A	167.167.3.211
+dwnashville             MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.dwnashville.myreg.net a:usfshlxmx07.dwnashville.myreg.net a:usfshlxmx08.dwnashville.myreg.net -all" )
+dwnashville._domainkey.dwnashville TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCz5LMQpKU82Y/3cZqS8EGDRJqkMaGLqdR7CvriDUVwf+CZ9QnWzjCKAMkq/7p2+s/wf1zmQXH7xbDTF9piG9axbMnobY15j1aQW90LvzEyGR1fStyb210nBKg0NKJLNloPViziUN7IOAnNIXWae8QpN71KOUwU0K9M7keRZvZf3QIDAQAB;" )
+usfshlxmx06.internal.dwnashville A	192.168.78.125
+usfshlxmx07.internal.dwnashville A	192.168.78.126
+usfshlxmx08.internal.dwnashville A	192.168.78.127
+pobox.dwnashville       MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.dwnashville.myreg.net a:usfshlxmx07.dwnashville.myreg.net a:usfshlxmx08.dwnashville.myreg.net -all" )
+usfshlxmx06.dwnashville A	167.167.3.125
+usfshlxmx07.dwnashville A	167.167.3.126
+usfshlxmx08.dwnashville A	167.167.3.127
+ecrm                    A	167.167.3.10
+login.ecrm              A	167.167.3.11
+ecrmapi                 A	167.167.3.11
+ecrmdemo                MX	5	mailrx.myreg.net.
+ecrmdemo._domainkey.ecrmdemo TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBq+WY5/30x1iWeNYPQW0MDklj+unzFD8BIwiYL2YPGsA9KOmju3IZupH6CpSTS8El1inmdOPCnSQfDtxCP6xP0hChUrag09ti/DNQMwYlLxTlY7AWJ9Rkxvo+dbosvJPlzQxxio7RUhhI8dzucd71l79khQdPJ7Iyy1fo4r9U8wIDAQAB;" )
+usfshlxmx06.internal.ecrmdemo A	192.168.78.32
+usfshlxmx07.internal.ecrmdemo A	192.168.78.33
+usfshlxmx08.internal.ecrmdemo A	192.168.78.34
+pobox.ecrmdemo          MX	5	mailrx.myreg.net.
+usfshlxmx06.ecrmdemo    A	167.167.3.32
+usfshlxmx07.ecrmdemo    A	167.167.3.33
+usfshlxmx08.ecrmdemo    A	167.167.3.34
+ecrmhub                 A	167.167.2.25
+eleven                  A	167.167.3.236
+                        MX	10	mailrx.musicreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.eleven.myreg.net  a:usfshlxmx07.eleven.myreg.net  -all"
+                        	"" )
+eleven._domainkey.eleven TXT	( "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ0POvmDGFkRc8xTbH/91tSTXtx5l0s+OqE6qoI5+AcLxBn2Q21pOOKmVTYGfId7Ke9xYi7gJzirXo3BiCvNXX07gTfGgyPdWIFvjqa06Un6baBf4kvi8oK1rnBM5GNDtT0wX+AN/fGAgpyBimXQOrZ5tsfs2iNItsAs8M3s6JsQIDAQAB;" )
+usfshlxmx06.internal.eleven A	192.168.78.235
+usfshlxmx07.internal.eleven A	192.168.78.236
+pobox.eleven            MX	10	mailrx.musicreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.eleven.myreg.net  a:usfshlxmx07.eleven.myreg.net  -all"
+                        	"" )
+usfshlxmx07.eleven      CNAME	eleven.myreg.net.
+feedback                MX	10	mailrx.myreg.net.
+fontana                 MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.fontana.myreg.net a:usfshlxmx07.fontana.myreg.net a:usfshlxmx08.fontana.myreg.net -all" )
+fontana._domainkey.fontana TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCxZGwHtgWGu5YS/GSKtm9sAiNeIy6wUFzdBtjzh8SCLoa2xOeSoGaL9rRJiK/fMn+65qqznJ9+jGNgPsvlK1i6Jd4kWjim0ALxPLWZJvi1oLVqIiAorx3g28II82dRRqFLc6MifB3Aejl03mvBYBaC56OYFE4CLCxJjpWqfogzkQIDAQAB;"
+                        	""
+                        	"" )
+usfshlxmx06.internal.fontana A	192.168.78.53
+usfshlxmx07.internal.fontana A	192.168.78.54
+usfshlxmx08.internal.fontana A	192.168.78.55
+pobox.fontana           MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.fontana.myreg.net a:usfshlxmx07.fontana.myreg.net a:usfshlxmx08.fontana.myreg.net -all" )
+usfshlxmx06.fontana     A	167.167.3.53
+usfshlxmx07.fontana     A	167.167.3.54
+usfshlxmx08.fontana     A	167.167.3.55
+geffen                  MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.geffen.myreg.net a:usfshlxmx07.geffen.myreg.net a:usfshlxmx08.geffen.myreg.net -all" )
+geffen._domainkey.geffen TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlcktPiFcdcqtH09Px0XS1AzoPASG/r9CgVazEreLQVSaQggHSipeW6YrlKsccDkbLHoXkMXK37YQBV+QJFSDoAugGWYQL9HwBjmWJFQGJZLTGMzDxGRCMLw4m15/5hZOq8lzKvfDd2//CUk8MBKmc+t1JYRMVSlmcRdw4pMCz4wIDAQAB;" )
+usfshlxmx06.internal.geffen A	192.168.78.35
+usfshlxmx07.internal.geffen A	192.168.78.36
+usfshlxmx08.internal.geffen A	192.168.78.37
+pobox.geffen            MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.geffen.myreg.net a:usfshlxmx07.geffen.myreg.net a:usfshlxmx08.geffen.myreg.net -all" )
+usfshlxmx06.geffen      A	167.167.3.35
+usfshlxmx07.geffen      A	167.167.3.36
+usfshlxmx08.geffen      A	167.167.3.37
+hip-orecords            MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.hip-orecords.myreg.net a:usfshlxmx07.hip-orecords.myreg.net a:usfshlxmx08.hip-orecords.myreg.net -all" )
+hip-orecords._domainkey.hip-orecords TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDb+cWE9kIYaoLYL8iWe5Ljqp+Gsy58p9bjsOalILMV3TJ4RefCqGfznpVLQ3gRY/omkKFRmiwKmdEi+IpyW8cHQ0WvnL7N+dykDiWTGnmg4UgQUy0VoSzDaYSNs90z3/CLPjYh9L2DuwoDlXycpwmZq7odumEFGLwAqR3F6LikEQIDAQAB;" )
+usfshlxmx06.internal.hip-orecords A	192.168.78.38
+usfshlxmx07.internal.hip-orecords A	192.168.78.39
+usfshlxmx08.internal.hip-orecords A	192.168.78.40
+pobox.hip-orecords      MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.hip-orecords.myreg.net a:usfshlxmx07.hip-orecords.myreg.net a:usfshlxmx08.hip-orecords.myreg.net -all" )
+usfshlxmx06.hip-orecords A	167.167.3.38
+usfshlxmx07.hip-orecords A	167.167.3.39
+usfshlxmx08.hip-orecords A	167.167.3.40
+hip-oselect             1800	MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.hip-oselect.myreg.net a:usfshlxmx07.hip-oselect.myreg.net a:usfshlxmx08.hip-oselect.myreg.net -all" )
+hip-oselect._domainkey.hip-oselect TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCv4JL2TWpHHu63G17+XllsiLFLVrcNMQNso7vK2lD1K6YDE1qEHl6CNx0A3v41yLWrg3JJCHjmFr1lUd09JbDgYey9/eDXmAD8z/vjh5IHl36NlpuSXyaX6IRKwJyJ59N/+d1dv797kPSMiyRN/GpjDmPzyRdoKS79cK8Q1HUlaQIDAQAB;" )
+usfshlxmx06.internal.hip-oselect A	192.168.78.110
+usfshlxmx07.internal.hip-oselect A	192.168.78.111
+usfshlxmx08.internal.hip-oselect A	192.168.78.112
+pobox.hip-oselect       1800	MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.hip-oselect.myreg.net a:usfshlxmx07.hip-oselect.myreg.net a:usfshlxmx08.hip-oselect.myreg.net -all" )
+usfshlxmx06.hip-oselect A	167.167.3.110
+usfshlxmx07.hip-oselect A	167.167.3.111
+usfshlxmx08.hip-oselect A	167.167.3.112
+iclassics               MX	5	mailrx.myreg.net.
+iclassics._domainkey.iclassics TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC0uEpWmVvEHydCllb0FyCYUCnf+kwwn+5l0tJmeO/Rw/Cj840n1q+mQS5748Ujp05WyS7SKfDYlgHV6txH/WJK3CglAxkAX9XzlAGn3mak+xQaPxtZz/up7nlBd5TVb30pMVcGFNXCTfQ8Fka4PpJ815BDUUaFP2dMGpHYJL0L0QIDAQAB;" )
+ukromlsmx01.internal.iclassics A	192.168.45.56
+usfshlxmx06.internal.iclassics A	192.168.78.41
+usfshlxmx07.internal.iclassics A	192.168.78.42
+usfshlxmx08.internal.iclassics A	192.168.78.43
+pobox.iclassics         MX	5	mailrx.myreg.net.
+usfshlxmx06.iclassics   A	167.167.3.41
+usfshlxmx07.iclassics   A	167.167.3.42
+usfshlxmx08.iclassics   A	167.167.3.43
+ukromlsadm001.internal  A	192.168.46.53
+ukromlsapa002.internal  A	192.168.46.59
+ukromlscol001.internal  A	192.168.46.50
+ukromlscol002.internal  A	192.168.46.51
+ukromlscst001.internal  A	192.168.46.55
+ukromlsext001.internal  A	192.168.46.56
+ukromlsfct001.internal  A	192.168.46.54
+ukromlsfnp001.internal  A	192.168.46.52
+ukromlslog001.internal  A	192.168.45.53
+ukromlsmx01.internal    A	192.168.45.56
+ukromlsmys001.internal  A	192.168.45.51
+ukromlsmys002.internal  A	192.168.45.52
+ukromlsora001.internal  A	192.168.45.54
+ukromlsqmx001.internal  A	192.168.46.57
+ukromwssql004.internal  A	192.168.46.58
+usfshlsadm001.internal  A	192.168.78.18
+usfshlsdeb001.internal  A	192.168.78.31
+usfshlsdw02.internal    A	192.168.78.52
+usfshlsfilesrv001.internal A	192.168.78.28
+usfshlsfnp001.internal  A	192.168.75.56
+usfshlsldap001.internal A	192.168.78.25
+usfshlslog001.internal  A	192.168.78.153
+usfshlslog002.internal  A	192.168.78.154
+usfshlsmms001.internal  CNAME	usfshlxws04.internal.myreg.net.
+usfshlsmys001.internal  A	192.168.78.151
+usfshlsmys002.internal  A	192.168.78.152
+usfshlsmys003.internal  A	192.168.78.156
+usfshlsmysdev001.internal A	10.130.104.133
+usfshlsmysdev002.internal A	10.130.104.134
+usfshlsora001.internal  A	192.168.78.155
+usfshlstest001.internal A	192.168.78.11
+usfshlstest002.internal A	192.168.78.34
+usfshlsvhrh001.internal A	192.168.78.21
+usfshlsvsh015.internal  A	10.130.111.139
+usfshlvap001-2.internal A	10.130.104.58
+usfshlvapa001.internal  A	10.130.110.245
+usfshlvapa002.internal  A	192.168.78.13
+usfshlvcol001.internal  CNAME	usfshlvcol01.internal.myreg.net.
+usfshlvcol001-2.internal A	10.130.104.53
+usfshlvcol01.internal   A	10.130.110.244
+usfshlvcoldev001.internal A	10.130.111.153
+usfshlvcst001.internal  CNAME	usfshlvcst01.internal.myreg.net.
+usfshlvcst001-2.internal A	10.130.104.52
+usfshlvcst01.internal   A	10.130.110.250
+usfshlvcvs001.internal  A	10.130.104.145
+usfshlvdev01.internal   A	10.130.110.240
+usfshlvdev02.internal   A	10.130.110.243
+usfshlvdw01.internal    A	10.130.110.249
+usfshlvext001.internal  CNAME	usfshlvext01.internal.myreg.net.
+usfshlvext001-2.internal A	10.130.104.51
+usfshlvext01.internal   A	10.130.110.241
+usfshlvfct001.internal  CNAME	usfshlvfct01.internal.myreg.net.
+usfshlvfct001-2.internal A	10.130.104.54
+usfshlvfct01.internal   A	10.130.110.248
+usfshlvfctdev001.internal A	10.130.104.142
+usfshlvldap001.internal A	192.168.78.40
+usfshlvlp01.internal    A	10.130.110.251
+usfshlvmx01.internal    A	10.130.110.242
+usfshlvmys001.internal  A	10.130.104.115
+usfshlvmysmon001.internal A	10.130.111.240
+usfshlvqmx001.internal  CNAME	usfshlvmx01.internal.myreg.net.
+usfshlvqmx001-2.internal A	10.130.104.56
+usfshlvqmxdev001.internal A	10.130.111.230
+usfshlvsws01-2.internal A	10.130.104.57
+usfshlvsws02-2.internal A	10.130.104.55
+usfshlvtest001.internal A	10.130.104.107
+usfshlvtest002.internal A	10.130.111.236
+usfshlvws01.internal    A	10.130.110.246
+usfshlvws02.internal    A	10.130.110.247
+usfshlxcol01.internal   A	192.168.75.22
+usfshlxcol02.internal   A	192.168.75.23
+usfshlxcol03.internal   A	192.168.75.24
+usfshlxcst01.internal   A	192.168.75.30
+usfshlxcst02.internal   A	192.168.75.31
+usfshlxcvs01.internal   A	192.168.78.137
+usfshlxdev01.internal   A	192.168.78.22
+usfshlxdev64.internal   A	192.168.78.141
+usfshlxdw01.internal    A	10.130.104.130
+usfshlxext01.internal   A	192.168.78.12
+usfshlxfct01.internal   A	192.168.75.27
+usfshlxfct02.internal   A	192.168.75.28
+usfshlxfct03.internal   A	192.168.75.29
+usfshlxlp02.internal    A	192.168.78.19
+usfshlxmms01.internal   CNAME	usfshlxws04.internal.myreg.net.
+usfshlxmx01.internal    A	192.168.78.15
+usfshlxmx02.internal    A	192.168.78.16
+usfshlxmx03.internal    A	192.168.78.17
+usfshlxmx05.internal    A	192.168.78.143
+usfshlxmx06.internal    A	192.168.78.144
+usfshlxmx07.internal    A	192.168.78.145
+usfshlxmx08.internal    A	192.168.78.146
+usfshlxws01.internal    A	192.168.75.25
+usfshlxws02.internal    A	192.168.75.26
+usfshlxws04.internal    A	192.168.75.57
+usfshntdw02.internal    A	192.168.75.50
+usfshwsdw01.internal    A	192.168.78.20
+                        A	192.168.75.62
+island                  MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.island.myreg.net a:usfshlxmx07.island.myreg.net a:usfshlxmx08.island.myreg.net -all" )
+island._domainkey.island TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDxmvMkinB73HbZWqWC78k1BYA7mA5R6Pvqp1zchFh7eChl/FFvelvqCCOMZyKfrvzemartCcLG46WcLLf23O5LUW9vtIml6AGpPWPAmZDCDEscdu8LaeKdOjtCV97Wt7gW5pXhSTcq0KLd4qk+rsPvnRjHqxuzc8mmOFXn9bxXpwIDAQAB;" )
+usfshlxmx06.internal.island A	192.168.78.44
+usfshlxmx07.internal.island A	192.168.78.45
+usfshlxmx08.internal.island A	192.168.78.46
+pobox.island            MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.island.myreg.net a:usfshlxmx07.island.myreg.net a:usfshlxmx08.island.myreg.net -all" )
+usfshlxmx06.island      A	167.167.3.44
+usfshlxmx07.island      A	167.167.3.45
+usfshlxmx08.island      A	167.167.3.46
+islandrecordsau         MX	10	mailrx.musicreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.islandrecordsau.myreg.net a:usfshlxmx07.islandrecordsau.myreg.net a:usfshlxmx08.islandrecordsau.myreg.net -all" )
+islandrecordsau._domainkey.islandrecordsau TXT	( "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ0POvmDGFkRc8xTbH/91tSTXtx5l0s+OqE6qoI5+AcLxBn2Q21pOOKmVTYGfId7Ke9xYi7gJzirXo3BiCvNXX07gTfGgyPdWIFvjqa06Un6baBf4kvi8oK1rnBM5GNDtT0wX+AN/fGAgpyBimXQOrZ5tsfs2iNItsAs8M3s6JsQIDAQAB;" )
+usfshlxmx06.internal.islandrecordsau A	192.168.78.215
+pobox.islandrecordsau   MX	10	mailrx.musicreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.islandrecordsau.myreg.net a:usfshlxmx07.islandrecordsau.myreg.net a:usfshlxmx08.islandrecordsau.myreg.net -all" )
+usfshlxmx06.islandrecordsau A	167.167.3.215
+usfshlxmx07.islandrecordsau A	167.167.3.207
+losthighway             MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.losthighway.myreg.net a:usfshlxmx07.losthighway.myreg.net a:usfshlxmx08.losthighway.myreg.net -all" )
+losthighway._domainkey.losthighway TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCt2riEnAi1J0Qw8/pm0/FYWaBY5I5x/ICsG6tQbFBk+vnsV00RiwTuVPJvpKOwyPbbtvEH2LUEKM3etRbog9B0zPmQkTj6tdSeikZRJNH0G8qiLKxnbJTcn+5/ybW7cvmwlQ7MCeh6hglYIMRMJgBIso/iGuSTjXdysiaLRKm7IwIDAQAB;" )
+usfshlxmx06.internal.losthighway A	192.168.78.47
+usfshlxmx07.internal.losthighway A	192.168.78.48
+usfshlxmx08.internal.losthighway A	192.168.78.49
+pobox.losthighway       MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.losthighway.myreg.net a:usfshlxmx07.losthighway.myreg.net a:usfshlxmx08.losthighway.myreg.net -all" )
+usfshlxmx06.losthighway A	167.167.3.47
+usfshlxmx07.losthighway A	167.167.3.48
+usfshlxmx08.losthighway A	167.167.3.49
+machetemusic            MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.machetemusic.myreg.net a:usfshlxmx07.machetemusic.myreg.net a:usfshlxmx08.machetemusic.myreg.net -all" )
+machetemusic._domainkey.machetemusic TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDrBz/T6UyVKuHQjHtCcN1PBa0lmPezFAz2VO1ccdREWrTVmoBbrwqlo0xLMTUV6SakZUS8aBj0mHvWLBqFOkciL6CQmESbBqVgrjgXoXASSSlJaUMzphqGbMiXUSz2dHQAtfcoOLoVn2ASTYydtcE5WFK9ZpRPYFRsXeZpK8jbTwIDAQAB;" )
+usfshlxmx06.internal.machetemusic A	192.168.78.59
+usfshlxmx07.internal.machetemusic A	192.168.78.60
+usfshlxmx08.internal.machetemusic A	192.168.78.61
+pobox.machetemusic      MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.machetemusic.myreg.net a:usfshlxmx07.machetemusic.myreg.net a:usfshlxmx08.machetemusic.myreg.net -all" )
+usfshlxmx06.machetemusic A	167.167.3.59
+usfshlxmx07.machetemusic A	167.167.3.60
+usfshlxmx08.machetemusic A	167.167.3.61
+mail2fans               MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.mail2fans.myreg.net a:usfshlxmx07.mail2fans.myreg.net a:usfshlxmx08.mail2fans.myreg.net -all" )
+mail2fans._domainkey.mail2fans TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD28GTij39BB8tUljy8VinOQEwpvem8J2rBZFQE6LbvrQPwQT0eIviCZp9EnJELQIXzUmpz+tJFV7h0vdQTqwGmBsJ4Vg1o83ppKdCXc9OQdITTnm2FByB6+RsGQHXa2GEArpHMXOJ9iziSjnGWfabp6bO1GlWJr6LofwxJs30a4QIDAQAB;" )
+usfshlxmx06.internal.mail2fans A	192.168.78.128
+usfshlxmx07.internal.mail2fans A	192.168.78.129
+usfshlxmx08.internal.mail2fans A	192.168.78.130
+pobox.mail2fans         MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.mail2fans.myreg.net a:usfshlxmx07.mail2fans.myreg.net a:usfshlxmx08.mail2fans.myreg.net -all" )
+usfshlxmx06.mail2fans   A	167.167.3.128
+usfshlxmx07.mail2fans   A	167.167.3.129
+usfshlxmx08.mail2fans   A	167.167.3.130
+mailrx                  A	167.167.3.12
+                        TXT	( "v=spf1 a -all" )
+mastersource            MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.mastersource.myreg.net a:usfshlxmx07.mastersource.myreg.net a:usfshlxmx08.mastersource.myreg.net -all" )
+mastersource._domainkey.mastersource TXT	( "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ0POvmDGFkRc8xTbH/91tSTXtx5l0s+OqE6qoI5+AcLxBn2Q21pOOKmVTYGfId7Ke9xYi7gJzirXo3BiCvNXX07gTfGgyPdWIFvjqa06Un6baBf4kvi8oK1rnBM5GNDtT0wX+AN/fGAgpyBimXQOrZ5tsfs2iNItsAs8M3s6JsQIDAQAB;" )
+usfshlxmx06.internal.mastersource A	192.168.78.234
+usfshlxmx07.internal.mastersource A	192.168.78.233
+pobox.mastersource      MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.mastersource.myreg.net a:usfshlxmx07.mastersource.myreg.net a:usfshlxmx08.mastersource.myreg.net -all" )
+usfshlxmx06.mastersource A	167.167.3.234
+usfshlxmx07.mastersource A	167.167.3.233
+mcamercury              MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.mcamercury.myreg.net a:usfshlxmx07.mcamercury.myreg.net a:usfshlxmx08.mcamercury.myreg.net -all" )
+mcamercury._domainkey.mcamercury TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDATSaXgaUSEJgfcW7tQ19/vcFz4I6tVmfAJLi9xvV5D/eb1Bci46up3XGfOT8h2+ZMlcCT3Q1I9bDWCKhi6NwTHHBVhg7ECBRcFwGGVNE1pa8gNcDMT1eQ2fFgfX2MaB3D3O1rOebEZn6Mnp2uryew28f0MqRfKAQeHIGlYDiUZwIDAQAB;" )
+usfshlxmx06.internal.mcamercury A	192.168.78.50
+usfshlxmx07.internal.mcamercury A	192.168.78.51
+usfshlxmx08.internal.mcamercury A	192.168.78.52
+pobox.mcamercury        MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.mcamercury.myreg.net a:usfshlxmx07.mcamercury.myreg.net a:usfshlxmx08.mcamercury.myreg.net -all" )
+usfshlxmx06.mcamercury  A	167.167.3.50
+usfshlxmx07.mcamercury  A	167.167.3.51
+usfshlxmx08.mcamercury  A	167.167.3.52
+mercuryau               MX	10	mailrx.musicreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.mercuryau.myreg.net a:usfshlxmx07.mercuryau.myreg.net a:usfshlxmx08.mercuryau.myreg.net -all" )
+mercuryau._domainkey.mercuryau TXT	( "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ0POvmDGFkRc8xTbH/91tSTXtx5l0s+OqE6qoI5+AcLxBn2Q21pOOKmVTYGfId7Ke9xYi7gJzirXo3BiCvNXX07gTfGgyPdWIFvjqa06Un6baBf4kvi8oK1rnBM5GNDtT0wX+AN/fGAgpyBimXQOrZ5tsfs2iNItsAs8M3s6JsQIDAQAB;" )
+usfshlxmx06.internal.mercuryau A	192.168.78.216
+usfshlxmx07.internal.mercuryau A	192.168.78.208
+pobox.mercuryau         MX	10	mailrx.musicreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.mercuryau.myreg.net a:usfshlxmx07.mercuryau.myreg.net a:usfshlxmx08.mercuryau.myreg.net -all" )
+usfshlxmx06.mercuryau   A	167.167.3.216
+usfshlxmx07.mercuryau   A	167.167.3.208
+modular                 MX	10	mailrx.musicreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.modular.myreg.net a:usfshlxmx07.modular.myreg.net a:usfshlxmx08.modular.myreg.net -all" )
+modular._domainkey.modular TXT	( "" )
+usfshlxmx06.internal.modular A	192.168.78.213
+usfshlxmx07.internal.modular A	192.168.78.205
+pobox.modular           MX	10	mailrx.musicreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.modular.myreg.net a:usfshlxmx07.modular.myreg.net a:usfshlxmx08.modular.myreg.net -all" )
+usfshlxmx06.modular     A	167.167.3.213
+usfshlxmx07.modular     A	167.167.3.205
+pobox                   MX	10	mailrx.myreg.net.
+polydorfr               MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.pokydorfr.myreg.net a:usfshlxmx07.pokydorfr.myreg.net a:usfshlxmx08.pokydorfr.myreg.net -all" )
+polydorfr._domainkey.polydorfr TXT	( "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ0POvmDGFkRc8xTbH/91tSTXtx5l0s+OqE6qoI5+AcLxBn2Q21pOOKmVTYGfId7Ke9xYi7gJzirXo3BiCvNXX07gTfGgyPdWIFvjqa06Un6baBf4kvi8oK1rnBM5GNDtT0wX+AN/fGAgpyBimXQOrZ5tsfs2iNItsAs8M3s6JsQIDAQAB;" )
+usfshlxmx06.internal.polydorfr A	192.168.78.157
+usfshlxmx07.internal.polydorfr A	192.168.78.158
+usfshlxmx08.internal.polydorfr A	192.168.78.159
+pobox.polydorfr         MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.pokydorfr.myreg.net a:usfshlxmx07.pokydorfr.myreg.net a:usfshlxmx08.pokydorfr.myreg.net -all" )
+usfshlxmx06.polydorfr   A	167.167.3.157
+usfshlxmx07.polydorfr   A	167.167.3.158
+usfshlxmx08.polydorfr   A	167.167.3.159
+cdm-data.rdb            60	CNAME	usfshlsmys002.internal.myreg.net.
+changepw.rdb            60	CNAME	usfshlsmys002.internal.myreg.net.
+cust.rdb                60	CNAME	usfshlsmys002.internal.myreg.net.
+dim-extract.rdb         60	CNAME	usfshlsmys002.internal.myreg.net.
+ecrm.rdb                60	CNAME	usfshlsmys002.internal.myreg.net.
+ecrmstats.rdb           60	CNAME	usfshlsmys002.internal.myreg.net.
+events.rdb              60	CNAME	usfshlsmys002.internal.myreg.net.
+listpull.rdb            60	CNAME	usfshlsmys002.internal.myreg.net.
+mail.rdb                60	CNAME	usfshlsmys002.internal.myreg.net.
+mail-queues.rdb         60	CNAME	usfshlsmys002.internal.myreg.net.
+partner.rdb             60	CNAME	usfshlsmys002.internal.myreg.net.
+session.rdb             60	CNAME	usfshlsmys002.internal.myreg.net.
+universal-register.rdb  60	CNAME	usfshlsmys002.internal.myreg.net.
+reports                 A	167.167.3.14
+rocafella               MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.rocafella.myreg.net a:usfshlxmx07.rocafella.myreg.net a:usfshlxmx08.rocafella.myreg.net -all" )
+rocafella._domainkey.rocafella TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCo8+xW7iLpV4M7i0KpKOOcd7YxU7Gewuj5RCkxO1udIdercZhdPsLhngDnqRqKALoELBEcoz9Ce3Vp6edB7cEQqNDHbSOrW+qAbW3w1zv4lujnp7F73XLPPwrJhlbPnrqNRjHbUvtE6ivw1huEX4e0LgNP1JnpDOE5See8Cw65ZwIDAQAB;" )
+usfshlxmx06.internal.rocafella A	192.168.78.56
+usfshlxmx07.internal.rocafella A	192.168.78.57
+usfshlxmx08.internal.rocafella A	192.168.78.58
+pobox.rocafella         MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.rocafella.myreg.net a:usfshlxmx07.rocafella.myreg.net a:usfshlxmx08.rocafella.myreg.net -all" )
+usfshlxmx06.rocafella   A	167.167.3.56
+usfshlxmx07.rocafella   A	167.167.3.57
+usfshlxmx08.rocafella   A	167.167.3.58
+rondor                  MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.rondor.myreg.net a:usfshlxmx07.rondor.myreg.net a:usfshlxmx08.rondor.myreg.net -all" )
+rondor._domainkey.rondor TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDa7MDxUntSXIV1g1X7CNGVT7l9lu32NnmKejcKfdEgcjD82mS1ezcVm5ZcIFQEkJLXQsnnFiWdt/a9NbWn3sfhnwIZyzD5cnynMiLyTdOmEMPssvQGyeGL73eOFIrcPpIODUBAEtCbIlfQ6hFeiJp6+P/fTQqt1GJS+FYGcffdaQIDAQAB;" )
+usfshlxmx06.internal.rondor A	192.168.78.92
+usfshlxmx07.internal.rondor A	192.168.78.93
+usfshlxmx08.internal.rondor A	192.168.78.94
+pobox.rondor            MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.rondor.myreg.net a:usfshlxmx07.rondor.myreg.net a:usfshlxmx08.rondor.myreg.net -all" )
+usfshlxmx06.rondor      A	167.167.3.92
+usfshlxmx07.rondor      A	167.167.3.93
+usfshlxmx08.rondor      A	167.167.3.94
+sandbox                 MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.sandbox.myreg.net a:usfshlxmx07.sandbox.myreg.net a:usfshlxmx08.sandbox.myreg.net -all" )
+sandbox._domainkey.sandbox TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDOJVoT3mniUlrOw/sca9u3Q+Cd/c94E9"
+                        	"jtet1nL6stu6VsfG5Dp/afITQLMUhPpNXIIZiZaRj8HkRtnXaeXeXO5Fc6OgSrqo1//GPBQK"
+                        	"fagamTRA3G4KwRkm7cp9F2oIoJFCl6DV01a88swVR026TGqWGTAfPlx0e02n2El2oJTwIDAQ"
+                        	"AB;" )
+usfshlxmx06.internal.sandbox A	192.168.78.68
+usfshlxmx07.internal.sandbox A	192.168.78.69
+usfshlxmx08.internal.sandbox A	192.168.78.70
+pobox.sandbox           MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.sandbox.myreg.net a:usfshlxmx07.sandbox.myreg.net a:usfshlxmx08.sandbox.myreg.net -all" )
+usfshlxmx06.sandbox     A	167.167.3.68
+usfshlxmx07.sandbox     A	167.167.3.69
+usfshlxmx08.sandbox     A	167.167.3.70
+secure                  A	167.167.1.178
+shortstack              MX	10	mailrx.musicreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.shortstack.myreg.net a:usfshlxmx07.shortstack.myreg.net a:usfshlxmx08.shortstack.myreg.net -all" )
+shortstack._domainkey.shortstack TXT	( "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ0POvmDGFkRc8xTbH/91tSTXtx5l0s+OqE6qoI5+AcLxBn2Q21pOOKmVTYGfId7Ke9xYi7gJzirXo3BiCvNXX07gTfGgyPdWIFvjqa06Un6baBf4kvi8oK1rnBM5GNDtT0wX+AN/fGAgpyBimXQOrZ5tsfs2iNItsAs8M3s6JsQIDAQAB;" )
+usfshlxmx06.internal.shortstack A	192.168.78.217
+usfshlxmx07.internal.shortstack A	192.168.78.209
+pobox.shortstack        MX	10	mailrx.musicreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.shortstack.myreg.net a:usfshlxmx07.shortstack.myreg.net a:usfshlxmx08.shortstack.myreg.net -all" )
+usfshlxmx06.shortstack  A	167.167.3.217
+usfshlxmx07.shortstack  A	167.167.3.209
+streamreg               A	192.251.67.59
+streamreg01             A	192.251.67.69
+streamreg02             A	192.251.67.71
+survey                  A	192.251.67.69
+umgclo                  MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.umgclo.myreg.net a:usfshlxmx07.umgclo.myreg.net a:usfshlxmx08.umgclo.myreg.net -all" )
+umgclo._domainkey.umgclo TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDNqLOCMnQKQLYyPS89yPxL+kibiqrWgvtNNTq+ZVtg7oJRAqcgroRcG5Q5lydp5j+VfINSgfkhk+HwIP+Ob5m52U3XKropHYKI7CQhhr6yb1qjPaAJuC8qJxIrkpu0pY+BcVP376MfH1S3WXMN/+cyZa//X1R7NTXtfSzTQytZ4QIDAQAB;" )
+usfshlxmx06.internal.umgclo A	192.168.78.71
+usfshlxmx07.internal.umgclo A	192.168.78.72
+usfshlxmx08.internal.umgclo A	192.168.78.73
+pobox.umgclo            MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.umgclo.myreg.net a:usfshlxmx07.umgclo.myreg.net a:usfshlxmx08.umgclo.myreg.net -all" )
+usfshlxmx06.umgclo      A	167.167.3.71
+usfshlxmx07.umgclo      A	167.167.3.72
+usfshlxmx08.umgclo      A	167.167.3.73
+umgdownloads            MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.umgdownloads.myreg.net a:usfshlxmx07.umgdownloads.myreg.net a:usfshlxmx08.umgdownloads.myreg.net -all" )
+umgdownloads._domainkey.umgdownloads TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9Iprt3ZCRGkJm26esnVDD1+DQrwfrU/cbh0qJvy8Ao0IpwervKaGSnu6aXEH4qWE1XCgycXEoVLAt/+9LszJlnfGtaSAeQ/o0AEXodJ0i2nD/57gC/FMpq0P0zSfIg3hnOiCqLu1KRiJiu4shkENLmY8mi37xyWbCVlG1mz2FIwIDAQAB;" )
+usfshlxmx06.internal.umgdownloads A	192.168.78.74
+usfshlxmx07.internal.umgdownloads A	192.168.78.75
+usfshlxmx08.internal.umgdownloads A	192.168.78.76
+pobox.umgdownloads      MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.umgdownloads.myreg.net a:usfshlxmx07.umgdownloads.myreg.net a:usfshlxmx08.umgdownloads.myreg.net -all" )
+usfshlxmx06.umgdownloads A	167.167.3.74
+usfshlxmx07.umgdownloads A	167.167.3.75
+usfshlxmx08.umgdownloads A	167.167.3.76
+umgmobile               MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.umgmobile.myreg.net a:usfshlxmx07.umgmobile.myreg.net a:usfshlxmx08.umgmobile.myreg.net -all" )
+umgmobile._domainkey.umgmobile TXT	( "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ0POvmDGFkRc8xTbH/91tSTXtx5l0s+OqE6qoI5+AcLxBn2Q21pOOKmVTYGfId7Ke9xYi7gJzirXo3BiCvNXX07gTfGgyPdWIFvjqa06Un6baBf4kvi8oK1rnBM5GNDtT0wX+AN/fGAgpyBimXQOrZ5tsfs2iNItsAs8M3s6JsQIDAQAB;" )
+usfshlxmx06.internal.umgmobile A	192.168.78.101
+usfshlxmx07.internal.umgmobile A	192.168.78.102
+usfshlxmx08.internal.umgmobile A	192.168.78.103
+pobox.umgmobile         MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.umgmobile.myreg.net a:usfshlxmx07.umgmobile.myreg.net a:usfshlxmx08.umgmobile.myreg.net -all" )
+usfshlxmx06.umgmobile   A	167.167.3.101
+usfshlxmx07.umgmobile   A	167.167.3.102
+usfshlxmx08.umgmobile   A	167.167.3.103
+umgnashville            A	167.167.3.66
+                        MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 redirect=musicreg.net" )
+umgnashville._domainkey.umgnashville TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDG07cKMWU0YRcfwEAMUbA7wjlRFtvcFh9N3UrXOArz2663WCji4xsxHsU4w4apj7bIOj+BvgDkKmW0oKOYG6wZl3CCRVtDO4rDGzN4u8O0dGFprAQ6+dwLSNCior7IqgMBYG29+qdmQzf/8xiUWi4AH4e45vOX0pO53fbpd7p4ewIDAQAB;" )
+usfshlxmx06.internal.umgnashville A	192.168.78.65
+usfshlxmx07.internal.umgnashville A	192.168.78.66
+usfshlxmx08.internal.umgnashville A	192.168.78.67
+pobox.umgnashville      MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 redirect=musicreg.net" )
+usfshlxmx07.umgnashville CNAME	umgnashville.myreg.net.
+umgnetreach             MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.umgnetreach.myreg.net a:usfshlxmx07.umgnetreach.myreg.net a:usfshlxmx08.umgnetreach.myreg.net -all" )
+umgnetreach._domainkey.umgnetreach TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwg4XQwAvHVKR99m3sSTIcBFk0U3P3x2MiORfzt6RdBKsZ14hpZpWSD5h+s5VBzoJWo+YBEodSRjhUpNqIFsa85vbYznKZRX2ReFKnbVxOBajsvcP38E1Ps8NAX9GRChT0QKPD7MAlVERTXArxcdCu9OAbd8h2611IfRYycnIokwIDAQAB;" )
+usfshlxmx06.internal.umgnetreach A	192.168.78.77
+usfshlxmx07.internal.umgnetreach A	192.168.78.78
+usfshlxmx08.internal.umgnetreach A	192.168.78.79
+pobox.umgnetreach       MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.umgnetreach.myreg.net a:usfshlxmx07.umgnetreach.myreg.net a:usfshlxmx08.umgnetreach.myreg.net -all" )
+usfshlxmx06.umgnetreach A	167.167.3.77
+usfshlxmx07.umgnetreach A	167.167.3.78
+usfshlxmx08.umgnetreach A	167.167.3.79
+umjp                    MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.umgnetreach.myreg.net a:usfshlxmx07.umgnetreach.myreg.net a:usfshlxmx08.umgnetreach.myreg.net -all" )
+umjp._domainkey.umjp    TXT	( "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ0POvmDGFkRc8xTbH/91tSTXtx5l0s+OqE6qoI5+AcLxBn2Q21pOOKmVTYGfId7Ke9xYi7gJzirXo3BiCvNXX07gTfGgyPdWIFvjqa06Un6baBf4kvi8oK1rnBM5GNDtT0wX+AN/fGAgpyBimXQOrZ5tsfs2iNItsAs8M3s6JsQIDAQAB;" )
+usfshlxmx08.internal.umjp A	192.168.78.190
+pobox.umjp              MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.umgnetreach.myreg.net a:usfshlxmx07.umgnetreach.myreg.net a:usfshlxmx08.umgnetreach.myreg.net -all" )
+usfshlxmx08.umjp        A	167.167.3.190
+umpgnewmedia            MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.umpgnewmedia.myreg.net a:usfshlxmx07.umpgnewmedia.myreg.net a:usfshlxmx08.umpgnewmedia.myreg.net -all" )
+umpgnewmedia._domainkey.umpgnewmedia TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+8D7kly97QdE7/Zoy5QvslVVNFi/CvdTJGDj2sI4ZgdkkCRoeKoUbklnXbZYQdm/AyyCvMEInZDC8kFlVxp2Lw/U/QWHIZQDH83qEpieB8VVKr1RgMNXS3M+9bqzbnSFDcnD/ZzbIOSyBZN7a8zNyMf02/ZkdHjyEk8lLMpcxgwIDAQAB;" )
+usfshlxmx06.internal.umpgnewmedia A	192.168.78.116
+usfshlxmx07.internal.umpgnewmedia A	192.168.78.117
+usfshlxmx08.internal.umpgnewmedia A	192.168.78.118
+pobox.umpgnewmedia      MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.umpgnewmedia.myreg.net a:usfshlxmx07.umpgnewmedia.myreg.net a:usfshlxmx08.umpgnewmedia.myreg.net -all" )
+usfshlxmx06.umpgnewmedia A	167.167.3.116
+usfshlxmx07.umpgnewmedia A	167.167.3.117
+usfshlxmx08.umpgnewmedia A	167.167.3.118
+umrg                    MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.umrg.myreg.net a:usfshlxmx07.umrg.myreg.net a:usfshlxmx08.umrg.myreg.net -all" )
+umrg._domainkey.umrg    TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDS6SIJ/RSyYbfZfmEgRrsCXixN0W6km9tOQ7JMRGAqtiJJsmr4BhBPHoGidE71gav0GnvC5JwGIfRB8nvyTtQ3nTaSizGOjYc8M6/J616vAfpnIUpCf5JnOVojsRFtGl2mykYPFh7ccLDoo8fe4BJMCsYrqRc7UX1aNrWcoN3LVwIDAQAB;" )
+usfshlxmx06.internal.umrg A	192.168.78.80
+usfshlxmx07.internal.umrg A	192.168.78.81
+usfshlxmx08.internal.umrg A	192.168.78.82
+pobox.umrg              MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.umrg.myreg.net a:usfshlxmx07.umrg.myreg.net a:usfshlxmx08.umrg.myreg.net -all" )
+usfshlxmx06.umrg        A	167.167.3.80
+usfshlxmx07.umrg        A	167.167.3.81
+usfshlxmx08.umrg        A	167.167.3.82
+umvdb2b                 1800	MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.umvdb2b.myreg.net a:usfshlxmx07.umvdb2b.myreg.net a:usfshlxmx08.umvdb2b.myreg.net -all" )
+umvdb2b._domainkey.umvdb2b TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDehvylhXPGa/EEfQnf7yVtsvRn8Oh4tNDFtVtGHRYESTgpquWd9fGTd8KteloDwVPECHf2JloUaCEVLO+K0xXrYFTQidDzA/hiiF1MXsaUyxKhvv9Mm88PY8LJUw9o3P4XFIbOrT5MmsWHIuGx6GF6Tzne/aj9luG4AKKStzVW3wIDAQAB;" )
+usfshlxmx06.internal.umvdb2b A	192.168.78.107
+usfshlxmx07.internal.umvdb2b A	192.168.78.108
+usfshlxmx08.internal.umvdb2b A	192.168.78.109
+pobox.umvdb2b           1800	MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.umvdb2b.myreg.net a:usfshlxmx07.umvdb2b.myreg.net a:usfshlxmx08.umvdb2b.myreg.net -all" )
+usfshlxmx06.umvdb2b     A	167.167.3.107
+usfshlxmx07.umvdb2b     A	167.167.3.108
+usfshlxmx08.umvdb2b     A	167.167.3.109
+umvdfield               1800	MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.umvdfield.myreg.net a:usfshlxmx07.umvdfield.myreg.net a:usfshlxmx08.umvdfield.myreg.net -all" )
+umvdfield._domainkey.umvdfield TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDdfvjsDJMKAh5SBldutebD+bglLcmRkqRxlhPNoKC7Kc7EuKv9Fp5izbdVs7Uih2uTmMr/O+y8v3Tn5h/tDMve3ZtMlgSViN7e8eFRulmV2uFr7GKlNaqaeLkxZSEXhOZfdnm/05ZC58Nq5dZ4uTN6AR0pgQu1yc76rSb1Sw0dUwIDAQAB;" )
+usfshlxmx06.internal.umvdfield A	192.168.78.104
+usfshlxmx07.internal.umvdfield A	192.168.78.105
+usfshlxmx08.internal.umvdfield A	192.168.78.106
+pobox.umvdfield         1800	MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.umvdfield.myreg.net a:usfshlxmx07.umvdfield.myreg.net a:usfshlxmx08.umvdfield.myreg.net -all" )
+usfshlxmx06.umvdfield   A	167.167.3.104
+usfshlxmx07.umvdfield   A	167.167.3.105
+usfshlxmx08.umvdfield   A	167.167.3.106
+universalargentina      MX	10	mailrx.musicreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.universalargentina.myreg.net a:usfshlxmx07.universalargentina.myreg.net a:usfshlxmx08.universalargentina.myreg.net -all" )
+pobox.universalargentina MX	10	mailrx.musicreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.universalargentina.myreg.net a:usfshlxmx07.universalargentina.myreg.net a:usfshlxmx08.universalargentina.myreg.net -all" )
+usfshlxmx08.universalargentina A	167.167.3.221
+universalcanada         MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.universalcanada.myreg.net a:usfshlxmx07.universalcanada.myreg.net a:usfshlxmx08.universalcanada.myreg.net -all" )
+universalcanada._domainkey.universalcanada TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDZRJV6mz2siU1wuU8en4HkZvyt4lVEvUehVD5zqUp084zTbFe2F4/YjIzV1z3yGRgSA2Xu0mf0yGMIlNGjo/pqiH2TRUpGkiCBuT4AcCi9mdXqA5zJNc5f4ZvycCCC/TonPv7yBuAyi73obBuBHJKNPXQZSTMf4dnSZwsiTVUcjwIDAQAB;" )
+usfshlxmx06.internal.universalcanada A	192.168.78.83
+usfshlxmx07.internal.universalcanada A	192.168.78.84
+usfshlxmx08.internal.universalcanada A	192.168.78.85
+pobox.universalcanada   MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.universalcanada.myreg.net a:usfshlxmx07.universalcanada.myreg.net a:usfshlxmx08.universalcanada.myreg.net -all" )
+usfshlxmx06.universalcanada A	167.167.3.83
+usfshlxmx07.universalcanada A	167.167.3.84
+usfshlxmx08.universalcanada A	167.167.3.85
+universalclassics       MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.universalclassics.myreg.net a:usfshlxmx07.universalclassics.myreg.net a:usfshlxmx08.universalclassics.myreg.net -all" )
+universalclassics._domainkey.universalclassics TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDVYguFUYts2Rsl8OTppb4NfInwsqHQOS9cf3UsXOGTuD76F1e/AZteMM7O9xLUm+vlwkZ/oNysqQqtB58evhGNUAvQANmZKaHv3MQs5OXu83rOA0CfbSegfxwpwqG2hCN1VNZeJ/etLeHON2PZxb1cbY6uP6DLGh3tSPn7NzL75QIDAQAB;" )
+usfshlxmx06.internal.universalclassics A	192.168.78.86
+usfshlxmx07.internal.universalclassics A	192.168.78.87
+usfshlxmx08.internal.universalclassics A	192.168.78.88
+pobox.universalclassics MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.universalclassics.myreg.net a:usfshlxmx07.universalclassics.myreg.net a:usfshlxmx08.universalclassics.myreg.net -all" )
+usfshlxmx06.universalclassics A	167.167.3.86
+usfshlxmx07.universalclassics A	167.167.3.87
+usfshlxmx08.universalclassics A	167.167.3.88
+universallatino         MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.universallatino.myreg.net a:usfshlxmx07.universallatino.myreg.net a:usfshlxmx08.universallatino.myreg.net -all" )
+usfshlxmx06.internal.universallatino A	192.168.78.171
+usfshlxmx07.internal.universallatino A	192.168.78.172
+pobox.universallatino   MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.universallatino.myreg.net a:usfshlxmx07.universallatino.myreg.net a:usfshlxmx08.universallatino.myreg.net -all" )
+usfshlxmx06.universallatino A	167.167.3.171
+usfshlxmx07.universallatino A	167.167.3.172
+universalmusicau        MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.universalmusicau.myreg.net a:usfshlxmx07.universalmusicau.myreg.net a:usfshlxmx08.universalmusicau.myreg.net -all" )
+universalmusicau._domainkey.universalmusicau TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDFApMqKAfZuZ2sW1M+7ehgQH2xlNslvycuhNdWGO3ZrNmo3bTPM2HuFGL2VdtJOPxmyGhfJS/GgNK1oX1tSPV3VOpxP9sdpOXGBD7dvJSsQSaD59Q9P59I8/mVlKqmCdHiILGjjRbxore9hlv5Q65F8Q19MrRPflpv1dRj3mRCgQIDAQAB;" )
+usfshlxmx06.internal.universalmusicau A	192.168.78.98
+usfshlxmx07.internal.universalmusicau A	192.168.78.99
+usfshlxmx08.internal.universalmusicau A	192.168.78.100
+pobox.universalmusicau  MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.universalmusicau.myreg.net a:usfshlxmx07.universalmusicau.myreg.net a:usfshlxmx08.universalmusicau.myreg.net -all" )
+usfshlxmx06.universalmusicau A	167.167.3.98
+usfshlxmx07.universalmusicau A	167.167.3.99
+usfshlxmx08.universalmusicau A	167.167.3.100
+universalmusicfr        MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.universalmusicfr.myreg.net a:usfshlxmx07.universalmusicfr.myreg.net a:usfshlxmx08.universalmusicfr.myreg.net -all" )
+universalmusicfr._domainkey.universalmusicfr TXT	( "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCxorTKN99mhS4VclHDZrW1WvDZmJl297+WTr9bSMRFDPufzZYiPGKEDFZMjwRr2tu4REl031C3TdU0kqdcACCU5/dXtzpYD4Y43zZ7kXhkHqcNmJrrlDn6PFgShisIkh8RjPcyDPQGQZKv7aDTqlJ+tkj9TPGwlkcRMecuaAWi8wIDAQAB;" )
+usfshlxmx06.internal.universalmusicfr A	192.168.78.157
+usfshlxmx07.internal.universalmusicfr A	192.168.78.158
+usfshlxmx08.internal.universalmusicfr A	192.168.78.159
+pobox.universalmusicfr  MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.universalmusicfr.myreg.net a:usfshlxmx07.universalmusicfr.myreg.net a:usfshlxmx08.universalmusicfr.myreg.net -all" )
+usfshlxmx06.universalmusicfr A	167.167.3.98
+usfshlxmx07.universalmusicfr A	167.167.3.99
+usfshlxmx08.universalmusicfr A	167.167.3.100
+universalmusicnl        MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.universalmusicnl.myreg.net a:usfshlxmx07.universalmusicnl.myreg.net a:usfshlxmx08.universalmusicnl.myreg.net -all" )
+universalmusicnl._domainkey.universalmusicnl TXT	( "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDZ/JFBKtXp4a/0L9dWooHg2Kefg4rDkQjiHY535fUHo+EyxwOl1sgc6BhVQLRDsNH9ULwbzYKtWXNSr3FcIaL5Rw7B//DGcqCfQJtxToLzNzQPvlgnF7lwyHQ0cJiaxQ5954+7NCmDN10/3JDTC1xkDN3birbgLdJnxA576L4r2QIDAQAB;" )
+usfshlxmx06.internal.universalmusicnl A	192.168.78.157
+usfshlxmx07.internal.universalmusicnl A	192.168.78.158
+usfshlxmx08.internal.universalmusicnl A	192.168.78.159
+pobox.universalmusicnl  MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.universalmusicnl.myreg.net a:usfshlxmx07.universalmusicnl.myreg.net a:usfshlxmx08.universalmusicnl.myreg.net -all" )
+usfshlxmx06.universalmusicnl A	167.167.3.157
+usfshlxmx07.universalmusicnl A	167.167.3.158
+usfshlxmx08.universalmusicnl A	167.167.3.159
+universalmusicstore     MX	5	mailrx.myreg.net.
+universalmusicstore._domainkey.universalmusicstore TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDkvyTNpkEwBDXlY6vGZ0oRFumty1S8mp08wYOjlc1wgwSZYlHlGqfo+m7Cwf88kSw9soIo0MpGuhUy4aHvfJauk8d7p3jMxe/YrBhiXqDZrRGwznQqeg0sj+afnkDCLA8g9EI2vYteWs4XAkQ0gCCxRwx+JCE++J1YjXFWNf07JwIDAQAB;" )
+usfshlxmx06.internal.universalmusicstore A	192.168.78.113
+usfshlxmx07.internal.universalmusicstore A	192.168.78.114
+usfshlxmx08.internal.universalmusicstore A	192.168.78.115
+pobox.universalmusicstore MX	5	mailrx.myreg.net.
+usfshlxmx06.universalmusicstore A	167.167.3.113
+usfshlxmx07.universalmusicstore A	167.167.3.114
+usfshlxmx08.universalmusicstore A	167.167.3.115
+universalpublishingar   MX	10	mailrx.musicreg.net.
+pobox.universalpublishingar MX	10	mailrx.musicreg.net.
+usfshlxmx08.universalpublishingar A	167.167.3.222
+universalsouth          MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.universalsouth.myreg.net a:usfshlxmx07.universalsouth.myreg.net a:usfshlxmx08.universalsouth.myreg.net -all" )
+universalsouth._domainkey.universalsouth TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAK5brsgq5DszCs1B+3ZmHQyQKkD4hs3OW8HVEj8Wio85x82URzW6XzxYcYOaG2AcrwccPSRYpiR7Du9OpdUzBAXbfA4wUPzDo70WDy6s6/fNPwVK+VJ2YIC1owdWvD2DbwBbHu2zA7bsPLh5jcSDDLIX6Z8k2QKJ1acjlGYq+nwIDAQAB;" )
+usfshlxmx06.internal.universalsouth A	192.168.78.89
+usfshlxmx07.internal.universalsouth A	192.168.78.90
+usfshlxmx08.internal.universalsouth A	192.168.78.91
+pobox.universalsouth    MX	5	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.universalsouth.myreg.net a:usfshlxmx07.universalsouth.myreg.net a:usfshlxmx08.universalsouth.myreg.net -all" )
+usfshlxmx06.universalsouth A	167.167.3.89
+usfshlxmx07.universalsouth A	167.167.3.90
+usfshlxmx08.universalsouth A	167.167.3.91
+ip-167-167-3-0.usfsh    A	167.167.3.0
+ip-167-167-3-1.usfsh    A	167.167.3.1
+ip-167-167-3-10.usfsh   A	167.167.3.10
+ip-167-167-3-100.usfsh  A	167.167.3.100
+ip-167-167-3-101.usfsh  A	167.167.3.101
+ip-167-167-3-102.usfsh  A	167.167.3.102
+ip-167-167-3-103.usfsh  A	167.167.3.103
+ip-167-167-3-104.usfsh  A	167.167.3.104
+ip-167-167-3-105.usfsh  A	167.167.3.105
+ip-167-167-3-106.usfsh  A	167.167.3.106
+ip-167-167-3-107.usfsh  A	167.167.3.107
+ip-167-167-3-108.usfsh  A	167.167.3.108
+ip-167-167-3-109.usfsh  A	167.167.3.109
+ip-167-167-3-11.usfsh   A	167.167.3.11
+ip-167-167-3-110.usfsh  A	167.167.3.110
+ip-167-167-3-111.usfsh  A	167.167.3.111
+ip-167-167-3-112.usfsh  A	167.167.3.112
+ip-167-167-3-113.usfsh  A	167.167.3.113
+ip-167-167-3-114.usfsh  A	167.167.3.114
+ip-167-167-3-115.usfsh  A	167.167.3.115
+ip-167-167-3-116.usfsh  A	167.167.3.116
+ip-167-167-3-117.usfsh  A	167.167.3.117
+ip-167-167-3-118.usfsh  A	167.167.3.118
+ip-167-167-3-119.usfsh  A	167.167.3.119
+ip-167-167-3-12.usfsh   A	167.167.3.12
+ip-167-167-3-120.usfsh  A	167.167.3.120
+ip-167-167-3-121.usfsh  A	167.167.3.121
+ip-167-167-3-122.usfsh  A	167.167.3.122
+ip-167-167-3-123.usfsh  A	167.167.3.123
+ip-167-167-3-124.usfsh  A	167.167.3.124
+ip-167-167-3-125.usfsh  A	167.167.3.125
+ip-167-167-3-126.usfsh  A	167.167.3.126
+ip-167-167-3-127.usfsh  A	167.167.3.127
+ip-167-167-3-128.usfsh  A	167.167.3.128
+ip-167-167-3-129.usfsh  A	167.167.3.129
+ip-167-167-3-13.usfsh   A	167.167.3.13
+ip-167-167-3-130.usfsh  A	167.167.3.130
+ip-167-167-3-131.usfsh  A	167.167.3.131
+ip-167-167-3-132.usfsh  A	167.167.3.132
+ip-167-167-3-133.usfsh  A	167.167.3.133
+ip-167-167-3-134.usfsh  A	167.167.3.134
+ip-167-167-3-135.usfsh  A	167.167.3.135
+ip-167-167-3-136.usfsh  A	167.167.3.136
+ip-167-167-3-137.usfsh  A	167.167.3.137
+ip-167-167-3-138.usfsh  A	167.167.3.138
+ip-167-167-3-139.usfsh  A	167.167.3.139
+ip-167-167-3-14.usfsh   A	167.167.3.14
+ip-167-167-3-140.usfsh  A	167.167.3.140
+ip-167-167-3-141.usfsh  A	167.167.3.141
+ip-167-167-3-142.usfsh  A	167.167.3.142
+ip-167-167-3-143.usfsh  A	167.167.3.143
+ip-167-167-3-144.usfsh  A	167.167.3.144
+ip-167-167-3-145.usfsh  A	167.167.3.145
+ip-167-167-3-146.usfsh  A	167.167.3.146
+ip-167-167-3-147.usfsh  A	167.167.3.147
+ip-167-167-3-148.usfsh  A	167.167.3.148
+ip-167-167-3-149.usfsh  A	167.167.3.149
+ip-167-167-3-15.usfsh   A	167.167.3.15
+ip-167-167-3-150.usfsh  A	167.167.3.150
+ip-167-167-3-151.usfsh  A	167.167.3.151
+ip-167-167-3-152.usfsh  A	167.167.3.152
+ip-167-167-3-153.usfsh  A	167.167.3.153
+ip-167-167-3-154.usfsh  A	167.167.3.154
+ip-167-167-3-155.usfsh  A	167.167.3.155
+ip-167-167-3-156.usfsh  A	167.167.3.156
+ip-167-167-3-157.usfsh  A	167.167.3.157
+ip-167-167-3-158.usfsh  A	167.167.3.158
+ip-167-167-3-159.usfsh  A	167.167.3.159
+ip-167-167-3-16.usfsh   A	167.167.3.16
+ip-167-167-3-160.usfsh  A	167.167.3.160
+ip-167-167-3-161.usfsh  A	167.167.3.161
+ip-167-167-3-162.usfsh  A	167.167.3.162
+ip-167-167-3-163.usfsh  A	167.167.3.163
+ip-167-167-3-164.usfsh  A	167.167.3.164
+ip-167-167-3-165.usfsh  A	167.167.3.165
+ip-167-167-3-166.usfsh  A	167.167.3.166
+ip-167-167-3-167.usfsh  A	167.167.3.167
+ip-167-167-3-168.usfsh  A	167.167.3.168
+ip-167-167-3-169.usfsh  A	167.167.3.169
+ip-167-167-3-17.usfsh   A	167.167.3.17
+ip-167-167-3-170.usfsh  A	167.167.3.170
+ip-167-167-3-171.usfsh  A	167.167.3.171
+ip-167-167-3-172.usfsh  A	167.167.3.172
+ip-167-167-3-173.usfsh  A	167.167.3.173
+ip-167-167-3-174.usfsh  A	167.167.3.174
+ip-167-167-3-175.usfsh  A	167.167.3.175
+ip-167-167-3-176.usfsh  A	167.167.3.176
+ip-167-167-3-177.usfsh  A	167.167.3.177
+ip-167-167-3-178.usfsh  A	167.167.3.178
+ip-167-167-3-179.usfsh  A	167.167.3.189
+ip-167-167-3-18.usfsh   A	167.167.3.18
+ip-167-167-3-180.usfsh  A	167.167.3.180
+ip-167-167-3-181.usfsh  A	167.167.3.181
+ip-167-167-3-182.usfsh  A	167.167.3.182
+ip-167-167-3-183.usfsh  A	167.167.3.183
+ip-167-167-3-184.usfsh  A	167.167.3.184
+ip-167-167-3-185.usfsh  A	167.167.3.185
+ip-167-167-3-186.usfsh  A	167.167.3.186
+ip-167-167-3-187.usfsh  A	167.167.3.187
+ip-167-167-3-188.usfsh  A	167.167.3.188
+ip-167-167-3-189.usfsh  A	167.167.3.189
+ip-167-167-3-19.usfsh   A	167.167.3.19
+ip-167-167-3-190.usfsh  A	167.167.3.190
+ip-167-167-3-191.usfsh  A	167.167.3.191
+ip-167-167-3-192.usfsh  A	167.167.3.192
+ip-167-167-3-193.usfsh  A	167.167.3.193
+ip-167-167-3-194.usfsh  A	167.167.3.194
+ip-167-167-3-195.usfsh  A	167.167.3.195
+ip-167-167-3-196.usfsh  A	167.167.3.196
+ip-167-167-3-197.usfsh  A	167.167.3.197
+ip-167-167-3-198.usfsh  A	167.167.3.198
+ip-167-167-3-199.usfsh  A	167.167.3.199
+ip-167-167-3-2.usfsh    A	167.167.3.2
+ip-167-167-3-20.usfsh   A	167.167.3.20
+ip-167-167-3-200.usfsh  A	167.167.3.200
+ip-167-167-3-201.usfsh  A	167.167.3.201
+ip-167-167-3-202.usfsh  A	167.167.3.202
+ip-167-167-3-203.usfsh  A	167.167.3.203
+ip-167-167-3-204.usfsh  A	167.167.3.204
+ip-167-167-3-205.usfsh  A	167.167.3.205
+ip-167-167-3-206.usfsh  A	167.167.3.206
+ip-167-167-3-207.usfsh  A	167.167.3.207
+ip-167-167-3-208.usfsh  A	167.167.3.208
+ip-167-167-3-209.usfsh  A	167.167.3.209
+ip-167-167-3-21.usfsh   A	167.167.3.21
+ip-167-167-3-210.usfsh  A	167.167.3.210
+ip-167-167-3-211.usfsh  A	167.167.3.211
+ip-167-167-3-212.usfsh  A	167.167.3.212
+ip-167-167-3-213.usfsh  A	167.167.3.213
+ip-167-167-3-214.usfsh  A	167.167.3.214
+ip-167-167-3-215.usfsh  A	167.167.3.215
+ip-167-167-3-216.usfsh  A	167.167.3.216
+ip-167-167-3-217.usfsh  A	167.167.3.217
+ip-167-167-3-218.usfsh  A	167.167.3.218
+ip-167-167-3-219.usfsh  A	167.167.3.219
+ip-167-167-3-22.usfsh   A	167.167.3.22
+ip-167-167-3-220.usfsh  A	167.167.3.220
+ip-167-167-3-221.usfsh  A	167.167.3.221
+ip-167-167-3-222.usfsh  A	167.167.3.222
+ip-167-167-3-223.usfsh  A	167.167.3.223
+ip-167-167-3-224.usfsh  A	167.167.3.224
+ip-167-167-3-225.usfsh  A	167.167.3.225
+ip-167-167-3-226.usfsh  A	167.167.3.226
+ip-167-167-3-227.usfsh  A	167.167.3.227
+ip-167-167-3-228.usfsh  A	167.167.3.228
+ip-167-167-3-229.usfsh  A	167.167.3.229
+ip-167-167-3-23.usfsh   A	167.167.3.23
+ip-167-167-3-230.usfsh  A	167.167.3.230
+ip-167-167-3-231.usfsh  A	167.167.3.231
+ip-167-167-3-232.usfsh  A	167.167.3.232
+ip-167-167-3-233.usfsh  A	167.167.3.233
+ip-167-167-3-234.usfsh  A	167.167.3.234
+ip-167-167-3-235.usfsh  A	167.167.3.235
+ip-167-167-3-236.usfsh  A	167.167.3.236
+ip-167-167-3-237.usfsh  A	167.167.3.237
+ip-167-167-3-238.usfsh  A	167.167.3.238
+ip-167-167-3-239.usfsh  A	167.167.3.239
+ip-167-167-3-24.usfsh   A	167.167.3.24
+ip-167-167-3-240.usfsh  A	167.167.3.240
+ip-167-167-3-241.usfsh  A	167.167.3.241
+ip-167-167-3-242.usfsh  A	167.167.3.242
+ip-167-167-3-243.usfsh  A	167.167.3.243
+ip-167-167-3-244.usfsh  A	167.167.3.244
+ip-167-167-3-245.usfsh  A	167.167.3.245
+ip-167-167-3-246.usfsh  A	167.167.3.246
+ip-167-167-3-247.usfsh  A	167.167.3.247
+ip-167-167-3-248.usfsh  A	167.167.3.248
+ip-167-167-3-249.usfsh  A	167.167.3.249
+ip-167-167-3-25.usfsh   A	167.167.3.25
+ip-167-167-3-250.usfsh  A	167.167.3.250
+ip-167-167-3-251.usfsh  A	167.167.3.251
+ip-167-167-3-252.usfsh  A	167.167.3.252
+ip-167-167-3-253.usfsh  A	167.167.3.253
+ip-167-167-3-254.usfsh  A	167.167.3.254
+ip-167-167-3-255.usfsh  A	167.167.3.255
+ip-167-167-3-26.usfsh   A	167.167.3.26
+ip-167-167-3-27.usfsh   A	167.167.3.27
+ip-167-167-3-28.usfsh   A	167.167.3.28
+ip-167-167-3-29.usfsh   A	167.167.3.29
+ip-167-167-3-3.usfsh    A	167.167.3.3
+ip-167-167-3-30.usfsh   A	167.167.3.30
+ip-167-167-3-31.usfsh   A	167.167.3.31
+ip-167-167-3-32.usfsh   A	167.167.3.32
+ip-167-167-3-33.usfsh   A	167.167.3.33
+ip-167-167-3-34.usfsh   A	167.167.3.34
+ip-167-167-3-35.usfsh   A	167.167.3.35
+ip-167-167-3-36.usfsh   A	167.167.3.36
+ip-167-167-3-37.usfsh   A	167.167.3.37
+ip-167-167-3-38.usfsh   A	167.167.3.38
+ip-167-167-3-39.usfsh   A	167.167.3.39
+ip-167-167-3-4.usfsh    A	167.167.3.4
+ip-167-167-3-40.usfsh   A	167.167.3.40
+ip-167-167-3-41.usfsh   A	167.167.3.41
+ip-167-167-3-42.usfsh   A	167.167.3.42
+ip-167-167-3-43.usfsh   A	167.167.3.43
+ip-167-167-3-44.usfsh   A	167.167.3.44
+ip-167-167-3-45.usfsh   A	167.167.3.45
+ip-167-167-3-46.usfsh   A	167.167.3.46
+ip-167-167-3-47.usfsh   A	167.167.3.47
+ip-167-167-3-48.usfsh   A	167.167.3.48
+ip-167-167-3-49.usfsh   A	167.167.3.49
+ip-167-167-3-5.usfsh    A	167.167.3.5
+ip-167-167-3-50.usfsh   A	167.167.3.50
+ip-167-167-3-51.usfsh   A	167.167.3.51
+ip-167-167-3-52.usfsh   A	167.167.3.52
+ip-167-167-3-53.usfsh   A	167.167.3.53
+ip-167-167-3-54.usfsh   A	167.167.3.54
+ip-167-167-3-55.usfsh   A	167.167.3.55
+ip-167-167-3-56.usfsh   A	167.167.3.56
+ip-167-167-3-57.usfsh   A	167.167.3.57
+ip-167-167-3-58.usfsh   A	167.167.3.58
+ip-167-167-3-59.usfsh   A	167.167.3.59
+ip-167-167-3-6.usfsh    A	167.167.3.6
+ip-167-167-3-60.usfsh   A	167.167.3.60
+ip-167-167-3-61.usfsh   A	167.167.3.61
+ip-167-167-3-62.usfsh   A	167.167.3.62
+ip-167-167-3-63.usfsh   A	167.167.3.63
+ip-167-167-3-64.usfsh   A	167.167.3.64
+ip-167-167-3-65.usfsh   A	167.167.3.65
+ip-167-167-3-66.usfsh   A	167.167.3.66
+ip-167-167-3-67.usfsh   A	167.167.3.67
+ip-167-167-3-68.usfsh   A	167.167.3.68
+ip-167-167-3-69.usfsh   A	167.167.3.69
+ip-167-167-3-7.usfsh    A	167.167.3.7
+ip-167-167-3-70.usfsh   A	167.167.3.70
+ip-167-167-3-71.usfsh   A	167.167.3.71
+ip-167-167-3-72.usfsh   A	167.167.3.72
+ip-167-167-3-73.usfsh   A	167.167.3.73
+ip-167-167-3-74.usfsh   A	167.167.3.74
+ip-167-167-3-75.usfsh   A	167.167.3.75
+ip-167-167-3-76.usfsh   A	167.167.3.76
+ip-167-167-3-77.usfsh   A	167.167.3.77
+ip-167-167-3-78.usfsh   A	167.167.3.78
+ip-167-167-3-8.usfsh    A	167.167.3.8
+ip-167-167-3-80.usfsh   A	167.167.3.80
+ip-167-167-3-81.usfsh   A	167.167.3.81
+ip-167-167-3-82.usfsh   A	167.167.3.82
+ip-167-167-3-83.usfsh   A	167.167.3.83
+ip-167-167-3-84.usfsh   A	167.167.3.84
+ip-167-167-3-85.usfsh   A	167.167.3.85
+ip-167-167-3-86.usfsh   A	167.167.3.86
+ip-167-167-3-87.usfsh   A	167.167.3.87
+ip-167-167-3-88.usfsh   A	167.167.3.88
+ip-167-167-3-89.usfsh   A	167.167.3.89
+ip-167-167-3-9.usfsh    A	167.167.3.9
+ip-167-167-3-90.usfsh   A	167.167.3.90
+ip-167-167-3-91.usfsh   A	167.167.3.91
+ip-167-167-3-92.usfsh   A	167.167.3.92
+ip-167-167-3-93.usfsh   A	167.167.3.93
+ip-167-167-3-94.usfsh   A	167.167.3.94
+ip-167-167-3-95.usfsh   A	167.167.3.95
+ip-167-167-3-96.usfsh   A	167.167.3.96
+ip-167-167-3-97.usfsh   A	167.167.3.97
+ip-167-167-3-98.usfsh   A	167.167.3.98
+ip-167-167-3-99.usfsh   A	167.167.3.99
+ip-65-112-76-0.usfsh    A	65.112.76.0
+ip-65-112-76-1.usfsh    A	65.112.76.1
+ip-65-112-76-10.usfsh   A	65.112.76.10
+ip-65-112-76-100.usfsh  A	65.112.76.100
+ip-65-112-76-101.usfsh  A	65.112.76.101
+ip-65-112-76-102.usfsh  A	65.112.76.102
+ip-65-112-76-103.usfsh  A	65.112.76.103
+ip-65-112-76-104.usfsh  A	65.112.76.104
+ip-65-112-76-105.usfsh  A	65.112.76.105
+ip-65-112-76-106.usfsh  A	65.112.76.106
+ip-65-112-76-107.usfsh  A	65.112.76.107
+ip-65-112-76-108.usfsh  A	65.112.76.108
+ip-65-112-76-109.usfsh  A	65.112.76.109
+ip-65-112-76-11.usfsh   A	65.112.76.11
+ip-65-112-76-110.usfsh  A	65.112.76.110
+ip-65-112-76-111.usfsh  A	65.112.76.111
+ip-65-112-76-112.usfsh  A	65.112.76.112
+ip-65-112-76-113.usfsh  A	65.112.76.113
+ip-65-112-76-114.usfsh  A	65.112.76.114
+ip-65-112-76-115.usfsh  A	65.112.76.115
+ip-65-112-76-116.usfsh  A	65.112.76.116
+ip-65-112-76-117.usfsh  A	65.112.76.117
+ip-65-112-76-118.usfsh  A	65.112.76.118
+ip-65-112-76-119.usfsh  A	65.112.76.119
+ip-65-112-76-12.usfsh   A	65.112.76.12
+ip-65-112-76-120.usfsh  A	65.112.76.120
+ip-65-112-76-121.usfsh  A	65.112.76.121
+ip-65-112-76-122.usfsh  A	65.112.76.122
+ip-65-112-76-123.usfsh  A	65.112.76.123
+ip-65-112-76-124.usfsh  A	65.112.76.124
+ip-65-112-76-125.usfsh  A	65.112.76.125
+ip-65-112-76-126.usfsh  A	65.112.76.126
+ip-65-112-76-127.usfsh  A	65.112.76.127
+ip-65-112-76-128.usfsh  A	65.112.76.128
+ip-65-112-76-129.usfsh  A	65.112.76.129
+ip-65-112-76-13.usfsh   A	65.112.76.13
+ip-65-112-76-130.usfsh  A	65.112.76.130
+ip-65-112-76-131.usfsh  A	65.112.76.131
+ip-65-112-76-132.usfsh  A	65.112.76.132
+ip-65-112-76-133.usfsh  A	65.112.76.133
+ip-65-112-76-134.usfsh  A	65.112.76.134
+ip-65-112-76-135.usfsh  A	65.112.76.135
+ip-65-112-76-136.usfsh  A	65.112.76.136
+ip-65-112-76-137.usfsh  A	65.112.76.137
+ip-65-112-76-138.usfsh  A	65.112.76.138
+ip-65-112-76-139.usfsh  A	65.112.76.139
+ip-65-112-76-14.usfsh   A	65.112.76.14
+ip-65-112-76-140.usfsh  A	65.112.76.140
+ip-65-112-76-141.usfsh  A	65.112.76.141
+ip-65-112-76-142.usfsh  A	65.112.76.142
+ip-65-112-76-143.usfsh  A	65.112.76.143
+ip-65-112-76-144.usfsh  A	65.112.76.144
+ip-65-112-76-145.usfsh  A	65.112.76.145
+ip-65-112-76-146.usfsh  A	65.112.76.146
+ip-65-112-76-147.usfsh  A	65.112.76.147
+ip-65-112-76-148.usfsh  A	65.112.76.148
+ip-65-112-76-149.usfsh  A	65.112.76.149
+ip-65-112-76-15.usfsh   A	65.112.76.15
+ip-65-112-76-150.usfsh  A	65.112.76.150
+ip-65-112-76-151.usfsh  A	65.112.76.151
+ip-65-112-76-152.usfsh  A	65.112.76.152
+ip-65-112-76-153.usfsh  A	65.112.76.153
+ip-65-112-76-154.usfsh  A	65.112.76.154
+ip-65-112-76-155.usfsh  A	65.112.76.155
+ip-65-112-76-156.usfsh  A	65.112.76.156
+ip-65-112-76-157.usfsh  A	65.112.76.157
+ip-65-112-76-158.usfsh  A	65.112.76.158
+ip-65-112-76-159.usfsh  A	65.112.76.159
+ip-65-112-76-16.usfsh   A	65.112.76.16
+ip-65-112-76-160.usfsh  A	65.112.76.160
+ip-65-112-76-161.usfsh  A	65.112.76.161
+ip-65-112-76-162.usfsh  A	65.112.76.162
+ip-65-112-76-163.usfsh  A	65.112.76.163
+ip-65-112-76-164.usfsh  A	65.112.76.164
+ip-65-112-76-165.usfsh  A	65.112.76.165
+ip-65-112-76-166.usfsh  A	65.112.76.166
+ip-65-112-76-167.usfsh  A	65.112.76.167
+ip-65-112-76-168.usfsh  A	65.112.76.168
+ip-65-112-76-169.usfsh  A	65.112.76.169
+ip-65-112-76-17.usfsh   A	65.112.76.17
+ip-65-112-76-170.usfsh  A	65.112.76.170
+ip-65-112-76-171.usfsh  A	65.112.76.171
+ip-65-112-76-172.usfsh  A	65.112.76.172
+ip-65-112-76-173.usfsh  A	65.112.76.173
+ip-65-112-76-174.usfsh  A	65.112.76.174
+ip-65-112-76-175.usfsh  A	65.112.76.175
+ip-65-112-76-176.usfsh  A	65.112.76.176
+ip-65-112-76-177.usfsh  A	65.112.76.177
+ip-65-112-76-178.usfsh  A	65.112.76.178
+ip-65-112-76-179.usfsh  A	65.112.76.189
+ip-65-112-76-18.usfsh   A	65.112.76.18
+ip-65-112-76-180.usfsh  A	65.112.76.180
+ip-65-112-76-181.usfsh  A	65.112.76.181
+ip-65-112-76-182.usfsh  A	65.112.76.182
+ip-65-112-76-183.usfsh  A	65.112.76.183
+ip-65-112-76-184.usfsh  A	65.112.76.184
+ip-65-112-76-185.usfsh  A	65.112.76.185
+ip-65-112-76-186.usfsh  A	65.112.76.186
+ip-65-112-76-187.usfsh  A	65.112.76.187
+ip-65-112-76-188.usfsh  A	65.112.76.188
+ip-65-112-76-189.usfsh  A	65.112.76.189
+ip-65-112-76-19.usfsh   A	65.112.76.19
+ip-65-112-76-190.usfsh  A	65.112.76.190
+ip-65-112-76-191.usfsh  A	65.112.76.191
+ip-65-112-76-192.usfsh  A	65.112.76.192
+ip-65-112-76-193.usfsh  A	65.112.76.193
+ip-65-112-76-194.usfsh  A	65.112.76.194
+ip-65-112-76-195.usfsh  A	65.112.76.195
+ip-65-112-76-196.usfsh  A	65.112.76.196
+ip-65-112-76-197.usfsh  A	65.112.76.197
+ip-65-112-76-198.usfsh  A	65.112.76.198
+ip-65-112-76-199.usfsh  A	65.112.76.199
+ip-65-112-76-2.usfsh    A	65.112.76.2
+ip-65-112-76-20.usfsh   A	65.112.76.20
+ip-65-112-76-200.usfsh  A	65.112.76.200
+ip-65-112-76-201.usfsh  A	65.112.76.201
+ip-65-112-76-202.usfsh  A	65.112.76.202
+ip-65-112-76-203.usfsh  A	65.112.76.203
+ip-65-112-76-204.usfsh  A	65.112.76.204
+ip-65-112-76-205.usfsh  A	65.112.76.205
+ip-65-112-76-206.usfsh  A	65.112.76.206
+ip-65-112-76-207.usfsh  A	65.112.76.207
+ip-65-112-76-208.usfsh  A	65.112.76.208
+ip-65-112-76-209.usfsh  A	65.112.76.209
+ip-65-112-76-21.usfsh   A	65.112.76.21
+ip-65-112-76-210.usfsh  A	65.112.76.210
+ip-65-112-76-211.usfsh  A	65.112.76.211
+ip-65-112-76-212.usfsh  A	65.112.76.212
+ip-65-112-76-213.usfsh  A	65.112.76.213
+ip-65-112-76-214.usfsh  A	65.112.76.214
+ip-65-112-76-215.usfsh  A	65.112.76.215
+ip-65-112-76-216.usfsh  A	65.112.76.216
+ip-65-112-76-217.usfsh  A	65.112.76.217
+ip-65-112-76-218.usfsh  A	65.112.76.218
+ip-65-112-76-219.usfsh  A	65.112.76.219
+ip-65-112-76-22.usfsh   A	65.112.76.22
+ip-65-112-76-220.usfsh  A	65.112.76.220
+ip-65-112-76-221.usfsh  A	65.112.76.221
+ip-65-112-76-222.usfsh  A	65.112.76.222
+ip-65-112-76-223.usfsh  A	65.112.76.223
+ip-65-112-76-224.usfsh  A	65.112.76.224
+ip-65-112-76-225.usfsh  A	65.112.76.225
+ip-65-112-76-226.usfsh  A	65.112.76.226
+ip-65-112-76-227.usfsh  A	65.112.76.227
+ip-65-112-76-228.usfsh  A	65.112.76.228
+ip-65-112-76-229.usfsh  A	65.112.76.229
+ip-65-112-76-23.usfsh   A	65.112.76.23
+ip-65-112-76-230.usfsh  A	65.112.76.230
+ip-65-112-76-231.usfsh  A	65.112.76.231
+ip-65-112-76-232.usfsh  A	65.112.76.232
+ip-65-112-76-233.usfsh  A	65.112.76.233
+ip-65-112-76-234.usfsh  A	65.112.76.234
+ip-65-112-76-235.usfsh  A	65.112.76.235
+ip-65-112-76-236.usfsh  A	65.112.76.236
+ip-65-112-76-237.usfsh  A	65.112.76.237
+ip-65-112-76-238.usfsh  A	65.112.76.238
+ip-65-112-76-239.usfsh  A	65.112.76.239
+ip-65-112-76-24.usfsh   A	65.112.76.24
+ip-65-112-76-240.usfsh  A	65.112.76.240
+ip-65-112-76-241.usfsh  A	65.112.76.241
+ip-65-112-76-242.usfsh  A	65.112.76.242
+ip-65-112-76-243.usfsh  A	65.112.76.243
+ip-65-112-76-244.usfsh  A	65.112.76.244
+ip-65-112-76-245.usfsh  A	65.112.76.245
+ip-65-112-76-246.usfsh  A	65.112.76.246
+ip-65-112-76-247.usfsh  A	65.112.76.247
+ip-65-112-76-248.usfsh  A	65.112.76.248
+ip-65-112-76-249.usfsh  A	65.112.76.249
+ip-65-112-76-25.usfsh   A	65.112.76.25
+ip-65-112-76-250.usfsh  A	65.112.76.250
+ip-65-112-76-251.usfsh  A	65.112.76.251
+ip-65-112-76-252.usfsh  A	65.112.76.252
+ip-65-112-76-253.usfsh  A	65.112.76.253
+ip-65-112-76-254.usfsh  A	65.112.76.254
+ip-65-112-76-255.usfsh  A	65.112.76.255
+ip-65-112-76-26.usfsh   A	65.112.76.26
+ip-65-112-76-27.usfsh   A	65.112.76.27
+ip-65-112-76-28.usfsh   A	65.112.76.28
+ip-65-112-76-29.usfsh   A	65.112.76.29
+ip-65-112-76-3.usfsh    A	65.112.76.3
+ip-65-112-76-30.usfsh   A	65.112.76.30
+ip-65-112-76-31.usfsh   A	65.112.76.31
+ip-65-112-76-32.usfsh   A	65.112.76.32
+ip-65-112-76-33.usfsh   A	65.112.76.33
+ip-65-112-76-34.usfsh   A	65.112.76.34
+ip-65-112-76-35.usfsh   A	65.112.76.35
+ip-65-112-76-36.usfsh   A	65.112.76.36
+ip-65-112-76-37.usfsh   A	65.112.76.37
+ip-65-112-76-38.usfsh   A	65.112.76.38
+ip-65-112-76-39.usfsh   A	65.112.76.39
+ip-65-112-76-4.usfsh    A	65.112.76.4
+ip-65-112-76-40.usfsh   A	65.112.76.40
+ip-65-112-76-41.usfsh   A	65.112.76.41
+ip-65-112-76-42.usfsh   A	65.112.76.42
+ip-65-112-76-43.usfsh   A	65.112.76.43
+ip-65-112-76-44.usfsh   A	65.112.76.44
+ip-65-112-76-45.usfsh   A	65.112.76.45
+ip-65-112-76-46.usfsh   A	65.112.76.46
+ip-65-112-76-47.usfsh   A	65.112.76.47
+ip-65-112-76-48.usfsh   A	65.112.76.48
+ip-65-112-76-49.usfsh   A	65.112.76.49
+ip-65-112-76-5.usfsh    A	65.112.76.5
+ip-65-112-76-50.usfsh   A	65.112.76.50
+ip-65-112-76-51.usfsh   A	65.112.76.51
+ip-65-112-76-52.usfsh   A	65.112.76.52
+ip-65-112-76-53.usfsh   A	65.112.76.53
+ip-65-112-76-54.usfsh   A	65.112.76.54
+ip-65-112-76-55.usfsh   A	65.112.76.55
+ip-65-112-76-56.usfsh   A	65.112.76.56
+ip-65-112-76-57.usfsh   A	65.112.76.57
+ip-65-112-76-58.usfsh   A	65.112.76.58
+ip-65-112-76-59.usfsh   A	65.112.76.59
+ip-65-112-76-6.usfsh    A	65.112.76.6
+ip-65-112-76-60.usfsh   A	65.112.76.60
+ip-65-112-76-61.usfsh   A	65.112.76.61
+ip-65-112-76-62.usfsh   A	65.112.76.62
+ip-65-112-76-63.usfsh   A	65.112.76.63
+ip-65-112-76-64.usfsh   A	65.112.76.64
+ip-65-112-76-65.usfsh   A	65.112.76.65
+ip-65-112-76-66.usfsh   A	65.112.76.66
+ip-65-112-76-67.usfsh   A	65.112.76.67
+ip-65-112-76-68.usfsh   A	65.112.76.68
+ip-65-112-76-69.usfsh   A	65.112.76.69
+ip-65-112-76-7.usfsh    A	65.112.76.7
+ip-65-112-76-70.usfsh   A	65.112.76.70
+ip-65-112-76-71.usfsh   A	65.112.76.71
+ip-65-112-76-72.usfsh   A	65.112.76.72
+ip-65-112-76-73.usfsh   A	65.112.76.73
+ip-65-112-76-74.usfsh   A	65.112.76.74
+ip-65-112-76-75.usfsh   A	65.112.76.75
+ip-65-112-76-76.usfsh   A	65.112.76.76
+ip-65-112-76-77.usfsh   A	65.112.76.77
+ip-65-112-76-78.usfsh   A	65.112.76.78
+ip-65-112-76-8.usfsh    A	65.112.76.8
+ip-65-112-76-80.usfsh   A	65.112.76.80
+ip-65-112-76-81.usfsh   A	65.112.76.81
+ip-65-112-76-82.usfsh   A	65.112.76.82
+ip-65-112-76-83.usfsh   A	65.112.76.83
+ip-65-112-76-84.usfsh   A	65.112.76.84
+ip-65-112-76-85.usfsh   A	65.112.76.85
+ip-65-112-76-86.usfsh   A	65.112.76.86
+ip-65-112-76-87.usfsh   A	65.112.76.87
+ip-65-112-76-88.usfsh   A	65.112.76.88
+ip-65-112-76-89.usfsh   A	65.112.76.89
+ip-65-112-76-9.usfsh    A	65.112.76.9
+ip-65-112-76-90.usfsh   A	65.112.76.90
+ip-65-112-76-91.usfsh   A	65.112.76.91
+ip-65-112-76-92.usfsh   A	65.112.76.92
+ip-65-112-76-93.usfsh   A	65.112.76.93
+ip-65-112-76-94.usfsh   A	65.112.76.94
+ip-65-112-76-95.usfsh   A	65.112.76.95
+ip-65-112-76-96.usfsh   A	65.112.76.96
+ip-65-112-76-97.usfsh   A	65.112.76.97
+ip-65-112-76-98.usfsh   A	65.112.76.98
+ip-65-112-76-99.usfsh   A	65.112.76.99
+usfshlxmx01             A	167.167.3.15
+usfshlxmx02             A	167.167.3.16
+usfshlxmx03             A	167.167.3.17
+usfshlxmx06             A	167.167.3.144
+usfshlxmx07             A	167.167.3.145
+usfshlxmx08             A	167.167.3.146
+vivendient              MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.vivendient.myreg.net a:usfshlxmx07.vivendient.myreg.net a:usfshlxmx08.vivendient.myreg.net -all" )
+vivendient._domainkey.vivendient TXT	( "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ0POvmDGFkRc8xTbH/91tSTXtx5l0s+OqE6qoI5+AcLxBn2Q21pOOKmVTYGfId7Ke9xYi7gJzirXo3BiCvNXX07gTfGgyPdWIFvjqa06Un6baBf4kvi8oK1rnBM5GNDtT0wX+AN/fGAgpyBimXQOrZ5tsfs2iNItsAs8M3s6JsQIDAQAB;" )
+usfshlxmx06.internal.vivendient A	192.168.78.228
+usfshlxmx07.internal.vivendient A	192.168.78.227
+pobox.vivendient        MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.vivendient.myreg.net a:usfshlxmx07.vivendient.myreg.net a:usfshlxmx08.vivendient.myreg.net -all" )
+usfshlxmx06.vivendient  A	167.167.3.228
+usfshlxmx07.vivendient  A	167.167.3.227
+vmgbackstage            A	167.167.3.96
+                        MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.vmgbackstage.myreg.net a:usfshlxmx07.vmgbackstage.myreg.net -all" )
+vmgbackstage._domainkey.vmgbackstage TXT	( "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChPVf9QPvfXiH4sLojOGmLys2bN+zfeAL9xbjlcIwxkwP14LHfS8nKVsqubTKAzWM8nRMTl6iXQFjRrFpAVsxoenOAM6f4mJrjSvzq/lfY5scy6BVayv47ump9WaR16qy5b025xo4ar0NqLpsV55hFA8M5WqYC2Nw1Isxx5q0A+wIDAQAB;" )
+usfshlxmx06.internal.vmgbackstage A	192.168.78.95
+usfshlxmx07.internal.vmgbackstage A	192.168.78.96
+usfshlxmx08.internal.vmgbackstage A	192.168.78.97
+pobox.vmgbackstage      MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.vmgbackstage.myreg.net a:usfshlxmx07.vmgbackstage.myreg.net -all" )
+usfshlxmx07.vmgbackstage CNAME	vmgbackstage.myreg.net.
+vprecords               MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.vprecords.myreg.net a:usfshlxmx07.vprecords.myreg.net a:usfshlxmx08.vprecords.myreg.net -all" )
+vprecords._domainkey.vprecords TXT	( "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ0POvmDGFkRc8xTbH/91tSTXtx5l0s+OqE6qoI5+AcLxBn2Q21pOOKmVTYGfId7Ke9xYi7gJzirXo3BiCvNXX07gTfGgyPdWIFvjqa06Un6baBf4kvi8oK1rnBM5GNDtT0wX+AN/fGAgpyBimXQOrZ5tsfs2iNItsAs8M3s6JsQIDAQAB;" )
+usfshlxmx06.internal.vprecords A	192.168.78.226
+usfshlxmx07.internal.vprecords A	192.168.78.225
+pobox.vprecords         MX	10	mailrx.myreg.net.
+                        TXT	( "v=spf1 a mx a:usfshlxmx06.vprecords.myreg.net a:usfshlxmx07.vprecords.myreg.net a:usfshlxmx08.vprecords.myreg.net -all" )
+usfshlxmx06.vprecords   A	167.167.3.226
+usfshlxmx07.vprecords   A	167.167.3.225
+www                     A	167.167.3.11

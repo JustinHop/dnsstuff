@@ -1,0 +1,31 @@
+;
+;  Database file deccarecords-us.com.dns for deccarecords-us.com zone.
+;      Zone version:  2008051511
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2008051511   ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.135
+dev                     A	192.251.67.124
+prod                    A	192.251.67.166
+test                    A	192.251.67.94
+www                     CNAME	deccarecords-us.com.
