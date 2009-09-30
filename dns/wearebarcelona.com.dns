@@ -1,10 +1,10 @@
 ;
 ;  Database file wearebarcelona.com.dns for wearebarcelona.com zone.
-;      Zone version:  7
+;      Zone version:  200909300
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	7            ; serial number
+                        	200909300            ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire

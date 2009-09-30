@@ -1,10 +1,10 @@
 ;
 ;  Database file umrg.com.dns for umrg.com zone.
-;      Zone version:  2007012682
+;      Zone version:  2007012686
 ;
 
 @                       120	IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2007012682   ; serial number
+                        	2007012686   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -26,13 +26,13 @@ ns5.umusic.com.         A	167.167.1.132
 ;
 
 @                       A	167.167.24.101
+@                       MX	30	aspmx3.googlemail.com.
 @                       MX	30	aspmx2.googlemail.com.
 @                       MX	30	aspmx4.googlemail.com.
 @                       MX	30	aspmx5.googlemail.com.
 @                       MX	10	aspmx.l.google.com.
 @                       MX	20	alt1.aspmx.l.google.com.
 @                       MX	20	alt2.aspmx.l.google.com.
-@                       MX	30	aspmx3.googlemail.com.
 att.10yearsmusic        CNAME	hvp5.umrg.com.
 dev.10yearsmusic        A	192.251.67.124
 prod.10yearsmusic       A	167.167.2.114
@@ -52,6 +52,7 @@ att.akon                CNAME	hvp3.umrg.com.
 dev.akon                CNAME	dev.umrg.com.
 prod.akon               CNAME	prod.umrg.com.
 test.akon               CNAME	test.umrg.com.
+test.americanyard       CNAME	test.umrg.com.
 att.anberlin            CNAME	hvp2.umrg.com.
 dev.anberlin            CNAME	dev.umrg.com.
 prod.anberlin           CNAME	prod.umrg.com.
@@ -77,7 +78,9 @@ dev.ashantimurdergram   CNAME	dev.umrg.com.
 att.ashleyring          CNAME	hvp3.umrg.com.
 test.ashleyring         CNAME	test.umrg.com.
 assets                  A	167.167.24.101
+cdn.assets              CNAME	cdn.assets.interscope.com.att-idns.net.
 origin.assets           A	167.167.24.101
+progressive.assets      CNAME	progressive.assets.umrg.com.att-idns.net.
 att.astraheights        CNAME	hvp1.umrg.com.
 bestof2007              CNAME	www.umrg.com.
 att.birdmanstunna       CNAME	hvp3.umrg.com.
@@ -355,6 +358,7 @@ www02.samsparrousa      CNAME	www02.umrg.com.
 prod.savage             CNAME	prod.umrg.com.
 test.savage             CNAME	test.umrg.com.
 att.scissorsisters      CNAME	hvp4.umrg.com.
+test.serabee            CNAME	test.umrg.com.
 att.serani              CNAME	hvp3.umrg.com.
 test.serani             CNAME	test.umrg.com.
 att.shire               CNAME	hvp3.umrg.com.

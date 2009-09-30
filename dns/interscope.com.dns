@@ -1,10 +1,10 @@
 ;
 ;  Database file interscope.com.dns for interscope.com zone.
-;      Zone version:  2006032951
+;      Zone version:  2006032956
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2006032951   ; serial number
+                        	2006032956   ; serial number
                         	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -56,7 +56,7 @@ dev.apps                A	192.251.67.100
 att.ashleesimpson       CNAME	med4.interscope.com.
 dev.ashleesimpson       A	192.251.67.100
 prod.ashleesimpson      A	57.77.2.141
-assets                  CNAME	assets.interscope.com.att-idns.net.
+assets                  A	167.167.24.70
 origin.assets           A	167.167.24.70
 www.assets              CNAME	www.assets.interscope.att-idns.net.
 att                     CNAME	med2.interscope.com.
@@ -180,6 +180,8 @@ commondreads            A	167.167.24.75
 att.commondreads        CNAME	att.interscope.com.
 dev.commondreads        CNAME	dev.interscope.com.
 att.comptongame         CNAME	med2.interscope.com.
+att.cosmicvan           CNAME	lvp2.interscope.com.
+dev.cosmicvan           CNAME	dev.interscope.com.
 att.cure                CNAME	lvp1.interscope.com.
 dev.cure                A	192.251.67.100
 prod.cure               A	57.77.2.142

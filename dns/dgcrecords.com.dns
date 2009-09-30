@@ -1,10 +1,10 @@
 ;
 ;  Database file dgcrecords.com.dns for dgcrecords.com zone.
-;      Zone version:  11
+;      Zone version:  12
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	11           ; serial number
+                        	12           ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -14,17 +14,17 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns1.umusic.com.
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
 
 ;
 ;  Zone records
 ;
 
-@                       A	167.167.24.77
+@                       A	167.167.24.75
 blog                    A	72.32.231.8
 feeds                   CNAME	null.feedproxy.ghs.google.com.
 www                     CNAME	dgcrecords.com.

@@ -1,10 +1,10 @@
 ;
 ;  Database file vervemusicgroup.com.dns for vervemusicgroup.com zone.
-;      Zone version:  2003010939
+;      Zone version:  2003010945
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2003010939   ; serial number
+                        	2003010945   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -50,6 +50,7 @@ dev.brianblade          CNAME	dev.vervemusicgroup.com.
 prod.brianblade         CNAME	prod.vervemusicgroup.com.
 dev.brianblades         CNAME	dev.vervemusicgroup.com.
 prod.brianblades        CNAME	prod.vervemusicgroup.com.
+att.celebrateella       CNAME	att.vervemusicgroup.com.
 cms                     CNAME	vervemusicgroup.com.
 dev                     A	192.251.67.124
 dev-teddy               A	192.251.67.124
@@ -65,6 +66,9 @@ dev.findthe13           CNAME	dev.vervemusicgroup.com.
 greatestthrill          CNAME	usucplvapp001.global.umusic.com.
 att.greatestthrill      CNAME	llvp2.att.umusic.com.
 dev.greatestthrill      CNAME	usucplvapp001.global.umusic.com.
+history                 A	167.167.24.135
+att.history             CNAME	att.vervemusicgroup.com.
+dev.history             CNAME	dev.vervemusicgroup.com.
 att.jessiebaylin        CNAME	att.vervemusicgroup.com.
 dev.jessiebaylin        CNAME	dev.vervemusicgroup.com.
 prod.jessiebaylin       CNAME	prod.vervemusicgroup.com.
@@ -87,6 +91,8 @@ dev.lizzwright          A	192.251.67.124
 localhost               A	127.0.0.1
 mobile                  A	167.167.24.136
 prod                    A	192.251.67.166
+att.sonos               CNAME	att.vervemusicgroup.com.
+dev.sonos               CNAME	dev.vervemusicgroup.com.
 att.susantedeschi       CNAME	att.vervemusicgroup.com.
 dev.susantedeschi       CNAME	dev.vervemusicgroup.com.
 prod.susantedeschi      CNAME	prod.vervemusicgroup.com.

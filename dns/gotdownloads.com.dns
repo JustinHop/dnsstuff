@@ -1,25 +1,25 @@
 ;
 ;  Database file gotdownloads.com.dns for gotdownloads.com zone.
-;      Zone version:  2003051463
+;      Zone version:  2003051465
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2003051463   ; serial number
-                        	7200         ; refresh
+                        	2003051465   ; serial number
+                        	54000        ; refresh
                         	600          ; retry
                         	2419200      ; expire
-                        	7200       ) ; default TTL
+                        	3600       ) ; default TTL
 
 ;
 ;  Zone NS records
 ;
 
-@                       NS	ns5.umusic.com.
-ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
@@ -35,6 +35,7 @@ www.buymusic            1800	CNAME	gotdownloads.com.
 dev                     A	192.251.67.94
 fye                     CNAME	cmsserver01.umusic.com.
 www.fye                 CNAME	cmsserver01.umusic.com.
+glade                   A	167.167.24.135
 att.glade               CNAME	att.gotdownloads.com.
 dev.glade               A	192.251.67.94
 localhost               A	127.0.0.1

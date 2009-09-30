@@ -1,10 +1,10 @@
 ;
 ;  Database file idjmg.com.dns for idjmg.com zone.
-;      Zone version:  2002043343
+;      Zone version:  2002043355
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2002043343   ; serial number
+                        	2002043355   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,11 +14,11 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns5.umusic.com.
-ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns1.umusic.com.
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
@@ -77,6 +77,7 @@ prod.falloutboy         CNAME	lb01-mid.idjmg.com.
 test.falloutboy         CNAME	test.idjmg.com.
 farm                    CNAME	defjam.idjmg.com.
 prod.fob                CNAME	lb01-mid.idjmg.com.
+att.ghostface           A	167.167.24.10
 dev.ghostface           CNAME	test.idjmg.com.
 test.ghostface          CNAME	test.idjmg.com.
 att.hoobastank          CNAME	lb02-mid.idjmg.com.
@@ -86,6 +87,10 @@ att03.hoobastank        CNAME	att03.idjmg.com.
 att04.hoobastank        CNAME	att04.idjmg.com.
 test.hoobastank         CNAME	test.idjmg.com.
 att.idj                 CNAME	lb02-mid.idjmg.com.
+att01.idj               CNAME	att01.idjmg.com.
+att02.idj               CNAME	att02.idjmg.com.
+att03.idj               CNAME	att03.idjmg.com.
+att04.idj               CNAME	att04.idjmg.com.
 test.idj                CNAME	test.idjmg.com.
 idjstaging              A	192.168.73.111
 att.innerpartysystem    CNAME	lb02-mid.idjmg.com.
@@ -167,6 +172,8 @@ att04.ludo              CNAME	att04.idjmg.com.
 dev.ludo                CNAME	dev.idjmg.com.
 prod.ludo               CNAME	lb01-mid.idjmg.com.
 test.ludo               CNAME	test.idjmg.com.
+att.iphone.mariah       A	167.167.24.37
+dev.iphone.mariah       A	192.251.67.13
 att.methandredmusic     CNAME	lb01-mid.idjmg.com.
 test.methandredmusic    CNAME	test.idjmg.com.
 att.neyo                CNAME	lb01-mid.idjmg.com.
@@ -194,6 +201,8 @@ dev.roc                 A	192.251.67.124
 prod.roc                A	167.167.2.18
 www01.roc               A	167.167.2.102
 www02.roc               A	167.167.2.101
+att.schoolgyrls         CNAME	att01.idjmg.com.
+test.schoolgyrls        CNAME	test.idjmg.com.
 att.shonie              CNAME	lb01-mid.idjmg.com.
 test.shonie             CNAME	test.idjmg.com.
 att.shopmariah          CNAME	lb02-mid.idjmg.com.

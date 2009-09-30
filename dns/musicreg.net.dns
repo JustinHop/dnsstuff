@@ -1,10 +1,10 @@
 ;
 ;  Database file musicreg.net.dns for musicreg.net zone.
-;      Zone version:  2008043148
+;      Zone version:  2008043161
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2008043148   ; serial number
+                        	2008043161   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -36,8 +36,8 @@ pobox.atmospheriques    MX	10	mailrx.musicreg.net.
                         TXT	( "v=spf1 a mx a:usfshlxmx08.atmospheriques.musicreg.net a:ukromlsmx01.atmospheriques.musicreg.net -all" )
 usfshlxmx08.atmospheriques CNAME	atmospheriques.musicreg.net.
 az                      A	167.167.3.161
-                        MX	100	mailrx2.musicreg.net.
                         MX	10	mailrx.musicreg.net.
+                        MX	100	mailrx2.musicreg.net.
                         TXT	( "v=spf1 redirect=musicreg.net" )
 az._domainkey.az        TXT	( "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCul3b7jpE18N75268/IQwwbgrLUJWmhOcckhgeoIA+lZ/XbRlnqYa/NSnTQPdD4ZB5HFy7rj4zM07bx6cYSgeljEHHowm4a5Ja3+uMYa/ORzBv6nOu2D8datdzX2bxmFLHCih3i8hT+v2vJM1XJl86SM4R+pWE2o7c5rxminUgJwIDAQAB;" )
 usfshlxmx08.internal.az A	192.168.78.161
@@ -46,16 +46,16 @@ pobox.az                MX	100	mailrx2.musicreg.net.
                         TXT	( "v=spf1 redirect=musicreg.net" )
 usfshlxmx08.az          CNAME	az.musicreg.net.
 barclay                 A	167.167.3.162
-                        MX	10	mailrx.musicreg.net.
                         MX	100	mailrx2.musicreg.net.
+                        MX	10	mailrx.musicreg.net.
                         TXT	( "v=spf1 redirect=musicreg.net" )
 barclay._domainkey.barclay TXT	( "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDodJxsV2n6Cn90Pe7MD7I4r+RkNTtwqx2Af5aGLp4N0YKr4aVfdBte999u1rnWTkOgnDPQIOMYwG0/797ZmViEJHkA1pZmoFKyH8wClwMpel5M5MDq1PBkNLuIKMwY+oPqbAKMadW7lXuGAHJVwhhhV7em874I3/Pal8p95vq1VwIDAQAB;" )
 usfshlxmx08.internal.barclay A	192.168.78.162
 pobox.barclay           TXT	( "v=spf1 redirect=musicreg.net" )
 usfshlxmx08.barclay     CNAME	barclay.musicreg.net.
 classicfr               A	167.167.3.163
-                        MX	100	mailrx2.musicreg.net.
                         MX	10	mailrx.musicreg.net.
+                        MX	100	mailrx2.musicreg.net.
                         TXT	( "v=spf1 a mx a:usfshlxmx08.classicfr.musicreg.net a:ukromlsmx01.classicfr.musicreg.net -all" )
 classicfr._domainkey.classicfr TXT	( "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDGG/L5iVeq3Na4U6XGd7PcJAKVIX2aZq6YyjVPjHYctS9TMvK6qX1PXhymPjdyjJLlAcKMYLTS+DVl1a8A9PBWhijbLZmGJeThm6mX2PE4DcBgFKYN0mI1Hm3djxfyBusz0yHPtaOX4JrvifFI5hX7Xt4f3PNMCXDIzxvZemsR0QIDAQAB;" )
 usfshlxmx08.internal.classicfr A	192.168.78.163
@@ -86,10 +86,10 @@ session.db              CNAME	ukromlsmys001.internal.musicreg.net.
 stats.db                CNAME	ukromlsmys001.internal.musicreg.net.
 universal-register.db   CNAME	ukromlsmys001.internal.musicreg.net.
 ecrm                    A	167.167.142.59
-login.ecrm              A	167.167.142.50
-                        A	167.167.142.51
-ecrmapi                 A	167.167.142.51
+login.ecrm              A	167.167.142.51
                         A	167.167.142.50
+ecrmapi                 A	167.167.142.50
+                        A	167.167.142.51
 events                  A	167.167.142.208
                         MX	10	mailrx.musicreg.net.
                         TXT	( "v=spf1 redirect=musicreg.net" )
@@ -126,13 +126,13 @@ ukromlsqmx001.internal  A	192.168.46.57
 ukromlsqmx09.internal   A	192.168.45.56
 ukromwssql004.internal  A	192.168.46.58
 jazz                    A	167.167.3.164
-                        MX	10	mailrx.musicreg.net.
                         MX	100	mailrx2.musicreg.net.
+                        MX	10	mailrx.musicreg.net.
                         TXT	( "v=spf1 a mx a:usfshlxmx08.jazz.musicreg.net a:ukromlsmx01.jazz.musicreg.net -all" )
 jazz._domainkey.jazz    TXT	( "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbgIDNbj5L/X5pqBeJFGmiryIuwTnSLd2QMNaToM1+kaqfNqDMnFHECBoCXHYHMx/GO3iZyKEYd+3YgaP40iSjNIeTw3Olf0rjCjd099OgZx6faANAOkUYdDcQpej9Ixnc1P7DHGvEsL2COu40N8isIRxglAaDOK9KK9icx6fZ8QIDAQAB;" )
 usfshlxmx08.internal.jazz A	192.168.78.164
-pobox.jazz              MX	100	mailrx2.musicreg.net.
-                        MX	10	mailrx.musicreg.net.
+pobox.jazz              MX	10	mailrx.musicreg.net.
+                        MX	100	mailrx2.musicreg.net.
                         TXT	( "v=spf1 a mx a:usfshlxmx08.jazz.musicreg.net a:ukromlsmx01.jazz.musicreg.net -all" )
 usfshlxmx08.jazz        CNAME	jazz.musicreg.net.
 classic.jp              A	167.167.3.184
@@ -169,8 +169,8 @@ mercuryfr               A	167.167.3.165
                         TXT	( "v=spf1 a mx a:ukromlsmx01.mercuryfr.musicreg.net a:usfshlxmx08.mercuryfr.musicreg.net -all" )
 mercuryfr._domainkey.mercuryfr TXT	( "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2btEc6Mf8lnh6O9SZhczMsenavQ/DZ+T54Dt6ljXeodEIUk82xlYwr2GlxFq9fW9mahrTvnjmonvzkyl2xRyPeovIkMuT/ef8BhAEqbqWcDh5h6drz7tLH0T2h2eZdv0HKAWsRUw8ExbLd8uqH3s+S7wTKrQ9QCrdJCjvbHJ8ewIDAQAB;" )
 usfshlxmx08.internal.mercuryfr A	192.168.78.165
-pobox.mercuryfr         MX	10	mailrx.musicreg.net.
-                        MX	100	mailrx2.musicreg.net.
+pobox.mercuryfr         MX	100	mailrx2.musicreg.net.
+                        MX	10	mailrx.musicreg.net.
                         TXT	( "v=spf1 a mx a:ukromlsmx01.mercuryfr.musicreg.net a:usfshlxmx08.mercuryfr.musicreg.net -all" )
 usfshlxmx08.mercuryfr   CNAME	mercuryfr.musicreg.net.
 nayutawave              A	167.167.3.178
@@ -184,8 +184,8 @@ pobox.partnerfr         MX	10	mailrx.musicreg.net.
                         TXT	( "v=spf1 redirect=musicreg.net" )
 usfshlxmx08.partnerfr   CNAME	partnerfr.musicreg.net.
 polydorfr               A	167.167.3.166
-                        MX	10	mailrx.musicreg.net.
                         MX	100	mailrx2.musicreg.net.
+                        MX	10	mailrx.musicreg.net.
                         TXT	( "v=spf1 a mx a:ukromlsmx01.polydorfr.musicreg.net a:usfshlxmx08.polydorfr.musicreg.net -all" )
 polydorfr._domainkey.polydorfr TXT	( "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5z8tfNJf0P5agMshXxNg2W5rMFPBJg5hF0315cXQfHOKSbYbbH8dJWLMp8HyLvjJoH3uh7t0OEnE6Y6BYpXeuY7/+zuqFxEm1ICbQmkAaTN6QvHgcplibtAdgKPGmyTkg94uXmZEUAEtHT7lt1RHNqUGDxIbcnhFrzoShyItPqQIDAQAB;" )
 usfshlxmx08.internal.polydorfr A	192.168.78.166
@@ -285,14 +285,14 @@ pobox.umgipartner       MX	10	mailrx.musicreg.net.
                         TXT	( "v=spf1 a mx a:ukromlsmx01.umgipartner.musicreg.net a:usfshlxmx01.umgipartner.musicreg.net -all" )
 ukromlsmx01.umgipartner A	167.167.142.209
 umitaly                 A	167.167.3.176
-                        MX	10	mailrx.musicreg.net.
                         MX	100	mailrx2.musicreg.net.
+                        MX	10	mailrx.musicreg.net.
                         TXT	( "v=spf1 a mx a:ukromlsmx01.umitaly.musicreg.net a:usfshlxmx08.umitaly.musicreg.net -all" )
 umitaly._domainkey.umitaly TXT	( "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrIHappgUg9xOmnjLG81vRXcHGpGRCs/XJM7O4VaAVqZ2Y5sMlXtukd9+QnMw3ZBV4OoceViDNEp09FS3H6flOAKJw+NYMPyy4x6RaUQXjDSupky69n3woPu0nYXj/ZQg78bbaovFYQsNalG5h7XBCnRR0Q7l7Kw/NH6lxpJn+YQIDAQAB;" )
 ukromlsmx01.internal.umitaly A	192.168.46.176
 usfshlxmx08.internal.umitaly A	192.168.78.176
-pobox.umitaly           MX	100	mailrx2.musicreg.net.
-                        MX	10	mailrx.musicreg.net.
+pobox.umitaly           MX	10	mailrx.musicreg.net.
+                        MX	100	mailrx2.musicreg.net.
                         TXT	( "v=spf1 a mx a:ukromlsmx01.umitaly.musicreg.net a:usfshlxmx08.umitaly.musicreg.net -all" )
 ukromlsmx01.umitaly     A	167.167.142.176
 umjp                    A	167.167.3.173
@@ -388,9 +388,13 @@ pobox.universalmusicco  7500	MX	10	mailrx.musicreg.net.
 ukromlsmx01.universalmusicco 7500	CNAME	universalmusicco.musicreg.net.
 universalmusiccz        A	167.167.142.206
                         MX	10	mailrx.musicreg.net.
-                        TXT	( "v=spf1 +a +mx -all" )
+                        TXT	( "v=spf1 redirect=musicreg.net" )
 universalmusiccz._domainkey.universalmusiccz TXT	( "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgGUmGEGXjw0BpiKzk1jnQFmKdsq3am5Jul3HMIdfmfvwBClKs12AoNaj/CK5BYo/mbmv2BXuPOZrA9k0mh5epSDm/3LxxtIQY9S+C335OuR0J3FW57rmhxrqwvXzJvQCob4IdR6Pp1Auo/H3W3fE6Hy2LGJ3cg3Q7in7o998aQQIDAQAB;" )
+ukromlsmx01.internal.universalmusiccz A	192.168.46.206
 pobox.universalmusiccz  MX	10	mailrx.musicreg.net.
+                        TXT	( "v=spf1 redirect=musicreg.net"
+                        	"" )
+ukromlsmx01.universalmusiccz CNAME	universalmusiccz.musicreg.net.
 universalmusicee        A	167.167.142.213
                         MX	10	mailrx.musicreg.net.
                         TXT	( "v=spf1 redirect=musicreg.net" )
@@ -415,8 +419,8 @@ universalmusicfr        A	167.167.3.168
                         TXT	( "v=spf1 a mx a:ukromlsmx01.universalmusicfr.musicreg.net a:usfshlxmx08.universalmusicfr.musicreg.net -all" )
 universalmusicfr._domainkey.universalmusicfr TXT	( "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ0POvmDGFkRc8xTbH/91tSTXtx5l0s+OqE6qoI5+AcLxBn2Q21pOOKmVTYGfId7Ke9xYi7gJzirXo3BiCvNXX07gTfGgyPdWIFvjqa06Un6baBf4kvi8oK1rnBM5GNDtT0wX+AN/fGAgpyBimXQOrZ5tsfs2iNItsAs8M3s6JsQIDAQAB;" )
 usfshlxmx08.internal.universalmusicfr A	192.168.78.168
-pobox.universalmusicfr  MX	10	mailrx.musicreg.net.
-                        MX	100	mailrx2.musicreg.net.
+pobox.universalmusicfr  MX	100	mailrx2.musicreg.net.
+                        MX	10	mailrx.musicreg.net.
                         TXT	( "v=spf1 a mx a:ukromlsmx01.universalmusicfr.musicreg.net a:usfshlxmx08.universalmusicfr.musicreg.net -all" )
 usfshlxmx08.universalmusicfr CNAME	universalmusicfr.musicreg.net.
 universalmusicgr        A	167.167.142.214
@@ -506,21 +510,21 @@ pobox.universalmusicmy  MX	10	mailrx.musicreg.net.
 ukromlsmx01.universalmusicmy A	167.167.142.194
 usfshlxmx08.universalmusicmy A	167.167.3.197
 universalmusicnl        A	167.167.3.159
-                        MX	100	mailrx2.musicreg.net.
                         MX	10	mailrx.musicreg.net.
+                        MX	100	mailrx2.musicreg.net.
                         TXT	( "v=spf1 a:ukromlsmx01.universalmusicnl.musicreg.net a:usfshlxmx08.universalmusicnl.musicreg.net -all" )
 universalmusicnl._domainkey.universalmusicnl TXT	( "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDKqKfDQgkzd+rZTLEJg5iNSPbZYcrVETEa7E1065swgdR51RsbzSHYlgIu3J86ZnHIoFQ/w/n21hqrbESnVlvhLPrjPKqOrDHjRnAh2VuHHHxIJLyFx7v3FgR5GGyhMAXbIUthw95K7RJs7OvMmMXpxPBg+8cEYTcxClBvZd323QIDAQAB;" )
 ukromlsmx01.internal.universalmusicnl A	192.168.46.183
 usfshlxmx08.internal.universalmusicnl A	192.168.78.159
-pobox.universalmusicnl  MX	10	mailrx.musicreg.net.
-                        MX	100	mailrx2.musicreg.net.
+pobox.universalmusicnl  MX	100	mailrx2.musicreg.net.
+                        MX	10	mailrx.musicreg.net.
                         TXT	( "v=spf1 include:universalmusicnl.musicreg.net -all" )
 usfshlxmx08.universalmusicnl CNAME	universalmusicnl.musicreg.net.
 universalmusicno        MX	10	mailrx.musicreg.net.
                         TXT	( "v=spf1 a mx a:ukromlsmx01.universalmusicno.musicreg.net a:usfshlxmx08.universalmusicno.musicreg.net -all" )
 umnorway._domainkey.universalmusicno TXT	( "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2hH/CG9Aup1+NuPo/1HHLg53EeSlHLim7l3PTl1UMmSzZ/IOKkL7E31UOuSVXs/eszuH9wg/6EyLFNhNSpcTisnlV3lBpQ/ZBXrDCP19wFczstfxp3amHzhF/9Sm8epOGYA0UUPH78BcdAX2uDFzsF3Km7g3EPsRh1kTXr37uzwIDAQAB;" )
-pobox.universalmusicno  MX	10	mailrx.musicreg.net.
-                        MX	10	mailrx2.musicreg.net.
+pobox.universalmusicno  MX	10	mailrx2.musicreg.net.
+                        MX	10	mailrx.musicreg.net.
                         TXT	( "v=spf1 a mx a:ukromlsmx01.universalmusicno.musicreg.net a:usfshlxmx08.universalmusicno.musicreg.net -all" )
 usfshlxmx08.universalmusicno A	167.167.3.186
 universalmusicpl        A	167.167.142.219

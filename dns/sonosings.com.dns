@@ -1,10 +1,10 @@
 ;
-;  Database file ilovejustin.ca.dns for ilovejustin.ca zone.
-;      Zone version:  13
+;  Database file sonosings.com.dns for sonosings.com zone.
+;      Zone version:  7
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	13           ; serial number
+                        	7            ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -24,10 +24,5 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-@                       7200	A	167.167.24.138
-@                       MX	10	mx1c25.carrierzone.com.
-@                       MX	100	mx2c25.carrierzone.com.
-@                       MX	110	mx3c25.carrierzone.com.
-@                       MX	120	mx4c25.carrierzone.com.
-webmail                 A	64.29.145.44
-www                     CNAME	ilovejustin.ca.
+@                       A	167.167.24.137
+www                     CNAME	sonosings.com.
