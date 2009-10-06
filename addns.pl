@@ -80,11 +80,9 @@ for my $file (@ARGV) {
             $update++;
         }
         if ( $update > 0 ) {
-            print $file . "\n";
-            write_file($file,$zone) unless ( $debug > 0 );
-            my @args = ("zsu",$file);
-            system(@args) == 0 or die $!;
+            print $zone . "\n";
         }
+        else { exit 1; }
     }
 }
 
