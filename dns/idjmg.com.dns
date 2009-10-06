@@ -1,10 +1,10 @@
 ;
 ;  Database file idjmg.com.dns for idjmg.com zone.
-;      Zone version:  2002043355
+;      Zone version:  2002043357
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2002043355   ; serial number
+                        	2002043357   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -173,6 +173,8 @@ dev.ludo                CNAME	dev.idjmg.com.
 prod.ludo               CNAME	lb01-mid.idjmg.com.
 test.ludo               CNAME	test.idjmg.com.
 att.iphone.mariah       A	167.167.24.37
+att03.iphone.mariah     A	167.167.24.34
+att04.iphone.mariah     A	167.167.24.35
 dev.iphone.mariah       A	192.251.67.13
 att.methandredmusic     CNAME	lb01-mid.idjmg.com.
 test.methandredmusic    CNAME	test.idjmg.com.

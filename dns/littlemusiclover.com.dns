@@ -1,5 +1,5 @@
 ;
-;  Database file wearebarcelona.com.dns for wearebarcelona.com zone.
+;  Database file littlemusiclover.com.dns for littlemusiclover.com zone.
 ;      Zone version:  7
 ;
 
@@ -24,5 +24,5 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-@                       A	167.167.24.101
-www                     CNAME	wearebarcelona.com.
+@                       A	167.167.24.135
+www                     CNAME	littlemusiclover.com.

@@ -1,10 +1,10 @@
 ;
-;  Database file wearebarcelona.com.dns for wearebarcelona.com zone.
-;      Zone version:  7
+;  Database file universalmusicdirect.com.dns for universalmusicdirect.com zone.
+;      Zone version:  9
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	7            ; serial number
+                        	9            ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -24,5 +24,7 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-@                       A	167.167.24.101
-www                     CNAME	wearebarcelona.com.
+@                       MX	10	mail.arvatoloyalty.com.
+@                       MX	20	mx2.mail.uk.psi.net.
+@                       MX	20	mx3.mail.uk.psi.net.
+@                       MX	30	mx01.1and1.co.uk.

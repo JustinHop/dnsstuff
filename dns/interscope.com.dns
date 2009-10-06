@@ -1,10 +1,10 @@
 ;
 ;  Database file interscope.com.dns for interscope.com zone.
-;      Zone version:  2006032956
+;      Zone version:  2006032957
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2006032956   ; serial number
+                        	2006032957   ; serial number
                         	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,22 +14,22 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns1.umusic.com.
 @                       NS	ns2.umusic.com.
 @                       NS	ns5.umusic.com.
+@                       NS	ns1.umusic.com.
 
 ;
 ;  Zone records
 ;
 
 @                       7200	A	167.167.24.75
-@                       MX	30	aspmx2.googlemail.com.
-@                       MX	30	aspmx3.googlemail.com.
 @                       MX	30	aspmx4.googlemail.com.
 @                       MX	30	aspmx5.googlemail.com.
 @                       MX	20	alt1.aspmx.l.google.com.
 @                       MX	20	alt2.aspmx.l.google.com.
 @                       MX	10	aspmx.l.google.com.
+@                       MX	30	aspmx2.googlemail.com.
+@                       MX	30	aspmx3.googlemail.com.
 aar                     A	216.193.195.52
 admin                   7200	A	167.167.24.75
 ads                     A	216.193.195.52
@@ -646,6 +646,7 @@ dev.snoopdogg           A	192.251.67.100
 prod.snoopdogg          A	57.77.2.141
 snowpatrol              A	216.193.195.52
 att.snowpatrol          CNAME	med3.interscope.com.
+dev.webservice.snowpatrol CNAME	dev.interscope.com.
 dev.solange             A	192.251.67.100
 prod.solange            A	57.77.2.145
 www01.solange           CNAME	www01.igadev.com.

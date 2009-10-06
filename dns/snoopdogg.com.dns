@@ -1,10 +1,10 @@
 ;
 ;  Database file snoopdogg.com.dns for snoopdogg.com zone.
-;      Zone version:  2004081242
+;      Zone version:  2004081243
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2004081242   ; serial number
+                        	2004081243   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -31,3 +31,4 @@ localhost               A	127.0.0.1
 www                     CNAME	snoopdogg.com.
 www01                   CNAME	www01.geffen.com.
 www02                   CNAME	www02.geffen.com.
+www2                    A	195.225.83.57

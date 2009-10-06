@@ -1,4 +1,4 @@
-#!/usr/bin/perl 
+#!/usr/bin/perl
 #===============================================================================
 #
 #         FILE:  addns.pl
@@ -53,18 +53,38 @@ my $partrec = <<EOPNS
 EOPNS
   ;
 
+  my $debug = 0;
+
 for my $file (@ARGV) {
     if ( -e $file ) {
+        my $zonename = $file;
+        $zonename =~ s/.dns$//;
+        $zonename =~ s!^.*/!!;
+
+        my $update = 0;
+
         my $zone = read_file($file);
-        print $zone;
+        #print $zone;
         if ( $zone =~ /$fullrec/ ) {
-            next;
+            #next;
         } else {
             $zone =~
               s{(;\s+;\s+Zone NS records\s*;)(.*)(;\s+;\s+Zone records\s*;)}
             {$fullrec}s;
+            $update++;
         }
-        print $zone;
+        if ( $zone =~ /^www\s+/m ) {
+            #nexk
+        } else {
+            $zone .= 'www                     CNAME ' . $zonename . "\r\n";
+            $update++;
+        }
+        if ( $update > 0 ) {
+            print $file . "\n";
+            write_file($file,$zone) unless ( $debug > 0 );
+            my @args = ("zsu",$file);
+            system(@args) == 0 or die $!;
+        }
     }
 }
 

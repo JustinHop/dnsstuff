@@ -1,10 +1,10 @@
 ;
 ;  Database file umusic.ca.dns for umusic.ca zone.
-;      Zone version:  2002071789
+;      Zone version:  2002071796
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2002071789   ; serial number
+                        	2002071796   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,12 +14,12 @@
 ;  Zone NS records
 ;
 
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
-@                       NS	ns1.umusic.com.
-ns1.umusic.com.         A	167.167.1.141
 
 ;
 ;  Zone records
@@ -96,11 +96,14 @@ att02.getmusic          CNAME	att02-win.umusic.ca.
 att03.getmusic          CNAME	att03-win.umusic.ca.
 dev.girlicious          A	192.251.67.124
 greetings               A	167.167.24.37
+att.hedleyonline        A	167.167.24.135
+dev.hedleyonline        CNAME	win.dev.umusic.ca.
 att.jannarden           A	167.167.24.135
 att01.jannarden         CNAME	att01-win.umusic.ca.
 att02.jannarden         CNAME	att02-win.umusic.ca.
 att03.jannarden         CNAME	att03-win.umusic.ca.
 dev.jannarden           A	192.251.67.124
+dev.jannfans            A	192.251.67.124
 att.jonasbrothers       CNAME	att-win.umusic.ca.
 dev.jonasbrothers       A	192.251.67.124
 att.justinbieber        CNAME	att.umusic.ca.
