@@ -19,6 +19,7 @@
 #===============================================================================
 
 for FILE in "$@" ; do
+	dos2unix "$FILE"
 	if ./addns.pl "$FILE" > /dev/null ; then
 		echo "Updating $FILE"
 		backup "$FILE"
@@ -38,7 +39,7 @@ for FILE in "$@" ; do
 			    fi
 			fi
 		fi
-
 	fi
+	unix2dos "$FILE"
 done
 
