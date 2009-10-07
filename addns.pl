@@ -50,6 +50,10 @@ my $partrec = <<EOPNS
 
 
 @                       NS	ns1.umusic.com.
+
+;
+; Zone records
+;
 EOPNS
   ;
 

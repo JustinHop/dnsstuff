@@ -1,10 +1,10 @@
 ;
 ;  Database file umgnashville.com.dns for umgnashville.com zone.
-;      Zone version:  2004120294
+;      Zone version:  2004120296
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2004120294   ; serial number
+                        	2004120296   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -56,6 +56,7 @@ dev-artist              A	192.251.67.124
 dev2                    A	192.251.67.13
 att.eastoncorbin        CNAME	hvp1.umgnashville.com.
 dev.eastoncorbin        CNAME	dev.umgnashville.com.
+expdev                  CNAME	dev2.umgnashville.com.
 att.hollywilliams       CNAME	hvp1.umgnashville.com.
 dev.hollywilliams       CNAME	dev.umgnashville.com.
 prod.hollywilliams      CNAME	prod.umgnashville.com.

@@ -1,1 +1,1 @@
-rsync -avb /autofs/ns1/WINDOWS/system32/dns ~/NS1/
+rsync -avb --backup-dir=~/NS1/backup --delete /autofs/ns1/WINDOWS/system32/dns ~/NS1/
