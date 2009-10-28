@@ -1,1 +1,1 @@
-rsync -avb --backup-dir=~/NS1/backup --exclude=backup --progress -W  ~/NS1/*dns /autofs/ns1/WINDOWS/system32/dns 
+rsync -avb --backup-dir=~/NS1/backup --exclude=backup --exclude='.*' --exclude='*~' --progress -W  ~/NS1/*.dns /autofs/ns1/WINDOWS/system32/dns 
