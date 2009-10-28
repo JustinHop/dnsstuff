@@ -2,3 +2,5 @@
 @                       MX	120	mx4c25.carrierzone.com.
 @                       MX	10	mx1c25.carrierzone.com.
 @                       MX	100	mx2c25.carrierzone.com.
+webmail                 A	64.29.145.44
+mail                    A   64.29.145.40

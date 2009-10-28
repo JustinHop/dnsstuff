@@ -20,22 +20,18 @@
 
 for FILE in "$@" ; do
 	dos2unix "$FILE"
-	if ./addns.pl "$FILE" > /dev/null ; then
-		echo "Updating $FILE"
-		backup "$FILE"
-		mv "$FILE" "$FILE-"
-		./addns.pl "$FILE-" > "$FILE"
+	backup "$FILE"
+	if ./addns.pl "$FILE" ; then
 		if zsu "$FILE" ; then
-			echo "$FILE UPDATED"
+			echo "$FILE timestamped"
 		else
 		    if zsu -c "$FILE" ; then
-			    echo "$FILE -c UPDATED"
+			    echo "$FILE -c timestamped"
 		    else
 		        if zsu -cn "$FILE" ; then
-			        echo "$FILE -cn UPDATED"
+			        echo "$FILE -cn timestamped"
 			    else
-			    	mv "$FILE-" "$FILE"
-			    	echo "$FILE NOT UPDATED"
+			    	exit 1
 			    fi
 			fi
 		fi

@@ -43,20 +43,6 @@ ns5.umusic.com.         A	167.167.1.132
 EONS
   ;
 
-my $partrec = <<EOPNS
-;
-;  Zone NS records
-;
-
-
-@                       NS	ns1.umusic.com.
-
-;
-; Zone records
-;
-EOPNS
-  ;
-
   my $debug = 0;
 
 for my $file (@ARGV) {
@@ -80,13 +66,15 @@ for my $file (@ARGV) {
         if ( $zone =~ /^www\s+/m ) {
             #nexk
         } else {
-            $zone .= 'www                     CNAME ' . $zonename . "\r\n";
+            $zone .= 'www                     CNAME ' . $zonename . ".\n";
             $update++;
         }
         if ( $update > 0 ) {
             print $zonename . "\n";
+            write_file( $file, $zone );
         }
         else { exit 1; }
     }
 }
 
+exit 0;
