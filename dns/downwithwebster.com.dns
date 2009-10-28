@@ -1,10 +1,10 @@
 ;
-;  Database file defj.am.dns for defj.am zone.
-;      Zone version:  4
+;  Database file downwithwebster.com.dns for downwithwebster.com zone.
+;      Zone version:  3
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	4            ; serial number
+                        	3            ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -20,5 +20,5 @@
 ;  Zone records
 ;
 
-@                       A	209.234.253.196
-www                     CNAME	defj.am.
+@                       A	167.167.24.103
+www                     CNAME	downwithwebster.com.

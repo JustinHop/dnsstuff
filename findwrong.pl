@@ -21,7 +21,7 @@
 use strict;
 use warnings;
 
-#use re 'debug';
+use re 'debug';
 use File::Slurp;
 
 my $fullrec = <<EONS
@@ -57,7 +57,7 @@ my $partrec = <<EOPNS
 EOPNS
   ;
 
-  my $debug = 0;
+my $debug = 0;
 
 for my $file (@ARGV) {
     if ( -e $file ) {
@@ -68,25 +68,18 @@ for my $file (@ARGV) {
         my $update = 0;
 
         my $zone = read_file($file);
+
+            # (^ns\d\.umusic\.com\.\s+A\s+\d{3}\.\d{3}\.\d\.\d{3}.*$)
         #print $zone;
-        if ( $zone =~ /$fullrec/ ) {
-            #next;
+        if (
+            $zone =~ m{(@\s+NS\s+ns\d\.umusic\.com\.)}x
+          )
+        {
+            print "$zonename is all good\n$1\n";
+
         } else {
-            $zone =~
-              s{(;\s+;\s+Zone NS records\s*;)(.*)(;\s+;\s+Zone records\s*;)}
-            {$fullrec}s;
-            $update++;
+            print "$zonename is SHIT  \n";
         }
-        if ( $zone =~ /^www\s+/m ) {
-            #nexk
-        } else {
-            $zone .= 'www                     CNAME ' . $zonename . "\r\n";
-            $update++;
-        }
-        if ( $update > 0 ) {
-            print $zonename . "\n";
-        }
-        else { exit 1; }
     }
 }
 

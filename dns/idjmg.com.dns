@@ -1,10 +1,10 @@
 ;
 ;  Database file idjmg.com.dns for idjmg.com zone.
-;      Zone version:  2002043357
+;      Zone version:  2002043370
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2002043357   ; serial number
+                        	2002043370   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -24,6 +24,8 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
+att.amerie              CNAME	lb01-high.idjmg.com.
+test.amerie             CNAME	test.idjmg.com.
 dev.artist              A	192.251.67.124
 prod.artist             A	167.167.2.18
 test.artiststaging      CNAME	test.idjmg.com.
@@ -59,6 +61,7 @@ att.chrisettemichele    CNAME	lb02-high.idjmg.com.
 test.chrisettemichele   CNAME	test.idjmg.com.
 creative                A	167.167.9.173
 defjam                  A	167.167.9.103
+test.shop.defjam        CNAME	test.idjmg.com.
 att.defjam25            CNAME	lb02-mid.idjmg.com.
 test.defjam25           CNAME	test.idjmg.com.
 att.defjam25th          CNAME	lb02-mid-idjmg.com.
@@ -164,6 +167,8 @@ lb01-mid                A	167.167.24.6
 lb02-high               A	167.167.24.11
 lb02-mid                A	167.167.24.7
 localhost               A	127.0.0.1
+att.loveamerie          CNAME	lb01-high.idjmg.com.
+test.loveamerie         CNAME	test.idjmg.com.
 att.ludo                CNAME	lb01-mid.idjmg.com.
 att01.ludo              CNAME	att01.idjmg.com.
 att02.ludo              CNAME	att02.idjmg.com.
@@ -216,6 +221,8 @@ att.thebravery          CNAME	lb01-high.idjmg.com.
 test.thebravery         CNAME	test.idjmg.com.
 att.thedream            CNAME	lb02-mid.idjmg.com.
 test.thedream           CNAME	test.idjmg.com.
+att.shop.thekillersmusic CNAME	lb02-mid.idjmg.com.
+test.shop.thekillersmusic A	192.251.67.94
 att.thepyrex            CNAME	lb01-mid.idjmg.com.
 att01.thepyrex          CNAME	att01.idjmg.com.
 att02.thepyrex          CNAME	att02.idjmg.com.
@@ -226,6 +233,8 @@ prod.thepyrex           CNAME	prod.idjmg.com.
 test.thepyrex           CNAME	test.idjmg.com.
 www01.thepyrex          A	167.167.2.102
 www02.thepyrex          A	167.167.2.101
+att.therocketsummer     CNAME	lb01-high.idjmg.com.
+test.therocketsummer    CNAME	test.idjmg.com.
 test.tools              CNAME	test.idjmg.com.
 att.triplecs305         CNAME	att03.idjmg.com.
 test.triplecs305        CNAME	test.idjmg.com.

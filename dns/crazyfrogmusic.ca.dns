@@ -1,6 +1,6 @@
 ;
 ;  Database file crazyfrogmusic.ca.dns for crazyfrogmusic.ca zone.
-;      Zone version:  3
+;      Zone version:  4
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
@@ -22,3 +22,4 @@
 
 @                       A	167.167.24.37
 dev                     A	192.251.67.13
+*                       CNAME	crazyfrogmusic.ca.

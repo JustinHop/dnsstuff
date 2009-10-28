@@ -1,14 +1,14 @@
 ;
 ;  Database file thekillersmusic.com.dns for thekillersmusic.com zone.
-;      Zone version:  2005021538
+;      Zone version:  2005021541
 ;
 
 @                       900	IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2005021538   ; serial number
-                        	7200         ; refresh
+                        	2005021541   ; serial number
+                        	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
-                        	7200       ) ; default TTL
+                        	600        ) ; default TTL
 
 ;
 ;  Zone NS records
@@ -30,6 +30,7 @@ comunita                CNAME	production.sparkart.net.
 dev                     A	192.251.67.94
 localhost               A	127.0.0.1
 prod                    A	167.167.2.18
+shop                    A	167.167.24.10
 
 ;
 ;  Delegated sub-zone:  sweettalk.thekillersmusic.com.

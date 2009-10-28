@@ -1,10 +1,10 @@
 ;
 ;  Database file defjam.com.dns for defjam.com zone.
-;      Zone version:  2002051565
+;      Zone version:  2002051567
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2002051565   ; serial number
+                        	2002051567   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,21 +14,21 @@
 ;  Zone NS records
 ;
 
+@                       NS	ns1.umusic.com.
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
-@                       NS	ns1.umusic.com.
 
 ;
 ;  Zone records
 ;
 
 @                       A	167.167.9.54
+@                       MX	120	mx4c25.carrierzone.com.
 @                       MX	100	mx2c25.carrierzone.com.
 @                       MX	10	mx1c25.carrierzone.com.
 @                       MX	110	mx3c25.carrierzone.com.
-@                       MX	120	mx4c25.carrierzone.com.
 112                     CNAME	redirect.islanddefjam.com.
 www.112                 CNAME	redirect.islanddefjam.com.
 334mobb                 CNAME	redirect.islanddefjam.com.
@@ -141,6 +141,8 @@ shareefa                CNAME	redirect.islanddefjam.com.
 www.shareefa            CNAME	redirect.islanddefjam.com.
 shawnna                 CNAME	redirect.islanddefjam.com.
 www.shawnna             CNAME	redirect.islanddefjam.com.
+shop                    A	167.167.24.10
+www.shop                A	167.167.24.10
 shyne                   CNAME	redirect.islanddefjam.com.
 slickrick               CNAME	redirect.islanddefjam.com.
 smallworld              CNAME	redirect.islanddefjam.com.

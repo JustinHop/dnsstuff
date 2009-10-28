@@ -1,0 +1,13 @@
+
+;
+;   Google Apps
+;
+
+@                       MX  10   aspmx.l.google.com.
+@                       MX  20   alt1.aspmx.l.google.com.
+@                       MX  20   alt2.aspmx.l.google.com.
+@                       MX  30   aspmx2.googlemail.com.
+@                       MX  30   aspmx3.googlemail.com.
+@                       MX  30   aspmx4.googlemail.com.
+@                       MX  30   aspmx5.googlemail.com.
+

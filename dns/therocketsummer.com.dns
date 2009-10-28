@@ -1,10 +1,10 @@
 ;
 ;  Database file therocketsummer.com.dns for therocketsummer.com zone.
-;      Zone version:  2007011829
+;      Zone version:  2007011830
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2007011829   ; serial number
+                        	2007011830   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -24,7 +24,7 @@ ns5.umusic.com.         3600	A	167.167.1.132
 ;  Zone records
 ;
 
-@                       A	167.167.9.53
+@                       A	167.167.24.10
 @                       MX	10	mail.therocketsummer.com.
 localhost               A	127.0.0.1
 mail                    A	66.235.195.151

@@ -1,10 +1,10 @@
 ;
-;  Database file esterdean.com.dns for esterdean.com zone.
-;      Zone version:  2009081901
+;  Database file katdeluna.com.dns for katdeluna.com zone.
+;      Zone version:  8
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2009081901   ; serial number
+                        	8            ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -24,5 +24,5 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-@                       A	167.167.24.72
-www                     CNAME	esterdean.com.
+@                       A	167.167.24.100
+www                     CNAME	katdeluna.com.

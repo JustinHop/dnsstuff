@@ -1,10 +1,10 @@
 ;
 ;  Database file afireinside.net.dns for afireinside.net zone.
-;      Zone version:  2006032131
+;      Zone version:  2006032132
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2006032131   ; serial number
+                        	2006032132   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,20 +14,20 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns2.umusic.com.
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
 
 ;
 ;  Zone records
 ;
 
-@                       A	167.167.24.77
-@                       MX	10	mx1c25.carrierzone.com.
-@                       MX	100	mx2c25.carrierzone.com.
+@                       A	167.167.24.78
 @                       MX	110	mx3c25.carrierzone.com.
 @                       MX	120	mx4c25.carrierzone.com.
+@                       MX	10	mx1c25.carrierzone.com.
+@                       MX	100	mx2c25.carrierzone.com.
 *                       A	216.193.195.52
 bb                      A	216.193.195.43
 begintransmission       A	72.2.117.105

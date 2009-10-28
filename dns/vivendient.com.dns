@@ -1,10 +1,10 @@
 ;
 ;  Database file vivendient.com.dns for vivendient.com zone.
-;      Zone version:  2008021416
+;      Zone version:  2008021417
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2008021416   ; serial number
+                        	2008021417   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,11 +14,11 @@
 ;  Zone NS records
 ;
 
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns1.umusic.com.
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
-@                       NS	ns5.umusic.com.
-ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
@@ -30,4 +30,5 @@ att                     A	167.167.24.135
 autodiscover            CNAME	autodiscover.umusic.com.
 dev                     A	192.251.67.94
 localhost               A	127.0.0.1
+att.thestoneangelmovie  A	167.167.24.135
 www                     CNAME	vivendient.com.
