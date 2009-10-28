@@ -1,10 +1,10 @@
 ;
 ;  Database file umusic.net.dns for umusic.net zone.
-;      Zone version:  2009102802
+;      Zone version:  2009102803
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2009102802   ; serial number
+                        	2009102803   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -52,7 +52,3 @@ r2                      A	167.167.2.23
 r2test                  A	167.167.2.24
 rms                     A	192.251.67.22
 rmstraining             A	192.251.67.19
-wordpress               A	167.167.24.37
-dev.wordpress           A	192.251.67.13
-*.wordpress             CNAME	wordpress.umusic.net.
-*.dev.wordpress         CNAME	dev.wordpress.umusic.net.
