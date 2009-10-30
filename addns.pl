@@ -59,7 +59,7 @@ for my $file (@ARGV) {
             #next;
         } else {
             $zone =~
-              s{(;\s+;\s+Zone NS records\s*;)(.*)(;\s+;\s+Zone records\s*;)}
+              s{(;\s+;\s+Zone NS records\s*;)(.*ns1.umusic.com.*)(;\s+;\s+Zone records\s*;)}
             {$fullrec}s;
             $update++;
         }
