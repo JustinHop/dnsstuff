@@ -4,15 +4,15 @@
 
 for FILE in "$@" ; do
 	if [ -f "$FILE" ]; then
-		if grep -P '^@\s+NS\s+ns1.umusic.com.' "$FILE" > /dev/stderr ; then
+		if grep -P '^@\s+NS\s+ns1.umusic.com.' "$FILE" > /dev/null ; then
 			if [ $DEBUG ]; then
 				echo "Found ns1 in $FILE" > /dev/stderr 
 			fi
-			if grep -P '^@\s+NS\s+ns2.umusic.com.' "$FILE" > /dev/stderr  ; then
+			if grep -P '^@\s+NS\s+ns2.umusic.com.' "$FILE" > /dev/null  ; then
 			    if [  $DEBUG ]; then
 				    echo "Found ns2 in $FILE" > /dev/stderr 
 			    fi
-			    if grep -P '^@\s+NS\s+ns5.umusic.com.' "$FILE" > /dev/stderr  ; then
+			    if grep -P '^@\s+NS\s+ns5.umusic.com.' "$FILE" > /dev/null  ; then
 			        if [  $DEBUG ]; then
 				        echo "Found ns5 in $FILE" > /dev/stderr 
 			        fi

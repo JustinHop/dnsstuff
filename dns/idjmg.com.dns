@@ -1,10 +1,10 @@
 ;
 ;  Database file idjmg.com.dns for idjmg.com zone.
-;      Zone version:  2002043370
+;      Zone version:  2002043374
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2002043370   ; serial number
+                        	2002043374   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -75,6 +75,10 @@ dev.ecrmint             CNAME	dev.idjmg.com.
 att.electrikred         CNAME	lb02-mid.idjmg.com.
 test.electrikred        CNAME	test.idjmg.com.
 att.falloutboy          CNAME	redirect.islanddefjam.com.
+att01.falloutboy        CNAME	att01.idjmg.com.
+att02.falloutboy        CNAME	att02.idjmg.com.
+att03.falloutboy        CNAME	att03.idjmg.com.
+att04.falloutboy        CNAME	att04.idjmg.com.
 dev.falloutboy          CNAME	dev.idjmg.com.
 prod.falloutboy         CNAME	lb01-mid.idjmg.com.
 test.falloutboy         CNAME	test.idjmg.com.

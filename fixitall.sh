@@ -19,8 +19,8 @@
 #===============================================================================
 
 for FILE in "$@" ; do
-	dos2unix "$FILE"
 	backup "$FILE"
+	dos2unix "$FILE"
 	if ./addns.pl "$FILE" ; then
 		if zsu "$FILE" ; then
 			echo "$FILE timestamped"

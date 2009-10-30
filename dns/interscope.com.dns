@@ -1,10 +1,10 @@
 ;
 ;  Database file interscope.com.dns for interscope.com zone.
-;      Zone version:  2006032958
+;      Zone version:  2006032960
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2006032958   ; serial number
+                        	2006032960   ; serial number
                         	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,9 +14,9 @@
 ;  Zone NS records
 ;
 
+@                       NS	ns1.umusic.com.
 @                       NS	ns2.umusic.com.
 @                       NS	ns5.umusic.com.
-@                       NS	ns1.umusic.com.
 
 ;
 ;  Zone records
@@ -735,6 +735,8 @@ dev.theknux             CNAME	dev.interscope.com.
 att.theprocessofseparation CNAME	lvp1.interscope.com.
 att.therelapse          CNAME	med3.interscope.com.
 dev.therelapse          CNAME	dev.interscope.com.
+theshockvalueaffair     A	167.167.24.72
+dev.theshockvalueaffair CNAME	dev.interscope.com.
 att.tiehimupwhenhesfastasleep CNAME	lvp2.interscope.com.
 att.timbalandmusic      CNAME	lvp4.interscope.com.
 att.tinyevil            CNAME	lvp3.interscope.com.
