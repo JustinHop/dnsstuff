@@ -1,34 +1,33 @@
 ;
 ;  Database file 50cent.com.dns for 50cent.com zone.
-;      Zone version:  2006032112
+;      Zone version:  2006032116
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2006032112   ; serial number
-                        	7200         ; refresh
+                        	2006032116   ; serial number
+                        	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
-                        	7200       ) ; default TTL
+                        	600        ) ; default TTL
 
 ;
 ;  Zone NS records
 ;
 
+@                       NS	ns2.umusic.com.
 @                       NS	ns5.umusic.com.
 @                       NS	ns1.umusic.com.
-@                       NS	ns2.umusic.com.
 
 ;
 ;  Zone records
 ;
 
-@                       A	208.76.217.20
+@                       7200	A	167.167.24.74
 @                       MX	20	c1.popmail2.netservers.net.
 @                       MX	10	c1.popmail1.netservers.net.
-*                       A	208.76.217.20
+*                       7200	A	167.167.24.74
 bonus                   A	216.193.195.52
 staging.bonus           A	216.193.195.55
-bonux                   A	57.77.2.140
 cd                      CNAME	boss.streamos.com.
 ftp                     A	216.193.195.55
 mail                    A	66.148.13.233

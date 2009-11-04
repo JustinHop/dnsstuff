@@ -1,10 +1,10 @@
 ;
 ;  Database file republicdd.com.dns for republicdd.com zone.
-;      Zone version:  200910280
+;      Zone version:  200910281
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	200910280            ; serial number
+                        	200910281    ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -13,7 +13,6 @@
 ;
 ;  Zone NS records
 ;
-
 
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
@@ -26,11 +25,11 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-
-webmail                 A	64.29.145.44
-mail                    A   64.29.145.40
-@                       MX	110	mx3c25.carrierzone.com.
-@                       MX	120	mx4c25.carrierzone.com.
+@                       A	174.143.49.178
 @                       MX	10	mx1c25.carrierzone.com.
 @                       MX	100	mx2c25.carrierzone.com.
-www                     CNAME republicdd.com.
+@                       MX	110	mx3c25.carrierzone.com.
+@                       MX	120	mx4c25.carrierzone.com.
+mail                    A	64.29.145.40
+webmail                 A	64.29.145.44
+www                     CNAME	republicdd.com.

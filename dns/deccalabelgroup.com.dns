@@ -1,10 +1,10 @@
 ;
 ;  Database file deccalabelgroup.com.dns for deccalabelgroup.com zone.
-;      Zone version:  2007033027
+;      Zone version:  2007033028
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2007033027   ; serial number
+                        	2007033028   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -39,6 +39,7 @@ dev                     A	192.251.67.124
 dev-pop                 A	192.251.67.124
 att.hadenfamilyandfriends CNAME	att.deccalabelgroup.com.
 localhost               A	127.0.0.1
+dev.rounder             CNAME	dev.deccalabelgroup.com.
 att.universalmusicclassical CNAME	att.deccalabelgroup.com.
 att01.universalmusicclassical CNAME	att01.deccalabelgroup.com.
 att02.universalmusicclassical CNAME	att02.deccalabelgroup.com.
