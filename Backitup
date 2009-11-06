@@ -1,0 +1,27 @@
+#!/bin/zsh
+#===============================================================================
+#
+#          FILE:  backup.sh
+# 
+#         USAGE:  ./backup.sh 
+# 
+#   DESCRIPTION:  Makes a backup crazy style
+# 
+#       OPTIONS:  ---
+#  REQUIREMENTS:  ---
+#          BUGS:  ---
+#         NOTES:  ---
+#        AUTHOR:  Justin Hoppensteadt (JH), Justin.Hoppensteadt@umgtemp.com
+#       COMPANY:  Universal Music Group
+#       VERSION:  1.0
+#       CREATED:  11/05/2009 07:05:34 PM PST
+#      REVISION:  ---
+#===============================================================================
+
+DEBUG=1
+
+for ARG in "$@"
+	SITE=$(echo $ARG | perl -ne 's/(.|)dns(\/|)//g;print;')
+	[ $DEBUG ] && echo $SITE
+done
+

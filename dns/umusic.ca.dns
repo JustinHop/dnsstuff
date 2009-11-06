@@ -1,10 +1,10 @@
 ;
 ;  Database file umusic.ca.dns for umusic.ca zone.
-;      Zone version:  2002071796
+;      Zone version:  2002071800
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2002071796   ; serial number
+                        	2002071800   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -37,6 +37,7 @@ www.20thcenturymasters  CNAME	20thcenturymasters.umusic.ca.
 www.3121                CNAME	3121.umusic.ca.
 afi                     A	192.251.67.80
 www.afi                 CNAME	afi.umusic.ca.
+dev.artist              A	192.251.67.124
 as2                     A	167.167.1.148
 att                     CNAME	lvp2.umusic.ca.
 att-win                 A	167.167.24.135
@@ -50,6 +51,7 @@ att.bet-e               A	167.167.24.135
 dev.bet-e               A	192.251.67.124
 connected               A	167.167.24.37
 www.connected           CNAME	connected.umusic.ca.
+dev                     A	192.251.67.13
 bretryan.dev            CNAME	dev.umusic.ca.
 chad.dev                CNAME	dev.umusic.ca.
 denzal.dev              CNAME	dev.umusic.ca.

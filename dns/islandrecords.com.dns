@@ -1,10 +1,10 @@
 ;
 ;  Database file islandrecords.com.dns for islandrecords.com zone.
-;      Zone version:  2002050722
+;      Zone version:  2002050726
 ;
 
 @                       IN  SOA ns1.umusic.net.  hostmaster.umusic.com. (
-                        	2002050722   ; serial number
+                        	2002050726   ; serial number
                         	1800         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -44,16 +44,7 @@ bonjovimail             CNAME	clients.loadmail.com.
 boykillboy              CNAME	redirect.islanddefjam.com.
 bridgetjones            A	167.167.24.10
 www.bridgetjones        CNAME	bridgetjones.islandrecords.com.
-
-;
-;  Delegated sub-zone:  cart.islandrecords.com.
-;
-cart                    NS	ns5.bthree.net.
-ns5.bthree.net.         A	216.206.183.254
-cart                    NS	ns4.bthree.net.
-ns4.bthree.net.         A	12.129.166.254
-;  End delegation
-
+cart                    CNAME	redirect.islanddefjam.com.
 chat                    CNAME	chat.islanddefjam.com.
 damone                  CNAME	redirect.islanddefjam.com.
 danielbedingfield       CNAME	redirect.islanddefjam.com.
