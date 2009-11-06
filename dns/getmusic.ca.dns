@@ -1,10 +1,10 @@
 ;
 ;  Database file getmusic.ca.dns for getmusic.ca zone.
-;      Zone version:  2008052937
+;      Zone version:  2009110600
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2008052937   ; serial number
+                        	2009110600   ; serial number
                         	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,15 +14,18 @@
 ;  Zone NS records
 ;
 
+
 @                       NS	ns1.umusic.com.
-@                       3600	NS	ns2.umusic.com.
-ns2.umusic.com.         3600	A	167.167.9.132
-@                       3600	NS	ns5.umusic.com.
-ns5.umusic.com.         3600	A	167.167.1.132
+ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
 ;
+
 
 @                       A	167.167.24.138
 att                     CNAME	lvp2.umusic.ca.

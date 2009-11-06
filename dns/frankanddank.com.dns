@@ -1,10 +1,10 @@
 ;
 ;  Database file frankanddank.com.dns for frankanddank.com zone.
-;      Zone version:  2002102208
+;      Zone version:  2009110600
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2002102208   ; serial number
+                        	2009110600   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,14 +14,18 @@
 ;  Zone NS records
 ;
 
+
 @                       NS	ns1.umusic.com.
-ns1.umusic.com.         A	65.116.83.132
+ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
-ns2.umusic.com.         A	12.110.193.132
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
 ;
+
 
 @                       A	192.251.67.23
 localhost               A	127.0.0.1
