@@ -1,10 +1,10 @@
 ;
 ;  Database file universalmusiclatino.com.dns for universalmusiclatino.com zone.
-;      Zone version:  2008021508
+;      Zone version:  2008021511
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2008021508   ; serial number
+                        	2008021511   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -25,5 +25,8 @@ ns5.umusic.com.         A	167.167.1.132
 ;
 
 @                       A	192.251.67.166
+davidbisbal             CNAME	lvp2.umusic.ca.
+dev.davidbisbal         CNAME	linux-dev.universalmusiclatino.com.
+linux-dev               A	192.251.67.13
 localhost               A	127.0.0.1
 www                     CNAME	universalmusiclatino.com.

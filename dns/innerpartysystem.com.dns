@@ -1,10 +1,10 @@
 ;
 ;  Database file innerpartysystem.com.dns for innerpartysystem.com zone.
-;      Zone version:  2008092602
+;      Zone version:  2008092603
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2008092602   ; serial number
+                        	2008092603   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	600          ; expire
@@ -14,17 +14,17 @@
 ;  Zone NS records
 ;
 
+@                       NS	ns1.umusic.com.
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
-@                       NS	ns1.umusic.com.
 
 ;
 ;  Zone records
 ;
 
-@                       A	167.167.24.7
+@                       A	167.167.24.24
 @                       MX	10	mail.innerpartysystem.com.
 forum                   A	67.19.218.130
 mail                    A	67.19.218.130

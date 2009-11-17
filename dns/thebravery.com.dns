@@ -1,10 +1,10 @@
 ;
 ;  Database file thebravery.com.dns for thebravery.com zone.
-;      Zone version:  2005021740
+;      Zone version:  2005021741
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2005021740   ; serial number
+                        	2005021741   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -25,9 +25,9 @@ ns2.umusic.com.         A	167.167.9.132
 ;  Zone records
 ;
 
-@                       A	167.167.24.10
-@                       MX	100	secmx.invision.net.
+@                       A	167.167.24.25
 @                       MX	10	mail.thebravery.com.
+@                       MX	100	secmx.invision.net.
 localhost               A	127.0.0.1
 mail                    A	69.18.136.144
 music                   CNAME	www6.islandrecords.com.

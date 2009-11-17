@@ -1,10 +1,10 @@
 ;
 ;  Database file umusicmedia.ca.dns for umusicmedia.ca zone.
-;      Zone version:  2005112115
+;      Zone version:  2005112116
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2005112115   ; serial number
+                        	2005112116   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -29,4 +29,5 @@ ns1.umusic.com.         A	167.167.1.141
 att                     CNAME	lvp2.umusic.ca.
 dev                     CNAME	dev.umusic.ca.
 localhost               A	127.0.0.1
+push                    CNAME	push.umusicmedia.ca.edgesuite.net.
 www                     CNAME	umusicmedia.ca.

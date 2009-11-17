@@ -1,10 +1,10 @@
 ;
 ;  Database file ghostfacekillah.com.dns for ghostfacekillah.com zone.
-;      Zone version:  2003110525
+;      Zone version:  2003110526
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2003110525   ; serial number
+                        	2003110526   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -25,6 +25,6 @@ ns1.umusic.com.         A	167.167.1.141
 ;  Zone records
 ;
 
-@                       A	167.167.24.10
+@                       A	167.167.24.16
 localhost               A	127.0.0.1
 www                     CNAME	ghostfacekillah.com.

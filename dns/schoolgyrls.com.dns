@@ -1,10 +1,10 @@
 ;
 ;  Database file schoolgyrls.com.dns for schoolgyrls.com zone.
-;      Zone version:  3
+;      Zone version:  4
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	3            ; serial number
+                        	4            ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -20,5 +20,5 @@
 ;  Zone records
 ;
 
-@                       A	167.167.24.6
+@                       A	167.167.24.25
 www                     CNAME	schoolgyrls.com.

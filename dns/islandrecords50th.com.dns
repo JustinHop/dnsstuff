@@ -1,10 +1,10 @@
 ;
 ;  Database file islandrecords50th.com.dns for islandrecords50th.com zone.
-;      Zone version:  6
+;      Zone version:  8
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	6            ; serial number
+                        	8            ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -20,8 +20,8 @@
 ;  Zone records
 ;
 
-@                       A	167.167.24.6
-att                     A	167.167.24.6
+@                       A	167.167.24.20
+att                     A	167.167.24.20
 dev                     CNAME	dev.islandrecords50th.idjmg.com.
 test                    CNAME	dev.islandrecords50th.idjmg.com.
 www                     CNAME	islandrecords50th.com.

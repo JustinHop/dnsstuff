@@ -1,10 +1,10 @@
 ;
 ;  Database file interscope.com.dns for interscope.com zone.
-;      Zone version:  2006032969
+;      Zone version:  2006032970
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2006032969   ; serial number
+                        	2006032970   ; serial number
                         	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,22 +14,22 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns2.umusic.com.
 @                       NS	ns5.umusic.com.
 @                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
 
 ;
 ;  Zone records
 ;
 
 @                       7200	A	167.167.24.75
+@                       MX	20	alt1.aspmx.l.google.com.
+@                       MX	20	alt2.aspmx.l.google.com.
 @                       MX	10	aspmx.l.google.com.
 @                       MX	30	aspmx2.googlemail.com.
 @                       MX	30	aspmx3.googlemail.com.
 @                       MX	30	aspmx4.googlemail.com.
 @                       MX	30	aspmx5.googlemail.com.
-@                       MX	20	alt1.aspmx.l.google.com.
-@                       MX	20	alt2.aspmx.l.google.com.
 att.50cent              CNAME	med1.interscope.com.
 att01.50cent            CNAME	att01.interscope.com.
 att02.50cent            CNAME	att02.interscope.com.
@@ -375,6 +375,7 @@ att04.ladygaga          CNAME	att04.interscope.com.
 att05.ladygaga          CNAME	att05.interscope.com.
 att06.ladygaga          CNAME	att06.interscope.com.
 dev.ladygaga            A	192.251.67.100
+dev2.ladygaga           A	192.251.67.100
 prod.ladygaga           A	57.77.2.145
 www01.ladygaga          CNAME	www01.igadev.com.
 www02.ladygaga          CNAME	www02.igadev.com.

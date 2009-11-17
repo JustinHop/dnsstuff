@@ -1,10 +1,10 @@
 ;
 ;  Database file hedleyonline.com.dns for hedleyonline.com zone.
-;      Zone version:  2005062229
+;      Zone version:  2005062231
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2005062229   ; serial number
+                        	2005062231   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -26,15 +26,17 @@ ns1.umusic.com.         A	167.167.1.141
 ;
 
 @                       A	167.167.24.138
+@                       MX	110	mx3c25.carrierzone.com.
 @                       MX	120	mx4c25.carrierzone.com.
 @                       MX	10	mx1c25.carrierzone.com.
 @                       MX	100	mx2c25.carrierzone.com.
-@                       MX	110	mx3c25.carrierzone.com.
 att                     CNAME	lvp2.umusic.ca.
 chat                    A	167.167.24.37
 dev                     CNAME	dev.umusic.ca.
 devbb                   CNAME	dev.hedleyonline.com.
 localhost               A	127.0.0.1
 mail                    A	64.29.145.40
+nameinlights            CNAME	lvp2.umusic.ca.
+dev.nameinlights        A	192.251.67.13
 webmail                 A	64.29.145.44
 www                     CNAME	hedleyonline.com.

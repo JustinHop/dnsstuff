@@ -1,10 +1,10 @@
 ;
 ;  Database file jeremihmusic.com.dns for jeremihmusic.com zone.
-;      Zone version:  7
+;      Zone version:  8
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	7            ; serial number
+                        	8            ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -24,5 +24,5 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-@                       A	167.167.24.10
+@                       A	167.167.24.19
 www                     CNAME	jeremihmusic.com.
