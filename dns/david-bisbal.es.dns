@@ -1,10 +1,10 @@
 ;
 ;  Database file david-bisbal.es.dns for david-bisbal.es zone.
-;      Zone version:  2009111700
+;      Zone version:  2009111701
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2009111700   ; serial number
+                        	2009111701   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -30,3 +30,11 @@ ns5.umusic.com.         A	167.167.1.132
 @                       A	167.167.24.37
 www                     CNAME	david-bisbal.es.
 foro                     CNAME	david-bisbal.es.
+
+
+
+david-bisbal.es.		MX	10 mail.nominalia.com.
+
+mail.nominalia.com.		A	195.110.124.132
+
+
