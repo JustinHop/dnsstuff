@@ -1,10 +1,10 @@
 ;
 ;  Database file puddleofmudd.com.dns for puddleofmudd.com zone.
-;      Zone version:  2003093029
+;      Zone version:  2009112000
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2003093029   ; serial number
+                        	2009112000   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -28,3 +28,9 @@ ns5.umusic.com.         A	167.167.1.132
 @                       900	A	167.167.24.72
 localhost               A	127.0.0.1
 www                     CNAME	puddleofmudd.com.
+@                       MX	110	mx3c25.carrierzone.com.
+@                       MX	120	mx4c25.carrierzone.com.
+@                       MX	10	mx1c25.carrierzone.com.
+@                       MX	100	mx2c25.carrierzone.com.
+webmail                 A	64.29.145.44
+mail                    A   64.29.145.40
