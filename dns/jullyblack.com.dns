@@ -1,14 +1,14 @@
 ;
 ;  Database file jullyblack.com.dns for jullyblack.com zone.
-;      Zone version:  2003073027
+;      Zone version:  2003073038
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2003073027   ; serial number
-                        	7200         ; refresh
+                        	2003073038   ; serial number
+                        	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
-                        	7200       ) ; default TTL
+                        	600        ) ; default TTL
 
 ;
 ;  Zone NS records
@@ -25,8 +25,14 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-@                       A	167.167.24.37
+@                       7200	A	167.167.24.138
+@                       MX	100	mx2c25.carrierzone.com.
+@                       MX	110	mx3c25.carrierzone.com.
+@                       MX	120	mx4c25.carrierzone.com.
+@                       MX	10	mx1c25.carrierzone.com.
 att                     CNAME	lvp2.umusic.ca.
 dev                     CNAME	dev.umusic.ca.
 localhost               A	127.0.0.1
+mail                    A	64.29.145.40
+webmail                 A	64.29.145.44
 www                     CNAME	jullyblack.com.

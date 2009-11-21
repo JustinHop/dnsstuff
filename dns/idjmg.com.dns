@@ -1,24 +1,24 @@
 ;
 ;  Database file idjmg.com.dns for idjmg.com zone.
-;      Zone version:  2002043375
+;      Zone version:  2002043377
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2002043375   ; serial number
+                        	2002043377   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
-                        	7200       ) ; default TTL
+                        	600        ) ; default TTL
 
 ;
 ;  Zone NS records
 ;
 
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns1.umusic.com.
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
-@                       NS	ns2.umusic.com.
-ns2.umusic.com.         A	167.167.9.132
 
 ;
 ;  Zone records
@@ -82,6 +82,7 @@ att04.falloutboy        CNAME	att04.idjmg.com.
 dev.falloutboy          CNAME	dev.idjmg.com.
 prod.falloutboy         CNAME	lb01-mid.idjmg.com.
 test.falloutboy         CNAME	test.idjmg.com.
+test.fameisdead         CNAME	test.idjmg.com.
 farm                    CNAME	defjam.idjmg.com.
 prod.fob                CNAME	lb01-mid.idjmg.com.
 att.ghostface           A	167.167.24.10

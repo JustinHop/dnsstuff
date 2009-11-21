@@ -1,10 +1,10 @@
 ;
 ;  Database file yeahyeahyeahs.com.dns for yeahyeahyeahs.com zone.
-;      Zone version:  2006032118
+;      Zone version:  2006032119
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2006032118   ; serial number
+                        	2006032119   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,15 +14,15 @@
 ;  Zone NS records
 ;
 
+@                       NS	ns1.umusic.com.
 @                       NS	ns2.umusic.com.
 @                       NS	ns5.umusic.com.
-@                       NS	ns1.umusic.com.
 
 ;
 ;  Zone records
 ;
 
-@                       A	167.167.24.71
+@                       A	167.167.24.76
 @                       MX	10	mail.yeahyeahyeahs.com.
 *                       CNAME	yeahyeahyeahs.com.
 ftp                     A	216.193.195.55

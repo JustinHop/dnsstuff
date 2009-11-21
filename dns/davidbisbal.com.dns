@@ -1,36 +1,32 @@
 ;
 ;  Database file davidbisbal.com.dns for davidbisbal.com zone.
-;      Zone version:  2009111701
+;      Zone version:  2009111703
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2009111701   ; serial number
-                        	7200         ; refresh
+                        	2009111703   ; serial number
+                        	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
-                        	7200       ) ; default TTL
+                        	600        ) ; default TTL
 
 ;
 ;  Zone NS records
 ;
 
-
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
-@                       NS	ns5.umusic.com.
-ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
 ;
 
-
 @                       A	167.167.24.37
+@                       MX	10	mx.davidbisbal.com.
+foro                    CNAME	davidbisbal.com.
+mx                      A	212.166.67.9
 www                     CNAME	davidbisbal.com.
-foro                     CNAME	davidbisbal.com.
-davidbisbal.com.            MX  10 mx.davidbisbal.com.
-
-mx.davidbisbal.com.         A   212.166.67.9
-

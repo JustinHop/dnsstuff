@@ -1,14 +1,14 @@
 ;
 ;  Database file umusic.ca.dns for umusic.ca zone.
-;      Zone version:  2002071803
+;      Zone version:  2002071818
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2002071803   ; serial number
-                        	7200         ; refresh
+                        	2002071818   ; serial number
+                        	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
-                        	7200       ) ; default TTL
+                        	600        ) ; default TTL
 
 ;
 ;  Zone NS records
@@ -49,9 +49,13 @@ beep                    A	167.167.24.37
 www.beep                CNAME	beep.umusic.ca.
 att.bet-e               A	167.167.24.135
 dev.bet-e               A	192.251.67.124
+dev.bretryan            CNAME	win.dev.umusic.ca.
+dev.chadmichaelstewart  CNAME	win.dev.umusic.ca.
 connected               A	167.167.24.37
 www.connected           CNAME	connected.umusic.ca.
-dev                     A	192.251.67.13
+dev.denzelsinclaire     CNAME	win.dev.umusic.ca.
+dev                     A	192.251.67.124
+                        A	192.251.67.13
 bretryan.dev            CNAME	dev.umusic.ca.
 chad.dev                CNAME	dev.umusic.ca.
 denzal.dev              CNAME	dev.umusic.ca.
@@ -84,6 +88,7 @@ dvd                     A	167.167.24.37
 att.dvd                 CNAME	lvp2.umusic.ca.
 www.dvd                 CNAME	umusic.ca.
 enquirer                A	167.167.24.37
+dev.enterthefortress    CNAME	win.dev.umusic.ca.
 facebook                A	167.167.24.37
 falloutboy              A	167.167.24.37
 www.falloutboy          CNAME	falloutboy.umusic.ca.
@@ -98,6 +103,7 @@ att02.getmusic          CNAME	att02-win.umusic.ca.
 att03.getmusic          CNAME	att03-win.umusic.ca.
 dev.girlicious          A	192.251.67.124
 greetings               A	167.167.24.37
+dev.hayleysales         CNAME	win.dev.umusic.ca.
 att.hedleyonline        A	167.167.24.135
 dev.hedleyonline        CNAME	win.dev.umusic.ca.
 att.jannarden           A	167.167.24.135
@@ -109,7 +115,10 @@ att.jannfans            A	167.167.24.135
 dev.jannfans            A	192.251.67.124
 att.jonasbrothers       CNAME	att-win.umusic.ca.
 dev.jonasbrothers       A	192.251.67.124
-att.jullyblack          CNAME	att.umusic.ca.
+att.jullyblack          CNAME	att-win.umusic.ca.
+att01.jullyblack        CNAME	att01-win.umusic.ca.
+att02.jullyblack        CNAME	att02-win.umusic.ca.
+att03.jullyblack        CNAME	att03-win.umusic.ca.
 dev.jullyblack          CNAME	win.dev.umusic.ca.
 att.justinbieber        CNAME	att.umusic.ca.
 dev.justinbieber        CNAME	win.dev.umusic.ca.
@@ -129,11 +138,14 @@ dev.naidacole           CNAME	dev.umusic.ca.
 nxne                    A	167.167.24.37
 www.nxne                CNAME	nxne.umusic.ca.
 obrother                A	192.251.67.170
+dev.oscarpeterson       CNAME	win.dev.umusic.ca.
 podcasts                A	167.167.24.37
+dev.protestthehero      CNAME	win.dev.umusic.ca.
 thewho                  A	192.251.67.80
 www.thewho              A	192.251.67.80
 twentiethcenturymasters A	167.167.24.37
 www.twentiethcenturymasters CNAME	twentiethcenturymasters.umusic.ca.
+dev.vivendient          CNAME	win.dev.umusic.ca.
 att.wearestereos        CNAME	att-win.umusic.ca.
 dev.wearestereos        A	192.251.67.124
 web3                    A	167.167.24.34
