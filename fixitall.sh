@@ -20,7 +20,6 @@
 
 for FILE in "$@" ; do
 	backup "$FILE"
-	dos2unix "$FILE"
 	if ./addns.pl "$FILE" ; then
 		if zsu "$FILE" ; then
 			echo "$FILE timestamped"
@@ -36,6 +35,5 @@ for FILE in "$@" ; do
 			fi
 		fi
 	fi
-	unix2dos "$FILE"
 done
 
