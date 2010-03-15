@@ -1,10 +1,10 @@
 ;
 ;  Database file therelapse.com.dns for therelapse.com zone.
-;      Zone version:  8
+;      Zone version:  10
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	8            ; serial number
+                        	10           ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -24,5 +24,5 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-@                       A	167.167.24.78
+@                       A	167.167.24.72
 www                     CNAME	therelapse.com.

@@ -1,10 +1,10 @@
 ;
 ;  Database file umusic.com.dns for umusic.com zone.
-;      Zone version:  2009102912
+;      Zone version:  2009102916
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2009102912   ; serial number
+                        	2009102916   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,9 +14,9 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns2.umusic.com.
 @                       NS	ns1.umusic.com.
 @                       NS	ns5.umusic.com.
+@                       NS	ns2.umusic.com.
 
 ;
 ;  Zone records
@@ -2148,7 +2148,8 @@ cmserver01              CNAME	cmsserver01.umusic.com.
 cmsnews                 A	192.251.67.240
 cmsserver01             A	192.251.67.71
 coachella               CNAME	cmsserver01.umusic.com.
-coh                     A	192.251.67.93
+coh                     A	167.167.24.135
+att.coh                 A	167.167.24.135
 dev.coh                 A	192.251.67.124
 concord                 A	167.167.2.123
 configservice           A	167.167.2.107
@@ -2189,8 +2190,8 @@ dc                      A	192.251.67.235
 dc01                    A	192.251.67.240
 dc02                    A	192.251.67.21
 dcregion                A	167.167.24.136
-mail.deber              A	213.61.130.238
-                        A	213.61.130.237
+mail.deber              A	213.61.130.237
+                        A	213.61.130.238
 mailgw.deber            A	213.61.130.233
 demailgate1.dehan       A	62.206.191.22
 demailgate2.dehan       A	62.206.191.23
@@ -4466,8 +4467,8 @@ mail                    A	65.54.32.197
 backup.mail             A	65.54.36.197
 maila                   A	65.54.32.198
                         A	65.54.32.199
-mailb                   A	65.54.32.198
-                        A	65.54.32.199
+mailb                   A	65.54.32.199
+                        A	65.54.32.198
 mailc                   A	65.54.36.199
                         A	65.54.36.198
 mailgate-emea           900	A	62.206.191.5
@@ -4483,10 +4484,10 @@ mdit                    A	10.130.109.187
 meetgreet               A	167.167.2.109
 mellencamp              CNAME	cmsserver01.umusic.com.
 mercury                 900	A	10.130.210.12
-smtp.mgd                A	65.54.36.199
-                        A	65.54.32.198
-                        A	65.54.32.199
+smtp.mgd                A	65.54.32.199
                         A	65.54.36.198
+                        A	65.54.36.199
+                        A	65.54.32.198
 mig-musicsweeps         CNAME	cmsserver01.umusic.com.
 migsweeps               CNAME	cmsserver01.umusic.com.
 milestone               900	A	10.130.110.213
@@ -4768,6 +4769,7 @@ ukequ-v                 CNAME	ukequbew01.umusic.com.
 ukequ-vn                CNAME	ukequbew01.umusic.com.
 ukequ-x                 CNAME	ukequbew01.umusic.com.
 ukequbew01              A	57.66.81.71
+ukftp                   A	167.167.138.31
 bes.ukrom               A	167.167.136.3
 gate2.ukrom             A	212.162.212.10
 ip-167-167-136-0.ukrom  A	167.167.136.0
@@ -11521,12 +11523,13 @@ mailirpt.usfsh          A	167.167.0.33
 mailscl.usfsh           A	167.167.0.23
                         A	167.167.0.22
 sftp1.usfsh             A	167.167.1.142
-smtp.usfsh              A	167.167.0.30
-                        A	167.167.0.29
+smtp.usfsh              A	167.167.0.29
+                        A	167.167.0.30
 smtp1.usfsh             300	A	167.167.0.17
 smtp2.usfsh             300	A	167.167.0.18
 usfshntex05.usfsh       300	A	167.167.0.20
 usfshntex06.usfsh       300	A	167.167.0.21
+usfshsccmweb01          A	167.167.2.122
 usfshvpn01              A	167.167.1.149
 ushv-isoft              A	167.167.1.135
 usma                    900	A	10.130.202.87

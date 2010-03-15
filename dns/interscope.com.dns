@@ -1,10 +1,10 @@
 ;
 ;  Database file interscope.com.dns for interscope.com zone.
-;      Zone version:  2006032971
+;      Zone version:  2006032988
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2006032971   ; serial number
+                        	2006032988   ; serial number
                         	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -23,13 +23,13 @@
 ;
 
 @                       7200	A	167.167.24.75
+@                       MX	30	aspmx5.googlemail.com.
 @                       MX	20	alt1.aspmx.l.google.com.
 @                       MX	20	alt2.aspmx.l.google.com.
 @                       MX	10	aspmx.l.google.com.
 @                       MX	30	aspmx2.googlemail.com.
 @                       MX	30	aspmx3.googlemail.com.
 @                       MX	30	aspmx4.googlemail.com.
-@                       MX	30	aspmx5.googlemail.com.
 att.50cent              CNAME	med1.interscope.com.
 att01.50cent            CNAME	att01.interscope.com.
 att02.50cent            CNAME	att02.interscope.com.
@@ -129,7 +129,7 @@ att.canubelievert       CNAME	lvp1.interscope.com.
 carinaround             A	216.193.195.55
 att.carinaround         CNAME	lvp4.interscope.com.
 att.cashismusic         A	167.167.24.71
-cf                      A	167.167.24.77
+cf                      A	167.167.24.71
 dev.cf                  A	192.251.67.100
 att.charleshamilton     CNAME	lvp2.interscope.com.
 dev.charleshamilton     CNAME	dev.interscope.com.
@@ -325,6 +325,7 @@ www03.joanna            CNAME	www03.igadev.com.
 www04.joanna            CNAME	www04.igadev.com.
 www05.joanna            CNAME	www05.igadev.com.
 www06.joanna            CNAME	www06.igadev.com.
+dev.jojo                CNAME	dev.interscope.com.
 att.jonnyonline         CNAME	lvp4.interscope.com.
 att.jurassic5           CNAME	lvp1.interscope.com.
 dev.justinbieber        A	192.251.67.100
@@ -364,7 +365,7 @@ www03.konlive           CNAME	www03.igadev.com.
 www04.konlive           CNAME	www04.igadev.com.
 www05.konlive           CNAME	www05.igadev.com.
 www06.konlive           CNAME	www06.igadev.com.
-kyteapp                 A	167.167.24.76
+kyteapp                 A	167.167.24.72
 att.kyteapp             CNAME	med3.interscope.com.
 dev.kyteapp             A	192.251.67.100
 att.ladygaga            CNAME	lvp3.interscope.com.
@@ -564,6 +565,12 @@ att.riseagainst         CNAME	med4.interscope.com.
 dev.riseagainst         A	192.251.67.100
 prod.riseagainst        A	57.77.2.144
 robinthicke             A	167.167.24.72
+att01.robinthicke       CNAME	att01.interscope.com.
+att02.robinthicke       CNAME	att02.interscope.com.
+att03.robinthicke       CNAME	att03.interscope.com.
+att04.robinthicke       CNAME	att04.interscope.com.
+att05.robinthicke       CNAME	att05.interscope.com.
+att06.robinthicke       CNAME	att06.interscope.com.
 robyn                   A	57.77.2.144
 dev.robyn               A	192.251.67.100
 www01.robyn             CNAME	www01.igadev.com.
@@ -656,8 +663,11 @@ dev.snoopdogg           A	192.251.67.100
 prod.snoopdogg          A	57.77.2.141
 snowpatrol              A	216.193.195.52
 att.snowpatrol          CNAME	med3.interscope.com.
+dev2.snowpatrol         A	192.251.67.95
 webservice.snowpatrol   A	167.167.24.72
 dev.webservice.snowpatrol CNAME	dev.interscope.com.
+dev2.webservice.snowpatrol CNAME	192.251.67.95.
+geffen.webservice.snowpatrol A	192.251.67.95
 dev.solange             A	192.251.67.100
 prod.solange            A	57.77.2.145
 www01.solange           CNAME	www01.igadev.com.
@@ -687,7 +697,7 @@ www04.soundthealarm     CNAME	www04.igadev.com.
 www05.soundthealarm     CNAME	www05.igadev.com.
 www06.soundthealarm     CNAME	www06.igadev.com.
 att.spitfiya            CNAME	lvp4.interscope.com.
-staging                 7200	A	167.167.24.74
+staging                 7200	A	167.167.24.73
 att01.staging           CNAME	att01.interscope.com.
 att02.staging           CNAME	att02.interscope.com.
 att03.staging           CNAME	att03.interscope.com.
@@ -747,12 +757,15 @@ att.theprocessofseparation CNAME	lvp1.interscope.com.
 att.therelapse          CNAME	med3.interscope.com.
 dev.therelapse          CNAME	dev.interscope.com.
 theshockvalueaffair     A	167.167.24.72
+clue.theshockvalueaffair A	192.251.67.100
+dev.clue.theshockvalueaffair A	192.251.67.100
+dev.clues.theshockvalueaffair A	192.251.67.100
 dev.theshockvalueaffair CNAME	dev.interscope.com.
 att.tiehimupwhenhesfastasleep CNAME	lvp2.interscope.com.
 att.timbalandmusic      CNAME	lvp4.interscope.com.
 att.tinyevil            CNAME	lvp3.interscope.com.
 att.tokiohotel-us       CNAME	lvp2.interscope.com.
-att.tonyyayo            A	167.167.24.74
+att.tonyyayo            A	167.167.24.73
 track                   7200	A	167.167.24.70
 att.tupaccontests       CNAME	lvp2.interscope.com.
 att.tvontheradio        CNAME	lvp3.interscope.com.

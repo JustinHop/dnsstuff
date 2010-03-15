@@ -1,10 +1,10 @@
 ;
 ;  Database file jimmyeatworld.com.dns for jimmyeatworld.com zone.
-;      Zone version:  2004000029
+;      Zone version:  2004000030
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2004000029   ; serial number
+                        	2004000030   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -22,11 +22,11 @@
 ;  Zone records
 ;
 
-@                       A	167.167.24.74
+@                       A	167.167.24.73
+@                       MX	10	mx1c25.carrierzone.com.
 @                       MX	100	mx2c25.carrierzone.com.
 @                       MX	110	mx3c25.carrierzone.com.
 @                       MX	120	mx4c25.carrierzone.com.
-@                       MX	10	mx1c25.carrierzone.com.
 *                       A	216.193.195.52
 bb                      A	216.193.195.43
 bbs                     A	207.126.51.68

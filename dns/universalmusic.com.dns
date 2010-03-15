@@ -1,10 +1,10 @@
 ;
 ;  Database file universalmusic.com.dns for universalmusic.com zone.
-;      Zone version:  2004011674
+;      Zone version:  2004011675
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2004011674   ; serial number
+                        	2004011675   ; serial number
                         	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -35,6 +35,7 @@ att03                   A	167.167.24.34
 att04                   A	167.167.24.35
 att2                    A	167.167.24.37
 audioplayer             CNAME	universalmusic.com.
+croatia                 A	78.46.9.26
 dev                     A	192.251.67.13
 *.dev                   CNAME	dev.universalmusic.com.
 attida.dev              A	167.167.24.37

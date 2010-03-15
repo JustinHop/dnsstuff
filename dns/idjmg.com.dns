@@ -1,10 +1,10 @@
 ;
 ;  Database file idjmg.com.dns for idjmg.com zone.
-;      Zone version:  2002043377
+;      Zone version:  2002043382
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2002043377   ; serial number
+                        	2002043382   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,11 +14,11 @@
 ;  Zone NS records
 ;
 
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns1.umusic.com.
-@                       NS	ns5.umusic.com.
-ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
@@ -221,7 +221,10 @@ att.shopmariah          CNAME	lb02-mid.idjmg.com.
 test.shopmariah         CNAME	test.idjmg.com.
 spencer                 CNAME	defjam.idjmg.com.
 staging                 CNAME	staging.islanddefjam.com.
+att.sum41               CNAME	lb01-mid.idjmg.com.
 test.sum41              CNAME	test.idjmg.com.
+att.teen-beats          CNAME	lb02-mid.idjmg.com.
+test.teen-beats         CNAME	test.idjmg.com.
 test                    A	192.251.67.94
 att.thebravery          CNAME	lb01-high.idjmg.com.
 test.thebravery         CNAME	test.idjmg.com.

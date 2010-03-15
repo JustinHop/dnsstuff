@@ -1,10 +1,10 @@
 ;
 ;  Database file dashboardconfessional.com.dns for dashboardconfessional.com zone.
-;      Zone version:  2006032136
+;      Zone version:  2006032137
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2006032136   ; serial number
+                        	2006032137   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -25,7 +25,7 @@ ns1.umusic.com.         A	167.167.1.141
 ;  Zone records
 ;
 
-@                       A	167.167.24.77
+@                       A	167.167.24.75
 @                       300	MX	10	mail.dashboardconfessional.com.
 localhost               A	127.0.0.1
 mail                    A	216.119.106.127

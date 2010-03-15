@@ -1,10 +1,10 @@
 ;
 ;  Database file theshockvalueaffair.com.dns for theshockvalueaffair.com zone.
-;      Zone version:  3
+;      Zone version:  6
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	3            ; serial number
+                        	6            ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -20,5 +20,6 @@
 ;  Zone records
 ;
 
-@                       A	167.167.24.72
+@                       A	167.167.24.77
+clues                   A	167.167.24.77
 www                     CNAME	theshockvalueaffair.com.

@@ -1,10 +1,10 @@
 ;
 ;  Database file thelastopera.com.dns for thelastopera.com zone.
-;      Zone version:  2009081900
+;      Zone version:  2009081901
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2009081900   ; serial number
+                        	2009081901   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -24,5 +24,5 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-@                       A	167.167.24.80
+@                       A	167.167.24.70
 www                     CNAME	thelastopera.com.

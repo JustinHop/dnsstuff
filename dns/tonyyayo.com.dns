@@ -1,10 +1,10 @@
 ;
 ;  Database file tonyyayo.com.dns for tonyyayo.com zone.
-;      Zone version:  2006032122
+;      Zone version:  2006032123
 ;
 
 @                       900	IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2006032122   ; serial number
+                        	2006032123   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,18 +14,18 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns2.umusic.com.
-ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
 
 ;
 ;  Zone records
 ;
 
-@                       A	167.167.24.74
+@                       A	167.167.24.73
 @                       MX	10	mail.tonyyayo.com.
 *                       A	57.77.2.144
 ftp                     A	216.193.195.55
