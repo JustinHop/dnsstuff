@@ -1,10 +1,10 @@
 ;
 ;  Database file umgnashville.com.dns for umgnashville.com zone.
-;      Zone version:  2004120296
+;      Zone version:  2004120310
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2004120296   ; serial number
+                        	2004120310   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -47,6 +47,8 @@ att03.billycurrington   CNAME	att03.umgnashville.com.
 dev.billycurrington     CNAME	dev.umgnashville.com.
 dev2.billycurrington    CNAME	dev2.umgnashville.com.
 prod.billycurrington    CNAME	prod.umgnashville.com.
+att.coldwaterjane       CNAME	hvp1.umgnashville.com.
+dev.coldwaterjane       CNAME	dev.umgnashville.com.
 test.dasblog            A	192.251.67.94
 davidnail               A	192.251.67.166
 att.davidnail           CNAME	att.umgnashville.com.
@@ -66,11 +68,19 @@ iga-dev                 A	192.251.67.124
 jameyjohnson            A	192.251.67.166
 att.jameyjohnson        CNAME	att.umgnashville.com.
 dev.jameyjohnson        A	192.251.67.124
+dev.joshkelley          A	192.251.67.13
+dev.joshkelly           A	192.251.67.13
 juliannehough           A	192.251.67.166
 att.juliannehough       CNAME	att.umgnashville.com.
 dev.juliannehough       A	192.251.67.124
 att.julieroberts        CNAME	att.umgnashville.com.
 dev.julieroberts        CNAME	dev.umgnashville.com.
+att.laurabell           CNAME	att.umgnashville.com.
+dev.laurabell           CNAME	dev.umgnashville.com.
+laurabellbundy          CNAME	att.umgnashville.com.
+att.laurabellbundy      CNAME	att.umgnashville.com.
+dev.laurabellbundy      CNAME	dev.umgnashville.com.
+prod.laurabellbundy     CNAME	att.umgnashville.com.
 leeannwomack            CNAME	linux.leeannwomack.umgnashville.com.
 att.leeannwomack        CNAME	att.umgnashville.com.
 dev.leeannwomack        CNAME	dev.umgnashville.com.
@@ -86,6 +96,8 @@ peoplearecrazy          CNAME	att.peoplearecrazy.umgnashville.com.
 att.peoplearecrazy      A	167.167.24.37
 dev.peoplearecrazy      300	A	192.251.67.13
 prod                    A	192.251.67.166
+att.randyexp            300	A	167.167.24.37
+dev.randyexp            A	192.251.67.13
 sugarland               A	192.251.67.166
 att.sugarland           CNAME	att.umgnashville.com.
 dev.sugarland           A	192.251.67.124

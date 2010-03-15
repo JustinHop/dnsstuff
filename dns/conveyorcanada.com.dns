@@ -1,10 +1,10 @@
 ;
 ;  Database file conveyorcanada.com.dns for conveyorcanada.com zone.
-;      Zone version:  2007062508
+;      Zone version:  2007062510
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2007062508   ; serial number
+                        	2007062510   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -26,5 +26,7 @@ ns2.umusic.com.         A	167.167.9.132
 
 @                       A	167.167.24.37
 @                       MX	10	mail.global.frontbridge.com.
+_autodiscover._tcp      SRV	0 0 443	autodiscover.umusic.com.
+autodiscover            CNAME	autodiscover.umusic.com.
 localhost               A	127.0.0.1
 www                     CNAME	conveyorcanada.com.

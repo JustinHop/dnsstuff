@@ -1,10 +1,10 @@
 ;
 ;  Database file tobykeithgreatesthits.com.dns for tobykeithgreatesthits.com zone.
-;      Zone version:  2004100822
+;      Zone version:  2004100823
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2004100822   ; serial number
+                        	2004100823   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -25,6 +25,6 @@ ns2.umusic.com.         A	167.167.9.132
 ;  Zone records
 ;
 
-@                       A	192.251.67.112
+@                       A	167.167.24.135
 localhost               A	127.0.0.1
 www                     CNAME	tobykeithgreatesthits.com.

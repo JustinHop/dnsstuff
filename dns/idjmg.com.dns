@@ -1,10 +1,10 @@
 ;
 ;  Database file idjmg.com.dns for idjmg.com zone.
-;      Zone version:  2002043382
+;      Zone version:  2002043400
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2002043382   ; serial number
+                        	2002043400   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,16 +14,18 @@
 ;  Zone NS records
 ;
 
+@                       NS	ns1.umusic.com.
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
-@                       NS	ns1.umusic.com.
 
 ;
 ;  Zone records
 ;
 
+att.adriennebailon      CNAME	lb01-high.idjmg.com.
+test.adriennebailon     CNAME	test.idjmg.com.
 att.amerie              CNAME	lb01-high.idjmg.com.
 test.amerie             CNAME	test.idjmg.com.
 dev.artist              A	192.251.67.124
@@ -182,12 +184,15 @@ att04.ludo              CNAME	att04.idjmg.com.
 dev.ludo                CNAME	dev.idjmg.com.
 prod.ludo               CNAME	lb01-mid.idjmg.com.
 test.ludo               CNAME	test.idjmg.com.
+test.mannsworld         A	192.251.67.94
 att.iphone.mariah       A	167.167.24.37
 att03.iphone.mariah     A	167.167.24.34
 att04.iphone.mariah     A	167.167.24.35
 dev.iphone.mariah       A	192.251.67.13
 att.methandredmusic     CNAME	lb01-mid.idjmg.com.
 test.methandredmusic    CNAME	test.idjmg.com.
+att.methraeghost        CNAME	lb02-mid.idjmg.com.
+test.methraeghost       CNAME	test.idjmg.com.
 att.neyo                CNAME	lb01-mid.idjmg.com.
 att01.neyo              CNAME	att01.idjmg.com.
 att02.neyo              CNAME	att02.idjmg.com.
@@ -196,6 +201,12 @@ att04.neyo              CNAME	att04.idjmg.com.
 dev.neyo                CNAME	dev.idjmg.com.
 prod.neyo               CNAME	lb01-mid.idjmg.com.
 test.neyo               CNAME	test.idjmg.com.
+att.nobodysdaughter     A	167.167.24.27
+att01.nobodysdaughter   CNAME	att01.idjmg.com.
+att02.nobodysdaughter   CNAME	att02.idjmg.com.
+att03.nobodysdaughter   CNAME	att03.idjmg.com.
+att04.nobodysdaughter   CNAME	att04.idjmg.com.
+test.nobodysdaughter    A	192.251.67.94
 att.oneblockradius      CNAME	lb02-mid.idjmg.com.
 att01.oneblockradius    CNAME	att01.idjmg.com.
 att02.oneblockradius    CNAME	att02.idjmg.com.
@@ -213,6 +224,8 @@ dev.roc                 A	192.251.67.124
 prod.roc                A	167.167.2.18
 www01.roc               A	167.167.2.102
 www02.roc               A	167.167.2.101
+att.saliva              CNAME	att01.idjmg.com.
+test.saliva             CNAME	test.idjmg.com.
 att.schoolgyrls         CNAME	att01.idjmg.com.
 test.schoolgyrls        CNAME	test.idjmg.com.
 att.shonie              CNAME	lb01-mid.idjmg.com.
@@ -248,6 +261,10 @@ test.tools              CNAME	test.idjmg.com.
 att.triplecs305         CNAME	att03.idjmg.com.
 test.triplecs305        CNAME	test.idjmg.com.
 att.utada               CNAME	lb01-high.idjmg.com.
+att01.utada             CNAME	att01.idjmg.com.
+att02.utada             CNAME	att02.idjmg.com.
+att03.utada             CNAME	att03.idjmg.com.
+att04.utada             CNAME	att04.idjmg.com.
 test.utada              CNAME	test.idjmg.com.
 video-dj                CNAME	usucplvapp001.global.umusic.net.
 att.video-dj            CNAME	llvp2.att.umusic.com.

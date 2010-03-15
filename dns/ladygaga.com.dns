@@ -1,10 +1,10 @@
 ;
 ;  Database file ladygaga.com.dns for ladygaga.com zone.
-;      Zone version:  2009112003
+;      Zone version:  2009112010
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2009112003   ; serial number
+                        	2009112010   ; serial number
                         	300          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -24,15 +24,18 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-@                       A	167.167.24.77
-@                       MX	120	mx4c25.carrierzone.com.
+@                       A	167.167.24.53
 @                       MX	10	mx1c25.carrierzone.com.
 @                       MX	100	mx2c25.carrierzone.com.
 @                       MX	110	mx3c25.carrierzone.com.
+@                       MX	120	mx4c25.carrierzone.com.
+cms                     A	167.167.24.72
+forum                   A	167.167.24.53
 m                       CNAME	redirect.interscope.com.
 mail                    A	64.29.145.40
-origin-www              A	167.167.24.77
+origin-www              A	167.167.24.53
 origin2-www             A	167.167.24.77
 webmail                 A	64.29.145.44
+webservices             A	167.167.24.77
 www                     CNAME	www.ladygaga.com.edgesuite.net.
 www2                    CNAME	www.ladygaga.com.edgesuite-staging.net.

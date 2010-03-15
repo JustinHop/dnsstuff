@@ -1,10 +1,10 @@
 ;
 ;  Database file hatebreed.com.dns for hatebreed.com zone.
-;      Zone version:  2002050835
+;      Zone version:  2002050836
 ;
 
-@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2002050835   ; serial number
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2002050836   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire

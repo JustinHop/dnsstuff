@@ -1,10 +1,10 @@
 ;
 ;  Database file doggtownandzboys.com.dns for doggtownandzboys.com zone.
-;      Zone version:  2002050926
+;      Zone version:  2002050927
 ;
 
-@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2002050926   ; serial number
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2002050927   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire

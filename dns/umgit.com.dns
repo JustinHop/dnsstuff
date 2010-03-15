@@ -1,10 +1,10 @@
 ;
 ;  Database file umgit.com.dns for umgit.com zone.
-;      Zone version:  2009102800
+;      Zone version:  2009102801
 ;
 
-@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2009102800   ; serial number
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2009102801   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -27,6 +27,6 @@ ns2.umusic.com.         A	167.167.9.132
 
 localhost               A	127.0.0.1
 wordpress               A	167.167.24.37
-dev.wordpress           A	192.251.67.13
 *.wordpress             CNAME	wordpress.umgit.com.
+dev.wordpress           A	192.251.67.13
 *.dev.wordpress         CNAME	dev.wordpress.umgit.com.

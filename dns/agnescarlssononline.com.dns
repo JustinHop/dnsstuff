@@ -1,14 +1,14 @@
 ;
 ;  Database file agnescarlssononline.com.dns for agnescarlssononline.com zone.
-;      Zone version:  2009081900
+;      Zone version:  2009081902
 ;
 
-@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2009081900   ; serial number
+@                       3600	IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2009081902   ; serial number
                         	900          ; refresh
                         	600          ; retry
-                        	86400        ; expire
-                        	3600       ) ; default TTL
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
 
 ;
 ;  Zone NS records

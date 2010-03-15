@@ -1,0 +1,32 @@
+;
+;  Database file findlaybrown.com.dns for findlaybrown.com zone.
+;      Zone version:  11
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	11           ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       0	NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       0	NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+
+;
+;  Zone records
+;
+
+@                       MX	1	aspmx.l.gooogle.com.
+@                       MX	5	alt1.aspmx.l.google.com.
+@                       MX	5	alt2.aspmx.l.google.com.
+@                       MX	10	aspmx2.googlemail.com.
+@                       MX	10	aspmx3.googlemail.com.
+googled9697fde0168da13  CNAME	google.com.

@@ -1,10 +1,10 @@
 ;
 ;  Database file atmoapparel.co.uk.dns for atmoapparel.co.uk zone.
-;      Zone version:  20090749
+;      Zone version:  20090750
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	20090749     ; serial number
+                        	20090750     ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2592000      ; expire
@@ -14,11 +14,11 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns5.umusic.com.
-ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns1.umusic.com.
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
@@ -27,6 +27,7 @@ ns2.umusic.com.         A	167.167.9.132
 @                       A	174.133.244.122
 @                       300	MX	10	mail.global.frontbridge.com.
 35a37b93-df97-4c1b-8cc6-ab5a42ff0a66 CNAME	admin.messaging.microsoft.com.
+_autodiscover._tcp      SRV	0 0 443	autodiscover.umusic.com.
 autodiscover            CNAME	autodiscover.umusic.com.
 mail                    A	88.97.205.70
 sbs                     A	88.97.205.70

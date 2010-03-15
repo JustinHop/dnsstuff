@@ -1,10 +1,10 @@
 ;
 ;  Database file universalmusic.com.dns for universalmusic.com zone.
-;      Zone version:  2004011675
+;      Zone version:  2004011683
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2004011675   ; serial number
+                        	2004011683   ; serial number
                         	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -25,9 +25,10 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-@                       A	167.167.24.36
+@                       300	A	167.167.24.36
+@                       300	A	167.167.24.37
 @                       MX	10	mail.global.frontbridge.com.
-asia                    A	202.130.103.220
+asia                    A	202.130.103.211
 att                     A	167.167.24.36
 att01                   A	167.167.24.32
 att02                   A	167.167.24.33

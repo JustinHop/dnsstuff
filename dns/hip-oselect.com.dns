@@ -1,10 +1,10 @@
 ;
 ;  Database file hip-oselect.com.dns for hip-oselect.com zone.
-;      Zone version:  2003121938
+;      Zone version:  2003121940
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2003121938   ; serial number
+                        	2003121940   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,11 +14,11 @@
 ;  Zone NS records
 ;
 
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns1.umusic.com.
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
-@                       NS	ns2.umusic.com.
-ns2.umusic.com.         A	167.167.9.132
 
 ;
 ;  Zone records
@@ -26,6 +26,8 @@ ns2.umusic.com.         A	167.167.9.132
 
 @                       900	A	192.251.67.166
 @                       MX	10	mail.global.frontbridge.com.
+_autodiscover._tcp      SRV	0 0 443	autodiscover.umusic.com.
+autodiscover            CNAME	autodiscover.umusic.com.
 dev                     A	192.251.67.124
 dev2                    A	192.251.67.124
 localhost               A	127.0.0.1

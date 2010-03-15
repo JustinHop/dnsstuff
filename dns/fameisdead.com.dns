@@ -1,13 +1,13 @@
 ;
 ;  Database file fameisdead.com.dns for fameisdead.com zone.
-;      Zone version:  3
+;      Zone version:  11
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	3            ; serial number
+                        	11           ; serial number
                         	900          ; refresh
                         	600          ; retry
-                        	86400        ; expire
+                        	2419200      ; expire
                         	3600       ) ; default TTL
 
 ;
@@ -15,10 +15,15 @@
 ;
 
 @                       NS	ns1.umusic.com.
+@                       0	NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       0	NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
 ;
 
 @                       A	167.167.24.7
+localhost               A	127.0.0.1
 www                     CNAME	fameisdead.com.

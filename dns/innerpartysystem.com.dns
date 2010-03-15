@@ -1,14 +1,14 @@
 ;
 ;  Database file innerpartysystem.com.dns for innerpartysystem.com zone.
-;      Zone version:  2008092603
+;      Zone version:  2008092604
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2008092603   ; serial number
+                        	2008092604   ; serial number
                         	900          ; refresh
                         	600          ; retry
-                        	600          ; expire
-                        	600        ) ; default TTL
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
 
 ;
 ;  Zone NS records

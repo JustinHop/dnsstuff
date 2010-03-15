@@ -1,10 +1,10 @@
 ;
 ;  Database file kidkudi.com.dns for kidkudi.com zone.
-;      Zone version:  3
+;      Zone version:  4
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	3            ; serial number
+                        	4            ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -20,5 +20,5 @@
 ;  Zone records
 ;
 
-@                       A	167.167.24.101
+@                       A	72.249.39.6
 www                     CNAME	kidkudi.com.

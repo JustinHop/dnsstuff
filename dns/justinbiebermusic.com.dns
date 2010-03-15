@@ -1,28 +1,30 @@
 ;
 ;  Database file justinbiebermusic.com.dns for justinbiebermusic.com zone.
-;      Zone version:  11
+;      Zone version:  15
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	11           ; serial number
+                        	15           ; serial number
                         	900          ; refresh
                         	600          ; retry
-                        	86400        ; expire
+                        	2419200      ; expire
                         	3600       ) ; default TTL
 
 ;
 ;  Zone NS records
 ;
 
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns1.umusic.com.
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
-@                       NS	ns5.umusic.com.
-ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
 ;
 
-@                       A	167.167.24.26
+@                       A	167.167.24.27
+fanwall                 A	94.23.161.229
+m                       CNAME	apps.netbiscuits.com.
 www                     CNAME	justinbiebermusic.com.

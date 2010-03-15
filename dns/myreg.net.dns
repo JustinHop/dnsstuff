@@ -1,10 +1,10 @@
 ;
 ;  Database file myreg.net.dns for myreg.net zone.
-;      Zone version:  2003114582
+;      Zone version:  2003114601
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2003114582   ; serial number
+                        	2003114601   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,20 +14,20 @@
 ;  Zone NS records
 ;
 
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
-@                       NS	ns2.umusic.com.
-ns2.umusic.com.         A	167.167.9.132
 
 ;
 ;  Zone records
 ;
 
 @                       MX	10	mailrx.myreg.net.
-@                       TXT	( "v=spf1 ip4:167.167.0.0/16 -all" )
 @                       TXT	( "v=spf1 ip4:167.167.3.0/24 mx ptr ~all" )
+@                       TXT	( "v=spf1 ip4:167.167.0.0/16 -all" )
 universal._domainkey    300	TXT	( "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ0POvmDGFkRc8xTbH/91tSTXtx5l0s+OqE6qoI5+AcLxBn2Q21pOOKmVTYGfId7Ke9xYi7gJzirXo3BiCvNXX07gTfGgyPdWIFvjqa06Un6baBf4kvi8oK1rnBM5GNDtT0wX+AN/fGAgpyBimXQOrZ5tsfs2iNItsAs8M3s6JsQIDAQAB;" )
 abc                     MX	10	mailrx.myreg.net.
                         TXT	( "v=spf1 a mx a:usfshlxmx06.abc.myreg.net a:usfshlxmx07.abc.myreg.net -all" )
@@ -210,6 +210,7 @@ usfshlxmx06.ecrmdemo    A	167.167.3.32
 usfshlxmx07.ecrmdemo    A	167.167.3.33
 usfshlxmx08.ecrmdemo    A	167.167.3.34
 ecrmhub                 A	167.167.2.25
+ecrmhub-uat             A	167.167.0.41
 eleven                  A	167.167.3.236
                         MX	10	mailrx.musicreg.net.
                         TXT	( "v=spf1 a mx a:usfshlxmx06.eleven.myreg.net  a:usfshlxmx07.eleven.myreg.net  -all"
@@ -297,18 +298,19 @@ ukromwssql004.internal  A	192.168.46.58
 usfshdev.internal       MX	10	usfshlvfctdev001.
 usfshlsadm001.internal  A	192.168.78.18
 usfshlsdeb001.internal  A	192.168.78.31
-usfshlsdw02.internal    A	192.168.78.52
+usfshlsdw02.internal    A	10.130.104.108
 usfshlsfilesrv001.internal A	192.168.78.28
 usfshlsfnp001.internal  A	192.168.75.56
 usfshlsldap001.internal A	192.168.78.25
 usfshlslog001.internal  A	192.168.78.153
 usfshlslog002.internal  A	192.168.78.154
-usfshlsmms001.internal  CNAME	usfshlxws04.internal.myreg.net.
 usfshlsmys001.internal  A	192.168.78.151
 usfshlsmys002.internal  A	192.168.78.152
 usfshlsmys003.internal  A	192.168.78.156
 usfshlsmysdev001.internal A	10.130.104.133
 usfshlsmysdev002.internal A	10.130.104.134
+usfshlsmysuat001.internal A	10.130.104.203
+usfshlsmysuat002.internal A	10.130.104.195
 usfshlsora001.internal  A	192.168.78.155
 usfshlstest001.internal A	192.168.78.11
 usfshlstest002.internal A	192.168.78.34
@@ -321,10 +323,12 @@ usfshlvcol001.internal  CNAME	usfshlvcol01.internal.myreg.net.
 usfshlvcol001-2.internal A	10.130.104.53
 usfshlvcol01.internal   A	10.130.110.244
 usfshlvcoldev001.internal A	10.130.111.153
+usfshlvcoluat001.internal A	10.130.104.202
 usfshlvcst001.internal  CNAME	usfshlvcst01.internal.myreg.net.
 usfshlvcst001-2.internal A	10.130.104.52
 usfshlvcst01.internal   A	10.130.110.250
 usfshlvcstdev001.internal A	10.130.111.162
+usfshlvcstuat001.internal A	10.130.104.201
 usfshlvcvs001.internal  A	10.130.104.145
 usfshlvdev01.internal   A	10.130.110.240
 usfshlvdev02.internal   A	10.130.110.243
@@ -333,19 +337,23 @@ usfshlvext001.internal  CNAME	usfshlvext01.internal.myreg.net.
 usfshlvext001-2.internal A	10.130.104.51
 usfshlvext01.internal   A	10.130.110.241
 usfshlvextdev001.internal A	10.130.104.140
+usfshlvextuat001.internal A	10.130.104.200
 usfshlvfct001.internal  CNAME	usfshlvfct01.internal.myreg.net.
 usfshlvfct001-2.internal A	10.130.104.54
 usfshlvfct01.internal   A	10.130.110.248
 usfshlvfctdev001.internal A	10.130.104.142
+usfshlvfctuat001.internal A	10.130.104.199
 usfshlvldap001.internal A	192.168.78.40
 usfshlvlp01.internal    A	10.130.110.251
 usfshlvmx01.internal    A	10.130.110.242
 usfshlvmxdev001.internal A	10.130.104.177
+usfshlvmxuat001.internal A	10.130.104.198
 usfshlvmys001.internal  A	10.130.104.115
 usfshlvmysmon001.internal A	10.130.111.240
 usfshlvqmx001.internal  CNAME	usfshlvmx01.internal.myreg.net.
 usfshlvqmx001-2.internal A	10.130.104.56
 usfshlvqmxdev001.internal A	10.130.111.230
+usfshlvqmxuat001.internal A	10.130.104.197
 usfshlvsws01-2.internal A	10.130.104.57
 usfshlvsws02-2.internal A	10.130.104.55
 usfshlvtest001.internal A	10.130.104.107
@@ -353,6 +361,7 @@ usfshlvtest002.internal A	10.130.111.236
 usfshlvws01.internal    A	10.130.110.246
 usfshlvws02.internal    A	10.130.110.247
 usfshlvwsdev001.internal A	10.130.111.157
+usfshlvwsuat001.internal A	10.130.104.196
 usfshlxcol01.internal   A	192.168.75.22
 usfshlxcol02.internal   A	192.168.75.23
 usfshlxcol03.internal   A	192.168.75.24
@@ -377,8 +386,8 @@ usfshlxmx07.internal    A	192.168.78.145
 usfshlxmx08.internal    A	192.168.78.146
 usfshlxws01.internal    A	192.168.75.25
 usfshlxws02.internal    A	192.168.75.26
-usfshlxws04.internal    A	192.168.75.57
 usfshntdw02.internal    A	192.168.75.50
+usfshntdw03.internal    A	10.130.104.129
 usfshwsdw01.internal    A	192.168.78.20
                         A	192.168.75.62
 island                  MX	5	mailrx.myreg.net.

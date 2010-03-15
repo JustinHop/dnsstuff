@@ -1,10 +1,10 @@
 ;
 ;  Database file losthighwayrecords.com.dns for losthighwayrecords.com zone.
-;      Zone version:  2003053034
+;      Zone version:  2003053040
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2003053034   ; serial number
+                        	2003053040   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -25,6 +25,10 @@ ns2.umusic.com.         A	167.167.9.132
 ;
 
 @                       A	167.167.24.135
+@                       MX	100	mx2c25.carrierzone.com.
+@                       MX	110	mx3c25.carrierzone.com.
+@                       MX	120	mx4c25.carrierzone.com.
+@                       MX	10	mx1c25.carrierzone.com.
 assets                  A	192.251.67.112
 att                     A	167.167.24.135
 att01                   A	167.167.24.132
@@ -34,7 +38,9 @@ boards                  A	192.251.67.144
 dev                     A	192.251.67.124
 dev-artist              A	192.251.67.124
 localhost               A	127.0.0.1
+mail                    A	64.29.145.40
 main                    A	167.167.24.135
 mobile                  A	167.167.2.109
 prod                    A	192.251.67.166
+webmail                 A	64.29.145.44
 www                     CNAME	losthighwayrecords.com.

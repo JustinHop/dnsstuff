@@ -1,13 +1,13 @@
 ;
 ;  Database file agnesmusic.com.dns for agnesmusic.com zone.
-;      Zone version:  200911031
+;      Zone version:  200911032
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	200911031    ; serial number
+                        	200911032    ; serial number
                         	900          ; refresh
                         	600          ; retry
-                        	86400        ; expire
+                        	2419200      ; expire
                         	3600       ) ; default TTL
 
 ;

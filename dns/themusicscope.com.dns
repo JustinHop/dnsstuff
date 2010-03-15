@@ -1,0 +1,30 @@
+;
+;  Database file themusicscope.com.dns for themusicscope.com zone.
+;      Zone version:  9
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	9            ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+
+;
+;  Zone records
+;
+
+@                       A	67.210.222.95
+@                       MX	10	themusicscope.com.
+@                       TXT	( "v=spf1 a mx ip4:74.200.17.73 ip4:67.210.222.95 ip4:63.236.106.157 ip4:66.77.66.89 ip4:63.236.109.0/24 ~all" )
+www                     CNAME	themusicscope.com.

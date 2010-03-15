@@ -1,10 +1,10 @@
 ;
 ;  Database file girliciousgirls.com.dns for girliciousgirls.com zone.
-;      Zone version:  8
+;      Zone version:  9
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	8            ; serial number
+                        	9            ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire

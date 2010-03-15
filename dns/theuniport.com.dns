@@ -1,10 +1,10 @@
 ;
 ;  Database file theuniport.com.dns for theuniport.com zone.
-;      Zone version:  2009120303
+;      Zone version:  2009120310
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2009120303   ; serial number
+                        	2009120310   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,17 +14,17 @@
 ;  Zone NS records
 ;
 
+@                       NS	ns1.umusic.com.
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
-@                       NS	ns1.umusic.com.
 
 ;
 ;  Zone records
 ;
 
-@                       A	167.167.138.29
-preprod                 CNAME	theuniport.com.
-testing                 CNAME	theuniport.com.
+@                       A	167.167.138.33
+preprod                 A	167.167.138.35
+testing                 A	167.167.138.36
 www                     CNAME	theuniport.com.

@@ -1,0 +1,25 @@
+;
+;  Database file mannsworld.net.dns for mannsworld.net zone.
+;      Zone version:  5
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	5            ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.7
+dev                     A	192.251.67.94
+www                     CNAME	mannsworld.net.

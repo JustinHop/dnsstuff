@@ -1,10 +1,10 @@
 ;
 ;  Database file mjblige.com.dns for mjblige.com zone.
-;      Zone version:  2002102252
+;      Zone version:  2002102254
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2002102252   ; serial number
+                        	2002102254   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -26,16 +26,17 @@ ns2.umusic.com.         A	167.167.9.132
 ;
 
 @                       900	A	167.167.24.75
+@                       MX	110	mx3c25.carrierzone.com.
 @                       MX	10	mx1c25.carrierzone.com.
 @                       MX	120	mx4c25.carrierzone.com.
 @                       MX	100	mx2c25.carrierzone.com.
-@                       MX	110	mx3c25.carrierzone.com.
 localhost               A	127.0.0.1
 mail                    A	64.29.145.40
 maryjfans               A	64.74.128.116
 *.maryjfans             CNAME	maryjfans.mjblige.com.
 forums.maryjfans        A	64.74.128.48
 www.maryjfans           CNAME	maryjfans.mjblige.com.
+store                   CNAME	www.mjblige.com.
 test                    900	A	192.251.67.147
 webmail                 A	64.29.145.44
 www                     CNAME	mjblige.com.

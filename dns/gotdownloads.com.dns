@@ -1,10 +1,10 @@
 ;
 ;  Database file gotdownloads.com.dns for gotdownloads.com zone.
-;      Zone version:  2003051465
+;      Zone version:  2003051466
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2003051465   ; serial number
+                        	2003051466   ; serial number
                         	54000        ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -40,7 +40,7 @@ att.glade               CNAME	att.gotdownloads.com.
 dev.glade               A	192.251.67.94
 localhost               A	127.0.0.1
 musicmatch              1800	CNAME	gotdownloads.com.
-store                   A	167.167.24.135
+store                   A	167.167.24.183
 dev.store               A	192.251.67.94
 www.store               CNAME	store.gotdownloads.com.
 www                     CNAME	gotdownloads.com.

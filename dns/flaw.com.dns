@@ -1,10 +1,10 @@
 ;
 ;  Database file flaw.com.dns for flaw.com zone.
-;      Zone version:  2002042935
+;      Zone version:  2002042936
 ;
 
-@                       3600	IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2002042935   ; serial number
+@                       3600	IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2002042936   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire

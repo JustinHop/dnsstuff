@@ -1,13 +1,13 @@
 ;
 ;  Database file haveyoueverbeentoheavenatnight.com.dns for haveyoueverbeentoheavenatnight.com zone.
-;      Zone version:  7
+;      Zone version:  2010030802
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	7            ; serial number
+                        	2010030802   ; serial number
                         	900          ; refresh
                         	600          ; retry
-                        	86400        ; expire
+                        	2419200      ; expire
                         	3600       ) ; default TTL
 
 ;

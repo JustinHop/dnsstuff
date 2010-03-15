@@ -1,10 +1,10 @@
 ;
 ;  Database file 3doorsdown.com.dns for 3doorsdown.com zone.
-;      Zone version:  2002101157
+;      Zone version:  2002101158
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2002101157   ; serial number
+                        	2002101158   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -26,7 +26,7 @@ ns2.umusic.com.         A	167.167.9.132
 ;
 
 @                       900	A	167.167.24.100
-boards                  900	A	146.145.113.189
+boards                  900	A	167.167.24.100
 fanclub                 CNAME	3doorsdownfanclub.musictoday.com.
 localhost               A	127.0.0.1
 prod                    900	A	167.167.2.113

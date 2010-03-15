@@ -1,10 +1,10 @@
 ;
 ;  Database file hipposelect.com.dns for hipposelect.com zone.
-;      Zone version:  2004040217
+;      Zone version:  2004040218
 ;
 
-@                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2004040217   ; serial number
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2004040218   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,11 +14,11 @@
 ;  Zone NS records
 ;
 
+@                       NS	ns1.umusic.com.
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
-@                       NS	ns1.umusic.com.
 
 ;
 ;  Zone records

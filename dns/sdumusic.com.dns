@@ -1,0 +1,35 @@
+;
+;  Database file sdumusic.com.dns for sdumusic.com zone.
+;      Zone version:  2009121617
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2009121617   ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+
+;
+;  Zone records
+;
+
+@                       A	75.101.165.202
+@                       A	75.101.133.158
+@                       A	75.101.133.199
+@                       MX	10	server1.inboundmx.com.
+@                       MX	20	server2.inboundmx.com.
+@                       TXT	( "v=spf1 ptr:mxlogic.net ptr:collaborationhost.net ip4:216.166.12.0/24 include:mxlogic.net ~all" )
+autodiscover            CNAME	autodiscoverredirect.collaborationhost.net.
+localhost               A	127.0.0.1
+www                     CNAME	frontend.bubblecms.com.

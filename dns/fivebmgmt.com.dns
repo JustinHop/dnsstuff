@@ -1,10 +1,10 @@
 ;
 ;  Database file fivebmgmt.com.dns for fivebmgmt.com zone.
-;      Zone version:  200911060
+;      Zone version:  200911062
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	200911060            ; serial number
+                        	200911062    ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -13,7 +13,6 @@
 ;
 ;  Zone NS records
 ;
-
 
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
@@ -26,6 +25,5 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-
-@                       CNAME	5bam.com.
+@                       A	167.167.24.135
 www                     CNAME	5bam.com.

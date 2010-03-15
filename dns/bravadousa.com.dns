@@ -1,10 +1,10 @@
 ;
 ;  Database file bravadousa.com.dns for bravadousa.com zone.
-;      Zone version:  2008060435
+;      Zone version:  2008060437
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2008060435   ; serial number
+                        	2008060437   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -28,6 +28,8 @@ ns1.umusic.com.         A	167.167.1.141
 @                       A	207.234.130.146
 @                       MX	10	mail.global.frontbridge.com.
 35a37b93-df97-4c1b-8cc6-ab5a42ff0a66 CNAME	mail.messaging.microsoft.com.
+_autodiscover._tcp      SRV	0 0 443	autodiscover.umusic.com.
+autodiscover            CNAME	autodiscover.umusic.com.
 clicks                  CNAME	www.musictoday.com.
 localhost               A	127.0.0.1
 mail                    A	63.196.146.91

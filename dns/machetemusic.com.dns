@@ -1,10 +1,10 @@
 ;
 ;  Database file machetemusic.com.dns for machetemusic.com zone.
-;      Zone version:  2008070812
+;      Zone version:  2008070814
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2008070812   ; serial number
+                        	2008070814   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,11 +14,11 @@
 ;  Zone NS records
 ;
 
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns1.umusic.com.
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
-@                       NS	ns5.umusic.com.
-ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
@@ -26,5 +26,6 @@ ns5.umusic.com.         A	167.167.1.132
 
 @                       A	192.251.67.166
 @                       MX	10	mail.global.frontbridge.com.
+_autodiscover._tcp      SRV	0 0 443	autodiscover.umusic.com.
 autodiscover            CNAME	autodiscover.umusic.com.
 www                     CNAME	machetemusic.com.

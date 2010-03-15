@@ -1,10 +1,10 @@
 ;
 ;  Database file islanddefjam.com.dns for islanddefjam.com zone.
-;      Zone version:  2002041325
+;      Zone version:  2002041329
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2002041325   ; serial number
+                        	2002041329   ; serial number
                         	1800         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -26,10 +26,10 @@ ns2.umusic.com.         A	167.167.9.132
 ;
 
 @                       A	167.167.24.14
-@                       MX	110	mx3c25.carrierzone.com.
 @                       MX	120	mx4c25.carrierzone.com.
 @                       MX	100	mx2c25.carrierzone.com.
 @                       MX	10	mx1c25.carrierzone.com.
+@                       MX	110	mx3c25.carrierzone.com.
 aisfeed                 CNAME	awsservices.umusic.com.
 allaccess               A	64.27.23.111
 arftp                   A	167.167.1.143
@@ -49,6 +49,16 @@ ns4.bthree.net.         A	12.129.166.254
 chat                    A	167.167.9.160
 creativeservices        A	72.32.147.161
 ecard                   CNAME	www3.islanddefjam.com.
+
+;
+;  Delegated sub-zone:  email.islanddefjam.com.
+;
+email                   NS	ns1.exacttarget.com.
+ns1.exacttarget.com.    A	66.231.91.222
+email                   NS	ns2.exacttarget.com.
+ns2.exacttarget.com.    A	66.231.94.222
+;  End delegation
+
 images                  A	167.167.9.105
 localhost               A	127.0.0.1
 mail                    A	64.29.145.40

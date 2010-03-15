@@ -1,10 +1,10 @@
 ;
 ;  Database file hanna-mceuen.com.dns for hanna-mceuen.com zone.
-;      Zone version:  2005021115
+;      Zone version:  2005021116
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2005021115   ; serial number
+                        	2005021116   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -25,7 +25,7 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-@                       A	192.251.67.112
+@                       A	167.167.24.135
 localhost               A	127.0.0.1
 test                    A	192.251.67.244
 www                     CNAME	hanna-mceuen.com.

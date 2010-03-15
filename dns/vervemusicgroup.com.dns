@@ -1,10 +1,10 @@
 ;
 ;  Database file vervemusicgroup.com.dns for vervemusicgroup.com zone.
-;      Zone version:  2003010948
+;      Zone version:  2003010962
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2003010948   ; serial number
+                        	2003010962   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,19 +14,22 @@
 ;  Zone NS records
 ;
 
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
-@                       NS	ns1.umusic.com.
-ns1.umusic.com.         A	167.167.1.141
 
 ;
 ;  Zone records
 ;
 
 @                       A	167.167.24.137
-@                       MX	10	mail.global.frontbridge.com.
+@                       MX	10	mx1c25.carrierzone.com.
+@                       MX	100	mx2c25.carrierzone.com.
+@                       MX	120	mx4c25.carrierzone.com.
+@                       MX	110	mx3c25.carrierzone.com.
 att.16frames            CNAME	att.vervemusicgroup.com.
 att01.16frames          CNAME	att01.vervemusicgroup.com.
 att02.16frames          CNAME	att02.vervemusicgroup.com.
@@ -56,11 +59,26 @@ dev                     A	192.251.67.124
 dev-teddy               A	192.251.67.124
 dev2                    A	192.251.67.124
 att.dianakrall          CNAME	att.vervemusicgroup.com.
+att01.dianakrall        CNAME	att01.vervemusicgroup.com.
+att02.dianakrall        CNAME	att02.vervemusicgroup.com.
+att03.dianakrall        CNAME	att03.vervemusicgroup.com.
 dev.dianakrall          CNAME	dev.vervemusicgroup.com.
 prod.dianakrall         CNAME	prod.vervemusicgroup.com.
 dev.ecards              A	192.251.67.13
 att.elizabethandthecatapult A	167.167.24.136
 dev.elizabethandthecatapult A	192.251.67.124
+
+;
+;  Delegated sub-zone:  email.vervemusicgroup.com.
+;
+email                   NS	ns1.exacttarget.com.
+ns1.exacttarget.com.    A	66.231.91.222
+email                   NS	ns2.exacttarget.com.
+ns2.exacttarget.com.    A	66.231.94.222
+;  End delegation
+
+att.findlaybrown        CNAME	att.vervemusicgroup.com.
+dev.findlaybrown        CNAME	dev.vervemusicgroup.com.
 att.findthe13           CNAME	att.vervemusicgroup.com.
 dev.findthe13           CNAME	dev.vervemusicgroup.com.
 greatestthrill          CNAME	usucplvapp001.global.umusic.com.

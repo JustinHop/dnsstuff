@@ -1,10 +1,10 @@
 ;
 ;  Database file loveattheendoftheworld.ca.dns for loveattheendoftheworld.ca zone.
-;      Zone version:  2008013007
+;      Zone version:  2008013008
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2008013007   ; serial number
+                        	2008013008   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -24,7 +24,7 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-@                       A	167.167.24.37
+@                       A	167.167.24.135
 att                     CNAME	lvp2.umusic.ca.
 dev                     CNAME	dev.umusic.ca.
 localhost               A	127.0.0.1
