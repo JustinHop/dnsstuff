@@ -1,10 +1,10 @@
 ;
-;  Database file nealeboyd.com.dns for nealeboyd.com zone.
-;      Zone version:  6
+;  Database file starshellworld.com.dns for starshellworld.com zone.
+;      Zone version:  3
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	6            ; serial number
+                        	3            ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -20,6 +20,5 @@
 ;  Zone records
 ;
 
-@                       A	167.167.24.37
-dev                     A	192.251.67.13
-www                     CNAME	nealeboyd.com.
+@                       A	167.167.24.72
+www                     CNAME	starshellworld.com.

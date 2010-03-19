@@ -1,10 +1,10 @@
 ;
-;  Database file kidcudi.com.dns for kidcudi.com zone.
-;      Zone version:  11
+;  Database file sposemusic.net.dns for sposemusic.net zone.
+;      Zone version:  5
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	11           ; serial number
+                        	5            ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -24,7 +24,3 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-@                       A	167.167.24.37
-dev                     A	192.251.67.13
-ww                      CNAME	kidcudi.com.
-www                     CNAME	kidcudi.com.

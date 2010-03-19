@@ -1,10 +1,10 @@
 ;
 ;  Database file revtheory.com.dns for revtheory.com zone.
-;      Zone version:  2008030317
+;      Zone version:  2008030328
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2008030317   ; serial number
+                        	2008030328   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,19 +14,26 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns5.umusic.com.
-ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns1.umusic.com.
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
 ;
 
 @                       A	167.167.24.70
-@                       MX	10	mailstore1.secureserver.net.
-@                       MX	0	smtp.secureserver.net.
+@                       MX	30	aspmx4.googlemail.com.\040\040\040\040.
+@                       MX	30	aspmx5.googlemail.com.\040\040\040\040.
+@                       MX	10	aspmx.l.google.com.
+@                       MX	20	alt1.aspmx.l.google.com.
+@                       MX	20	alt2.aspmx.l.google.com.
+@                       MX	30	aspmx2.googlemail.com.\040\040\040\040.
+@                       MX	30	aspmx3.googlemail.com.\040\040\040\040.
+@                       300	MX	1	smtp.secureserver.net.
+@                       300	MX	2	mailstore1.secureserver.net.
 localhost               A	127.0.0.1
 mail                    CNAME	mail.secureserver.net.
 pop                     CNAME	pop.secureserver.net.

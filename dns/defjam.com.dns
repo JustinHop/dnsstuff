@@ -1,10 +1,10 @@
 ;
 ;  Database file defjam.com.dns for defjam.com zone.
-;      Zone version:  2002051575
+;      Zone version:  2002051577
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2002051575   ; serial number
+                        	2002051577   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -71,6 +71,8 @@ images                  CNAME	images.islanddefjam.com.
 isleybros               CNAME	redirect.islanddefjam.com.
 isleybrothers           CNAME	redirect.islanddefjam.com.
 jasonfox                CNAME	redirect.islanddefjam.com.
+jeezy                   CNAME	redirect.islanddefjam.com.
+www.jeezy               CNAME	redirect.islanddefjam.com.
 joebudden               CNAME	redirect.islanddefjam.com.
 www.joebudden           CNAME	redirect.islanddefjam.com.
 juelz                   CNAME	redirect.islanddefjam.com.
