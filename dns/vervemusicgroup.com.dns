@@ -1,10 +1,10 @@
 ;
 ;  Database file vervemusicgroup.com.dns for vervemusicgroup.com zone.
-;      Zone version:  2010032300
+;      Zone version:  2010032304
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010032300   ; serial number
+                        	2010032304   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,18 +14,16 @@
 ;  Zone NS records
 ;
 
-
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
-@                       NS	ns5.umusic.com.
-ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
 ;
-
 
 @                       A	167.167.24.137
 @                       MX	10	mx1c25.carrierzone.com.
@@ -56,6 +54,7 @@ prod.brianblade         CNAME	prod.vervemusicgroup.com.
 dev.brianblades         CNAME	dev.vervemusicgroup.com.
 prod.brianblades        CNAME	prod.vervemusicgroup.com.
 att.celebrateella       CNAME	att.vervemusicgroup.com.
+dev.cheechandchong      CNAME	dev.vervemusicgroup.com.
 cms                     CNAME	vervemusicgroup.com.
 dev                     A	192.251.67.124
 dev-teddy               A	192.251.67.124
@@ -73,10 +72,10 @@ dev.elizabethandthecatapult A	192.251.67.124
 ;
 ;  Delegated sub-zone:  email.vervemusicgroup.com.
 ;
-email                   NS	ns1.exacttarget.com.
-ns1.exacttarget.com.    A	66.231.91.222
 email                   NS	ns2.exacttarget.com.
 ns2.exacttarget.com.    A	66.231.94.222
+email                   NS	ns1.exacttarget.com.
+ns1.exacttarget.com.    A	66.231.91.222
 ;  End delegation
 
 att.findlaybrown        CNAME	att.vervemusicgroup.com.
@@ -110,6 +109,8 @@ att02.lizzwright        CNAME	att02.vervemusicgroup.com.
 att03.lizzwright        CNAME	att03.vervemusicgroup.com.
 dev.lizzwright          A	192.251.67.124
 localhost               A	127.0.0.1
+dev.lucywoodward        A	192.251.67.13
+mail                    A	64.29.145.40
 mobile                  A	167.167.24.136
 att.nelliemckay         CNAME	att.vervemusicgroup.com.
 dev.nelliemckay         CNAME	dev.vervemusicgroup.com.
@@ -135,6 +136,7 @@ dev.ultimateledhead     CNAME	dev.vervemusicgroup.com.
 att.ververemixed        CNAME	att.vervemusicgroup.com.
 dev.ververemixed        CNAME	dev.vervemusicgroup.com.
 prod.ververemixed       CNAME	prod.vervemusicgroup.com.
+webmail                 A	64.29.145.44
 willdowning             A	192.251.67.166
 att.willdowning         CNAME	att.vervemusicgroup.com.
 dev.willdowning         A	192.251.67.124

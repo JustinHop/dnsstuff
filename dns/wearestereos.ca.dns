@@ -1,10 +1,10 @@
 ;
 ;  Database file wearestereos.ca.dns for wearestereos.ca zone.
-;      Zone version:  201003230
+;      Zone version:  201003233
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	201003230            ; serial number
+                        	201003233    ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -13,7 +13,6 @@
 ;
 ;  Zone NS records
 ;
-
 
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
@@ -26,6 +25,8 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-
 @                       CNAME	wearestereos.com.
+att01                   A	167.167.24.132
+att02                   A	167.167.24.133
+att03                   A	167.167.24.134
 www                     CNAME	wearestereos.com.

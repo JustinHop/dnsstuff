@@ -1,10 +1,10 @@
 ;
 ;  Database file myreg.net.dns for myreg.net zone.
-;      Zone version:  2010032300
+;      Zone version:  2010032301
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010032300   ; serial number
+                        	2010032301   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -13,7 +13,6 @@
 ;
 ;  Zone NS records
 ;
-
 
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
@@ -25,7 +24,6 @@ ns5.umusic.com.         A	167.167.1.132
 ;
 ;  Zone records
 ;
-
 
 @                       MX	10	mailrx.myreg.net.
 @                       TXT	( "v=spf1 ip4:167.167.3.0/24 mx ptr ~all" )
@@ -303,6 +301,7 @@ usfshlsdeb001.internal  A	192.168.78.31
 usfshlsdw02.internal    A	10.130.104.108
 usfshlsfilesrv001.internal A	192.168.78.28
 usfshlsfnp001.internal  A	192.168.75.56
+usfshlsfnp002.internal  A	10.130.104.84
 usfshlsldap001.internal A	192.168.78.25
 usfshlslog001.internal  A	192.168.78.153
 usfshlslog002.internal  A	192.168.78.154

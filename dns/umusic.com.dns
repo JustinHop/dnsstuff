@@ -1,10 +1,10 @@
 ;
 ;  Database file umusic.com.dns for umusic.com zone.
-;      Zone version:  2010032300
+;      Zone version:  2010032301
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010032300   ; serial number
+                        	2010032301   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,18 +14,13 @@
 ;  Zone NS records
 ;
 
-
-@                       NS	ns1.umusic.com.
-ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
-ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
-ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
 
 ;
 ;  Zone records
 ;
-
 
 @                       A	167.167.2.109
 @                       MX	10	mail.global.frontbridge.com.
@@ -2197,8 +2192,8 @@ dc                      A	192.251.67.235
 dc01                    A	192.251.67.240
 dc02                    A	192.251.67.21
 dcregion                A	167.167.24.136
-mail.deber              A	213.61.130.238
-                        A	213.61.130.237
+mail.deber              A	213.61.130.237
+                        A	213.61.130.238
 mailgw.deber            A	213.61.130.233
 demailgate1.dehan       A	62.206.191.22
 demailgate2.dehan       A	62.206.191.23
@@ -2320,6 +2315,7 @@ fp1                     900	A	10.130.210.16
 fdv.fr                  900	MX	10	mx0.imaginet.fr.
 smtp.frant              A	217.109.49.180
 ftp                     CNAME	ftpumg.umusic.com.
+ftp-na                  A	167.167.1.145
 ftpumg                  A	192.251.67.120
 ftpumgr                 A	192.251.67.38
 gameboard               900	A	10.130.110.182
