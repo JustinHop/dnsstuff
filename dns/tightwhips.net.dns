@@ -1,10 +1,10 @@
 ;
 ;  Database file tightwhips.net.dns for tightwhips.net zone.
-;      Zone version:  200212072
+;      Zone version:  201003230
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	200212072    ; serial number
+                        	201003230    ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,16 +14,18 @@
 ;  Zone NS records
 ;
 
+
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
-@                       NS	ns5.umusic.com.
-ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
 ;
+
 
 @                       A	128.11.103.180
 localhost               A	127.0.0.1

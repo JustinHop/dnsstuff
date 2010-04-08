@@ -1,10 +1,10 @@
 ;
 ;  Database file u-m-l.de.dns for u-m-l.de zone.
-;      Zone version:  2004100101
+;      Zone version:  2010032300
 ;
 
 @                       IN  SOA ns3.umusic.com.  postmaster.umusic.com. (
-                        	2004100101   ; serial number
+                        	2010032300   ; serial number
                         	10800        ; refresh
                         	1800         ; retry
                         	604800       ; expire

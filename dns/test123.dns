@@ -1,10 +1,10 @@
 ;
 ;  Database file test123.dns for test123 zone.
-;      Zone version:  3
+;      Zone version:  201003230
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	3            ; serial number
+                        	201003230            ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -14,11 +14,18 @@
 ;  Zone NS records
 ;
 
+
 @                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
 ;
+
 
 @                       7200	A	192.251.67.254
 www                     7200	CNAME	test123.com.

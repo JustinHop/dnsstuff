@@ -1,10 +1,10 @@
 ;
 ;  Database file unimodigitaldistribution.com.dns for unimodigitaldistribution.com zone.
-;      Zone version:  200910281
+;      Zone version:  201003230
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	200910281    ; serial number
+                        	201003230    ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -13,6 +13,7 @@
 ;
 ;  Zone NS records
 ;
+
 
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
@@ -24,6 +25,7 @@ ns5.umusic.com.         A	167.167.1.132
 ;
 ;  Zone records
 ;
+
 
 @                       A	174.143.49.190
 @                       MX	10	mx1c25.carrierzone.com.

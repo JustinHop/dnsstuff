@@ -1,10 +1,10 @@
 ;
 ;  Database file 76.112.65.in-addr.arpa.dns for 76.112.65.in-addr.arpa zone.
-;      Zone version:  2003120306
+;      Zone version:  2010032300
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2003120306   ; serial number
+                        	2010032300   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,16 +14,18 @@
 ;  Zone NS records
 ;
 
+
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
-ns2.umusic.com.         A	12.110.193.132
+ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
 ;
+
 
 0                       PTR	ip-65-112-76-0.usfsh.myreg.net.
 1                       PTR	ip-65-112-76-1.usfsh.myreg.net.
@@ -221,3 +223,4 @@ ns5.umusic.com.         A	167.167.1.132
 97                      PTR	usfshlxmx03.vmgbackstage.myreg.net.
 98                      PTR	ip-65-112-76-98.usfsh.myreg.net.
 99                      PTR	ip-65-112-76-99.usfsh.myreg.net.
+www                     CNAME 76.112.65.in-addr.arpa.

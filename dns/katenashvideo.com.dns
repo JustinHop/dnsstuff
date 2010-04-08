@@ -1,10 +1,10 @@
 ;
 ;  Database file katenashvideo.com.dns for katenashvideo.com zone.
-;      Zone version:  2008020709
+;      Zone version:  2010032300
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2008020709   ; serial number
+                        	2010032300   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,7 +14,9 @@
 ;  Zone NS records
 ;
 
+
 @                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
@@ -23,6 +25,7 @@ ns5.umusic.com.         A	167.167.1.132
 ;
 ;  Zone records
 ;
+
 
 @                       A	167.167.24.80
 localhost               A	127.0.0.1

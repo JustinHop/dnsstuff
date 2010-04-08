@@ -1,10 +1,10 @@
 ;
 ;  Database file interscopemail.com.dns for interscopemail.com zone.
-;      Zone version:  2006060428
+;      Zone version:  2010032300
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2006060428   ; serial number
+                        	2010032300   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -13,6 +13,7 @@
 ;
 ;  Zone NS records
 ;
+
 
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
@@ -25,6 +26,7 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
+
 @                       MX	120	mx4c25.carrierzone.com.
 @                       MX	10	mx1c25.carrierzone.com.
 @                       MX	100	mx2c25.carrierzone.com.
@@ -35,3 +37,4 @@ mail                    CNAME	pop.interscopemail.com.
 pop                     A	64.29.145.40
 smtp                    A	64.29.145.40
 webmail                 A	64.29.145.44
+www                     CNAME interscopemail.com.

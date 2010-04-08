@@ -1,10 +1,10 @@
 ;
 ;  Database file 192.110.12.in-addr.arpa.dns for 192.110.12.in-addr.arpa zone.
-;      Zone version:  2002041028
+;      Zone version:  2010032300
 ;
 
 @                       3600	IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2002041028   ; serial number
+                        	2010032300   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,16 +14,18 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns5.umusic.com.
-ns5.umusic.com.         A	167.167.1.132
+
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
 ;
+
 
 0                       PTR	ip-12-110-192-0.uswwp.umusic.com.
 1                       PTR	ip-12-110-192-1.uswwp.umusic.com.
@@ -281,3 +283,4 @@ ns2.umusic.com.         A	167.167.9.132
 97                      PTR	ip-12-110-192-97.uswwp.umusic.com.
 98                      PTR	ip-12-110-192-98.uswwp.umusic.com.
 99                      PTR	ip-12-110-192-99.uswwp.umusic.com.
+www                     CNAME 192.110.12.in-addr.arpa.

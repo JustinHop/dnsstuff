@@ -1,10 +1,10 @@
 ;
 ;  Database file 917family.com.dns for 917family.com zone.
-;      Zone version:  2002041818
+;      Zone version:  2010032300
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2002041818   ; serial number
+                        	2010032300   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,13 +14,18 @@
 ;  Zone NS records
 ;
 
+
 @                       NS	ns1.umusic.com.
-@                       3600	NS	ns2.umusic.com.
-ns2.umusic.com.         3600	A	12.110.193.132
+ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
 ;
+
 
 @                       900	A	128.11.103.60
 boards                  A	192.251.67.82

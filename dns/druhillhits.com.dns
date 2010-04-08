@@ -1,10 +1,10 @@
 ;
 ;  Database file druhillhits.com.dns for druhillhits.com zone.
-;      Zone version:  2005092615
+;      Zone version:  2010032300
 ;
 
 @                       7200	IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2005092615   ; serial number
+                        	2010032300   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,16 +14,18 @@
 ;  Zone NS records
 ;
 
-@                       7200	NS	ns1.umusic.com.
-ns1.umusic.com.         7200	A	167.167.1.141
-@                       7200	NS	ns2.umusic.com.
-ns2.umusic.com.         7200	A	167.167.9.132
-@                       7200	NS	ns5.umusic.com.
-ns5.umusic.com.         7200	A	167.167.1.132
+
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
 ;
+
 
 @                       7200	A	192.251.67.71
 localhost               7200	A	127.0.0.1

@@ -3,7 +3,7 @@
 ; Written 01/29/2004 06:30:40 by Meta IP 4.1 DNS Exporter (build 4924)
 ;
 $TTL 1800
-@ IN SOA usfshntns01.amer.sclnet.com. hostmaster-us.umusic.com. 909 1800 600 604800 1800
+@ IN SOA usfshntns01.amer.sclnet.com. hostmaster-us.umusic.com. 201003230 1800 600 604800 1800
 Network-Ctrl                              IN A     131.144.196.16
 aphp1                                     IN A     131.144.131.3
 calasntdc01                               IN A     172.29.104.36
@@ -1415,3 +1415,4 @@ usfshas12                                 IN MX    10	usfshntex01.amer.sclnet.co
 @                                         IN NS    usushntdc01.amer.sclnet.com.
 @                                         IN NS    brriontdc01.amer.sclnet.com.
 @                                         IN NS    ussmontns01.amer.umusic.net.
+www                     CNAME foo5.com.

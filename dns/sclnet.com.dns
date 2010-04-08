@@ -1,10 +1,10 @@
 ;
 ;  Database file sclnet.com.dns for sclnet.com zone.
-;      Zone version:  2005060108
+;      Zone version:  2010032300
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2005060108   ; serial number
+                        	2010032300   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,16 +14,20 @@
 ;  Zone NS records
 ;
 
+
 @                       NS	ns1.umusic.com.
-@                       3600	NS	ns2.umusic.com.
-ns2.umusic.com.         3600	A	167.167.9.132
-@                       3600	NS	ns5.umusic.com.
-ns5.umusic.com.         3600	A	167.167.1.132
+ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
 ;
 
+
 1-This-is-an-external-stub-zone-only A	127.0.0.1
 2-Please-Do-NOT-Modify  A	127.0.0.1
 localhost               A	127.0.0.1
+www                     CNAME sclnet.com.

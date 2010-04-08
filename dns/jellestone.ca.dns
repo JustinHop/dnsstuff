@@ -1,10 +1,10 @@
 ;
 ;  Database file jellestone.ca.dns for jellestone.ca zone.
-;      Zone version:  1
+;      Zone version:  201003230
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	1            ; serial number
+                        	201003230            ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -14,9 +14,17 @@
 ;  Zone NS records
 ;
 
+
 @                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
 ;
 
+
+www                     CNAME jellestone.ca.

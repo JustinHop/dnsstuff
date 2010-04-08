@@ -1,10 +1,10 @@
 ;
 ;  Database file universalpictures.pl.dns for universalpictures.pl zone.
-;      Zone version:  2004122302
+;      Zone version:  2010032300
 ;
 
 @                       IN  SOA ns1.unistudios.com.  domains.nbcuni.com. (
-                        	2004122302   ; serial number
+                        	2010032300   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire

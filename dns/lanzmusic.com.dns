@@ -1,10 +1,10 @@
 ;
 ;  Database file lanzmusic.com.dns for lanzmusic.com zone.
-;      Zone version:  2006072810
+;      Zone version:  2010032300
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2006072810   ; serial number
+                        	2010032300   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -13,6 +13,7 @@
 ;
 ;  Zone NS records
 ;
+
 
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
@@ -24,6 +25,7 @@ ns5.umusic.com.         A	167.167.1.132
 ;
 ;  Zone records
 ;
+
 
 @                       A	57.77.2.145
 localhost               A	127.0.0.1

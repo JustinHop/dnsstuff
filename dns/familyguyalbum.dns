@@ -1,10 +1,10 @@
 ;
 ;  Database file familyguyalbum.dns for familyguyalbum zone.
-;      Zone version:  1
+;      Zone version:  201003230
 ;
 
 @                       IN  SOA usfshntns02.amer.umusic.net.  hostmaster.amer.umusic.net. (
-                        	1            ; serial number
+                        	201003230            ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -20,3 +20,4 @@
 ;  Zone records
 ;
 
+www                     CNAME familyguyalbum.
