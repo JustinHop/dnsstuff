@@ -1,10 +1,10 @@
 ;
 ;  Database file interscope.com.dns for interscope.com zone.
-;      Zone version:  2010032310
+;      Zone version:  2010040700
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010032310   ; serial number
+                        	2010040700   ; serial number
                         	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -509,6 +509,10 @@ www05.mosdef            CNAME	www05.igadev.com.
 www06.mosdef            CNAME	www06.igadev.com.
 att.mosleymusicgroup    A	167.167.24.72
 mtag                    A	67.23.0.233
+wp                      A	167.167.24.37
+*.wp                    A	167.167.24.37
+wpdev                   A	192.251.67.13
+*.wpdev                 A	192.251.67.13
 mu                      A	167.167.24.37
 *.mu                    A	167.167.24.37
 mudev                   A	192.251.67.13

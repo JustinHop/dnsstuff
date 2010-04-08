@@ -1,10 +1,10 @@
 ;
 ;  Database file umrg.com.dns for umrg.com zone.
-;      Zone version:  2010032304
+;      Zone version:  2010040700
 ;
 
 @                       120	IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010032304   ; serial number
+                        	2010040700   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -512,3 +512,7 @@ att.yourvegas           CNAME	hvp1.umrg.com.
 dev.yourvegas           CNAME	dev.umrg.com.
 prod.yourvegas          CNAME	prod.umrg.com.
 test.yourvegas          CNAME	test.umrg.com.
+wp                      A	167.167.24.37
+*.wp                    A	167.167.24.37
+wpdev                   A	192.251.67.13
+*.wpdev                 A	192.251.67.13
