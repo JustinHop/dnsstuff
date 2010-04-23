@@ -1,2 +1,22 @@
-unix2dos ~/NS1/dns/*
-rsync -avb --backup-dir=~/NS1/backup --exclude=backup --exclude='.*' --exclude='*~' --progress -W  ~/NS1/dns/*.dns /autofs/ns1/WINDOWS/system32/dns 
+#!/bin/zsh
+
+RSYNC="rsync"
+RSYNC_OPTS="-avb --backup-dir=~/NS1/backup --exclude=backup --exclude='.*' --exclude='*~' --progress -W"
+
+DEV=~/NS1/dns
+DEFAULT=$DEV/*.dns
+PROD=/autofs/ns1/WINDOWS/system32/dns 
+
+set -A TARGET
+
+if [ $1 ]; then
+	for FILE in "$@"; do
+		if [ -f $DEV/${FILE:t} ]; then
+			TARGET+=($DEV/${FILE:t})
+			echo "Set to update ${FILE:t}"
+		fi
+	done
+fi
+
+./update.sh ${TARGET:-$DEFAULT} &&  $RSYNC $RSYNC_OPTS ${TARGET:-$DEFAULT} $PROD
+

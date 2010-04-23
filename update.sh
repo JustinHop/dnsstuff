@@ -24,9 +24,11 @@ for FILE in "$@" ; do
 	if [ -e $FILE ]; then
 		if zsu $FILE; then
 			echo "updated $FILE"
+			unix2dos $FILE
 		else
 			if zsu -cn $FILE ; then
 				"updated and new format for $FILE"
+			    unix2dos $FILE
 			else
 				echo "COULD NOT FIX $FILE"  
 			fi
