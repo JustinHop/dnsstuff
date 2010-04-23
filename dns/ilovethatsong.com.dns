@@ -1,10 +1,10 @@
 ;
 ;  Database file ilovethatsong.com.dns for ilovethatsong.com zone.
-;      Zone version:  2010032300
+;      Zone version:  2010032301
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2010032300   ; serial number
+                        	2010032301   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,18 +14,16 @@
 ;  Zone NS records
 ;
 
-
-@                       NS	ns1.umusic.com.
-ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
 
 ;
 ;  Zone records
 ;
-
 
 @                       A	167.167.24.136
 att                     A	167.167.24.135
@@ -42,6 +40,7 @@ deluxe                  A	167.167.24.136
 dev                     A	192.251.67.124
 att.dontquit            CNAME	att.ilovethatsong.com.
 dev.dontquit            A	192.251.67.124
+dev.duevoci             A	192.251.67.13
 att.hiposelect          CNAME	att.ilovethatsong.com.
 att.jackson5            CNAME	att.ilovethatsong.com.
 dev.jackson5            CNAME	dev.ilovethatsong.com.

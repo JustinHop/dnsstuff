@@ -1,10 +1,10 @@
 ;
-;  Database file chasecoy.com.dns for chasecoy.com zone.
-;      Zone version:  13
+;  Database file revofev.com.dns for revofev.com zone.
+;      Zone version:  7
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	13           ; serial number
+                        	7            ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -14,20 +14,15 @@
 ;  Zone NS records
 ;
 
+@                       NS	ns1.umusic.com.
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
-@                       NS	ns1.umusic.com.
 
 ;
 ;  Zone records
 ;
 
 @                       A	167.167.24.101
-@                       MX	20	alt1.aspmx.l.google.com.
-@                       MX	30	alt2.aspmx.l.google.com.
-@                       MX	10	aspmx.l.google.com.
-@                       MX	40	aspmx2.googlemail.com.
-@                       MX	50	aspmx3.googlemail.com.
-www                     CNAME	chasecoy.com.
+www                     CNAME	revofev.com.

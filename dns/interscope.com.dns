@@ -1,10 +1,10 @@
 ;
 ;  Database file interscope.com.dns for interscope.com zone.
-;      Zone version:  2010040700
+;      Zone version:  2010040725
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010040700   ; serial number
+                        	2010040725   ; serial number
                         	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,25 +14,25 @@
 ;  Zone NS records
 ;
 
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
-@                       NS	ns5.umusic.com.
-ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
 ;
 
 @                       7200	A	167.167.24.74
+@                       MX	30	aspmx5.googlemail.com.
+@                       MX	20	alt1.aspmx.l.google.com.
 @                       MX	20	alt2.aspmx.l.google.com.
 @                       MX	10	aspmx.l.google.com.
 @                       MX	30	aspmx2.googlemail.com.
 @                       MX	30	aspmx3.googlemail.com.
 @                       MX	30	aspmx4.googlemail.com.
-@                       MX	30	aspmx5.googlemail.com.
-@                       MX	20	alt1.aspmx.l.google.com.
 att.50cent              CNAME	med1.interscope.com.
 att01.50cent            CNAME	att01.interscope.com.
 att02.50cent            CNAME	att02.interscope.com.
@@ -70,14 +70,15 @@ assets                  A	167.167.24.70
 origin.assets           A	167.167.24.70
 www.assets              CNAME	www.assets.interscope.att-idns.net.
 att                     CNAME	med2.interscope.com.
-att01                   A	167.167.24.64
-att02                   A	167.167.24.65
-att03                   A	167.167.24.66
-att04                   A	167.167.24.67
-att05                   A	167.167.24.68
-att06                   A	167.167.24.69
+att01                   A	167.167.24.45
+att02                   A	167.167.24.44
+att03                   A	167.167.24.43
+att04                   A	167.167.24.42
+att05                   A	167.167.24.41
+att06                   A	167.167.24.40
 att07                   A	167.167.24.56
 att08                   A	167.167.24.57
+att09                   A	167.167.24.58
 audioslave              A	216.193.195.52
 staging.audioslave      A	216.193.195.55
 att.babybyme            CNAME	lvp1.interscope.com.
@@ -227,6 +228,10 @@ ns1.exacttarget.com.    A	66.231.91.222
 ;  End delegation
 
 att.eminem              A	167.167.24.78
+att01.eminem            CNAME	att01.interscope.com.
+att02.eminem            CNAME	att02.interscope.com.
+att03.eminem            CNAME	att03.interscope.com.
+att04.eminem            CNAME	att04.interscope.com.
 att07.eminem            CNAME	att07.interscope.com.
 att08.eminem            CNAME	att08.interscope.com.
 att2.eminem             A	167.167.24.54
@@ -400,8 +405,9 @@ att03.ladygaga          CNAME	att03.interscope.com.
 att04.ladygaga          CNAME	att04.interscope.com.
 att05.ladygaga          CNAME	att05.interscope.com.
 att06.ladygaga          CNAME	att06.interscope.com.
-att07.ladygaga          A	167.167.24.56
-att08.ladygaga          A	167.167.24.57
+att07.ladygaga          CNAME	att07.interscope.com.
+att08.ladygaga          CNAME	att08.interscope.com.
+att09.ladygaga          CNAME	att09.interscope.com.
 att2.ladygaga           A	167.167.24.53
 dev.ladygaga            A	192.251.67.100
 dev2.ladygaga           A	192.251.67.100
@@ -485,6 +491,8 @@ med1                    A	167.167.24.74
 med2                    A	167.167.24.75
 med3                    A	167.167.24.76
 med4                    A	167.167.24.77
+att.melodiesbymjb       CNAME	lvp2.interscope.com.
+dev.melodiesbymjb       CNAME	dev.interscope.com.
 att.midwaystate         CNAME	lvp4.interscope.com.
 dev.mishon              CNAME	dev.interscope.com.
 prod.mishon             A	57.77.2.145
@@ -509,10 +517,6 @@ www05.mosdef            CNAME	www05.igadev.com.
 www06.mosdef            CNAME	www06.igadev.com.
 att.mosleymusicgroup    A	167.167.24.72
 mtag                    A	67.23.0.233
-wp                      A	167.167.24.37
-*.wp                    A	167.167.24.37
-wpdev                   A	192.251.67.13
-*.wpdev                 A	192.251.67.13
 mu                      A	167.167.24.37
 *.mu                    A	167.167.24.37
 mudev                   A	192.251.67.13
@@ -884,6 +888,10 @@ wiki                    7200	A	174.129.237.207
 wiki2                   A	192.251.67.13
 winprizes               CNAME	cmsserver01.umusic.com.
 www.winprizes           CNAME	cmsserver01.umusic.com.
+wp                      A	167.167.24.37
+*.wp                    A	167.167.24.37
+wpdev                   A	192.251.67.13
+*.wpdev                 A	192.251.67.13
 ws                      A	167.167.24.72
 att.ws                  A	167.167.24.72
 dev.ws                  CNAME	dev.interscope.com.

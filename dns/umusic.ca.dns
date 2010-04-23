@@ -1,10 +1,10 @@
 ;
 ;  Database file umusic.ca.dns for umusic.ca zone.
-;      Zone version:  2010040900
+;      Zone version:  2010040902
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010040900   ; serial number
+                        	2010040902   ; serial number
                         	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,18 +14,16 @@
 ;  Zone NS records
 ;
 
-
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
-@                       NS	ns5.umusic.com.
-ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
 ;
-
 
 @                       A	167.167.24.37
 @                       300	MX	10	mail.global.frontbridge.com.
@@ -177,6 +175,8 @@ att.protestthehero      CNAME	att-win.umusic.ca.
 dev.protestthehero      CNAME	win.dev.umusic.ca.
 att.shiloh              CNAME	att-win.umusic.ca.
 dev.shiloh              CNAME	win.dev.umusic.ca.
+att.shilohplay          CNAME	att-win.umusic.ca.
+dev.shilohplay          CNAME	win.dev.umusic.ca.
 thewho                  A	192.251.67.80
 www.thewho              A	192.251.67.80
 twentiethcenturymasters A	167.167.24.37
@@ -193,10 +193,10 @@ web3                    A	167.167.24.34
 web4                    A	167.167.24.35
 wolfmother              A	192.251.67.80
 www.wolfmother          CNAME	wolfmother.umusic.ca.
+wp                      A	167.167.24.36
+*.wp                    A	167.167.24.36
+wpdev                   A	192.251.67.13
+*.wpdev                 A	192.251.67.13
 www                     CNAME	umusic.ca.
 att.www                 CNAME	lvp2.umusic.ca.
 dev.youngartistsforhaiti CNAME	win.dev.umusic.ca.
-wp                      A   167.167.24.36
-*.wp                    A   167.167.24.36
-wpdev                   A   192.251.67.13
-*.wpdev                 A   192.251.67.13

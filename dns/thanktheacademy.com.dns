@@ -1,10 +1,10 @@
 ;
-;  Database file idj.to.dns for idj.to zone.
-;      Zone version:  201003231
+;  Database file thanktheacademy.com.dns for thanktheacademy.com zone.
+;      Zone version:  8
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	201003231    ; serial number
+                        	8            ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -15,7 +15,6 @@
 ;
 
 @                       NS	ns1.umusic.com.
-ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
@@ -25,5 +24,5 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-@                       A	168.143.174.97
-www                     CNAME	idj.to.
+@                       A	72.32.231.8
+www                     CNAME	thanktheacademy.com.
