@@ -1,10 +1,10 @@
 ;
 ;  Database file umusic.ca.dns for umusic.ca zone.
-;      Zone version:  2010032300
+;      Zone version:  2010040900
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010032300   ; serial number
+                        	2010040900   ; serial number
                         	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -196,3 +196,7 @@ www.wolfmother          CNAME	wolfmother.umusic.ca.
 www                     CNAME	umusic.ca.
 att.www                 CNAME	lvp2.umusic.ca.
 dev.youngartistsforhaiti CNAME	win.dev.umusic.ca.
+wp                      A   167.167.24.36
+*.wp                    A   167.167.24.36
+wpdev                   A   192.251.67.13
+*.wpdev                 A   192.251.67.13
