@@ -1,10 +1,10 @@
 ;
 ;  Database file duevoci.com.dns for duevoci.com zone.
-;      Zone version:  201004231
+;      Zone version:  201004232
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	201004231            ; serial number
+                        	201004232            ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire

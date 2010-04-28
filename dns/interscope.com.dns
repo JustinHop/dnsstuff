@@ -1,10 +1,10 @@
 ;
 ;  Database file interscope.com.dns for interscope.com zone.
-;      Zone version:  2010040725
+;      Zone version:  2010040726
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010040725   ; serial number
+                        	2010040726   ; serial number
                         	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -26,13 +26,13 @@ ns2.umusic.com.         A	167.167.9.132
 ;
 
 @                       7200	A	167.167.24.74
-@                       MX	30	aspmx5.googlemail.com.
 @                       MX	20	alt1.aspmx.l.google.com.
 @                       MX	20	alt2.aspmx.l.google.com.
 @                       MX	10	aspmx.l.google.com.
 @                       MX	30	aspmx2.googlemail.com.
 @                       MX	30	aspmx3.googlemail.com.
 @                       MX	30	aspmx4.googlemail.com.
+@                       MX	30	aspmx5.googlemail.com.
 att.50cent              CNAME	med1.interscope.com.
 att01.50cent            CNAME	att01.interscope.com.
 att02.50cent            CNAME	att02.interscope.com.
@@ -221,10 +221,10 @@ att.elementree          CNAME	lvp2.interscope.com.
 ;
 ;  Delegated sub-zone:  email.interscope.com.
 ;
-email                   NS	ns2.exacttarget.com.
-ns2.exacttarget.com.    A	66.231.94.222
 email                   NS	ns1.exacttarget.com.
 ns1.exacttarget.com.    A	66.231.91.222
+email                   NS	ns2.exacttarget.com.
+ns2.exacttarget.com.    A	66.231.94.222
 ;  End delegation
 
 att.eminem              A	167.167.24.78
@@ -764,6 +764,7 @@ www05.somethingcorporate CNAME	www05.igadev.com.
 www06.somethingcorporate CNAME	www06.igadev.com.
 att.sonsofsylvia        CNAME	lvp2.interscope.com.
 dev.sonsofsylvia        CNAME	dev.interscope.com.
+dev.store.sonsofsylvia  CNAME	dev.interscope.com.
 att.sorryyourenotawinner CNAME	lvp3.interscope.com.
 att.soulbossanostra     CNAME	lvp4.interscope.com.
 dev.soulbossanostra     CNAME	dev.interscope.com.
