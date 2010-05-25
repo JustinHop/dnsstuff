@@ -1,10 +1,10 @@
 ;
 ;  Database file umusic.ca.dns for umusic.ca zone.
-;      Zone version:  2010040902
+;      Zone version:  2010040917
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010040902   ; serial number
+                        	2010040917   ; serial number
                         	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -46,7 +46,7 @@ dev.api                 A	192.251.67.124
 dev.artist              A	192.251.67.124
 as2                     A	167.167.1.148
 att                     CNAME	lvp2.umusic.ca.
-att-win                 A	167.167.24.135
+att-win                 A	167.167.24.138
 att01-win               A	167.167.24.132
 att02-win               A	167.167.24.133
 att03-win               A	167.167.24.134
@@ -64,6 +64,7 @@ connected               A	167.167.24.37
 www.connected           CNAME	connected.umusic.ca.
 att.creature            CNAME	att-win.umusic.ca.
 dev.creature            CNAME	win.dev.umusic.ca.
+dev.creatureband        A	192.251.67.124
 att.denzalsinclaire     CNAME	att-win.umusic.ca.
 dev.denzalsinclaire     CNAME	win.dev.umusic.ca.
 dev                     A	192.251.67.124
@@ -160,6 +161,8 @@ mobile                  A	167.167.24.37
 att.mobile              CNAME	lvp2.umusic.ca.
 dev.mobile              CNAME	dev.umusic.ca.
 www.mobile              CNAME	mobile.umusic.ca.
+att.musicvaultz         CNAME	att-win.umusic.ca.
+dev.musicvaultz         CNAME	win.dev.umusic.ca.
 att.naidacole           CNAME	att-win.umusic.ca.
 att01.naidacole         CNAME	att01-win.umusic.ca.
 att02.naidacole         CNAME	att02-win.umusic.ca.
@@ -173,10 +176,17 @@ dev.oscarpeterson       CNAME	win.dev.umusic.ca.
 podcasts                A	167.167.24.37
 att.protestthehero      CNAME	att-win.umusic.ca.
 dev.protestthehero      CNAME	win.dev.umusic.ca.
+dev.sansebastian        CNAME	win.dev.umusic.ca.
+att.searstop10          CNAME	att-win.umusic.ca.
+dev.searstop10          A	192.251.67.124
 att.shiloh              CNAME	att-win.umusic.ca.
 dev.shiloh              CNAME	win.dev.umusic.ca.
 att.shilohplay          CNAME	att-win.umusic.ca.
 dev.shilohplay          CNAME	win.dev.umusic.ca.
+att.suziemcneil         CNAME	att-win.umusic.ca.
+dev.suziemcneil         A	192.251.67.124
+att.theending           CNAME	att-win.umusic.ca.
+dev.theending           A	192.251.67.124
 thewho                  A	192.251.67.80
 www.thewho              A	192.251.67.80
 twentiethcenturymasters A	167.167.24.37
@@ -186,6 +196,7 @@ att.universaldigital    A	167.167.24.135
 dev.universaldigital    A	192.251.67.124
 att.universalthankyou   A	167.167.24.135
 dev.universalthankyou   A	192.251.67.124
+att.vivendient          CNAME	att-win.umusic.ca.
 dev.vivendient          CNAME	win.dev.umusic.ca.
 att.wearestereos        CNAME	att-win.umusic.ca.
 dev.wearestereos        A	192.251.67.124

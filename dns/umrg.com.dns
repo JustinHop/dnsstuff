@@ -1,10 +1,10 @@
 ;
 ;  Database file umrg.com.dns for umrg.com zone.
-;      Zone version:  2010040713
+;      Zone version:  2010040725
 ;
 
 @                       120	IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010040713   ; serial number
+                        	2010040725   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,25 +14,25 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns2.umusic.com.
-ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
 
 ;
 ;  Zone records
 ;
 
 @                       A	167.167.24.101
-@                       MX	30	aspmx2.googlemail.com.
 @                       MX	30	aspmx4.googlemail.com.
 @                       MX	30	aspmx5.googlemail.com.
 @                       MX	10	aspmx.l.google.com.
 @                       MX	20	alt1.aspmx.l.google.com.
 @                       MX	20	alt2.aspmx.l.google.com.
 @                       MX	30	aspmx3.googlemail.com.
+@                       MX	30	aspmx2.googlemail.com.
 att.10yearsmusic        CNAME	hvp5.umrg.com.
 dev.10yearsmusic        A	192.251.67.124
 prod.10yearsmusic       A	167.167.2.114
@@ -84,6 +84,9 @@ progressive.assets      CNAME	progressive.assets.umrg.com.att-idns.net.
 att.astraheights        CNAME	hvp1.umrg.com.
 bestof2007              CNAME	www.umrg.com.
 att.birdmanstunna       CNAME	hvp3.umrg.com.
+test.birdmanstunna      CNAME	test.umrg.com.
+att.blankisimpossible   CNAME	hvp3.umrg.com.
+test.blankisimpossible  CNAME	test.umrg.com.
 att.blueoctober         CNAME	hvp2.umrg.com.
 att.briefhistoryofblues CNAME	hvp1.umrg.com.
 dev.briefhistoryofblues CNAME	dev.umrg.com.
@@ -159,10 +162,10 @@ test.eliyoung           CNAME	test.umrg.com.
 ;
 ;  Delegated sub-zone:  email.umrg.com.
 ;
-email                   NS	ns2.exacttarget.com.
-ns2.exacttarget.com.    A	66.231.94.222
 email                   NS	ns1.exacttarget.com.
 ns1.exacttarget.com.    A	66.231.91.222
+email                   NS	ns2.exacttarget.com.
+ns2.exacttarget.com.    A	66.231.94.222
 ;  End delegation
 
 test.embed              CNAME	test.umrg.com.
@@ -237,12 +240,16 @@ att.katdelunasite       CNAME	hvp1.umrg.com.
 test.katdelunasite      CNAME	test.umrg.com.
 att.katiemelua          CNAME	hvp2.umrg.com.
 dev.katiemelua          CNAME	dev.umrg.com.
+att.kellyrowland        3600	A	167.167.24.37
 dev.kellyrowland        A	192.251.67.13
+prod.kellyrowland       A	167.167.24.37
 att.kem                 CNAME	hvp2.umrg.com.
 att.kevinrudolf         CNAME	hvp5.umrg.com.
 dev.kevinrudolf         CNAME	dev.umrg.com.
+dev2.kevinrudolf        A	192.251.67.13
 prod.kevinrudolf        CNAME	prod.umrg.com.
 test.kevinrudolf        CNAME	test.umrg.com.
+wpdev.kevinrudolf       A	192.251.67.13
 kidcudi                 A	167.167.24.101
 dev.kidcudi             CNAME	test.kidcudi.umrg.com.
 test.kidcudi            A	192.251.67.94
@@ -412,6 +419,7 @@ test.shontelle          CNAME	test.umrg.com.
 www01.shontelle         CNAME	www01.umrg.com.
 www02.shontelle         CNAME	www02.umrg.com.
 att.shopboyz            CNAME	hvp4.umrg.com.
+test.skysailing         CNAME	test.umrg.com.
 att.spose               CNAME	hvp1.umrg.com.
 test.spose              CNAME	test.umrg.com.
 att.srcrecords          CNAME	hvp1.umrg.com.
@@ -504,6 +512,10 @@ dev.video2              CNAME	dev.artist.umrg.com.
 test.video2             CNAME	test.artist.umrg.com.
 att.violentsohostore    CNAME	hvp1.umrg.com.
 test.violentsohostore   CNAME	test.umrg.com.
+att.vitachambers        CNAME	att.umrg.com.
+dev.vitachambers        CNAME	dev.umrg.com.
+prod.vitachambers       CNAME	prod.umrg.com.
+test.vitachambers       CNAME	test.umrg.com.
 att.wearethefallen      CNAME	hvp2.umrg.com.
 test.wearethefallen     CNAME	test.umrg.com.
 web1                    A	167.167.24.96

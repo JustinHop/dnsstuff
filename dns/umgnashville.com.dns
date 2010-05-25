@@ -1,10 +1,10 @@
 ;
 ;  Database file umgnashville.com.dns for umgnashville.com zone.
-;      Zone version:  2010032300
+;      Zone version:  2010032301
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010032300   ; serial number
+                        	2010032301   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -13,7 +13,6 @@
 ;
 ;  Zone NS records
 ;
-
 
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
@@ -25,7 +24,6 @@ ns5.umusic.com.         A	167.167.1.132
 ;
 ;  Zone records
 ;
-
 
 @                       A	167.167.24.135
 @                       MX	10	mail.global.frontbridge.com.
@@ -105,6 +103,7 @@ sugarland               A	192.251.67.166
 att.sugarland           CNAME	att.umgnashville.com.
 dev.sugarland           A	192.251.67.124
 prod.sugarland          A	192.251.67.166
+dev.thejayhawksofficialstore CNAME	dev.umgnashville.com.
 dev.umgnpress           A	192.251.67.13
 att.votejameyacm        CNAME	hvp2.umgnashville.com.
 dev.votejameyacm        CNAME	dev.umgnashville.com.

@@ -1,10 +1,10 @@
 ;
 ;  Database file interscope.com.dns for interscope.com zone.
-;      Zone version:  2010040726
+;      Zone version:  2010052400
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010040726   ; serial number
+                        	2010052400   ; serial number
                         	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -26,13 +26,13 @@ ns2.umusic.com.         A	167.167.9.132
 ;
 
 @                       7200	A	167.167.24.74
-@                       MX	20	alt1.aspmx.l.google.com.
 @                       MX	20	alt2.aspmx.l.google.com.
 @                       MX	10	aspmx.l.google.com.
 @                       MX	30	aspmx2.googlemail.com.
 @                       MX	30	aspmx3.googlemail.com.
 @                       MX	30	aspmx4.googlemail.com.
 @                       MX	30	aspmx5.googlemail.com.
+@                       MX	20	alt1.aspmx.l.google.com.
 att.50cent              CNAME	med1.interscope.com.
 att01.50cent            CNAME	att01.interscope.com.
 att02.50cent            CNAME	att02.interscope.com.
@@ -212,6 +212,8 @@ dc02                    A	57.77.2.139
 dev                     3600	A	192.251.67.100
 att.dgcrecords          CNAME	lvp2.interscope.com.
 dev.dgcrecords          CNAME	dev.interscope.com.
+att.diddy               CNAME	med3.interscope.com.
+dev.diddy               CNAME	dev.interscope.com.
 att.diddydirtymoney     A	167.167.24.73
 dev.diddydirtymoney     CNAME	dev.interscope.com.
 att.drdre               A	167.167.24.79
@@ -356,6 +358,8 @@ www05.joanna            CNAME	www05.igadev.com.
 www06.joanna            CNAME	www06.igadev.com.
 dev.jojo                CNAME	dev.interscope.com.
 att.jonnyonline         CNAME	lvp4.interscope.com.
+att.jordytowers         CNAME	lvp4.interscope.com.
+dev.jordytowers         CNAME	dev.interscope.com.
 att.jurassic5           CNAME	lvp1.interscope.com.
 dev.justinbieber        A	192.251.67.100
 att.kacibrown           CNAME	lvp4.interscope.com.
@@ -869,6 +873,7 @@ att.tinyevil            CNAME	lvp3.interscope.com.
 att.tokiohotel-us       CNAME	lvp2.interscope.com.
 att.tonyyayo            A	167.167.24.73
 track                   7200	A	167.167.24.70
+dev.travisgarland       CNAME	dev.interscope.com.
 att.tupaccontests       CNAME	lvp2.interscope.com.
 att.tvontheradio        CNAME	lvp3.interscope.com.
 att.uncorkedandunplugged CNAME	lvp1.interscope.com.
@@ -913,3 +918,176 @@ www03.yv-music          CNAME	www03.igadev.com.
 www04.yv-music          CNAME	www04.igadev.com.
 www05.yv-music          CNAME	www05.igadev.com.
 www06.yv-music          CNAME	www06.igadev.com.
+test.shadyrecords      A  167.167.16.33
+test.keyshiacole      A  167.167.16.33
+test.community.maroon5      A  167.167.16.33
+test.ilikethelike      A  167.167.16.33
+test.richboyonline      A  167.167.16.33
+test.ryeryemusic      A  167.167.16.33
+test.seangarrett      A  167.167.16.33
+test.orianthi      A  167.167.16.33
+test.weezer      A  167.167.16.33
+test.timbalandmusic      A  167.167.16.33
+test.puddleofmudd      A  167.167.16.33
+test.kyteapp      A  167.167.16.33
+test.snowpatrol      A  167.167.16.33
+test.evefans      A  167.167.16.33
+test.konlive      A  167.167.16.33
+test.chriscornell      A  167.167.16.33
+test.vistosobosses      A  167.167.16.33
+test.therelapse      A  167.167.16.33
+test.cashismusic      A  167.167.16.33
+test.emmyrossum      A  167.167.16.33
+test.dre2001      A  167.167.16.33
+test.chasethislight      A  167.167.16.33
+test.primaj      A  167.167.16.33
+test.theknux      A  167.167.16.33
+test.mickeyavalon      A  167.167.16.33
+test.oliviaonline      A  167.167.16.33
+test.thelastopera      A  167.167.16.33
+test.thecure      A  167.167.16.33
+test.somethingcorporate      A  167.167.16.33
+test.streetdrumcorps      A  167.167.16.33
+test.miximusic      A  167.167.16.33
+test.tatugirls      A  167.167.16.33
+test.common-music      A  167.167.16.33
+test.mattwhitemusic      A  167.167.16.33
+test.keaneband      A  167.167.16.33
+test.ashleesimpsonmusic      A  167.167.16.33
+test.neetrecords      A  167.167.16.33
+test.sherylcrow      A  167.167.16.33
+test.dressuprecords      A  167.167.16.33
+test.scootersmiff      A  167.167.16.33
+test.cliquegirlz      A  167.167.16.33
+test.onerepublic      A  167.167.16.33
+test.starshellworld      A  167.167.16.33
+test.lifehousemusic      A  167.167.16.33
+test.lloydbanks      A  167.167.16.33
+test.interscope      A  167.167.16.33
+test.tinyevil      A  167.167.16.33
+test.gavinrossdale      A  167.167.16.33
+test.limpbizkit      A  167.167.16.33
+test.afireinside      A  167.167.16.33
+test.maloofmusic      A  167.167.16.33
+test.semipreciousweapons      A  167.167.16.33
+test.iamkelis      A  167.167.16.33
+test.paradisogirls      A  167.167.16.33
+test.jamesmorrisonmusic      A  167.167.16.33
+test.blink182      A  167.167.16.33
+test.bbking      A  167.167.16.33
+test.katevoegele      A  167.167.16.33
+test.tourclub.nodoubt      A  167.167.16.33
+test.qotsa      A  167.167.16.33
+test.rock      A  167.167.16.33
+test.theprettyreckless      A  167.167.16.33
+test.store.souljaboytellem      A  167.167.16.33
+test.cosmicvan      A  167.167.16.33
+test.blog      A  167.167.16.33
+test.esterdean      A  167.167.16.33
+test.raylav      A  167.167.16.33
+test.solangemusic      A  167.167.16.33
+test.thehighendoflow      A  167.167.16.33
+test.brickandlacemusic      A  167.167.16.33
+test.bonethugsnharmony      A  167.167.16.33
+test.lasttraintoparis      A  167.167.16.33
+test.assets      A  167.167.16.33
+test.yv-music      A  167.167.16.33
+test.jibbsmusic      A  167.167.16.33
+test.nltmusic      A  167.167.16.33
+test.babybyme      A  167.167.16.33
+test.kardinaloffishall      A  167.167.16.33
+test.tupaccontests      A  167.167.16.33
+test.itsblitz.yeahyeahyeahs      A  167.167.16.33
+test.riseagainst      A  167.167.16.33
+test.comptongame      A  167.167.16.33
+test.maryjblige      A  167.167.16.33
+test.mobbdeep      A  167.167.16.33
+test.aftermath-entertainment      A  167.167.16.33
+test.blaqkaudio      A  167.167.16.33
+test.agnesmusic      A  167.167.16.33
+test.reevecarney      A  167.167.16.33
+test.musicmobilestore      A  167.167.16.33
+test.scarsonbroadway      A  167.167.16.33
+test.wale.themusictee      A  167.167.16.33
+test.itsaudiopush      A  167.167.16.33
+test.store.hollywoodundead      A  167.167.16.33
+test.teyanaonline      A  167.167.16.33
+test.souljaboytellem      A  167.167.16.33
+test.spitfiya      A  167.167.16.33
+test.jadakiss      A  167.167.16.33
+test.tokiohotel-us      A  167.167.16.33
+test.plusfortyfour      A  167.167.16.33
+test.lifelinelive      A  167.167.16.33
+test.blacktidemusic      A  167.167.16.33
+test.butterflyboucher      A  167.167.16.33
+test.tonyyayo      A  167.167.16.33
+test.origin-webassets      A  167.167.16.33
+test.revtheory      A  167.167.16.33
+test.chaunceyblack      A  167.167.16.33
+test.hwy535      A  167.167.16.33
+test.souljaboytellem-shop      A  167.167.16.33
+test.g-unit      A  167.167.16.33
+test.hivesmusic      A  167.167.16.33
+test.lmfao      A  167.167.16.33
+test.site.amoctone      A  167.167.16.33
+test.theshockvalueaffair      A  167.167.16.33
+test.nodoubt      A  167.167.16.33
+test.guitarherocode      A  167.167.16.33
+test.dashboardconfessional      A  167.167.16.33
+test.clues.theshockvalueaffair      A  167.167.16.33
+test.store      A  167.167.16.33
+test.bustarhymes      A  167.167.16.33
+test.gwenstefani      A  167.167.16.33
+test.sorryyourenotawinner      A  167.167.16.33
+test.versesimmonds      A  167.167.16.33
+test.snoopdogg      A  167.167.16.33
+test.apps      A  167.167.16.33
+test.mobile.eminem      A  167.167.16.33
+test.jojoonline      A  167.167.16.33
+test.kerihilson      A  167.167.16.33
+test.shwayze.themusictee      A  167.167.16.33
+test.roscoedashonline      A  167.167.16.33
+test.gregstreetcertified      A  167.167.16.33
+test.jamesmorrison-us      A  167.167.16.33
+test.dgcrecords      A  167.167.16.33
+test.robyn-us      A  167.167.16.33
+test.herveromain      A  167.167.16.33
+test.younghotrod      A  167.167.16.33
+test.robinthicke      A  167.167.16.33
+test.commondreads      A  167.167.16.33
+test.eminem      A  167.167.16.33
+test.diddydirtymoney      A  167.167.16.33
+test.pussycatdolls      A  167.167.16.33
+test.shwayze      A  167.167.16.33
+test.webservice.snowpatrol      A  167.167.16.33
+test.yung-la      A  167.167.16.33
+test.d12online      A  167.167.16.33
+test.pcdshhh      A  167.167.16.33
+test.tvontheradio      A  167.167.16.33
+test.brandnewrock      A  167.167.16.33
+test.shade45      A  167.167.16.33
+test.50cent      A  167.167.16.33
+test.tennmanrecords      A  167.167.16.33
+test.mishon      A  167.167.16.33
+test.tamarkaprelianmusic      A  167.167.16.33
+test.flipsyde      A  167.167.16.33
+test.daisy      A  167.167.16.33
+test.robinthicke.themusictee      A  167.167.16.33
+test.popsomphills      A  167.167.16.33
+test.nellyfurtado      A  167.167.16.33
+test.yeahyeahyeahs      A  167.167.16.33
+test.jimmyeatworld      A  167.167.16.33
+test.webservices.ladygaga      A  167.167.16.33
+test.staging      A  167.167.16.33
+test.ladygaga      A  167.167.16.33
+test.ws      A  167.167.16.33
+test.staging2      A  167.167.16.33
+test.soulbossanostra      A  167.167.16.33
+test.jlewisonline      A  167.167.16.33
+test.promo      A  167.167.16.33
+test.melodiesbymjb      A  167.167.16.33
+test.store.sonsofsylvia      A  167.167.16.33
+test.larouxonline      A  167.167.16.33
+test.store.pcdmusic      A  167.167.16.33
+test.store.d12online      A  167.167.16.33
+

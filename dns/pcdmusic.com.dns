@@ -1,10 +1,10 @@
 ;
 ;  Database file pcdmusic.com.dns for pcdmusic.com zone.
-;      Zone version:  2010032300
+;      Zone version:  2010032301
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2010032300   ; serial number
+                        	2010032301   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -13,7 +13,6 @@
 ;
 ;  Zone NS records
 ;
-
 
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
@@ -25,7 +24,6 @@ ns5.umusic.com.         A	167.167.1.132
 ;
 ;  Zone records
 ;
-
 
 @                       A	208.76.217.20
 @                       MX	10	server58.appriver.com.
@@ -70,6 +68,7 @@ colo-redirect.netvision.net.il. A	199.203.54.63
 
 pcd                     A	72.10.45.58
 staging                 A	216.193.195.55
+store                   A	167.167.24.76
 
 ;
 ;  Delegated sub-zone:  wap.pcdmusic.com.

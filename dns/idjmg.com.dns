@@ -1,10 +1,10 @@
 ;
 ;  Database file idjmg.com.dns for idjmg.com zone.
-;      Zone version:  2010032305
+;      Zone version:  2010032321
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2010032305   ; serial number
+                        	2010032321   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,12 +14,12 @@
 ;  Zone NS records
 ;
 
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
-@                       NS	ns5.umusic.com.
-ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
@@ -55,6 +55,12 @@ bbs                     CNAME	defjam.idjmg.com.
 dev.bigboi              A	192.251.67.13
 bnsrv                   CNAME	defjam.idjmg.com.
 broadway                A	10.130.203.43
+att.burnhammusic        A	167.167.24.6
+att01.burnhammusic      CNAME	att01.idjmg.com.
+att02.burnhammusic      CNAME	att02.idjmg.com.
+att03.burnhammusic      CNAME	att03.idjmg.com.
+att04.burnhammusic      CNAME	att04.idjmg.com.
+test.burnhammusic       CNAME	test.idjmg.com.
 callisto                CNAME	webboard.islanddefjam.com.
 chat                    CNAME	chat.islanddefjam.com.
 chat1                   CNAME	chat.islanddefjam.com.
@@ -88,6 +94,8 @@ prod.falloutboy         CNAME	lb01-mid.idjmg.com.
 test.falloutboy         CNAME	test.idjmg.com.
 test.fameisdead         CNAME	test.idjmg.com.
 farm                    CNAME	defjam.idjmg.com.
+att.fefedobson          CNAME	lb01-high.idjmg.com.
+test.fefedobson         CNAME	test.idjmg.com.
 prod.fob                CNAME	lb01-mid.idjmg.com.
 att.ghostface           A	167.167.24.10
 dev.ghostface           CNAME	test.idjmg.com.
@@ -135,6 +143,14 @@ att03.jadakiss          CNAME	att03.idjmg.com.
 att04.jadakiss          CNAME	att04.idjmg.com.
 prod.jadakiss           CNAME	lb02-mid-idjmg.com.
 test.jadakiss           CNAME	test.idjmg.com.
+att.jayzhitscollection  A	167.167.24.7
+att01.jayzhitscollection CNAME	att01.idjmg.com.
+att02.jayzhitscollection CNAME	att02.idjmg.com.
+att03.jayzhitscollection CNAME	att03.idjmg.com.
+att04.jayzhitscollection CNAME	att04.idjmg.com.
+test.jayzhitscollection CNAME	test.idjmg.com.
+att.jennaandrews        CNAME	lb01-high.idjmg.com.
+test.jennaandrews       CNAME	test.idjmg.com.
 att.jeremih             CNAME	lb02-high.idjmg.com.
 test.jeremih            CNAME	test.idjmg.com.
 att.jessiejames         CNAME	lb01-high.idjmg.com.

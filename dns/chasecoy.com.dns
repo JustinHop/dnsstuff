@@ -1,10 +1,10 @@
 ;
 ;  Database file chasecoy.com.dns for chasecoy.com zone.
-;      Zone version:  13
+;      Zone version:  14
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	13           ; serial number
+                        	14           ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -14,20 +14,21 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns2.umusic.com.
-ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
 
 ;
 ;  Zone records
 ;
 
 @                       A	167.167.24.101
-@                       MX	20	alt1.aspmx.l.google.com.
 @                       MX	30	alt2.aspmx.l.google.com.
 @                       MX	10	aspmx.l.google.com.
 @                       MX	40	aspmx2.googlemail.com.
 @                       MX	50	aspmx3.googlemail.com.
+@                       MX	20	alt1.aspmx.l.google.com.
+fanwall                 A	94.23.161.229
 www                     CNAME	chasecoy.com.

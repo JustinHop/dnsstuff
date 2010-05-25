@@ -1,19 +1,18 @@
 ;
 ;  Database file 50centtone.com.dns for 50centtone.com zone.
-;      Zone version:  2010032300
+;      Zone version:  2010032301
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010032300   ; serial number
+                        	2010032301   ; serial number
                         	900          ; refresh
                         	600          ; retry
-                        	86400        ; expire
-                        	3600       ) ; default TTL
+                        	2419200      ; expire
+                        	7200       ) ; default TTL
 
 ;
 ;  Zone NS records
 ;
-
 
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
@@ -25,7 +24,6 @@ ns5.umusic.com.         A	167.167.1.132
 ;
 ;  Zone records
 ;
-
 
 @                       A	167.167.24.80
 www                     CNAME	50centtone.com.
