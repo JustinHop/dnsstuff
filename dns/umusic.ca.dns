@@ -1,10 +1,10 @@
 ;
 ;  Database file umusic.ca.dns for umusic.ca zone.
-;      Zone version:  2010040917
+;      Zone version:  2010040926
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010040917   ; serial number
+                        	2010040926   ; serial number
                         	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,12 +14,12 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns5.umusic.com.
-ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
@@ -60,6 +60,11 @@ att.bretryan            A	167.167.24.135
 dev.bretryan            CNAME	win.dev.umusic.ca.
 att.chadmichaelstewart  A	167.167.24.135
 dev.chadmichaelstewart  CNAME	win.dev.umusic.ca.
+att.chfreesongs         CNAME	att-win.umusic.ca.
+att01.chfreesongs       CNAME	att01-win.umusic.ca.
+att02.chfreesongs       CNAME	att02-win.umusic.ca.
+att03.chfreesongs       CNAME	att03-win.umusic.ca.
+dev.chfreesongs         CNAME	win.dev.umusic.ca.
 connected               A	167.167.24.37
 www.connected           CNAME	connected.umusic.ca.
 att.creature            CNAME	att-win.umusic.ca.
@@ -183,6 +188,10 @@ att.shiloh              CNAME	att-win.umusic.ca.
 dev.shiloh              CNAME	win.dev.umusic.ca.
 att.shilohplay          CNAME	att-win.umusic.ca.
 dev.shilohplay          CNAME	win.dev.umusic.ca.
+att.shoppridetoronto    CNAME	att-win.umusic.ca.
+dev.shoppridetoronto    CNAME	dev.umusic.ca.
+att.shopridetoronto     CNAME	att-win.umusic.ca.
+dev.shopridetoronto     CNAME	dev.umusic.ca.
 att.suziemcneil         CNAME	att-win.umusic.ca.
 dev.suziemcneil         A	192.251.67.124
 att.theending           CNAME	att-win.umusic.ca.

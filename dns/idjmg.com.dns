@@ -1,10 +1,10 @@
 ;
 ;  Database file idjmg.com.dns for idjmg.com zone.
-;      Zone version:  2010032321
+;      Zone version:  2010032336
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2010032321   ; serial number
+                        	2010032336   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,12 +14,12 @@
 ;  Zone NS records
 ;
 
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
-@                       NS	ns2.umusic.com.
-ns2.umusic.com.         A	167.167.9.132
 
 ;
 ;  Zone records
@@ -52,7 +52,12 @@ att04                   A	167.167.24.4
 backend                 CNAME	defjam.idjmg.com.
 bansrv                  CNAME	defjam.idjmg.com.
 bbs                     CNAME	defjam.idjmg.com.
+att01.bigboi            CNAME	att01.idjmg.com.
+att02.bigboi            CNAME	att02.idjmg.com.
+att03.bigboi            CNAME	att03.idjmg.com.
+att04.bigboi            CNAME	att04.idjmg.com.
 dev.bigboi              A	192.251.67.13
+test.bigboi             CNAME	test.idjmg.com.
 bnsrv                   CNAME	defjam.idjmg.com.
 broadway                A	10.130.203.43
 att.burnhammusic        A	167.167.24.6
@@ -121,6 +126,7 @@ att04.innerpartysystem  CNAME	att04.idjmg.com.
 dev.innerpartysystem    CNAME	dev.idjmg.com.
 prod.innerpartysystem   CNAME	lb02-mid.idjmg.com.
 test.innerpartysystem   CNAME	test.idjmg.com.
+test.ipad-comp          CNAME	test.idjmg.com.
 att.ips                 CNAME	lb02-mid.idjmg.com.
 att01.ips               CNAME	att01.idjmg.com.
 att02.ips               CNAME	att02.idjmg.com.
@@ -159,6 +165,7 @@ att02.jessiejames       CNAME	att02.idjmg.com.
 att03.jessiejames       CNAME	att03.idjmg.com.
 att04.jessiejames       CNAME	att04.idjmg.com.
 test.jessiejames        CNAME	test.idjmg.com.
+test.jimihendrix_cart   CNAME	test.idjmg.com.
 att.justdance           CNAME	lb01-mid.idjmg.com.
 test.justdance          CNAME	test.idjmg.com.
 att.justdanceremix      CNAME	lb01-mid.idjmg.com.
@@ -169,6 +176,7 @@ att02.justinbieber      CNAME	att02.idjmg.com.
 att03.justinbieber      CNAME	att03.idjmg.com.
 att04.justinbieber      CNAME	att04.idjmg.com.
 test.justinbieber       CNAME	test.idjmg.com.
+test.justinbieber_cart  CNAME	test.idjmg.com.
 att.kerli               CNAME	lb02-mid.idjmg.com.
 att01.kerli             CNAME	att01.idjmg.com.
 att02.kerli             CNAME	att02.idjmg.com.
@@ -217,6 +225,8 @@ att.methandredmusic     CNAME	lb01-mid.idjmg.com.
 test.methandredmusic    CNAME	test.idjmg.com.
 att.methraeghost        CNAME	lb02-mid.idjmg.com.
 test.methraeghost       CNAME	test.idjmg.com.
+att.mydarkestdays       CNAME	lb01-mid.idjmg.com.
+test.mydarkestdays      CNAME	test.idjmg.com.
 att.neyo                CNAME	lb01-mid.idjmg.com.
 att01.neyo              CNAME	att01.idjmg.com.
 att02.neyo              CNAME	att02.idjmg.com.
@@ -244,6 +254,9 @@ test.parachute          CNAME	test.idjmg.com.
 prod                    A	167.167.2.18
 att.rickross            CNAME	lb02-mid.idjmg.com.
 test.rickross           A	192.251.67.94
+att.roar                CNAME	att01.idjmg.com.
+dev.roar                CNAME	dev.idjmg.com.
+test.roar               CNAME	test.idjmg.com.
 dev.roc                 A	192.251.67.124
 prod.roc                A	167.167.2.18
 www01.roc               A	167.167.2.102

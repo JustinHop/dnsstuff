@@ -1,10 +1,10 @@
 ;
 ;  Database file nicolescherzingermusic.com.dns for nicolescherzingermusic.com zone.
-;      Zone version:  201003230
+;      Zone version:  201003231
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	201003230            ; serial number
+                        	201003231    ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -13,7 +13,6 @@
 ;
 ;  Zone NS records
 ;
-
 
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
@@ -26,6 +25,5 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-
-@                       A	167.167.24.73
+@                       A	167.167.24.74
 www                     CNAME	nicolescherzingermusic.com.

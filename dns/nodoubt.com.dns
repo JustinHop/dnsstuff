@@ -1,10 +1,10 @@
 ;
 ;  Database file nodoubt.com.dns for nodoubt.com zone.
-;      Zone version:  2010032300
+;      Zone version:  2010032301
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2010032300   ; serial number
+                        	2010032301   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,24 +14,22 @@
 ;  Zone NS records
 ;
 
-
-@                       NS	ns1.umusic.com.
-ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
 
 ;
 ;  Zone records
 ;
 
-
 @                       A	167.167.24.54
-@                       MX	120	mx4c25.carrierzone.com.
-@                       MX	10	mx1c25.carrierzone.com.
 @                       MX	100	mx2c25.carrierzone.com.
 @                       MX	110	mx3c25.carrierzone.com.
+@                       MX	120	mx4c25.carrierzone.com.
+@                       MX	10	mx1c25.carrierzone.com.
 *                       A	216.193.195.53
 cms                     A	167.167.24.72
 cp                      CNAME	cp.netservers.net.
@@ -39,12 +37,12 @@ cp                      CNAME	cp.netservers.net.
 ;
 ;  Delegated sub-zone:  download.nodoubt.com.
 ;
+download                NS	ns3.sudjam.com.
+ns3.sudjam.com.         A	216.193.231.21
 download                NS	ns1.sudjam.com.
 ns1.sudjam.com.         A	208.81.236.21
 download                NS	ns2.sudjam.com.
 ns2.sudjam.com.         A	204.68.170.21
-download                NS	ns3.sudjam.com.
-ns3.sudjam.com.         A	216.193.231.21
 ;  End delegation
 
 eit                     A	216.193.195.52
@@ -59,5 +57,6 @@ real2                   CNAME	real.netservers.net.
 smtp                    CNAME	smtp.netservers.net.
 staging                 A	216.193.195.55
 tourclub                A	167.167.24.77
+updates                 CNAME	shorty.znl.me.
 webmail                 A	64.29.145.44
 www                     CNAME	nodoubt.com.

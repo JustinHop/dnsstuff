@@ -1,10 +1,10 @@
 ;
 ;  Database file vervemusicgroup.com.dns for vervemusicgroup.com zone.
-;      Zone version:  2010032304
+;      Zone version:  2010032305
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010032304   ; serial number
+                        	2010032305   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,22 +14,22 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns5.umusic.com.
-ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
 ;
 
 @                       A	167.167.24.137
-@                       MX	10	mx1c25.carrierzone.com.
 @                       MX	100	mx2c25.carrierzone.com.
 @                       MX	120	mx4c25.carrierzone.com.
 @                       MX	110	mx3c25.carrierzone.com.
+@                       MX	10	mx1c25.carrierzone.com.
 att.16frames            CNAME	att.vervemusicgroup.com.
 att01.16frames          CNAME	att01.vervemusicgroup.com.
 att02.16frames          CNAME	att02.vervemusicgroup.com.
@@ -72,10 +72,10 @@ dev.elizabethandthecatapult A	192.251.67.124
 ;
 ;  Delegated sub-zone:  email.vervemusicgroup.com.
 ;
-email                   NS	ns2.exacttarget.com.
-ns2.exacttarget.com.    A	66.231.94.222
 email                   NS	ns1.exacttarget.com.
 ns1.exacttarget.com.    A	66.231.91.222
+email                   NS	ns2.exacttarget.com.
+ns2.exacttarget.com.    A	66.231.94.222
 ;  End delegation
 
 att.findlaybrown        CNAME	att.vervemusicgroup.com.
@@ -109,6 +109,7 @@ att02.lizzwright        CNAME	att02.vervemusicgroup.com.
 att03.lizzwright        CNAME	att03.vervemusicgroup.com.
 dev.lizzwright          A	192.251.67.124
 localhost               A	127.0.0.1
+att.lucywoodward        A	167.167.24.37
 dev.lucywoodward        A	192.251.67.13
 mail                    A	64.29.145.40
 mobile                  A	167.167.24.136

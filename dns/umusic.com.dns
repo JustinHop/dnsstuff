@@ -1,10 +1,10 @@
 ;
 ;  Database file umusic.com.dns for umusic.com zone.
-;      Zone version:  2010032315
+;      Zone version:  2010032318
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010032315   ; serial number
+                        	2010032318   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -2170,6 +2170,8 @@ cowboy                  CNAME	ussmomc02.amer.umusic.net.
 credit                  A	10.130.109.187
 crm                     A	10.130.109.187
 crmreports              A	192.251.67.166
+crmservicehub           A	167.167.2.45
+crmservicehubqa         A	167.167.2.55
 csadev                  A	10.130.178.198
 csatest                 A	10.130.178.198
 cts                     CNAME	cts.umusic.net.
@@ -4467,12 +4469,12 @@ macygray                CNAME	cmsserver01.umusic.com.
 madvpn01                A	212.4.106.237
 mail                    A	65.54.32.197
 backup.mail             A	65.54.36.197
-maila                   A	65.54.32.199
-                        A	65.54.32.198
+maila                   A	65.54.32.198
+                        A	65.54.32.199
 mailb                   A	65.54.32.198
                         A	65.54.32.199
-mailc                   A	65.54.36.199
-                        A	65.54.36.198
+mailc                   A	65.54.36.198
+                        A	65.54.36.199
 mailgate-emea           900	A	62.206.191.5
 mars                    A	10.130.110.184
 mattwhite               CNAME	cmsserver01.umusic.com.
@@ -4486,10 +4488,10 @@ mdit                    A	10.130.109.187
 meetgreet               A	167.167.2.109
 mellencamp              CNAME	cmsserver01.umusic.com.
 mercury                 900	A	10.130.210.12
-smtp.mgd                A	65.54.36.198
-                        A	65.54.36.199
-                        A	65.54.32.198
+smtp.mgd                A	65.54.32.198
                         A	65.54.32.199
+                        A	65.54.36.198
+                        A	65.54.36.199
 mig-musicsweeps         CNAME	cmsserver01.umusic.com.
 migsweeps               CNAME	cmsserver01.umusic.com.
 milestone               A	10.130.104.166
@@ -4585,6 +4587,7 @@ paulacolesweeps         CNAME	cmsserver01.umusic.com.
 perseus                 CNAME	cmsserver01.umusic.com.
 crm.perseus             CNAME	cmsserver01.umusic.com.
 test.perseus            CNAME	cmsserver01.umusic.com.
+test.pingdom            A	192.251.67.124
 pips                    A	167.167.1.157
 plr                     300	A	10.130.110.213
 prc                     A	10.130.203.111
@@ -11530,8 +11533,8 @@ mailirpt.usfsh          A	167.167.0.33
 mailscl.usfsh           A	167.167.0.23
                         A	167.167.0.22
 sftp1.usfsh             A	167.167.1.142
-smtp.usfsh              A	167.167.0.29
-                        A	167.167.0.30
+smtp.usfsh              A	167.167.0.30
+                        A	167.167.0.29
 smtp1.usfsh             300	A	167.167.0.17
 smtp2.usfsh             300	A	167.167.0.18
 usfshntex05.usfsh       300	A	167.167.0.20

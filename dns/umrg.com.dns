@@ -1,10 +1,10 @@
 ;
 ;  Database file umrg.com.dns for umrg.com zone.
-;      Zone version:  2010040725
+;      Zone version:  2010040726
 ;
 
 @                       120	IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010040725   ; serial number
+                        	2010040726   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,25 +14,25 @@
 ;  Zone NS records
 ;
 
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
-@                       NS	ns2.umusic.com.
-ns2.umusic.com.         A	167.167.9.132
 
 ;
 ;  Zone records
 ;
 
 @                       A	167.167.24.101
-@                       MX	30	aspmx4.googlemail.com.
 @                       MX	30	aspmx5.googlemail.com.
 @                       MX	10	aspmx.l.google.com.
 @                       MX	20	alt1.aspmx.l.google.com.
 @                       MX	20	alt2.aspmx.l.google.com.
 @                       MX	30	aspmx3.googlemail.com.
 @                       MX	30	aspmx2.googlemail.com.
+@                       MX	30	aspmx4.googlemail.com.
 att.10yearsmusic        CNAME	hvp5.umrg.com.
 dev.10yearsmusic        A	192.251.67.124
 prod.10yearsmusic       A	167.167.2.114
@@ -203,6 +203,7 @@ hvp3                    A	167.167.24.101
 hvp4                    A	167.167.24.102
 hvp5                    A	167.167.24.103
 att.hypercrush          CNAME	hvp2.umrg.com.
+dev.hypercrush          A	192.251.67.13
 test.hypercrush         CNAME	test.umrg.com.
 test.incredibad         CNAME	test.umrg.com.
 att.indiaarie           CNAME	hvp3.umrg.com.

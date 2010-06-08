@@ -1,10 +1,10 @@
 ;
 ;  Database file universalmusica.com.dns for universalmusica.com zone.
-;      Zone version:  2010032307
+;      Zone version:  2010032308
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2010032307   ; serial number
+                        	2010032308   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -42,6 +42,7 @@ media                   A	167.167.24.135
 att.micuriosidad        A	167.167.24.37
 dev.micuriosidad        A	192.251.67.13
 prod                    A	192.251.67.166
+splash                  A	167.167.24.200
 store                   A	167.167.24.200
 dev.store               A	192.251.67.124
 test                    A	192.251.67.124

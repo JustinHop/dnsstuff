@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 RSYNC="rsync"
-RSYNC_OPTS="-avb --backup-dir=$HOME/NS1/backup --exclude=backup --exclude='.*' --exclude='*~' --progress -W "
+RSYNC_OPTS="-avb --backup-dir=$HOME/NS1/backup --exclude=backup --exclude='.*' --exclude='*~' --progress -W"
 
 DEV=~/NS1/dns
 DEFAULT=$DEV/*.dns
@@ -18,5 +18,5 @@ if [ $1 ]; then
 	done
 fi
 
-./update.sh ${TARGET:-$DEFAULT} && $RSYNC $RSYNC_OPTS ${TARGET:-$DEFAULT} $PROD
+./update.sh ${TARGET:-$DEFAULT} && echo  $RSYNC $RSYNC_OPTS ${TARGET:-$DEFAULT} $PROD
 
