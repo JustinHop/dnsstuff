@@ -32,3 +32,5 @@ ns2.umusic.com.         A	167.167.9.132
 @                       MX	120	mx4c25.carrierzone.com.
 localhost               A	127.0.0.1
 www                     CNAME	hayleysales.com.
+webmail                 A	64.29.145.44
+mail                    A   64.29.145.40
