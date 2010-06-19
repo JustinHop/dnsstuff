@@ -1,10 +1,10 @@
 ;
 ;  Database file umusic.ca.dns for umusic.ca zone.
-;      Zone version:  2010040926
+;      Zone version:  2010040932
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010040926   ; serial number
+                        	2010040932   ; serial number
                         	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,12 +14,12 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns1.umusic.com.
-ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
 
 ;
 ;  Zone records
@@ -36,6 +36,11 @@ www.20thcenturymasters  CNAME	20thcenturymasters.umusic.ca.
 3121                    A	192.251.67.80
 www.3121                CNAME	3121.umusic.ca.
 _autodiscover._tcp      SRV	0 0 443	autodiscover.umusic.com.
+att.abandonallships     A	167.167.24.138
+att01.abandonallships   CNAME	att01-win.umusic.ca.
+att02.abandonallships   CNAME	att02-win.umusic.ca.
+att03.abandonallships   CNAME	att03-win.umusic.ca.
+dev.abandonallships     CNAME	dev.umusic.ca.
 afi                     A	192.251.67.80
 www.afi                 CNAME	afi.umusic.ca.
 att.api                 CNAME	167.167.24.138.
@@ -134,6 +139,7 @@ att01.hayleysales       CNAME	att01-win.umusic.ca.
 att02.hayleysales       CNAME	att02-win.umusic.ca.
 att03.hayleysales       CNAME	att03-win.umusic.ca.
 dev.hayleysales         CNAME	win.dev.umusic.ca.
+dev2.hayleysales        CNAME	dev.hayleysales.umusic.ca.
 att.hedleyonline        A	167.167.24.135
 dev.hedleyonline        CNAME	win.dev.umusic.ca.
 att.iloverocknroll      A	167.167.24.135

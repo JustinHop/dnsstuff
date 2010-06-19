@@ -1,10 +1,10 @@
 ;
 ;  Database file idjmg.com.dns for idjmg.com zone.
-;      Zone version:  2010032336
+;      Zone version:  2010032343
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2010032336   ; serial number
+                        	2010032343   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,12 +14,12 @@
 ;  Zone NS records
 ;
 
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
-@                       NS	ns1.umusic.com.
-ns1.umusic.com.         A	167.167.1.141
 
 ;
 ;  Zone records
@@ -52,6 +52,7 @@ att04                   A	167.167.24.4
 backend                 CNAME	defjam.idjmg.com.
 bansrv                  CNAME	defjam.idjmg.com.
 bbs                     CNAME	defjam.idjmg.com.
+att.bigboi              A	167.167.24.37
 att01.bigboi            CNAME	att01.idjmg.com.
 att02.bigboi            CNAME	att02.idjmg.com.
 att03.bigboi            CNAME	att03.idjmg.com.
@@ -284,6 +285,12 @@ att.thedream            CNAME	lb02-mid.idjmg.com.
 test.thedream           CNAME	test.idjmg.com.
 att.shop.thekillersmusic CNAME	lb02-mid.idjmg.com.
 test.shop.thekillersmusic A	192.251.67.94
+att.themakeupbagcontest A	167.167.24.6
+att01.themakeupbagcontest CNAME	att01.idjmg.com.
+att02.themakeupbagcontest CNAME	att02.idjmg.com.
+att03.themakeupbagcontest CNAME	att03.idjmg.com.
+att04.themakeupbagcontest CNAME	att04.idjmg.com.
+test.themakeupbagcontest CNAME	test.idjmg.com.
 att.thepyrex            CNAME	lb01-mid.idjmg.com.
 att01.thepyrex          CNAME	att01.idjmg.com.
 att02.thepyrex          CNAME	att02.idjmg.com.

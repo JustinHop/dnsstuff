@@ -1,10 +1,10 @@
 ;
 ;  Database file musicrightsnow.com.dns for musicrightsnow.com zone.
-;      Zone version:  201006081
+;      Zone version:  201006083
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	201006081            ; serial number
+                        	201006083    ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -13,7 +13,6 @@
 ;
 ;  Zone NS records
 ;
-
 
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
@@ -26,6 +25,6 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-
-@                       A	167.167.24.135
-www                     CNAME musicrightsnow.com.
+@                       A	167.167.24.183
+dev                     A	192.251.67.94
+www                     CNAME	musicrightsnow.com.

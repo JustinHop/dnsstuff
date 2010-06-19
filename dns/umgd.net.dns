@@ -1,10 +1,10 @@
 ;
 ;  Database file umgd.net.dns for umgd.net zone.
-;      Zone version:  2010032304
+;      Zone version:  2010032312
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010032304   ; serial number
+                        	2010032312   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -25,6 +25,9 @@ ns1.umusic.com.         A	167.167.1.141
 ;  Zone records
 ;
 
+att01                   A	167.167.24.132
+att02                   A	167.167.24.133
+att03                   A	167.167.24.134
 cache                   CNAME	cache.umgd.net.edgesuite.net.
 dev                     A	192.251.67.94
 eadr                    A	167.167.24.135
@@ -39,5 +42,10 @@ sandbox.facebook        A	192.251.67.93
 host                    A	192.251.67.34
 localhost               A	127.0.0.1
 dev.mimusicamundial     CNAME	dev.umgd.net.
+att.musicrightsnow      A	167.167.24.183
+att01.musicrightsnow    CNAME	att01.umgd.net.
+att02.musicrightsnow    CNAME	att02.umgd.net.
+att03.musicrightsnow    CNAME	att03.umgd.net.
+dev.musicrightsnow      CNAME	dev.umgd.net.
 origin-cache            A	167.167.24.135
 www                     CNAME	umgd.net.

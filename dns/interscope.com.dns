@@ -1,10 +1,10 @@
 ;
 ;  Database file interscope.com.dns for interscope.com zone.
-;      Zone version:  2010052523
+;      Zone version:  2010052531
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010052523   ; serial number
+                        	2010052531   ; serial number
                         	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,25 +14,25 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns1.umusic.com.
-ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
 
 ;
 ;  Zone records
 ;
 
 @                       7200	A	167.167.24.74
+@                       MX	30	aspmx5.googlemail.com.
 @                       MX	20	alt1.aspmx.l.google.com.
 @                       MX	20	alt2.aspmx.l.google.com.
 @                       MX	10	aspmx.l.google.com.
 @                       MX	30	aspmx2.googlemail.com.
 @                       MX	30	aspmx3.googlemail.com.
 @                       MX	30	aspmx4.googlemail.com.
-@                       MX	30	aspmx5.googlemail.com.
 att.50cent              CNAME	med1.interscope.com.
 att01.50cent            CNAME	att01.interscope.com.
 att02.50cent            CNAME	att02.interscope.com.
@@ -254,6 +254,14 @@ att.drdre               A	167.167.24.79
 test.dre2001            A	167.167.16.33
 att.dressuprecords      CNAME	lvp1.interscope.com.
 test.dressuprecords     A	167.167.16.33
+att.eldebarge           A	167.167.24.72
+att01.eldebarge         CNAME	att01.interscope.com.
+att02.eldebarge         CNAME	att02.interscope.com.
+att03.eldebarge         CNAME	att03.interscope.com.
+att04.eldebarge         CNAME	att04.interscope.com.
+att05.eldebarge         CNAME	att05.interscope.com.
+att06.eldebarge         CNAME	att06.interscope.com.
+dev.eldebarge           CNAME	dev.interscope.com.
 att.elementree          CNAME	lvp2.interscope.com.
 
 ;

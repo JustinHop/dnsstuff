@@ -1,10 +1,10 @@
 ;
 ;  Database file akwid.com.dns for akwid.com zone.
-;      Zone version:  201003239
+;      Zone version:  201003240
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	201003239    ; serial number
+                        	201003240    ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -26,11 +26,12 @@ ns2.umusic.com.         A	167.167.9.132
 ;
 
 @                       A	167.167.24.135
+@                       MX	5	alt1.aspmx.l.google.com.
+@                       MX	5	alt2.aspmx.l.google.com.
 @                       MX	10	aspmx2.googlemail.com.
 @                       MX	10	aspmx3.googlemail.com.
 @                       MX	1	aspmx.l.google.com.\040.
-@                       MX	5	alt1.aspmx.l.google.com.
-@                       MX	5	alt2.aspmx.l.google.com.
 googlee8d5cdfb5dcca82b  CNAME	google.com.
+latiendita              CNAME	akwid.com.
 mail                    CNAME	ghs.google.com.
 www                     CNAME	akwid.com.
