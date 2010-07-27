@@ -1,0 +1,24 @@
+;
+;  Database file umlelive.com.dns for umlelive.com zone.
+;      Zone version:  4
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	4            ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.138
+www                     CNAME	umlelive.com.

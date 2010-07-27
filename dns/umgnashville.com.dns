@@ -1,10 +1,10 @@
 ;
 ;  Database file umgnashville.com.dns for umgnashville.com zone.
-;      Zone version:  2010032301
+;      Zone version:  2010032307
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010032301   ; serial number
+                        	2010032307   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -31,7 +31,6 @@ ns5.umusic.com.         A	167.167.1.132
 artist                  A	192.251.67.124
 artistdev1              A	192.251.67.124
 artistdev2              A	192.251.67.124
-ashtonshepherd          A	192.251.67.166
 att.ashtonshepherd      CNAME	att.umgnashville.com.
 dev.ashtonshepherd      A	192.251.67.124
 att                     A	167.167.24.135
@@ -50,7 +49,6 @@ prod.billycurrington    CNAME	prod.umgnashville.com.
 att.coldwaterjane       CNAME	hvp1.umgnashville.com.
 dev.coldwaterjane       CNAME	dev.umgnashville.com.
 test.dasblog            A	192.251.67.94
-davidnail               A	192.251.67.166
 att.davidnail           CNAME	att.umgnashville.com.
 dev.davidnail           A	192.251.67.124
 dev                     A	192.251.67.124
@@ -71,7 +69,6 @@ dev.jameyjohnson        A	192.251.67.124
 joshkelley              A	167.167.24.37
 dev.joshkelley          A	192.251.67.13
 dev.joshkelly           A	192.251.67.13
-juliannehough           A	192.251.67.166
 att.juliannehough       CNAME	att.umgnashville.com.
 dev.juliannehough       A	192.251.67.124
 att.julieroberts        CNAME	att.umgnashville.com.
@@ -96,13 +93,10 @@ mobile                  A	167.167.2.109
 peoplearecrazy          CNAME	att.peoplearecrazy.umgnashville.com.
 att.peoplearecrazy      A	167.167.24.37
 dev.peoplearecrazy      300	A	192.251.67.13
-prod                    A	192.251.67.166
 att.randyexp            300	A	167.167.24.37
 dev.randyexp            A	192.251.67.13
-sugarland               A	192.251.67.166
 att.sugarland           CNAME	att.umgnashville.com.
 dev.sugarland           A	192.251.67.124
-prod.sugarland          A	192.251.67.166
 dev.thejayhawksofficialstore CNAME	dev.umgnashville.com.
 dev.umgnpress           A	192.251.67.13
 att.votejameyacm        CNAME	hvp2.umgnashville.com.

@@ -1,10 +1,10 @@
 ;
 ;  Database file hayleysales.com.dns for hayleysales.com zone.
-;      Zone version:  2010032304
+;      Zone version:  2010061800
 ;
 
 @                       600	IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010032304   ; serial number
+                        	2010061800   ; serial number
                         	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire

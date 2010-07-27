@@ -1,10 +1,10 @@
 ;
 ;  Database file 67.251.192.in-addr.arpa.dns for 67.251.192.in-addr.arpa zone.
-;      Zone version:  2010032300
+;      Zone version:  2010032301
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2010032300   ; serial number
+                        	2010032301   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -13,7 +13,6 @@
 ;
 ;  Zone NS records
 ;
-
 
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
@@ -26,165 +25,164 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-
 0                       PTR	ip-192-251-67-0.usush.umusic.com.
 1                       PTR	ip-192-251-67-1.usush.umusic.com.
 10                      PTR	ip-192.251.67-10.usush.umusic.com.
-100                     PTR	sdk.reggieandthefulleffect.igadev.com.
-                        PTR	sdk.g-unit.igadev.com.
-                        PTR	sdk.mootron.igadev.com.
-                        PTR	sdk.sugababesmusic.igadev.com.
-                        PTR	sdk.mobbdeep.igadev.com.
-                        PTR	sdk.chronicfuture.igadev.com.
-                        PTR	sdk.jurassic5.igadev.com.
-                        PTR	sdk.beck.igadev.com.
-                        PTR	sdk.yeahyeahyeahs.igadev.com.
-                        PTR	dev.bratz.interscope.com.
-                        PTR	sdk.chrisglover.igadev.com.
-                        PTR	sdk.dashboardconfessional.igadev.com.
-                        PTR	sdk.d12online.igadev.com.
-                        PTR	dev.soundthealarm.interscope.com.
-                        PTR	sdk.veryspecial.igadev.com.
-                        PTR	sdk.lloydbanks.igadev.com.
-                        PTR	sdk.spitfiya.igadev.com.
-                        PTR	sdk.kacibrown.igadev.com.
-                        PTR	sdk.allamericanrejects.igadev.com.
-                        PTR	sdk.vanessacarlton.igadev.com.
-                        PTR	sdk.athornforeveryheart.igadev.com.
-                        PTR	sdk.cherrytreerecords.igadev.com.
-                        PTR	sdk.andallthatcouldhavebeen.igadev.com.
-                        PTR	sdk.thehives.igadev.com.
-                        PTR	sdk.bustaonline.igadev.com.
-                        PTR	sdk.pussycatdolls.igadev.com.
-                        PTR	dev.flawlessrecords.interscope.com.
-                        PTR	sdk.lanzmusic.igadev.com.
-                        PTR	sdk.eminem.igadev.com.
-                        PTR	sdk.thedaveybrothers.igadev.com.
-                        PTR	sdk.mchonky.igadev.com.
-                        PTR	dev.kardinaloffishall.interscope.com.
-                        PTR	dev.jibbs.interscope.com.
-                        PTR	sdk.thelemonheads.igadev.com.
-                        PTR	sdk.pharrellwilliams.igadev.com.
-                        PTR	dev.eve.interscope.com.
-                        PTR	sdk.mosleymusicgroup.igadev.com.
-                        PTR	sdk.harajuku-lovers.igadev.com.
-                        PTR	sdk.harajukulovers.igadev.com.
-                        PTR	dev.solange.interscope.com.
-                        PTR	dev.alexband.interscope.com.
-                        PTR	sdk.audioslave.igadev.com.
-                        PTR	sdk.freddiegibbs.igadev.com.
-                        PTR	dev.robzombie.interscope.com.
-                        PTR	sdk.herveromain.igadev.com.
-                        PTR	sdk.richboyonline.igadev.com.
-                        PTR	sdk.50cent.igadev.com.
-                        PTR	sdk.myamya.igadev.com.
-                        PTR	sdk.suretone.igadev.com.
-                        PTR	dev.chrisglover.interscope.com.
-                        PTR	sdk.snowpatrol.igadev.com.
-                        PTR	dev.slimthug.interscope.com.
-                        PTR	dev.mosdef.interscope.com.
-                        PTR	sdk.drdre.igadev.com.
+100                     PTR	sdk.freddiegibbs.igadev.com.
+                        PTR	eminem2.igadev.com.
+                        PTR	sdk.shadyrecords.igadev.com.
                         PTR	dev.puddleofmudd.interscope.com.
-                        PTR	sdk.jimmyeatworld.igadev.com.
-                        PTR	sdk.thelox.igadev.com.
-                        PTR	sdk.savestheday.igadev.com.
-                        PTR	igadev.com.
-                        PTR	dev.boxcarracer.interscope.com.
-                        PTR	dev.iphone.interscope.com.
-                        PTR	dev.chrisaugust.interscope.com.
-                        PTR	sdk.jonnyonline.igadev.com.
-                        PTR	sdk.carinaround.igadev.com.
-                        PTR	sdk.shade45.igadev.com.
-                        PTR	sdk.snowpatrol.gffn.com.
-                        PTR	sdk.thisisemanuel.igadev.com.
-                        PTR	dev.slumberpartygirls.interscope.com.
                         PTR	sdk.hotrod-circuit.igadev.com.
-                        PTR	sdk.butterflyboucher.igadev.com.
-                        PTR	sdk.dredg.igadev.com.
+                        PTR	sdk.audioslave.igadev.com.
+                        PTR	sdk.myamya.igadev.com.
+                        PTR	sdk.vanessacarlton.igadev.com.
+                        PTR	sdk.lanzmusic.igadev.com.
+                        PTR	sdk.tributetoheroesmusic.igadev.com.
                         PTR	sdk.downtoearthapproach.igadev.com.
-                        PTR	sdk.butterflymusic.igadev.com.
+                        PTR	sdk.thisisemanuel.igadev.com.
+                        PTR	sdk.drdre.igadev.com.
+                        PTR	sdk.dashboardconfessional.igadev.com.
+                        PTR	sdk.eminem2.igadev.com.
+                        PTR	sdk.snowpatrol.gffn.com.
+                        PTR	dev.boxcarracer.interscope.com.
+                        PTR	sdk.carinaround.igadev.com.
+                        PTR	sdk.interscope.igadev.com.
+                        PTR	sdk.msdynamite.igadev.com.
+                        PTR	sdk.cherrytreerecords.igadev.com.
+                        PTR	sdk.platinumweird.igadev.com.
+                        PTR	sdk.yeahyeahyeahs.igadev.com.
+                        PTR	sdk.mickeyavalon.igadev.com.
                         PTR	dev.floetry.interscope.com.
+                        PTR	dev.slimthug.interscope.com.
+                        PTR	dev.iphone.interscope.com.
+                        PTR	sdk.mosleymusicgroup.igadev.com.
+                        PTR	sdk.keane.igadev.com.
+                        PTR	sdk.chriscornell.igadev.com.
+                        PTR	sdk.suretone.igadev.com.
+                        PTR	sdk.evefans.igadev.com.
+                        PTR	sdk.joanna-music.igadev.com.
+                        PTR	sdk.thicke.igadev.com.
+                        PTR	sdk.spitfiya.igadev.com.
+                        PTR	dev.iamnotcharleshamilton.interscope.com.
+                        PTR	sdk.elanmusic.igadev.com.
+                        PTR	sdk.kickballrecords.igadev.com.
+                        PTR	sdk.snowpatrol.igadev.com.
+                        PTR	sdk.butterflymusic.igadev.com.
+                        PTR	dev.chrisaugust.interscope.com.
+                        PTR	sdk.maloofmusic.igadev.com.
+                        PTR	sdk.sugababes.igadev.com.
+                        PTR	sdk.autoslave.igadev.com.
+                        PTR	sdk.beck.igadev.com.
+                        PTR	sdk.jurassic5.igadev.com.
+                        PTR	sdk.thehives.igadev.com.
+                        PTR	sdk.bonethugsnharmony.igadev.com.
+                        PTR	sdk.wallflowers.igadev.com.
+                        PTR	sdk.thelox.igadev.com.
+                        PTR	sdk.stylesp.igadev.com.
+                        PTR	sdk.reggieandthefulleffect.igadev.com.
+                        PTR	sdk.veryspecial.igadev.com.
+                        PTR	sdk.statquo.igadev.com.
+                        PTR	sdk.tonykanal.igadev.com.
+                        PTR	sdk.dredg.igadev.com.
+                        PTR	dev.ladygaga.interscope.com.
+                        PTR	sdk.kacibrown.igadev.com.
+                        PTR	dev.brickandlace.interscope.com.
+                        PTR	sdk.eminem.igadev.com.
+                        PTR	sdk.comptongame.igadev.com.
+                        PTR	sdk.youngbuck.igadev.com.
+                        PTR	dev.solange.interscope.com.
+                        PTR	sdk.gwenstefani.igadev.com.
+                        PTR	dev.flawlessrecords.interscope.com.
+                        PTR	dev.robzombie.interscope.com.
+                        PTR	sdk.alkalinetrio.igadev.com.
+                        PTR	dev.rockcityboyz.interscope.com.
+                        PTR	sdk.thegetupkids.igadev.com.
+                        PTR	sdk.driveblind.igadev.com.
+                        PTR	sdk.andallthatcouldhavebeen.igadev.com.
+                        PTR	dev.audioslave.igadev.com.
+                        PTR	sdk.pharrellwilliams.igadev.com.
+                        PTR	sdk.jimmyeatworld.igadev.com.
+                        PTR	wiki.igadev.com.
+                        PTR	dev.kardinaloffishall.interscope.com.
+                        PTR	dev.scootersmiff.interscope.com.
+                        PTR	sdk.tonyyayo.igadev.com.
+                        PTR	sdk.nodoubt.igadev.com.
+                        PTR	sdk.fergie.igadev.com.
+                        PTR	sdk.theeels.igadev.com.
+                        PTR	sdk.institutemusic.igadev.com.
+                        PTR	sdk.keyshiacole.igadev.com.
+                        PTR	sdk.pussycatdolls.igadev.com.
+                        PTR	sdk.valeriamusic.igadev.com.
+                        PTR	dev.mosdef.interscope.com.
+                        PTR	sdk.butterflyboucher.igadev.com.
+                        PTR	dev.macygray.interscope.com.
+                        PTR	sdk.athornforeveryheart.igadev.com.
+                        PTR	sdk.richboyonline.igadev.com.
+                        PTR	sdk.jonnyonline.igadev.com.
+                        PTR	sdk.mail2fans.igadev.com.
+                        PTR	sdk.thelemonheads.igadev.com.
+                        PTR	sdk.herveromain.igadev.com.
+                        PTR	ip-192.251.67-100.usush.umusic.com.
+                        PTR	sdk.mchonky.igadev.com.
+                        PTR	sdk.bustarhymes.igadev.com.
+                        PTR	sdk.chronicfuture.igadev.com.
+                        PTR	sdk.thawmusic.igadev.com.
+                        PTR	sdk.50cent.igadev.com.
+                        PTR	sdk.savestheday.igadev.com.
+                        PTR	sdk.interscopemobile.igadev.com.
+                        PTR	dev.bratz.interscope.com.
+                        PTR	dev.somethingcorporate.interscope.com.
+                        PTR	sdk.sugababesmusic.igadev.com.
+                        PTR	sdk.morgansmithonline.igadev.com.
+                        PTR	dev.soundthealarm.interscope.com.
+                        PTR	sdk.thecaptainandthekid.igadev.com.
+                        PTR	sdk.lloydbanks.igadev.com.
+                        PTR	sdk.rasmusdeadletters.igadev.com.
+                        PTR	sdk.mobbdeep.igadev.com.
+                        PTR	sdk.teamvans.igadev.com.
+                        PTR	sdk.chrisglover.igadev.com.
+                        PTR	sdk.aftermath-entertainment.igadev.com.
+                        PTR	dev.chrisglover.interscope.com.
+                        PTR	sdk.tvontheradio.igadev.com.
+                        PTR	sdk.thebledsite.igadev.com.
+                        PTR	sdk.thedaveybrothers.igadev.com.
+                        PTR	sdk.jadakiss.igadev.com.
+                        PTR	sdk.bustaonline.igadev.com.
                         PTR	sdk.flipsyde.igadev.com.
                         PTR	sdk.newams.igadev.com.
-                        PTR	sdk.autoslave.igadev.com.
-                        PTR	sdk.keyshiacole.igadev.com.
-                        PTR	sdk.comptongame.igadev.com.
-                        PTR	sdk.maloofmusic.igadev.com.
-                        PTR	sdk.fergie.igadev.com.
-                        PTR	sdk.chriscornell.igadev.com.
-                        PTR	sdk.aftermath-entertainment.igadev.com.
-                        PTR	sdk.sierraswan.igadev.com.
-                        PTR	sdk.thicke.igadev.com.
-                        PTR	sdk.tonyyayo.igadev.com.
-                        PTR	dev.nellyfurtado.interscope.com.
-                        PTR	sdk.obietrice.igadev.com.
-                        PTR	sdk.ws.igadev.com.
-                        PTR	sdk.thegetupkids.igadev.com.
-                        PTR	sdk.holidaystyles.igadev.com.
-                        PTR	sdk.rasmusdeadletters.igadev.com.
-                        PTR	wiki.igadev.com.
-                        PTR	sdk.wallflowers.igadev.com.
-                        PTR	sdk.interscopemobile.igadev.com.
-                        PTR	sdk.jadakiss.igadev.com.
-                        PTR	sdk.interscope.igadev.com.
-                        PTR	dev.limpbizkit.interscope.com.
-                        PTR	ip-192.251.67-100.usush.umusic.com.
-                        PTR	sdk.morgansmithonline.igadev.com.
-                        PTR	sdk.driveblind.igadev.com.
-                        PTR	sdk.alkalinetrio.igadev.com.
-                        PTR	sdk.tatugirls.igadev.com.
-                        PTR	sdk.tonykanal.igadev.com.
-                        PTR	dev.missez.interscope.com.
-                        PTR	sdk.trailofdead.igadev.com.
-                        PTR	sdk.evefans.igadev.com.
-                        PTR	sdk.artist.igadev.com.
-                        PTR	sdk.tvontheradio.igadev.com.
-                        PTR	sdk.nodoubt.igadev.com.
-                        PTR	sdk.msdynamite.igadev.com.
-                        PTR	sdk.bustarhymes.igadev.com.
-                        PTR	dev.iamnotcharleshamilton.interscope.com.
+                        PTR	dev.jibbs.interscope.com.
                         PTR	sdk.biologymusic.igadev.com.
-                        PTR	sdk.valeriamusic.igadev.com.
-                        PTR	dev.scootersmiff.interscope.com.
-                        PTR	dev.raylav.interscope.com.
                         PTR	dev.charlottesometimes.interscope.com.
-                        PTR	sdk.vagrantmail.igadev.com.
-                        PTR	sdk.mail2fans.igadev.com.
-                        PTR	dev.joanna.interscope.com.
-                        PTR	sdk.statquo.igadev.com.
-                        PTR	sdk.stylesp.igadev.com.
-                        PTR	sdk.teamvans.igadev.com.
-                        PTR	sdk.jamisonparker.igadev.com.
-                        PTR	dev.audioslave.igadev.com.
-                        PTR	dev.somethingcorporate.interscope.com.
-                        PTR	sdk.nin.igadev.com.
-                        PTR	sdk.sugababes.igadev.com.
-                        PTR	sdk.oliviaonline.igadev.com.
-                        PTR	sdk.elanmusic.igadev.com.
-                        PTR	sdk.keane.igadev.com.
-                        PTR	sdk.thawmusic.igadev.com.
                         PTR	sdk.thefeelingmusic.igadev.com.
-                        PTR	sdk.eminem2.igadev.com.
-                        PTR	dev.rockcityboyz.interscope.com.
-                        PTR	eminem2.igadev.com.
-                        PTR	sdk.bonethugsnharmony.igadev.com.
-                        PTR	sdk.thecaptainandthekid.igadev.com.
-                        PTR	sdk.youngbuck.igadev.com.
-                        PTR	sdk.shadyrecords.igadev.com.
-                        PTR	sdk.theeels.igadev.com.
-                        PTR	sdk.platinumweird.igadev.com.
-                        PTR	dev.macygray.interscope.com.
-                        PTR	dev.ladygaga.interscope.com.
-                        PTR	sdk.kickballrecords.igadev.com.
-                        PTR	sdk.gwenstefani.igadev.com.
-                        PTR	dev.brickandlace.interscope.com.
-                        PTR	sdk.institutemusic.igadev.com.
-                        PTR	sdk.thebledsite.igadev.com.
-                        PTR	sdk.tributetoheroesmusic.igadev.com.
-                        PTR	sdk.qotsa.igadev.com.
-                        PTR	sdk.mickeyavalon.igadev.com.
+                        PTR	dev.eve.interscope.com.
+                        PTR	dev.raylav.interscope.com.
+                        PTR	sdk.trailofdead.igadev.com.
+                        PTR	dev.alexband.interscope.com.
+                        PTR	sdk.sierraswan.igadev.com.
+                        PTR	sdk.shade45.igadev.com.
+                        PTR	sdk.nin.igadev.com.
+                        PTR	dev.nellyfurtado.interscope.com.
+                        PTR	dev.missez.interscope.com.
+                        PTR	sdk.ws.igadev.com.
+                        PTR	dev.joanna.interscope.com.
+                        PTR	sdk.oliviaonline.igadev.com.
+                        PTR	sdk.d12online.igadev.com.
                         PTR	sdk.afireinside.igadev.com.
-                        PTR	sdk.joanna-music.igadev.com.
+                        PTR	sdk.obietrice.igadev.com.
+                        PTR	dev.slumberpartygirls.interscope.com.
+                        PTR	dev.limpbizkit.interscope.com.
+                        PTR	sdk.mootron.igadev.com.
+                        PTR	sdk.artist.igadev.com.
+                        PTR	sdk.holidaystyles.igadev.com.
+                        PTR	sdk.jamisonparker.igadev.com.
+                        PTR	sdk.harajuku-lovers.igadev.com.
+                        PTR	sdk.vagrantmail.igadev.com.
+                        PTR	sdk.allamericanrejects.igadev.com.
+                        PTR	sdk.harajukulovers.igadev.com.
+                        PTR	igadev.com.
+                        PTR	sdk.g-unit.igadev.com.
+                        PTR	sdk.tatugirls.igadev.com.
+                        PTR	sdk.qotsa.igadev.com.
 101                     PTR	ip-192.251.67-101.usush.umusic.com.
 102                     PTR	ip-192.251.67-102.usush.umusic.com.
                         PTR	devftp.umusic.ca.
@@ -198,38 +196,38 @@ ns5.umusic.com.         A	167.167.1.132
 11                      PTR	ip-192.251.67-11.usush.umusic.com.
 110                     PTR	outmail.unistudios.com.
 111                     PTR	outmail.unistudios.com.
-112                     PTR	auctionsforcharlie.com.
-                        PTR	tracylawrencethenandnow.com.
-                        PTR	jimmywayne.com.
-                        PTR	williecountryman.com.
-                        PTR	georgestraitmusic.com.
+112                     PTR	trishamobile.com.
+                        PTR	jessicaandrews.com.
+                        PTR	secretcowboys.com.
                         PTR	winjoshturner.com.
-                        PTR	umgpress.prod.umusic.com.
-                        PTR	bryanadamsroomservice.com.
-                        PTR	universalnashville.com.
-                        PTR	forums.nodoubt.umusic.com.
-                        PTR	mtvfloridareliefauction.com.
+                        PTR	glencampbellonline.com.
                         PTR	joshturneryourman.com.
+                        PTR	bryanadamsroomservice.com.
+                        PTR	tracylawrencethenandnow.com.
+                        PTR	forums.nodoubt.umusic.com.
+                        PTR	umgnashville.org.
+                        PTR	williecountryman.com.
+                        PTR	auctionsforcharly.com.
+                        PTR	jimmywayne.com.
+                        PTR	universalnashville.net.
                         PTR	timelesshank.com.
                         PTR	rebaduets.com.
-                        PTR	rebanumber1s.com.
-                        PTR	secretcowboys.com.
-                        PTR	brokebackspoofs.com.
-                        PTR	mtvfloridareliefauctions.com.
-                        PTR	umgnashville.org.
-                        PTR	billycurrington.com.
-                        PTR	auctionsforcharly.com.
-                        PTR	universalnashville.net.
-                        PTR	trishamobile.com.
                         PTR	tobymobile.com.
                         PTR	somewheredownintexas.com.
+                        PTR	rebanumber1s.com.
+                        PTR	honkytonkyouruniversity.com.
+                        PTR	georgestraitmusic.com.
+                        PTR	auctionsforcharlie.com.
+                        PTR	brokebackspoofs.com.
+                        PTR	mtvfloridareliefauctions.com.
+                        PTR	umgpress.prod.umusic.com.
+                        PTR	mtvfloridareliefauction.com.
                         PTR	gary-nichols.com.
                         PTR	dr.umusic.com.
                         PTR	vincegillthesedays.com.
-                        PTR	glencampbellonline.com.
                         PTR	helicoptersoup.com.
-                        PTR	honkytonkyouruniversity.com.
-                        PTR	jessicaandrews.com.
+                        PTR	universalnashville.com.
+                        PTR	billycurrington.com.
 113                     PTR	ip-192.251.67-113.usush.umusic.com.
 114                     PTR	ip-192.251.67-114.usush.umusic.com.
 115                     PTR	ip-192.251.67-115.usush.umusic.com.
@@ -243,29 +241,29 @@ ns5.umusic.com.         A	167.167.1.132
 121                     PTR	ip-192.251.67-121.usush.umusic.com.
 122                     PTR	ip-192.251.67-122.usush.umusic.com.
 123                     PTR	ip-192.251.67-123.usush.umusic.com.
-124                     PTR	dev.video.gdi.umusic.com.
-                        PTR	dev.jameyjohnson.umgnashville.com.
-                        PTR	dev.10yearsmusic.umrg.com.
-                        PTR	dev-mlm.umusic.com.
+124                     PTR	dev-mlm.umusic.com.
+                        PTR	dev.jonasbrothers.umusic.ca.
                         PTR	dev.2pistols.com.
-                        PTR	dev.motown50.com.
-                        PTR	auction.universalstudios.com.
-                        PTR	dev.wearestereos.umusic.ca.
                         PTR	dev.syndication.gdi.umusic.com.
+                        PTR	dev.2pistols.umrg.com.
+                        PTR	dev-umm.umusic.com.
+                        PTR	dev.bet-e.umusic.ca.
+                        PTR	dev.10yearsmusic.umrg.com.
+                        PTR	auction.universalstudios.com.
+                        PTR	dc-test.igadev.com.
+                        PTR	dev.wearestereos.umusic.ca.
+                        PTR	dev.jameyjohnson.umgnashville.com.
+                        PTR	dev.video.gdi.umusic.com.
+                        PTR	dev.ashesdivide.idjmg.com.
+                        PTR	artistdev2.umgnashville.com.
+                        PTR	dev.10yearsmusic.com.
+                        PTR	dev.motown50.com.
+                        PTR	artistdev1.umgnashville.com.
                         PTR	dev.wyrevolucion.com.
                         PTR	dev-iga.umusic.com.
-                        PTR	dev.kerli.idjmg.com.
-                        PTR	artistdev2.umgnashville.com.
-                        PTR	artistdev1.umgnashville.com.
-                        PTR	dev.ashesdivide.idjmg.com.
-                        PTR	dev.bet-e.umusic.ca.
-                        PTR	dc-test.igadev.com.
-                        PTR	dev.jonasbrothers.umusic.ca.
-                        PTR	dev.10yearsmusic.com.
-                        PTR	dev-umm.umusic.com.
-                        PTR	dev.hayescarll.lost-highway.com.
-                        PTR	dev.2pistols.umrg.com.
                         PTR	dev.universalsm.com.
+                        PTR	dev.hayescarll.lost-highway.com.
+                        PTR	dev.kerli.idjmg.com.
 125                     PTR	ip-192.251.67-125.usush.umusic.com.
 126                     PTR	ip-192.251.67-126.usush.umusic.com.
 127                     PTR	ip-192.251.67-127.usush.umusic.com.
@@ -288,13 +286,7 @@ ns5.umusic.com.         A	167.167.1.132
 141                     PTR	ip-192.251.67-141.usush.umusic.com.
 142                     PTR	ip-192.251.67-142.usush.umusic.com.
 143                     PTR	ip-192.251.67-143.usush.umusic.com.
-144                     PTR	braziliangirls.info.
-                        PTR	ronantynan.net.
-                        PTR	mellencampecard.com.
-                        PTR	nirvanabox.com.
-                        PTR	www.impulserecords.com.
-                        PTR	classic.motown.com.
-                        PTR	susan-tedeschi.com.
+144                     PTR	susan-tedeschi.com.
                         PTR	sliverbestofthebox.com.
                         PTR	silverbestofthebox.com.
                         PTR	classicclower.com.
@@ -303,33 +295,39 @@ ns5.umusic.com.         A	167.167.1.132
                         PTR	voteverve.com.
                         PTR	motownremixed.com.
                         PTR	vervevault.com.
+                        PTR	braziliangirls.info.
+                        PTR	ronantynan.net.
+                        PTR	mellencampecard.com.
+                        PTR	nirvanabox.com.
+                        PTR	www.impulserecords.com.
+                        PTR	classic.motown.com.
 145                     PTR	ip-192.251.67-145.usush.umusic.com.
 146                     PTR	ip-192.251.67-146.usush.umusic.com.
-147                     PTR	dev.shaggy.gffn.com.
+147                     PTR	dev.slimthug.gffn.com.
+                        PTR	dev2.ashleesimpson.gffn.com.
+                        PTR	dev-forums.floetry.gffn.com.
+                        PTR	dev.shaggy.gffn.com.
+                        PTR	dev.fadeyou.gffn.com.
+                        PTR	dev.curiosafestival.gffn.com.
+                        PTR	dev3.common.gffn.com.
                         PTR	dev.finch.gffn.com.
                         PTR	dev.lbz.gffn.com.
-                        PTR	dev.curiosafestival.gffn.com.
                         PTR	dev.like.gffn.com.
-                        PTR	dev.fieldmob.gffn.com.
                         PTR	dev2.finch.gffn.com.
-                        PTR	dev.madagascar.gffn.com.
-                        PTR	dev.inc.gffn.com.
+                        PTR	dev.fieldmob.gffn.com.
                         PTR	dev.lifehouse.gffn.com.
+                        PTR	dev.madagascar.gffn.com.
                         PTR	gffn.com.
+                        PTR	dev.inc.gffn.com.
                         PTR	dev.barefoot.gffn.com.
                         PTR	dev.curiousafestival.gffn.com.
-                        PTR	dev.slimthug.gffn.com.
-                        PTR	dev-forums.floetry.gffn.com.
-                        PTR	dev2.ashleesimpson.gffn.com.
-                        PTR	dev.fadeyou.gffn.com.
-                        PTR	dev3.common.gffn.com.
 148                     PTR	ip-192.251.67-148.usush.umusic.com.
 149                     PTR	ip-192.251.67-149.usush.umusic.com.
 15                      PTR	usushssap40.umusic.com.
-150                     PTR	iclassics.com.
-                        PTR	ip-192.251.67-150.usush.umusic.com.
-                        PTR	dgondvd.com.
+150                     PTR	dgondvd.com.
                         PTR	spamalotmusic.com.
+                        PTR	iclassics.com.
+                        PTR	ip-192.251.67-150.usush.umusic.com.
 151                     PTR	ip-192.251.67-151.usush.umusic.com.
 152                     PTR	ip-192.251.67-152.usush.umusic.com.
 153                     PTR	ip-192.251.67-153.usush.umusic.com.
@@ -344,35 +342,34 @@ ns5.umusic.com.         A	167.167.1.132
 161                     PTR	ip-192.251.67-161.usush.umusic.com.
 162                     PTR	www4.mca.com.
 163                     PTR	www5.mca.com.
-164                     PTR	geffenrecords.com.
+164                     PTR	www1.mca.com.
+                        PTR	geffenrecords.com.
                         PTR	geffen.com.
-                        PTR	www1.mca.com.
 165                     PTR	ip-192.251.67-165.usush.umusic.com.
-166                     PTR	netreach.biz.
-                        PTR	universalsm.com.
-                        PTR	jameyjohnson.umgnashville.com.
-                        PTR	hayescarll.lost-highway.com.
-                        PTR	syndication.gdi.umusic.com.
-                        PTR	usucpwsiis011.usush.umusic.com.
-                        PTR	jameyincolor.com.
-                        PTR	davidnail.umgnashville.com.
-                        PTR	wyrevolution.com.
-                        PTR	prod.deccabroadway.com.
-                        PTR	donomarmusic.net.
+166                     PTR	wyrevolution.com.
                         PTR	prod.wyrevolucion.com.
-                        PTR	stingareemusicfestival.com.
-                        PTR	luisfonsi.com.
-                        PTR	deanmartin.com.
-                        PTR	ip-192.251.67-166.usush.umusic.com.
                         PTR	prod.deanmartin.ilovethatsong.com.
                         PTR	wyrevolucion.com.
+                        PTR	luisfonsi.com.
+                        PTR	jameyincolor.com.
+                        PTR	prod.deccabroadway.com.
+                        PTR	netreach.biz.
+                        PTR	stingareemusicfestival.com.
+                        PTR	universalsm.com.
                         PTR	universal.com.mx.
-                        PTR	prod.universalmusicclassical.com.
                         PTR	motown50.com.
+                        PTR	donomarmusic.net.
+                        PTR	ip-192.251.67-166.usush.umusic.com.
+                        PTR	hayescarll.lost-highway.com.
+                        PTR	syndication.gdi.umusic.com.
+                        PTR	deanmartin.com.
+                        PTR	usucpwsiis011.usush.umusic.com.
+                        PTR	prod.universalmusicclassical.com.
+                        PTR	jameyjohnson.umgnashville.com.
 167                     PTR	ip-192.251.67-167.usush.umusic.com.
 168                     PTR	ip-192.251.67-168.usush.umusic.com.
-169                     PTR	makebelieve.weezer.com.
-                        PTR	ip-192.251.67-169.usush.umusic.com.
+169                     PTR	ip-192.251.67-169.usush.umusic.com.
+                        PTR	makebelieve.weezer.com.
 17                      PTR	real.universalstudios.com.
 170                     PTR	mail.gffn.com.
 171                     PTR	www.universalpictures.com.
@@ -384,35 +381,35 @@ ns5.umusic.com.         A	167.167.1.132
 177                     PTR	ip-192.251.67-177.usush.umusic.com.
 178                     PTR	search.universalstudios.com.
 179                     PTR	render.umvd.com.
-18                      PTR	ip-192.251.67-18.usush.umusic.com.
-                        PTR	umgdfastrac.com.
+18                      PTR	umgdfastrac.com.
+                        PTR	ip-192.251.67-18.usush.umusic.com.
 180                     PTR	ip-192.251.67-180.usush.umusic.com.
 181                     PTR	globalnav.universalstudios.com.
 182                     PTR	ip-192.251.67-182.usush.umusic.com.
 183                     PTR	paparoach.com.
-                        PTR	familyguyliveinlasvegas.com.
-                        PTR	rufuswainwright.net.
                         PTR	lbz.gffn.com.
                         PTR	familyguysoundtrack.com.
                         PTR	familyguyalbum.com.
-                        PTR	finch.gffn.com.
                         PTR	common-be.com.
-                        PTR	rufuswainwright.com.
                         PTR	finch.mcarecords.com.
-                        PTR	common-music.com.
+                        PTR	finch.gffn.com.
+                        PTR	rufuswainwright.com.
                         PTR	common.mcarecords.com.
+                        PTR	common-music.com.
                         PTR	finchmusic.com.
                         PTR	familyguyrecord.com.
-                        PTR	familyguyliveinvegas.com.
+                        PTR	familyguyliveinlasvegas.com.
                         PTR	ip-192.251.67-183.usush.umusic.com.
+                        PTR	rufuswainwright.net.
+                        PTR	familyguyliveinvegas.com.
 184                     PTR	www7.mca.com.
 185                     PTR	ip-192.251.67-185.usush.umusic.com.
 186                     PTR	ip-192.251.67-186.usush.umusic.com.
 187                     PTR	ip-192.251.67-187.usush.umusic.com.
 188                     PTR	ip-192.251.67-188.usush.umusic.com.
 189                     PTR	www8.mca.com.
-19                      PTR	rmstraining.amer.umusic.net.
-                        PTR	ip-192.251.67-19.usush.umusic.com.
+19                      PTR	ip-192.251.67-19.usush.umusic.com.
+                        PTR	rmstraining.amer.umusic.net.
 190                     PTR	ip-192.251.67-190.usush.umusic.com.
 191                     PTR	ip-192.251.67-191.usush.umusic.com.
 192                     PTR	mail.usucp.umusic.com.
@@ -458,8 +455,8 @@ ns5.umusic.com.         A	167.167.1.132
 227                     PTR	ip-192.251.67-227.usush.umusic.com.
 228                     PTR	ip-192.251.67-228.usush.umusic.com.
 229                     PTR	ip-192.251.67-229.usush.umusic.com.
-23                      PTR	www.mcarecords.com.
-                        PTR	microgroove.gffn.com.
+23                      PTR	microgroove.gffn.com.
+                        PTR	www.mcarecords.com.
 230                     PTR	ip-192.251.67-230.usush.umusic.com.
 231                     PTR	usushntex90.usush.umusic.com.
 232                     PTR	ip-192.251.67-232.usush.umusic.com.
@@ -469,37 +466,37 @@ ns5.umusic.com.         A	167.167.1.132
 236                     PTR	ip-192.251.67-236.usush.umusic.com.
 237                     PTR	ip-192.251.67-237.usush.umusic.com.
 238                     PTR	ip-192.251.67-238.usush.umusic.com.
-239                     PTR	asksnoop.com.
-                        PTR	gffn.com.
-                        PTR	thecure.com.
+239                     PTR	thecure.com.
                         PTR	snoopdogg.com.
                         PTR	ashleesimpsonmusic.com.
+                        PTR	asksnoop.com.
+                        PTR	gffn.com.
 24                      PTR	ip-192.251.67-24.usush.umusic.com.
 240                     PTR	midtown.mcarecords.com.
 241                     PTR	ip-192.251.67-241.usush.umusic.com.
 242                     PTR	ip-192.251.67-242.usush.umusic.com.
 243                     PTR	ip-192.251.67-243.usush.umusic.com.
-244                     PTR	test.universal-mastering.com.
+244                     PTR	dev.hip-oselect.com.
+                        PTR	test.universal-mastering.com.
+                        PTR	forums-test.braziliangirls.info.
+                        PTR	test.donavonf.lost-highway.com.
                         PTR	dev-tapws.umusic.com.
+                        PTR	umgpress.test.umusic.com.
+                        PTR	umgn.test.umusic.com.
+                        PTR	lh.test.umusic.com.
+                        PTR	test.soul70stv.com.
+                        PTR	mcan.test.umusic.com.
+                        PTR	dwn.test.umusic.com.
+                        PTR	test.billycurrington.com.
+                        PTR	test.umrg.net.
+                        PTR	test.luisfonsi.com.
                         PTR	test.hanna-mceuen.com.
                         PTR	test-webmod.umrg.com.
-                        PTR	ip-192.251.67-244.usush.umusic.com.
-                        PTR	umgn.test.umusic.com.
-                        PTR	test-sdc.umusic.com.
                         PTR	mercn.test.umusic.com.
-                        PTR	test.soul70stv.com.
                         PTR	test.bangkok5music.com.
-                        PTR	test.billycurrington.com.
-                        PTR	umgpress.test.umusic.com.
-                        PTR	test.luisfonsi.com.
-                        PTR	test.donavonf.lost-highway.com.
-                        PTR	dwn.test.umusic.com.
                         PTR	test.cal.umrg.com.
-                        PTR	dev.hip-oselect.com.
-                        PTR	test.umrg.net.
-                        PTR	mcan.test.umusic.com.
-                        PTR	forums-test.braziliangirls.info.
-                        PTR	lh.test.umusic.com.
+                        PTR	test-sdc.umusic.com.
+                        PTR	ip-192.251.67-244.usush.umusic.com.
 245                     PTR	ip-192.251.67-245.usush.umusic.com.
 246                     PTR	ip-192.251.67-246.usush.umusic.com.
 247                     PTR	ip-192.251.67-247.usush.umusic.com.
@@ -507,129 +504,129 @@ ns5.umusic.com.         A	167.167.1.132
 249                     PTR	ip-192.251.67-249.usush.umusic.com.
 25                      PTR	ip-192.251.67-25.usush.umusic.com.
 250                     PTR	ip-192.251.67-250.usush.umusic.com.
-251                     PTR	ip-192.251.67-251.usush.umusic.com.
-                        PTR	boxcarracer.gffn.com.
-                        PTR	assets.geffen.com.
-                        PTR	mosdefmusic.com.
-                        PTR	prod.snoopdogg.geffen.com.
-                        PTR	ringside.gffn.com.
-                        PTR	prod.cure.geffen.com.
-                        PTR	prod.common.geffen.com.
-                        PTR	riseagainst.com.
-                        PTR	prod.ashleesimpson.geffen.com.
-                        PTR	snoopdogg.gffn.com.
-                        PTR	puddleofmudd.gffn.com.
-                        PTR	lifehouse.gffn.com.
-                        PTR	marytv.com.
-                        PTR	driveblindmusic.com.
-                        PTR	chrisjames.gffn.com.
-                        PTR	chrisjamesmusic.com.
-                        PTR	enriqueiglesias.gffn.com.
-                        PTR	slumberpartygirlsmusic.com.
-                        PTR	chrisaugustmusic.com.
-                        PTR	geffen.gffn.com.
-                        PTR	missez.gffn.com.
-                        PTR	prod.blockparty.geffen.com.
-                        PTR	weezer.com.
-                        PTR	nellyfurtado.gffn.com.
-                        PTR	mattwhitemusic.com.
-                        PTR	jibbsmusic.com.
-                        PTR	ashleesimpson.gffn.com.
-                        PTR	joanna-music.com.
-                        PTR	mjblige.gffn.com.
-                        PTR	prod.chrisjames.geffen.com.
-                        PTR	rufuswainwright.gffn.com.
-                        PTR	like.gffn.com.
-                        PTR	weezer.gffn.com.
-                        PTR	floetry.gffn.com.
-                        PTR	boxcarracer.com.
+251                     PTR	robzombie.gffn.com.
+                        PTR	robzombie.com.
                         PTR	trevorhallmusic.com.
-                        PTR	lifehousemusic.com.
-                        PTR	cure.gffn.com.
-                        PTR	torikelly.gffn.com.
-                        PTR	angelsandairwaves.com.
+                        PTR	rooney-band.com.
+                        PTR	limpbizkit.gffn.com.
                         PTR	prod.alexband.geffen.com.
-                        PTR	blacklightburns.com.
-                        PTR	pinkspiders.gffn.com.
-                        PTR	prod.snoopmobile.geffen.com.
-                        PTR	mjblige.com.
-                        PTR	angelsandairwaves.gffn.com.
-                        PTR	thepinkspiders.com.
-                        PTR	flawless-records.com.
-                        PTR	driveblind.com.
-                        PTR	prod.barefoot.geffen.com.
-                        PTR	prod.backlightburns.geffen.com.
-                        PTR	chrisglover.gffn.com.
-                        PTR	blockparty.gffn.com.
-                        PTR	rootsplayer.gffn.com.
-                        PTR	prod.blink182.geffen.com.
-                        PTR	paparoach.gffn.com.
-                        PTR	common.gffn.com.
-                        PTR	slimthug.gffn.com.
-                        PTR	shaggy.gffn.com.
-                        PTR	prod.weezer.geffen.com.
-                        PTR	barefoot.gffn.com.
-                        PTR	prod.macygray.geffen.com.
-                        PTR	mattwhite.gffn.com.
-                        PTR	trevorhall.gffn.com.
-                        PTR	headway.gffn.com.
-                        PTR	prod.angelsandairwaves.geffen.com.
-                        PTR	avant.gffn.com.
+                        PTR	prod.blockparty.geffen.com.
+                        PTR	somethingcorporate.gffn.com.
+                        PTR	weezer.com.
+                        PTR	fictionplane.gffn.com.
+                        PTR	puddleofmudd.gffn.com.
+                        PTR	snoopdogg.gffn.com.
                         PTR	flawless.gffn.com.
-                        PTR	sigurrosplayer.gffn.com.
-                        PTR	prod.chrisglover.geffen.com.
+                        PTR	rawkus.gffn.com.
+                        PTR	chrisaugustmusic.com.
+                        PTR	driveblindmusic.com.
+                        PTR	prod.weezer.geffen.com.
+                        PTR	assets.geffen.com.
+                        PTR	prod.blink182.geffen.com.
+                        PTR	rooney.gffn.com.
+                        PTR	boxcarracer.gffn.com.
+                        PTR	gnronline.com.
+                        PTR	prod.snoopdogg.geffen.com.
+                        PTR	prod.barefoot.geffen.com.
+                        PTR	shewantsrevenge.gffn.com.
+                        PTR	mattwhitemusic.com.
+                        PTR	prod.snoopmobile.geffen.com.
+                        PTR	enriqueiglesias.gffn.com.
+                        PTR	blockparty.gffn.com.
+                        PTR	mjblige.com.
+                        PTR	fieldmob.gffn.com.
+                        PTR	like.gffn.com.
+                        PTR	mattwhite.gffn.com.
+                        PTR	chrisjames.gffn.com.
+                        PTR	lifehousemusic.com.
+                        PTR	common.gffn.com.
+                        PTR	prod.cure.geffen.com.
+                        PTR	floetry.gffn.com.
+                        PTR	pinkspiders.gffn.com.
+                        PTR	chrisjamesmusic.com.
                         PTR	gunsandroses.gffn.com.
+                        PTR	boxcarracer.com.
+                        PTR	torikelly.gffn.com.
+                        PTR	driveblind.gffn.com.
+                        PTR	slimthug.gffn.com.
+                        PTR	prod.chrisjames.geffen.com.
+                        PTR	blacklightburns.gffn.com.
+                        PTR	riseagainst.gffn.com.
+                        PTR	shaggy.gffn.com.
+                        PTR	thepinkspiders.com.
+                        PTR	cure.gffn.com.
+                        PTR	prod.backlightburns.geffen.com.
+                        PTR	barefoot.gffn.com.
+                        PTR	joanna-music.com.
+                        PTR	rootsplayer.gffn.com.
+                        PTR	mjblige.gffn.com.
+                        PTR	prod.boxcarracer.geffen.com.
+                        PTR	angelsandairwaves.gffn.com.
+                        PTR	driveblind.com.
+                        PTR	prod.ashleesimpson.geffen.com.
+                        PTR	flawless-records.com.
+                        PTR	sigurrosplayer.gffn.com.
                         PTR	resmusic.com.
                         PTR	portal.gffn.com.
-                        PTR	robzombie.gffn.com.
-                        PTR	prod.avant.geffen.com.
-                        PTR	rooney.gffn.com.
-                        PTR	rawkus.gffn.com.
-                        PTR	robzombie.com.
-                        PTR	shewantsrevenge.gffn.com.
-                        PTR	rooney-band.com.
-                        PTR	somethingcorporate.gffn.com.
-                        PTR	fieldmob.gffn.com.
-                        PTR	prod.mosdef.geffen.com.
-                        PTR	gnronline.com.
-                        PTR	blacklightburns.gffn.com.
+                        PTR	mosdefmusic.com.
+                        PTR	paparoach.gffn.com.
                         PTR	floetry.net.
-                        PTR	fictionplane.co.uk.
                         PTR	macygray.com.
-                        PTR	res.gffn.com.
-                        PTR	riseagainst.gffn.com.
-                        PTR	fictionplane.gffn.com.
+                        PTR	missez.gffn.com.
+                        PTR	marytv.com.
+                        PTR	jibbsmusic.com.
+                        PTR	blacklightburns.com.
+                        PTR	avant.gffn.com.
+                        PTR	nellyfurtado.gffn.com.
                         PTR	mjbtv.com.
-                        PTR	limpbizkit.gffn.com.
-                        PTR	prod.boxcarracer.geffen.com.
-                        PTR	driveblind.gffn.com.
+                        PTR	rufuswainwright.gffn.com.
+                        PTR	chrisglover.gffn.com.
+                        PTR	geffen.gffn.com.
+                        PTR	prod.angelsandairwaves.geffen.com.
+                        PTR	trevorhall.gffn.com.
+                        PTR	fictionplane.co.uk.
+                        PTR	prod.common.geffen.com.
+                        PTR	headway.gffn.com.
+                        PTR	prod.mosdef.geffen.com.
+                        PTR	weezer.gffn.com.
+                        PTR	lifehouse.gffn.com.
+                        PTR	riseagainst.com.
+                        PTR	prod.macygray.geffen.com.
+                        PTR	res.gffn.com.
+                        PTR	ringside.gffn.com.
+                        PTR	angelsandairwaves.com.
+                        PTR	ip-192.251.67-251.usush.umusic.com.
+                        PTR	slumberpartygirlsmusic.com.
+                        PTR	prod.avant.geffen.com.
+                        PTR	prod.chrisglover.geffen.com.
+                        PTR	ashleesimpson.gffn.com.
 252                     PTR	ip-192.251.67-252.usush.umusic.com.
 253                     PTR	ip-192.251.67-253.usush.umusic.com.
 254                     PTR	usintex35lax.usush.umusic.com.
 255                     PTR	ip-192-251-67-255.usush.umusic.com.
 26                      PTR	ip-192.251.67-26.usush.umusic.com.
-27                      PTR	slimthugthaboss.com.
-                        PTR	barefoot-band.com.
+27                      PTR	barefoot-band.com.
+                        PTR	startinglinerock.com.
+                        PTR	spartamusic.com.
                         PTR	ringsideband.com.
-                        PTR	inc.gffn.com.
-                        PTR	madagascar.gffn.com.
+                        PTR	ringsideweb.com.
                         PTR	ringsidethemusic.com.
-                        PTR	ilikethelike.com.
-                        PTR	manicband.net.
                         PTR	curiousafestival.gffn.com.
                         PTR	fadeyou.gffn.com.
-                        PTR	ringsideweb.com.
-                        PTR	curiosafestival.gffn.com.
-                        PTR	spartamusic.com.
-                        PTR	alienantfarm.com.
-                        PTR	riseagainst.com.
-                        PTR	startinglinerock.com.
-                        PTR	sharktalesoundtrack.com.
-                        PTR	thelike.net.
                         PTR	madagascarsoundtrack.com.
+                        PTR	curiosafestival.gffn.com.
+                        PTR	slimthugthaboss.com.
+                        PTR	madagascar.gffn.com.
+                        PTR	alienantfarm.com.
+                        PTR	inc.gffn.com.
+                        PTR	riseagainst.com.
+                        PTR	manicband.net.
                         PTR	fadeyousinkingstars.com.
-                        PTR	sigurros.gffn.com.
                         PTR	curiosafestival.com.
+                        PTR	ilikethelike.com.
+                        PTR	sharktalesoundtrack.com.
+                        PTR	sigurros.gffn.com.
+                        PTR	thelike.net.
                         PTR	gffn.com.
 28                      PTR	ip-192.251.67-28.usush.umusic.com.
 29                      PTR	gffn.com.
@@ -641,82 +638,82 @@ ns5.umusic.com.         A	167.167.1.132
                         PTR	kciandjojo.com.
 32                      PTR	ip-192.251.67-32.usush.umusic.com.
 33                      PTR	ip-192.251.67-33.usush.umusic.com.
-34                      PTR	rhettmiller.com.
-                        PTR	luisfonzi.com.
-                        PTR	universalstars.umusic.com.
-                        PTR	umvdvisualentertainment.com.
-                        PTR	southeast.umusic.com.
-                        PTR	forum-christian.universalmusica.com.
-                        PTR	umedig.com.
-                        PTR	prod.susantedeschi.com.
-                        PTR	universalmusicgroupdistribution.net.
-                        PTR	forums-nodoubt.umusic.com.
-                        PTR	temptationsreflections.com.
-                        PTR	boards.floetry.net.
-                        PTR	musichelponline.com.
-                        PTR	uchoose.umusic.com.
-                        PTR	guillemotsarehatching.com.
-                        PTR	universal-mastering.com.
-                        PTR	80sgoldtv.com.
+34                      PTR	gffn.com.
+                        PTR	soundoffdallas.umusic.com.
                         PTR	dcregion.umusic.com.
-                        PTR	skynyrdrules.com.
-                        PTR	farmclub.com.
-                        PTR	vault.ilovethatsong.com.
-                        PTR	prod.universal-mastering.com.
-                        PTR	fontanadistribution.com.
-                        PTR	snotalive.com.
-                        PTR	soul70stv.com.
-                        PTR	universalmusicgroupdistribution.com.
-                        PTR	gwenandben.umgdb2b.com.
-                        PTR	downloads.umusic.com.
-                        PTR	theitaliancd.com.
-                        PTR	universalmusicgroupdistribution.org.
-                        PTR	susantedeschi.com.
-                        PTR	newmusic.umusic.com.
                         PTR	elviscostello.com.
                         PTR	rocknespanol.com.
-                        PTR	qdoba.umusic.com.
-                        PTR	umvdchicago.umusic.com.
-                        PTR	ilovethatsong.com.
-                        PTR	jodecimusic.com.
+                        PTR	vault.ilovethatsong.com.
                         PTR	prod.musichelponline.com.
-                        PTR	cafetacuba.umusic.com.
-                        PTR	akwid.umusic.com.
-                        PTR	prod.umeportal.com.
-                        PTR	umeportal.com.
-                        PTR	amazon.umgdb2b.com.
+                        PTR	soul70stv.com.
                         PTR	willdowning.com.
+                        PTR	akwid.umusic.com.
+                        PTR	cafetacuba.umusic.com.
+                        PTR	temptationsreflections.com.
+                        PTR	minnyuniverse.umusic.com.
+                        PTR	deccaworldmusic.com.
+                        PTR	newmusic.umusic.com.
+                        PTR	fontanadistribution.com.
+                        PTR	snotalive.com.
+                        PTR	voteforkeane.com.
+                        PTR	qdoba.umusic.com.
+                        PTR	bossnupdvd.com.
+                        PTR	skynyrdrules.com.
+                        PTR	universalmusicgroupdistribution.com.
+                        PTR	rhettmiller.com.
+                        PTR	jodecimusic.com.
+                        PTR	gwenandben.umgdb2b.com.
+                        PTR	vivendivisualentertainment.com.
+                        PTR	theitaliancd.com.
+                        PTR	ilovethatsong.com.
+                        PTR	universalstars.umusic.com.
+                        PTR	vivendivisualent.com.
+                        PTR	universalmusicchristiangroup.com.
+                        PTR	beegeeslove.com.
+                        PTR	seattlereigns.umusic.com.
+                        PTR	tennesseethefilm.com.
+                        PTR	amcfreetunes.umusic.com.
+                        PTR	listen2music.umusic.com.
+                        PTR	downloads.umusic.com.
+                        PTR	umedig.com.
+                        PTR	universalmusicgroupdistribution.net.
+                        PTR	prod.universal-mastering.com.
+                        PTR	umeportal.com.
+                        PTR	musichelponline.com.
+                        PTR	universalmusicchristian.com.
+                        PTR	prod.umeportal.com.
+                        PTR	twentiethcenturymasters.com.
+                        PTR	umvdvisualentertainment.com.
+                        PTR	susantedeschi.com.
+                        PTR	universalmusicgroupdistribution.org.
+                        PTR	forum-christian.universalmusica.com.
+                        PTR	universal-mastering.com.
+                        PTR	boards.floetry.net.
+                        PTR	southeast.umusic.com.
+                        PTR	forums-nodoubt.umusic.com.
+                        PTR	prod.willdowning.com.
+                        PTR	universalmusica.com.
+                        PTR	umvdchicago.umusic.com.
                         PTR	vivendivisualentertainment.net.
                         PTR	sfboombox.com.
-                        PTR	tennesseethefilm.com.
+                        PTR	uchoose.umusic.com.
+                        PTR	guillemotsarehatching.com.
+                        PTR	farmclub.com.
+                        PTR	luisfonzi.com.
+                        PTR	80sgoldtv.com.
                         PTR	getmusic.umusic.com.
-                        PTR	universalmusicchristiangroup.com.
-                        PTR	voteforkeane.com.
-                        PTR	gffn.com.
-                        PTR	beegeeslove.com.
-                        PTR	prod.luisfonsi.com.
-                        PTR	soundoffdallas.umusic.com.
-                        PTR	minnyuniverse.umusic.com.
-                        PTR	amcfreetunes.umusic.com.
-                        PTR	twentiethcenturymasters.com.
-                        PTR	universalmusicchristian.com.
-                        PTR	listen2music.umusic.com.
-                        PTR	bossnupdvd.com.
-                        PTR	universalmusica.com.
-                        PTR	seattlereigns.umusic.com.
+                        PTR	prod.susantedeschi.com.
                         PTR	sf.umusic.com.
-                        PTR	deccaworldmusic.com.
-                        PTR	vivendivisualentertainment.com.
-                        PTR	prod.willdowning.com.
-                        PTR	vivendivisualent.com.
+                        PTR	prod.luisfonsi.com.
+                        PTR	amazon.umgdb2b.com.
 35                      PTR	ip-192.251.67-35.usush.umusic.com.
 36                      PTR	ip-192.251.67-36.usush.umusic.com.
 37                      PTR	ip-192.251.67-27.usush.umusic.com.
 38                      PTR	shadow1.universalstudios.com.
 39                      PTR	ip-192.251.67-39.usush.umusic.com.
 4                       PTR	bigip1.universalstudios.com.
-40                      PTR	ip-192.251.67-40.usush.umusic.com.
-                        PTR	dev.lb.gffn.com.
+40                      PTR	dev.lb.gffn.com.
+                        PTR	ip-192.251.67-40.usush.umusic.com.
 41                      PTR	ip-192.251.67-41.usush.umusic.com.
 42                      PTR	ip-192.251.67-42.usush.umusic.com.
 43                      PTR	ip-192.251.67-43.usush.umusic.com.
@@ -736,9 +733,9 @@ ns5.umusic.com.         A	167.167.1.132
 56                      PTR	ip-192.251.67-56.usush.umusic.com.
 57                      PTR	usushssap03.umusic.com.
 58                      PTR	usushssap04.umusic.com.
-59                      PTR	prod-als.umusic.com.
-                        PTR	streamreg.myreg.net.
+59                      PTR	streamreg.myreg.net.
                         PTR	ip-192.251.67-59.usush.umusic.com.
+                        PTR	prod-als.umusic.com.
 6                       PTR	ip-192.251.67-6.usush.umusic.com.
 60                      PTR	ip-192.251.67-60.usush.umusic.com.
 61                      PTR	ip-192.251.67-61.usush.umusic.com.
@@ -755,50 +752,50 @@ ns5.umusic.com.         A	167.167.1.132
 7                       PTR	rmspnd.amer.umusic.net.
                         PTR	ip-192.251.67-7.usush.umusic.com.
 70                      PTR	ip-192.251.67-70.usush.umusic.com.
-71                      PTR	druhillhits.com.
-                        PTR	wintracylawrence.com.
-                        PTR	wintrishayearwood.com.
-                        PTR	latiumtour.com.
-                        PTR	motownremixedsweepstakes.com.
-                        PTR	kaiserchiefssweeps.com.
-                        PTR	defjamnumberonesweeps.com.
-                        PTR	bbkingsweeps.com.
-                        PTR	lindsaylohanconfessions.com.
-                        PTR	motowntwo.com.
-                        PTR	rootsjeepsweeps.com.
-                        PTR	winjulieroberts.com.
-                        PTR	francesthemute.com.
-                        PTR	prince3121sweeps.com.
-                        PTR	davidbannerstudio.com.
+71                      PTR	wintrishayearwood.com.
+                        PTR	wintobykeith.com.
+                        PTR	windarrylworley.com.
+                        PTR	rushdvdsweeps.com.
+                        PTR	rootssweeps.com.
+                        PTR	aafsweeps.com.
                         PTR	utadaexodus.com.
+                        PTR	francesthemute.com.
+                        PTR	terriclarkgreatesthits.com.
+                        PTR	now21sweeps.com.
+                        PTR	hendrixsweeps.com.
+                        PTR	defjamnumberonesweeps.com.
+                        PTR	rootsjeepsweeps.com.
+                        PTR	shaniatwaingreatesthits.com.
+                        PTR	birdmanfastmoney.com.
+                        PTR	rockitcontest.com.
+                        PTR	prince3121sweeps.com.
+                        PTR	kaiserchiefssweeps.net.
+                        PTR	streamreg02.myreg.net.
+                        PTR	kaiserchiefssweeps.com.
+                        PTR	motowntwo.com.
+                        PTR	lindsaylohanrumors.com.
+                        PTR	shopwithoryan.com.
+                        PTR	takeyourmama.com.
                         PTR	universaldvdsweeps.com.
                         PTR	nellygrillzsweeps.com.
-                        PTR	rootssweeps.com.
                         PTR	motownremixedsweeps.com.
-                        PTR	rushdvdsweeps.com.
-                        PTR	lindsaylohanrumors.com.
-                        PTR	hendrixsweeps.com.
-                        PTR	brielarsonshesaid.com.
-                        PTR	takeyourmama.com.
-                        PTR	now21sweeps.com.
-                        PTR	aafsweeps.com.
-                        PTR	terriclarkgreatesthits.com.
-                        PTR	rockitcontest.com.
-                        PTR	windarrylworley.com.
-                        PTR	winsugarland.com.
                         PTR	lilwaynebringitback.com.
+                        PTR	winsugarland.com.
+                        PTR	winjulieroberts.com.
+                        PTR	wintracylawrence.com.
+                        PTR	brielarsonshesaid.com.
                         PTR	answerinthesky.com.
-                        PTR	shaniatwaingreatesthits.com.
+                        PTR	lindsaylohanconfessions.com.
+                        PTR	bbkingsweeps.com.
                         PTR	nellgrillzsweeps.com.
-                        PTR	shopwithoryan.com.
-                        PTR	birdmanfastmoney.com.
-                        PTR	streamreg02.myreg.net.
-                        PTR	kaiserchiefssweeps.net.
-                        PTR	wintobykeith.com.
+                        PTR	motownremixedsweepstakes.com.
+                        PTR	druhillhits.com.
+                        PTR	latiumtour.com.
+                        PTR	davidbannerstudio.com.
 72                      PTR	ip-192.251.67-72.usush.umusic.com.
-73                      PTR	music-partsorder.com.
+73                      PTR	ip-192.251.67-73.usush.umusic.com.
+                        PTR	music-partsorder.com.
                         PTR	umpg.jp.
-                        PTR	ip-192.251.67-73.usush.umusic.com.
 74                      PTR	ip-192.251.67-74.usush.umusic.com.
 75                      PTR	ip-192.251.67-75.usush.umusic.com.
 76                      PTR	ip-192.251.67-76.usush.umusic.com.
@@ -806,63 +803,63 @@ ns5.umusic.com.         A	167.167.1.132
 78                      PTR	www3.mca.com.
 79                      PTR	ip-192.251.67-79.usush.umusic.com.
 8                       PTR	ip-192.251.67-8.usush.umusic.com.
-80                      PTR	strippersunion.ca.
-                        PTR	universalcanada.ca.
-                        PTR	blacktopguerillas.ca.
-                        PTR	jelleestone.com.
-                        PTR	afi.umusic.ca.
-                        PTR	bete-music.com.
-                        PTR	mobile.umusic.ca.
+80                      PTR	vivendient.ca.
                         PTR	podcasts.umusic.ca.
-                        PTR	bete-music.ca.
-                        PTR	falloutboy.umusic.ca.
-                        PTR	jamesbryan.ca.
-                        PTR	divinebrown.ca.
                         PTR	showyourbones.com.
-                        PTR	vivendivisualentertainment.ca.
-                        PTR	inacoma.ca.
-                        PTR	mozartdigital.iclassics.com.
-                        PTR	vivendivisual.ca.
-                        PTR	sweettrackscd.ca.
-                        PTR	wolfmother.umusic.ca.
-                        PTR	jelleestone.ca.
-                        PTR	samrobertsband.com.
-                        PTR	umcadmin.ca.
-                        PTR	themarbleindex.com.
                         PTR	glowdigital.ca.
-                        PTR	bet-umusic.ca.
-                        PTR	theoldsoul.com.
                         PTR	divinebrown.com.
-                        PTR	umusicmedia.ca.
-                        PTR	digthenewbreed.ca.
-                        PTR	jelleestone.net.
-                        PTR	jamesbryanmusic.com.
-                        PTR	bet-umusic.com.
-                        PTR	enquirer.umusic.ca.
-                        PTR	chemicalcity.ca.
-                        PTR	foreverthesickestkids.ca.
-                        PTR	ginovannelli.com.
-                        PTR	beep.umusic.ca.
-                        PTR	llcoolj.universalurban.com.
-                        PTR	vivendivisualent.ca.
+                        PTR	blacktopguerillas.ca.
                         PTR	umcroyalty.ca.
-                        PTR	rickphillips.ca.
-                        PTR	hipeponymous.com.
+                        PTR	vivendivisualent.ca.
+                        PTR	wolfmother.umusic.ca.
                         PTR	hipeponymous.ca.
-                        PTR	blacktopguerillas.com.
-                        PTR	hedleyonline.com.
-                        PTR	3121.umusic.ca.
+                        PTR	chemicalcity.ca.
+                        PTR	bet-umusic.com.
+                        PTR	foreverthesickestkids.ca.
+                        PTR	bet-umusic.ca.
+                        PTR	mobile.umusic.ca.
+                        PTR	mozartdigital.iclassics.com.
+                        PTR	llcoolj.universalurban.com.
+                        PTR	themarbleindex.com.
+                        PTR	ginovannelli.ca.
+                        PTR	umcadmin.ca.
+                        PTR	theoldsoul.com.
+                        PTR	rickphillips.ca.
                         PTR	umusicmedia.com.
                         PTR	mobiletheband.com.
-                        PTR	ginovannelli.ca.
+                        PTR	hedleyonline.com.
+                        PTR	jamesbryan.ca.
+                        PTR	3121.umusic.ca.
+                        PTR	hipeponymous.com.
+                        PTR	divinebrown.ca.
+                        PTR	universalcanada.ca.
+                        PTR	jelleestone.net.
+                        PTR	samrobertsband.com.
+                        PTR	afi.umusic.ca.
+                        PTR	falloutboy.umusic.ca.
+                        PTR	jelleestone.ca.
+                        PTR	beep.umusic.ca.
+                        PTR	bete-music.ca.
+                        PTR	digthenewbreed.ca.
+                        PTR	bete-music.com.
+                        PTR	inacoma.ca.
+                        PTR	sweettrackscd.ca.
+                        PTR	jelleestone.com.
+                        PTR	umusicmedia.ca.
                         PTR	kwanisharadio.com.
-                        PTR	vivendient.ca.
+                        PTR	ginovannelli.com.
+                        PTR	vivendivisualentertainment.ca.
+                        PTR	vivendivisual.ca.
+                        PTR	blacktopguerillas.com.
+                        PTR	jamesbryanmusic.com.
+                        PTR	strippersunion.ca.
+                        PTR	enquirer.umusic.ca.
 81                      PTR	ip-192.251.67-81.usush.umusic.com.
-82                      PTR	boards.nolimitmagic.com.
+82                      PTR	boards.3doorsdown.com.
+                        PTR	boards.godsmack.com.
+                        PTR	boards.nolimitmagic.com.
                         PTR	boards.motown.com.
                         PTR	boards.nelly.net.
-                        PTR	boards.3doorsdown.com.
-                        PTR	boards.godsmack.com.
 83                      PTR	ip-192.251.67-83.usush.umusic.com.
 84                      PTR	www9.mca.com.
 85                      PTR	ip-192.251.67-85.usush.umusic.com.
@@ -872,96 +869,96 @@ ns5.umusic.com.         A	167.167.1.132
 89                      PTR	ip-192.251.67-89.usush.umusic.com.
 9                       PTR	gate.universalstudios.com.
 90                      PTR	www15.mca.com.
-91                      PTR	www01.gffn.com.
-                        PTR	shaggyonline.gffn.com.
+91                      PTR	shaggyonline.gffn.com.
                         PTR	www16.mca.com.
-92                      PTR	ip-192.251.67-92.usush.umusic.com.
-                        PTR	www02.gffn.com.
-93                      PTR	ip-192.251.67-93.usush.umusic.com.
-                        PTR	dev.gracenote.umusic.com.
+                        PTR	www01.gffn.com.
+92                      PTR	www02.gffn.com.
+                        PTR	ip-192.251.67-92.usush.umusic.com.
+93                      PTR	dev.gracenote.umusic.com.
                         PTR	dev.vevo.umusic.com.
-94                      PTR	test.offwiththeirheads.umrg.com.
+                        PTR	ip-192.251.67-93.usush.umusic.com.
+94                      PTR	ip-192.251.67-94.usush.umusic.com.
+                        PTR	test.2pistols.com.
+                        PTR	test.offwiththeirheads.umrg.com.
                         PTR	test.10yearsmusic.com.
                         PTR	test.10yearsmusic.umrg.com.
                         PTR	test.2pistols.umrg.com.
-                        PTR	ip-192.251.67-94.usush.umusic.com.
-                        PTR	test.2pistols.com.
-95                      PTR	barefoot.geffen.com.
-                        PTR	sdk.trevorhall.gffn.com.
-                        PTR	sdk.common.gffn.com.
-                        PTR	sdk.mattwhite.gffn.com.
-                        PTR	sdk.slimthug.gffn.com.
-                        PTR	avant.geffen.com.
-                        PTR	sdk.like.gffn.com.
-                        PTR	cure.geffen.com.
-                        PTR	sdk.chrisjames.gffn.com.
-                        PTR	sdk.ashleesimpson.gffn.com.
-                        PTR	sdk.chrisglover.gffn.com.
-                        PTR	sdk.somethingcorporate.gffn.com.
-                        PTR	sdk.sigurrosplayer.gffn.com.
-                        PTR	sdk.floetry.gffn.com.
-                        PTR	sdk.cure.gffn.com.
-                        PTR	sdk.weezer.gffn.com.
-                        PTR	sdk.torikelly.gffn.com.
-                        PTR	sdk.rufuswainwright.gffn.com.
-                        PTR	sdk.blacklightburns.gffn.com.
-                        PTR	sdk.pinkspiders.gffn.com.
-                        PTR	sdk.missez.gffn.com.
-                        PTR	sdk.avant.gffn.com.
-                        PTR	boxcarracer.geffen.com.
-                        PTR	sdk.limpbizkit.gffn.com.
-                        PTR	sdk.fieldmob.gffn.com.
-                        PTR	ip-192.251.67-95.usush.umusic.com.
-                        PTR	snoopdogg.geffen.com.
-                        PTR	sdk.rawkus.gffn.com.
-                        PTR	sdk.snoopdogg.gffn.com.
-                        PTR	sdk.flawlessrecords.gffn.com.
-                        PTR	sdk.headway.gffn.com.
-                        PTR	sdk.shewantsrevenge.gffn.com.
-                        PTR	weezer.geffen.com.
-                        PTR	common.geffen.com.
-                        PTR	sdk.artist.gffn.com.
-                        PTR	sdk.rootsplayer.gffn.com.
-                        PTR	sdk.enriqueiglesias.gffn.com.
-                        PTR	blink182.geffen.com.
-                        PTR	butterflyboucher.geffen.com.
-                        PTR	sdk.puddleofmudd.gffn.com.
-                        PTR	sdk.barefoot.gffn.com.
-                        PTR	sdk.flawless.gffn.com.
-                        PTR	sdk.lifehouse.gffn.com.
-                        PTR	sdk.gunsandroses.gffn.com.
-                        PTR	chrisglover.geffen.com.
-                        PTR	sdk.paparoach.gffn.com.
-                        PTR	sdk.riseagainst.gffn.com.
-                        PTR	sdk.mjblige.gffn.com.
-                        PTR	chrisjames.geffen.com.
-                        PTR	sdk.nellyfurtado.gffn.com.
-                        PTR	dev.proto.interscope.com.
-                        PTR	sdk.driveblind.gffn.com.
-                        PTR	alexband.geffen.com.
-                        PTR	sdk.robzombie.gffn.com.
+95                      PTR	sdk.robzombie.gffn.com.
                         PTR	ashleesimpson.geffen.com.
-                        PTR	backlightburns.geffen.com.
-                        PTR	angelsandairwaves.geffen.com.
+                        PTR	sdk.driveblind.gffn.com.
+                        PTR	sdk.riseagainst.gffn.com.
+                        PTR	sdk.weezer.gffn.com.
+                        PTR	sdk.avant.gffn.com.
+                        PTR	sdk.rooney.gffn.com.
                         PTR	sdk.res.gffn.com.
+                        PTR	backlightburns.geffen.com.
+                        PTR	sdk.artist.gffn.com.
+                        PTR	sdk.geffen.gffn.com.
+                        PTR	sdk.headway.gffn.com.
+                        PTR	macygray.geffen.com.
+                        PTR	chrisglover.geffen.com.
+                        PTR	sdk.somethingcorporate.gffn.com.
+                        PTR	sdk.chrisglover.gffn.com.
+                        PTR	sdk.flawlessrecords.gffn.com.
+                        PTR	sdk.barefoot.gffn.com.
+                        PTR	sdk.mjblige.gffn.com.
+                        PTR	weezer.geffen.com.
+                        PTR	sdk.floetry.gffn.com.
+                        PTR	sdk.like.gffn.com.
+                        PTR	wiki.gffn.com.
+                        PTR	sdk.mattwhite.gffn.com.
+                        PTR	common.geffen.com.
+                        PTR	sdk.ringside.gffn.com.
+                        PTR	sdk.puddleofmudd.gffn.com.
+                        PTR	sdk.enriqueiglesias.gffn.com.
+                        PTR	dev.proto.interscope.com.
+                        PTR	dev.assets.geffen.com.
+                        PTR	sdk.rawkus.gffn.com.
+                        PTR	sdk.ashleesimpson.gffn.com.
+                        PTR	sdk.boxcarracer.gffn.com.
+                        PTR	jibbs.geffen.com.
+                        PTR	sdk.slimthug.gffn.com.
+                        PTR	sdk.shaggy.gffn.com.
+                        PTR	sdk.portal.gffn.com.
+                        PTR	sdk.gunsandroses.gffn.com.
+                        PTR	chrisjames.geffen.com.
+                        PTR	sdk.chrisjames.gffn.com.
+                        PTR	boxcarracer.geffen.com.
+                        PTR	sdk.sigurrosplayer.gffn.com.
+                        PTR	sdk.common.gffn.com.
+                        PTR	sdk.rootsplayer.gffn.com.
+                        PTR	sdk.trevorhall.gffn.com.
+                        PTR	sdk.missez.gffn.com.
+                        PTR	snoopdogg.geffen.com.
+                        PTR	sdk.nellyfurtado.gffn.com.
+                        PTR	cure.geffen.com.
                         PTR	sdk.newfoundglory.gffn.com.
                         PTR	sdk.blockparty.gffn.com.
-                        PTR	dev.assets.geffen.com.
-                        PTR	sdk.rooney.gffn.com.
-                        PTR	sdk.ringside.gffn.com.
-                        PTR	sdk.boxcarracer.gffn.com.
-                        PTR	mosdef.geffen.com.
-                        PTR	sdk.geffen.gffn.com.
-                        PTR	macygray.geffen.com.
-                        PTR	sdk.angelsandairwaves.gffn.com.
+                        PTR	sdk.cure.gffn.com.
+                        PTR	sdk.shewantsrevenge.gffn.com.
+                        PTR	sdk.paparoach.gffn.com.
                         PTR	blockparty.geffen.com.
-                        PTR	jibbs.geffen.com.
+                        PTR	avant.geffen.com.
+                        PTR	blink182.geffen.com.
+                        PTR	barefoot.geffen.com.
+                        PTR	alexband.geffen.com.
+                        PTR	butterflyboucher.geffen.com.
+                        PTR	mosdef.geffen.com.
+                        PTR	sdk.snoopdogg.gffn.com.
+                        PTR	sdk.blacklightburns.gffn.com.
+                        PTR	angelsandairwaves.geffen.com.
+                        PTR	sdk.angelsandairwaves.gffn.com.
+                        PTR	sdk.flawless.gffn.com.
+                        PTR	sdk.rufuswainwright.gffn.com.
+                        PTR	sdk.fieldmob.gffn.com.
+                        PTR	ip-192.251.67-95.usush.umusic.com.
+                        PTR	sdk.lifehouse.gffn.com.
+                        PTR	sdk.limpbizkit.gffn.com.
                         PTR	sdk.fictionplane.gffn.com.
-                        PTR	sdk.shaggy.gffn.com.
-                        PTR	wiki.gffn.com.
-                        PTR	sdk.portal.gffn.com.
+                        PTR	sdk.torikelly.gffn.com.
+                        PTR	sdk.pinkspiders.gffn.com.
 96                      PTR	bigip11.universalstudios.com.
 97                      PTR	bigip12.universalstudios.com.
 98                      PTR	ip-192.251.67-98.usush.umusic.com.
 99                      PTR	ip-192.251.67-99.usush.umusic.com.
-www                     CNAME 67.251.192.in-addr.arpa.
+www                     CNAME	67.251.192.in-addr.arpa.

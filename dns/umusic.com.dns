@@ -1,10 +1,10 @@
 ;
 ;  Database file umusic.com.dns for umusic.com zone.
-;      Zone version:  2010061800
+;      Zone version:  2010061802
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010061800   ; serial number
+                        	2010061802   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,9 +14,9 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns5.umusic.com.
 @                       NS	ns1.umusic.com.
 @                       NS	ns2.umusic.com.
+@                       NS	ns5.umusic.com.
 
 ;
 ;  Zone records
@@ -4464,6 +4464,14 @@ test.losthighway        A	192.251.67.244
 prod.losthighwayst      A	192.251.67.112
 prod.lucindawilliams    A	192.251.67.112
 lyrics                  A	167.167.24.99
+m                       CNAME	apps.netbiscuits.com.
+
+;
+;  Delegated sub-zone:  d2c.m.umusic.com.
+;
+d2c.m                   NS	colo-redirect.netvision.net.il.
+;  End delegation
+
 macygray                CNAME	cmsserver01.umusic.com.
 madvpn01                A	212.4.106.237
 mail                    A	65.54.32.197
@@ -4472,8 +4480,8 @@ maila                   A	65.54.32.198
                         A	65.54.32.199
 mailb                   A	65.54.32.199
                         A	65.54.32.198
-mailc                   A	65.54.36.198
-                        A	65.54.36.199
+mailc                   A	65.54.36.199
+                        A	65.54.36.198
 mailgate-emea           900	A	62.206.191.5
 mars                    A	10.130.110.184
 mattwhite               CNAME	cmsserver01.umusic.com.
@@ -4487,10 +4495,10 @@ mdit                    A	10.130.109.187
 meetgreet               A	167.167.2.109
 mellencamp              CNAME	cmsserver01.umusic.com.
 mercury                 900	A	10.130.210.12
-smtp.mgd                A	65.54.32.198
+smtp.mgd                A	65.54.36.199
+                        A	65.54.32.198
                         A	65.54.32.199
                         A	65.54.36.198
-                        A	65.54.36.199
 mig-musicsweeps         CNAME	cmsserver01.umusic.com.
 migsweeps               CNAME	cmsserver01.umusic.com.
 milestone               A	10.130.104.166
@@ -4601,7 +4609,6 @@ prm                     A	167.167.2.95
 iga.prod                A	10.130.110.212
 lh.prod                 A	167.167.2.109
 lh-internal.prod        A	192.168.75.37
-umgn.prod               A	192.251.67.166
 umgn-internal.prod      A	192.168.75.37
 umgpress.prod           A	192.251.67.112
 prod-air                A	192.251.67.34
@@ -11532,8 +11539,8 @@ mailirpt.usfsh          A	167.167.0.33
 mailscl.usfsh           A	167.167.0.23
                         A	167.167.0.22
 sftp1.usfsh             A	167.167.1.142
-smtp.usfsh              A	167.167.0.29
-                        A	167.167.0.30
+smtp.usfsh              A	167.167.0.30
+                        A	167.167.0.29
 smtp1.usfsh             300	A	167.167.0.17
 smtp2.usfsh             300	A	167.167.0.18
 usfshntex05.usfsh       300	A	167.167.0.20
@@ -18270,6 +18277,7 @@ webreporting            A	10.130.202.87
 webtrends               900	A	10.130.179.210
 webtrends2              A	10.130.179.210
 webtrends3              A	10.130.179.210
+whatsrunningonlinux     3600	A	167.167.24.35
 prod.whiskeytown        A	192.251.67.112
 williamtell             CNAME	cmsserver01.umusic.com.
 willsmith               CNAME	cmsserver01.umusic.com.
@@ -18293,5 +18301,3 @@ dev.yt                  A	192.251.67.94
 yt-stage                A	192.251.67.244
 yt-test                 A	192.251.67.244
 yyzvpn01                1800	CNAME	lavpn01.umusic.com.
-m                       CNAME apps.netbiscuits.com.
-d2c.m                   NS  colo-redirect.netvision.net.il.

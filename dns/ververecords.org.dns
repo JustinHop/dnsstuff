@@ -1,22 +1,20 @@
 ;
 ;  Database file ververecords.org.dns for ververecords.org zone.
-;      Zone version:  201003230
+;      Zone version:  2010070605
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	201003230            ; serial number
+                        	2010070605   ; serial number
                         	900          ; refresh
                         	600          ; retry
-                        	86400        ; expire
+                        	2419200      ; expire
                         	3600       ) ; default TTL
 
 ;
 ;  Zone NS records
 ;
 
-
 @                       NS	ns1.umusic.com.
-ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
@@ -26,5 +24,5 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-
-www                     CNAME ververecords.org.
+@                       A	167.167.24.137
+www                     CNAME	ververecords.org.

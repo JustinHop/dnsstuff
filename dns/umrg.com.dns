@@ -1,10 +1,10 @@
 ;
 ;  Database file umrg.com.dns for umrg.com zone.
-;      Zone version:  2010040754
+;      Zone version:  2010040764
 ;
 
 @                       120	IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010040754   ; serial number
+                        	2010040764   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -26,13 +26,13 @@ ns2.umusic.com.         A	167.167.9.132
 ;
 
 @                       A	167.167.24.101
-@                       MX	30	aspmx4.googlemail.com.
-@                       MX	30	aspmx5.googlemail.com.
-@                       MX	10	aspmx.l.google.com.
 @                       MX	20	alt1.aspmx.l.google.com.
 @                       MX	20	alt2.aspmx.l.google.com.
 @                       MX	30	aspmx3.googlemail.com.
 @                       MX	30	aspmx2.googlemail.com.
+@                       MX	30	aspmx4.googlemail.com.
+@                       MX	30	aspmx5.googlemail.com.
+@                       MX	10	aspmx.l.google.com.
 att.10yearsmusic        CNAME	hvp5.umrg.com.
 dev.10yearsmusic        A	192.251.67.124
 prod.10yearsmusic       A	167.167.2.114
@@ -57,6 +57,7 @@ att01.allstarsoccermoments CNAME	att01.umrg.com.
 att02.allstarsoccermoments CNAME	att02.umrg.com.
 att03.allstarsoccermoments CNAME	att03.umrg.com.
 test.allstarsoccermoments CNAME	test.umrg.com.
+amazon                  A	167.167.24.102
 test.americanyard       CNAME	test.umrg.com.
 att.anberlin            CNAME	hvp2.umrg.com.
 dev.anberlin            CNAME	dev.umrg.com.
@@ -66,6 +67,7 @@ att.anthonydavid        CNAME	hvp5.umrg.com.
 dev.anthonydavid        CNAME	dev.umrg.com.
 prod.anthonydavid       CNAME	prod.umrg.com.
 test.anthonydavid       CNAME	test.umrg.com.
+itunes.apple            A	167.167.24.102
 dev.artist              A	192.251.67.124
 test.artist             A	192.251.67.94
 dev.artist1             CNAME	dev.umrg.com.
@@ -106,6 +108,8 @@ dev.briefhistoryofblues CNAME	dev.umrg.com.
 prod.briefhistoryofblues CNAME	prod.umrg.com.
 test.briefhistoryofblues CNAME	test.umrg.com.
 att.brielarson          CNAME	hvp1.umrg.com.
+att.brisco              A	167.167.24.103
+test.brisco             CNAME	test.umrg.com.
 att.bustarhymes         CNAME	hvp5.umrg.com.
 prod.bustarhymes        CNAME	prod.umrg.com.
 test.bustarhymes        CNAME	test.umrg.com.
@@ -123,6 +127,8 @@ att.chamillionaire      CNAME	hvp1.umrg.com.
 att.chamillionaireonline CNAME	hvp1.umrg.com.
 att.chasecoy            CNAME	hvp5.umrg.com.
 test.chasecoy           CNAME	test.umrg.com.
+att.christiantv         CNAME	hvp5.umrg.com.
+test.christiantv        CNAME	test.umrg.com.
 chron                   CNAME	ghs.google.com.
 att.colbiecaillat       CNAME	hvp3.umrg.com.
 dev.colbiecaillat       CNAME	dev.umrg.com.
@@ -188,6 +194,8 @@ prod.erinmccarley       CNAME	prod.umrg.com.
 test.erinmccarley       CNAME	test.umrg.com.
 att.erykahbadu          CNAME	hvp3.umrg.com.
 test.erykahbadu         CNAME	test.umrg.com.
+facebook                A	167.167.24.37
+dev.facebook            A	192.251.67.13
 att.fairtomidland       CNAME	hvp4.umrg.com.
 feeds                   A	167.167.24.101
 test.feeds              A	192.251.67.94
@@ -434,6 +442,8 @@ att.serabee             CNAME	hvp1.umrg.com.
 test.serabee            CNAME	test.umrg.com.
 att.serani              CNAME	hvp3.umrg.com.
 test.serani             CNAME	test.umrg.com.
+att.shel                CNAME	hvp4.umrg.com.
+test.shel               CNAME	test.umrg.com.
 att.shire               CNAME	hvp3.umrg.com.
 test.shire              CNAME	test.umrg.com.
 att.shontelle           CNAME	hvp4.umrg.com.

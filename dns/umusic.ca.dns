@@ -1,10 +1,10 @@
 ;
 ;  Database file umusic.ca.dns for umusic.ca zone.
-;      Zone version:  2010040932
+;      Zone version:  2010040937
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010040932   ; serial number
+                        	2010040937   ; serial number
                         	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,12 +14,12 @@
 ;  Zone NS records
 ;
 
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
-@                       NS	ns1.umusic.com.
-ns1.umusic.com.         A	167.167.1.141
 
 ;
 ;  Zone records
@@ -74,6 +74,7 @@ connected               A	167.167.24.37
 www.connected           CNAME	connected.umusic.ca.
 att.creature            CNAME	att-win.umusic.ca.
 dev.creature            CNAME	win.dev.umusic.ca.
+att.creatureband        CNAME	att-win.umusic.ca.
 dev.creatureband        A	192.251.67.124
 att.denzalsinclaire     CNAME	att-win.umusic.ca.
 dev.denzalsinclaire     CNAME	win.dev.umusic.ca.
@@ -114,6 +115,8 @@ dev.eloquenceclassical  CNAME	win.dev.umusic.ca.
 enquirer                A	167.167.24.37
 att.enterthefortress    CNAME	att-win.umusic.ca.
 dev.enterthefortress    CNAME	win.dev.umusic.ca.
+att.envy                CNAME	att-win.umusic.ca.
+dev.envy                CNAME	win.dev.umusic.ca.
 facebook                A	167.167.24.37
 falloutboy              A	167.167.24.37
 www.falloutboy          CNAME	falloutboy.umusic.ca.
@@ -206,6 +209,7 @@ thewho                  A	192.251.67.80
 www.thewho              A	192.251.67.80
 twentiethcenturymasters A	167.167.24.37
 www.twentiethcenturymasters CNAME	twentiethcenturymasters.umusic.ca.
+dev.umcreleasebooks     A	192.251.67.13
 universaldigital        A	167.167.24.135
 att.universaldigital    A	167.167.24.135
 dev.universaldigital    A	192.251.67.124
