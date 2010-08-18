@@ -1,10 +1,10 @@
 ;
 ;  Database file interscope.com.dns for interscope.com zone.
-;      Zone version:  2010052714
+;      Zone version:  2010081800
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010052714   ; serial number
+                        	2010081800   ; serial number
                         	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -1299,3 +1299,19 @@ www03.yv-music          CNAME	www03.igadev.com.
 www04.yv-music          CNAME	www04.igadev.com.
 www05.yv-music          CNAME	www05.igadev.com.
 www06.yv-music          CNAME	www06.igadev.com.
+test.jaredevan              A     167.167.16.33
+test.jordytowers            A     167.167.16.33
+test.travisgarlandofficial  A     167.167.16.33
+test.nicolescherzingermusic A     167.167.16.33
+test.eldebargemusic         A     167.167.16.33
+test.greyson-official       A     167.167.16.33
+test.bushofficial           A     167.167.16.33
+test.mattmorris             A     167.167.16.33
+test.allheartstour          A     167.167.16.33
+test.therealbillyblue       A     167.167.16.33
+test.download               A     167.167.16.33
+test.escapethefate          A     167.167.16.33
+test.dantalevskimusic       A     167.167.16.33
+test.dieantwoord            A     167.167.16.33
+test.freewired              A     167.167.16.33
+test.lloydmusic             A     167.167.16.33
