@@ -1,10 +1,10 @@
 ;
 ;  Database file umusic.com.dns for umusic.com zone.
-;      Zone version:  2010061802
+;      Zone version:  2010061803
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010061802   ; serial number
+                        	2010061803   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -24,7 +24,7 @@
 
 @                       A	167.167.2.109
 @                       MX	10	mail.global.frontbridge.com.
-@                       300	TXT	( "v=spf1 ip4:167.167.0.0/16 ip4:192.251.66.0/23 ip4:64.141.83.0/25 ip4:65.54.32.0/21 ip4:67.19.18.154 ip4:69.90.102.128/25 ip4:74.53.217.160/27 ip4:209.135.36.206/23 ip4:209.17.134.64/26 ip4:212.23.58.0/24 ip4:213.61.130.224/28 ip4:209.67.152.0/25 mx -all" )
+@                       300	TXT	( "v=spf1 ip4:167.167.0.0/16 ip4:192.251.66.0/23 ip4:64.141.83.0/25 ip4:65.54.32.0/21  ip4:69.90.102.128/25 ip4:74.53.217.160/27 ip4:209.135.36.206/23 ip4:209.17.134.64/26 ip4:212.23.58.0/24 ip4:213.61.130.224/28 ip4:209.67.152.0/25 mx -all" )
 5bam                    A	167.167.24.135
 att.5bam                CNAME	5bam.umusic.com.
 _autodiscover._tcp      SRV	0 0 443	autodiscover.umusic.com.
@@ -4476,10 +4476,10 @@ macygray                CNAME	cmsserver01.umusic.com.
 madvpn01                A	212.4.106.237
 mail                    A	65.54.32.197
 backup.mail             A	65.54.36.197
-maila                   A	65.54.32.198
-                        A	65.54.32.199
-mailb                   A	65.54.32.199
+maila                   A	65.54.32.199
                         A	65.54.32.198
+mailb                   A	65.54.32.198
+                        A	65.54.32.199
 mailc                   A	65.54.36.199
                         A	65.54.36.198
 mailgate-emea           900	A	62.206.191.5
@@ -11539,8 +11539,8 @@ mailirpt.usfsh          A	167.167.0.33
 mailscl.usfsh           A	167.167.0.23
                         A	167.167.0.22
 sftp1.usfsh             A	167.167.1.142
-smtp.usfsh              A	167.167.0.30
-                        A	167.167.0.29
+smtp.usfsh              A	167.167.0.29
+                        A	167.167.0.30
 smtp1.usfsh             300	A	167.167.0.17
 smtp2.usfsh             300	A	167.167.0.18
 usfshntex05.usfsh       300	A	167.167.0.20

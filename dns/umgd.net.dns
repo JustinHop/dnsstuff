@@ -1,10 +1,10 @@
 ;
 ;  Database file umgd.net.dns for umgd.net zone.
-;      Zone version:  2010032312
+;      Zone version:  2010032322
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010032312   ; serial number
+                        	2010032322   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,12 +14,12 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns2.umusic.com.
-ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
 
 ;
 ;  Zone records
@@ -39,6 +39,11 @@ att02.facebook          A	167.167.24.133
 att03.facebook          A	167.167.24.134
 dev.facebook            A	192.251.67.94
 sandbox.facebook        A	192.251.67.93
+att.flacophile          A	167.167.24.183
+att01.flacophile        CNAME	att01.umgd.net.
+att02.flacophile        CNAME	att02.umgd.net.
+att03.flacophile        CNAME	att03.umgd.net.
+dev.flacophile          CNAME	dev.umgd.net.
 host                    A	192.251.67.34
 localhost               A	127.0.0.1
 dev.mimusicamundial     CNAME	dev.umgd.net.
@@ -48,4 +53,9 @@ att02.musicrightsnow    CNAME	att02.umgd.net.
 att03.musicrightsnow    CNAME	att03.umgd.net.
 dev.musicrightsnow      CNAME	dev.umgd.net.
 origin-cache            A	167.167.24.135
+att.plusvinyl           A	167.167.24.183
+att01.plusvinyl         CNAME	att01.umgd.net.
+att02.plusvinyl         CNAME	att02.umgd.net.
+att03.plusvinyl         CNAME	att03.umgd.net.
+dev.plusvinyl           CNAME	dev.umgd.net.
 www                     CNAME	umgd.net.

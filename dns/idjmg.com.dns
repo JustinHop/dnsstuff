@@ -1,10 +1,10 @@
 ;
 ;  Database file idjmg.com.dns for idjmg.com zone.
-;      Zone version:  2010032343
+;      Zone version:  2010032369
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2010032343   ; serial number
+                        	2010032369   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,17 +14,29 @@
 ;  Zone NS records
 ;
 
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
-@                       NS	ns5.umusic.com.
-ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
 ;
 
+att.aaronfresh          A	167.167.24.7
+att01.aaronfresh        CNAME	att01.idjmg.com.
+att02.aaronfresh        CNAME	att02.idjmg.com.
+att03.aaronfresh        CNAME	att03.idjmg.com.
+att04.aaronfresh        CNAME	att04.idjmg.com.
+test.aaronfresh         CNAME	test.idjmg.com.
+att.abrahammcdonald     A	167.167.24.6
+att01.abrahammcdonald   CNAME	att01.idjmg.com.
+att02.abrahammcdonald   CNAME	att02.idjmg.com.
+att03.abrahammcdonald   CNAME	att03.idjmg.com.
+att04.abrahammcdonald   CNAME	att04.idjmg.com.
+test.abrahammcdonald    CNAME	test.idjmg.com.
 att.adriennebailon      CNAME	lb01-high.idjmg.com.
 test.adriennebailon     CNAME	test.idjmg.com.
 att.amerie              CNAME	lb01-high.idjmg.com.
@@ -106,6 +118,7 @@ prod.fob                CNAME	lb01-mid.idjmg.com.
 att.ghostface           A	167.167.24.10
 dev.ghostface           CNAME	test.idjmg.com.
 test.ghostface          CNAME	test.idjmg.com.
+test.hedleyonline       CNAME	test.idjmg.com.
 att.hoobastank          CNAME	lb02-mid.idjmg.com.
 att01.hoobastank        CNAME	att01.idjmg.com.
 att02.hoobastank        CNAME	att02.idjmg.com.
@@ -118,6 +131,12 @@ att02.idj               CNAME	att02.idjmg.com.
 att03.idj               CNAME	att03.idjmg.com.
 att04.idj               CNAME	att04.idjmg.com.
 test.idj                CNAME	test.idjmg.com.
+att.idj2                A	167.167.24.7
+att01.idj2              CNAME	att01.idjmg.com.
+att02.idj2              CNAME	att02.idjmg.com.
+att03.idj2              CNAME	att03.idjmg.com.
+att04.idj2              CNAME	att04.idjmg.com.
+test.idj2               CNAME	test.idjmg.com.
 idjstaging              A	192.168.73.111
 att.innerpartysystem    CNAME	lb02-mid.idjmg.com.
 att01.innerpartysystem  CNAME	att01.idjmg.com.
@@ -262,6 +281,13 @@ dev.roc                 A	192.251.67.124
 prod.roc                A	167.167.2.18
 www01.roc               A	167.167.2.102
 www02.roc               A	167.167.2.101
+att.rydaznartists       A	167.167.24.6
+att01.rydaznartists     CNAME	att01.idjmg.com.
+att02.rydaznartists     CNAME	att02.idjmg.com.
+att03.rydaznartists     CNAME	att03.idjmg.com.
+att04.rydaznartists     CNAME	att04.idjmg.com.
+test.rydaznartists      CNAME	test.idjmg.com.
+test.rydaznrtist        CNAME	test.idjmg.com.
 att.saliva              CNAME	att01.idjmg.com.
 test.saliva             CNAME	test.idjmg.com.
 att.schoolgyrls         CNAME	att01.idjmg.com.

@@ -1,0 +1,31 @@
+;
+;  Database file creatureband.com.dns for creatureband.com zone.
+;      Zone version:  11
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	11           ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.136
+@                       MX	10	mx1.emailsrvr.com.
+@                       MX	20	mx2.emailsrvr.com.
+@                       MX	30	smtp.easydns.com.
+www                     CNAME	creatureband.com.

@@ -1,10 +1,10 @@
 ;
 ;  Database file umrg.com.dns for umrg.com zone.
-;      Zone version:  2010040764
+;      Zone version:  2010040774
 ;
 
 @                       120	IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010040764   ; serial number
+                        	2010040774   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,25 +14,25 @@
 ;  Zone NS records
 ;
 
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
-@                       NS	ns2.umusic.com.
-ns2.umusic.com.         A	167.167.9.132
 
 ;
 ;  Zone records
 ;
 
 @                       A	167.167.24.101
-@                       MX	20	alt1.aspmx.l.google.com.
 @                       MX	20	alt2.aspmx.l.google.com.
 @                       MX	30	aspmx3.googlemail.com.
 @                       MX	30	aspmx2.googlemail.com.
 @                       MX	30	aspmx4.googlemail.com.
 @                       MX	30	aspmx5.googlemail.com.
 @                       MX	10	aspmx.l.google.com.
+@                       MX	20	alt1.aspmx.l.google.com.
 att.10yearsmusic        CNAME	hvp5.umrg.com.
 dev.10yearsmusic        A	192.251.67.124
 prod.10yearsmusic       A	167.167.2.114
@@ -58,6 +58,7 @@ att02.allstarsoccermoments CNAME	att02.umrg.com.
 att03.allstarsoccermoments CNAME	att03.umrg.com.
 test.allstarsoccermoments CNAME	test.umrg.com.
 amazon                  A	167.167.24.102
+www.amazon              CNAME	amazon.umrg.com.
 test.americanyard       CNAME	test.umrg.com.
 att.anberlin            CNAME	hvp2.umrg.com.
 dev.anberlin            CNAME	dev.umrg.com.
@@ -68,6 +69,7 @@ dev.anthonydavid        CNAME	dev.umrg.com.
 prod.anthonydavid       CNAME	prod.umrg.com.
 test.anthonydavid       CNAME	test.umrg.com.
 itunes.apple            A	167.167.24.102
+www.itunes.apple        CNAME	itunes.apple.umrg.com.
 dev.artist              A	192.251.67.124
 test.artist             A	192.251.67.94
 dev.artist1             CNAME	dev.umrg.com.
@@ -183,10 +185,10 @@ test.eliyoung           CNAME	test.umrg.com.
 ;
 ;  Delegated sub-zone:  email.umrg.com.
 ;
-email                   NS	ns2.exacttarget.com.
-ns2.exacttarget.com.    A	66.231.94.222
 email                   NS	ns1.exacttarget.com.
 ns1.exacttarget.com.    A	66.231.91.222
+email                   NS	ns2.exacttarget.com.
+ns2.exacttarget.com.    A	66.231.94.222
 ;  End delegation
 
 test.embed              CNAME	test.umrg.com.
@@ -438,6 +440,7 @@ www02.samsparrousa      CNAME	www02.umrg.com.
 prod.savage             CNAME	prod.umrg.com.
 test.savage             CNAME	test.umrg.com.
 att.scissorsisters      CNAME	hvp4.umrg.com.
+test.secretsisters      CNAME	test.umrg.com.
 att.serabee             CNAME	hvp1.umrg.com.
 test.serabee            CNAME	test.umrg.com.
 att.serani              CNAME	hvp3.umrg.com.
@@ -493,6 +496,8 @@ att.thebandperry        CNAME	hvp3.umrg.com.
 test.thebandperry       CNAME	test.umrg.com.
 att.thecataracs         CNAME	hvp5.umrg.com.
 test.thecataracs        CNAME	test.umrg.com.
+att.theexpandables      CNAME	att.umrg.com.
+test.theexpandables     CNAME	test.umrg.com.
 test.thegreathangovertour CNAME	test.umrg.com.
 att.theincrecords       CNAME	hvp3.umrg.com.
 att.therescues          A	167.167.24.103
@@ -500,6 +505,11 @@ att01.therescues        CNAME	att01.umrg.com.
 att02.therescues        CNAME	att02.umrg.com.
 att03.therescues        CNAME	att03.umrg.com.
 test.therescues         CNAME	test.umrg.com.
+att.throwingravitymusic A	167.167.24.100
+att01.throwingravitymusic CNAME	att01.umrg.com.
+att02.throwingravitymusic CNAME	att02.umrg.com.
+att03.throwingravitymusic CNAME	att03.umrg.com.
+test.throwingravitymusic CNAME	test.umrg.com.
 att.tinaparol           CNAME	hvp2.umrg.com.
 dev.tinaparol           CNAME	dev.umrg.com.
 prod.tinaparol          CNAME	prod.umrg.com.

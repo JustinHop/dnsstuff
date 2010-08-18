@@ -1,10 +1,10 @@
 ;
-;  Database file boyceavenue.com.dns for boyceavenue.com zone.
-;      Zone version:  2010060909
+;  Database file aaronfresh.com.dns for aaronfresh.com zone.
+;      Zone version:  2010072007
 ;
 
-@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010060909   ; serial number
+@                       300	IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	2010072007   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -24,7 +24,5 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-@                       A	167.167.24.103
-@                       MX	1	mx1.sub3.homie.mail.dreamhost.com.
-@                       MX	1	mx2.sub3.homie.mail.dreamhost.com.
-www                     CNAME	boyceavenue.com.
+@                       A	167.167.24.7
+www                     CNAME	aaronfresh.com.
