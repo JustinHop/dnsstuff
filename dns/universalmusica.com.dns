@@ -1,10 +1,10 @@
 ;
 ;  Database file universalmusica.com.dns for universalmusica.com zone.
-;      Zone version:  2010032312
+;      Zone version:  2010032316
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2010032312   ; serial number
+                        	2010032316   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,12 +14,12 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns1.umusic.com.
-ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
 
 ;
 ;  Zone records
@@ -27,8 +27,9 @@ ns5.umusic.com.         A	167.167.1.132
 
 @                       A	192.251.67.166
 ajax                    A	192.251.67.124
+dev.apps                A	192.251.67.13
 att                     A	167.167.24.135
-att01                   CNAME	att01.umgnashville.com.
+att01                   A	167.167.24.132
 att02                   A	167.167.24.133
 att03                   A	167.167.24.134
 cms                     CNAME	universalmusica.com.
@@ -40,6 +41,7 @@ dev.digital             A	192.251.67.124
 att.divaivyqueen        CNAME	att.universalmusica.com.
 forum-christian         A	192.251.67.34
 jennirivera             A	167.167.24.200
+juanvelez               A	167.167.24.200
 dev.larrymania          A	192.251.67.124
 localhost               A	127.0.0.1
 media                   A	167.167.24.135

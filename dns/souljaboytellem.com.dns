@@ -1,10 +1,10 @@
 ;
 ;  Database file souljaboytellem.com.dns for souljaboytellem.com zone.
-;      Zone version:  2010032300
+;      Zone version:  2010032301
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010032300   ; serial number
+                        	2010032301   ; serial number
                         	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -13,7 +13,6 @@
 ;
 ;  Zone NS records
 ;
-
 
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
@@ -26,8 +25,11 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-
-@                       3600	A	8.6.19.68
+@                       3600	A	167.167.24.76
+@                       MX	10	mx1c25.carrierzone.com.
+@                       MX	100	mx2c25.carrierzone.com.
+@                       MX	110	mx3c25.carrierzone.com.
+@                       MX	120	mx4c25.carrierzone.com.
 
 ;
 ;  Delegated sub-zone:  d2c.souljaboytellem.com.
@@ -37,6 +39,7 @@ colo-redirect.netvision.net.il. A	199.203.54.63
 ;  End delegation
 
 m                       A	167.167.24.75
+mail                    A	64.29.145.40
 
 ;
 ;  Delegated sub-zone:  mobile.souljaboytellem.com.
@@ -56,10 +59,5 @@ wap                     NS	colo-redirect.netvision.net.il.
 colo-redirect.netvision.net.il. A	199.203.54.63
 ;  End delegation
 
-www                     CNAME	souljaboytellem.com.
-@                       MX	110	mx3c25.carrierzone.com.
-@                       MX	120	mx4c25.carrierzone.com.
-@                       MX	10	mx1c25.carrierzone.com.
-@                       MX	100	mx2c25.carrierzone.com.
 webmail                 A	64.29.145.44
-mail                    A   64.29.145.40
+www                     CNAME	souljaboytellem.com.

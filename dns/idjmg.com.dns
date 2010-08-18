@@ -1,10 +1,10 @@
 ;
 ;  Database file idjmg.com.dns for idjmg.com zone.
-;      Zone version:  2010032369
+;      Zone version:  2010032381
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2010032369   ; serial number
+                        	2010032381   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,12 +14,12 @@
 ;  Zone NS records
 ;
 
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
-@                       NS	ns2.umusic.com.
-ns2.umusic.com.         A	167.167.9.132
 
 ;
 ;  Zone records
@@ -31,6 +31,12 @@ att02.aaronfresh        CNAME	att02.idjmg.com.
 att03.aaronfresh        CNAME	att03.idjmg.com.
 att04.aaronfresh        CNAME	att04.idjmg.com.
 test.aaronfresh         CNAME	test.idjmg.com.
+att.aaronfresh-artist   A	167.167.24.7
+att01.aaronfresh-artist CNAME	att01.idjmg.com.
+att02.aaronfresh-artist CNAME	att02.idjmg.com.
+att03.aaronfresh-artist CNAME	att03.idjmg.com.
+att04.aaronfresh-artist CNAME	att04.idjmg.com.
+test.aaronfresh-artist  CNAME	test.idjmg.com.
 att.abrahammcdonald     A	167.167.24.6
 att01.abrahammcdonald   CNAME	att01.idjmg.com.
 att02.abrahammcdonald   CNAME	att02.idjmg.com.
@@ -57,6 +63,7 @@ test.ashesdivide        A	192.251.67.94
 www01.ashesdivide       A	167.167.2.102
 www02.ashesdivide       A	167.167.2.101
 origin.assets           A	167.167.24.11
+att                     CNAME	167.167.24.10.
 att01                   A	167.167.24.1
 att02                   A	167.167.24.2
 att03                   A	167.167.24.3
@@ -287,6 +294,7 @@ att02.rydaznartists     CNAME	att02.idjmg.com.
 att03.rydaznartists     CNAME	att03.idjmg.com.
 att04.rydaznartists     CNAME	att04.idjmg.com.
 test.rydaznartists      CNAME	test.idjmg.com.
+att.rydaznrtist         A	167.167.24.6
 test.rydaznrtist        CNAME	test.idjmg.com.
 att.saliva              CNAME	att01.idjmg.com.
 test.saliva             CNAME	test.idjmg.com.
@@ -299,6 +307,10 @@ test.shopmariah         CNAME	test.idjmg.com.
 spencer                 CNAME	defjam.idjmg.com.
 staging                 CNAME	staging.islanddefjam.com.
 att.sum41               CNAME	lb01-mid.idjmg.com.
+att01.sum41             CNAME	att01.idjmg.com.
+att02.sum41             CNAME	att02.idjmg.com.
+att03.sum41             CNAME	att03.idjmg.com.
+att04.sum41             CNAME	att04.idjmg.com.
 test.sum41              CNAME	test.idjmg.com.
 att.teen-beats          CNAME	lb02-mid.idjmg.com.
 test.teen-beats         CNAME	test.idjmg.com.

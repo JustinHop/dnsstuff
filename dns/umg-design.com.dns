@@ -1,28 +1,28 @@
 ;
-;  Database file avantofficial.com.dns for avantofficial.com zone.
-;      Zone version:  2010072705
+;  Database file umg-design.com.dns for umg-design.com zone.
+;      Zone version:  2010072804
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010072705   ; serial number
+                        	2010072804   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
-                        	3600       ) ; default TTL
+                        	7200       ) ; default TTL
 
 ;
 ;  Zone NS records
 ;
 
 @                       NS	ns1.umusic.com.
-@                       NS	ns2.umusic.com.
+@                       0	NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
-@                       NS	ns5.umusic.com.
+@                       0	NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
 ;
 
-@                       A	167.167.24.137
-www                     CNAME	avantofficial.com.
+@                       A	192.251.67.73
+www                     CNAME	umg-design.com.

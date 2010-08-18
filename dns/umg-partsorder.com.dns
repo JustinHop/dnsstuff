@@ -1,11 +1,11 @@
 ;
-;  Database file katevoegele.com.dns for katevoegele.com zone.
-;      Zone version:  2010032303
+;  Database file umg-partsorder.com.dns for umg-partsorder.com zone.
+;      Zone version:  2010072802
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010032303   ; serial number
-                        	7200         ; refresh
+                        	2010072802   ; serial number
+                        	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
                         	7200       ) ; default TTL
@@ -15,7 +15,6 @@
 ;
 
 @                       NS	ns1.umusic.com.
-ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
@@ -25,8 +24,5 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-@                       A	167.167.24.70
-afinemess               CNAME	afinemess.katevoegele.echospin.com.
-archive                 A	204.13.208.13
-blog                    A	66.216.125.32
-www                     CNAME	katevoegele.com.
+@                       A	192.251.67.73
+www                     CNAME	umg-partsorder.com.

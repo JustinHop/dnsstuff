@@ -1,10 +1,10 @@
 ;
 ;  Database file movihits.com.dns for movihits.com zone.
-;      Zone version:  2010061422
+;      Zone version:  2010061425
 ;
 
 @                       600	IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010061422   ; serial number
+                        	2010061425   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,11 +14,11 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns5.umusic.com.
-ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns1.umusic.com.
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
@@ -31,7 +31,16 @@ ns2.umusic.com.         A	167.167.9.132
 @                       MX	1	aspx.l.google.com.
 @                       MX	10	aspmx3.googlemail.com.
 att                     A	167.167.24.200
+
+;
+;  Delegated sub-zone:  d2c.movihits.com.
+;
+d2c                     NS	colo-redirect.netvision.net.il.
+colo-redirect.netvision.net.il. A	212.143.188.195
+;  End delegation
+
 dev                     A	192.251.67.124
 googlef1fe40a85dcca82b  CNAME	google.com.
 mail                    CNAME	ghs.google.com.
+wap                     A	212.235.1.25
 www                     CNAME	movihits.com.

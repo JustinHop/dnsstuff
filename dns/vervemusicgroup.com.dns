@@ -1,10 +1,10 @@
 ;
 ;  Database file vervemusicgroup.com.dns for vervemusicgroup.com zone.
-;      Zone version:  2010032317
+;      Zone version:  2010032318
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010032317   ; serial number
+                        	2010032318   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -26,10 +26,10 @@ ns5.umusic.com.         A	167.167.1.132
 ;
 
 @                       A	167.167.24.137
+@                       MX	110	mx3c25.carrierzone.com.
 @                       MX	10	mx1c25.carrierzone.com.
 @                       MX	100	mx2c25.carrierzone.com.
 @                       MX	120	mx4c25.carrierzone.com.
-@                       MX	110	mx3c25.carrierzone.com.
 att.16frames            CNAME	att.vervemusicgroup.com.
 att01.16frames          CNAME	att01.vervemusicgroup.com.
 att02.16frames          CNAME	att02.vervemusicgroup.com.
@@ -77,10 +77,10 @@ dev.elizabethandthecatapult A	192.251.67.124
 ;
 ;  Delegated sub-zone:  email.vervemusicgroup.com.
 ;
-email                   NS	ns2.exacttarget.com.
-ns2.exacttarget.com.    A	66.231.94.222
 email                   NS	ns1.exacttarget.com.
 ns1.exacttarget.com.    A	66.231.91.222
+email                   NS	ns2.exacttarget.com.
+ns2.exacttarget.com.    A	66.231.94.222
 ;  End delegation
 
 att.f12                 A	167.167.24.137
@@ -121,6 +121,7 @@ mail                    A	64.29.145.40
 mobile                  A	167.167.24.136
 att.nelliemckay         CNAME	att.vervemusicgroup.com.
 dev.nelliemckay         CNAME	dev.vervemusicgroup.com.
+dev2.nelliemckay        A	192.251.67.13
 att.sonos               CNAME	att.vervemusicgroup.com.
 dev.sonos               CNAME	dev.vervemusicgroup.com.
 att.susantedeschi       CNAME	att.vervemusicgroup.com.

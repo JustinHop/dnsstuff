@@ -1,13 +1,13 @@
 ;
-;  Database file avantofficial.com.dns for avantofficial.com zone.
-;      Zone version:  2010072705
+;  Database file dantalevskimusic.com.dns for dantalevskimusic.com zone.
+;      Zone version:  7
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010072705   ; serial number
+                        	7            ; serial number
                         	900          ; refresh
                         	600          ; retry
-                        	2419200      ; expire
+                        	86400        ; expire
                         	3600       ) ; default TTL
 
 ;
@@ -24,5 +24,5 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-@                       A	167.167.24.137
-www                     CNAME	avantofficial.com.
+@                       A	167.167.24.71
+www                     CNAME	dantalevskimusic.com.
