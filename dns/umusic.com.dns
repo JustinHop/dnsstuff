@@ -1,10 +1,10 @@
 ;
 ;  Database file umusic.com.dns for umusic.com zone.
-;      Zone version:  2010061814
+;      Zone version:  2010061837
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010061814   ; serial number
+                        	2010061837   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,9 +14,9 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns5.umusic.com.
 @                       NS	ns1.umusic.com.
 @                       NS	ns2.umusic.com.
+@                       NS	ns5.umusic.com.
 
 ;
 ;  Zone records
@@ -43,8 +43,8 @@ allamericanrejects      CNAME	cmsserver01.umusic.com.
 als                     CNAME	cmsserver01.umusic.com.
 alt-a                   300	A	10.130.110.215
 amcfreetunes            A	192.251.67.34
-amer-ssl01              1800	A	167.167.1.139
 amer-ssl02              A	167.167.34.10
+amer-ssl04              A	167.167.34.12
 ams                     A	10.130.178.42
 angelsandairwaves       CNAME	cmsserver01.umusic.com.
 archimedes              900	A	10.130.110.184
@@ -2145,7 +2145,7 @@ citrix                  A	10.130.178.102
 classics                A	10.130.111.40
 www.classics            A	192.251.67.144
 clientservices-la       A	10.130.109.187
-clo-purchaseorder       A	192.251.67.73
+clo-purchaseorder       A	167.167.2.23
 cmserver01              CNAME	cmsserver01.umusic.com.
 cmsnews                 A	192.251.67.240
 cmsserver01             A	192.251.67.71
@@ -2193,14 +2193,9 @@ dc                      A	167.167.19.249
 dc01                    A	167.167.18.25
 dc02                    A	167.167.18.41
 dcregion                A	167.167.24.136
-mail.deber              A	213.61.130.238
-                        A	213.61.130.237
+mail.deber              A	213.61.130.237
+                        A	213.61.130.238
 mailgw.deber            A	213.61.130.233
-demailgate1.dehan       A	62.206.191.22
-demailgate2.dehan       A	62.206.191.23
-gate1.dehan             A	62.206.191.5
-mail.dehan              1800	A	62.206.191.25
-smtp1.dehan             A	62.206.191.5
 dell                    A	192.251.67.34
 brioreports.dev         A	10.130.178.137
 changecontrol.dev       1800	A	10.130.178.137
@@ -2292,8 +2287,8 @@ elansweeps              CNAME	cmsserver01.umusic.com.
 elglobo                 A	10.144.16.69
 elviscostello           CNAME	cmsserver01.umusic.com.
 eps.emea                CNAME	eps.umusic.com.
-emea-ssl01              A	57.66.81.75
 emea-ssl02              A	167.167.138.32
+emea-ssl04              A	167.167.138.40
 enriqueiglesias         CNAME	cmsserver01.umusic.com.
 enterprise              A	10.130.110.184
 eps                     A	217.110.40.187
@@ -4448,6 +4443,7 @@ ip-167-167-239-98.jptko A	167.167.239.98
 ip-167-167-239-99.jptko A	167.167.239.99
 smtp.jptko              A	167.167.232.3
 kacibrown               CNAME	cmsserver01.umusic.com.
+kb                      A	192.251.67.13
 keane                   CNAME	cmsserver01.umusic.com.
 keyshiacole             CNAME	cmsserver01.umusic.com.
 labelandartistgroup     A	10.130.109.187
@@ -4472,16 +4468,17 @@ m                       CNAME	apps.netbiscuits.com.
 d2c.m                   NS	colo-redirect.netvision.net.il.
 ;  End delegation
 
+d2c.m2                  A	194.90.44.30
 macygray                CNAME	cmsserver01.umusic.com.
 madvpn01                A	212.4.106.237
 mail                    A	65.54.32.197
 backup.mail             A	65.54.36.197
-maila                   A	65.54.32.199
-                        A	65.54.32.198
-mailb                   A	65.54.32.198
+maila                   A	65.54.32.198
                         A	65.54.32.199
-mailc                   A	65.54.36.199
-                        A	65.54.36.198
+mailb                   A	65.54.32.199
+                        A	65.54.32.198
+mailc                   A	65.54.36.198
+                        A	65.54.36.199
 mailgate-emea           900	A	62.206.191.5
 mars                    A	10.130.110.184
 mattwhite               CNAME	cmsserver01.umusic.com.
@@ -4495,10 +4492,10 @@ mdit                    A	10.130.109.187
 meetgreet               A	167.167.2.109
 mellencamp              CNAME	cmsserver01.umusic.com.
 mercury                 900	A	10.130.210.12
-smtp.mgd                A	65.54.32.198
-                        A	65.54.32.199
+smtp.mgd                A	65.54.32.199
                         A	65.54.36.198
                         A	65.54.36.199
+                        A	65.54.32.198
 mig-musicsweeps         CNAME	cmsserver01.umusic.com.
 migsweeps               CNAME	cmsserver01.umusic.com.
 milestone               A	10.130.104.166
@@ -4552,7 +4549,7 @@ netapp6                 A	192.168.25.170
 netappstat              A	192.251.67.80
 netsource               900	A	167.167.1.140
 network-services-support A	167.167.2.22
-new                     A	167.167.2.109
+new                     A	167.167.24.183
 prod.new                A	167.167.2.109
 test.new                A	192.251.67.244
 new-media               A	10.130.178.196
@@ -4727,6 +4724,7 @@ stage-unimail           A	167.167.2.55
 vis.staging             A	10.130.178.132
 store                   CNAME	cmsserver01.umusic.com.
 streetdatephotos        A	192.251.67.18
+submission              CNAME	digipromoumgi.umusic.com.
 supplierportalassistance A	167.167.138.11
 support                 A	167.167.2.23
 surveyplus              CNAME	cmsserver01.umusic.com.
@@ -4739,6 +4737,7 @@ sweetescape             CNAME	cmsserver01.umusic.com.
 sxswsweeps              CNAME	cmsserver01.umusic.com.
 sydvpn01                A	167.167.226.9
 tass                    A	10.130.109.187
+taylorspeaknow          A	167.167.24.183
 tempufanz               A	192.251.67.73
 brioreports.test        A	10.130.178.137
 dwn.test                A	192.251.67.244
@@ -4749,7 +4748,7 @@ oldiga.test             A	10.130.168.186
 umgn.test               A	192.251.67.244
 umgpress.test           A	192.251.67.244
 test-mercurynashville   A	192.251.67.244
-test-rp                 300	A	192.251.67.18
+test-rp                 300	A	167.167.2.23
 test-sdc                A	192.251.67.244
 test-sdc01              A	192.251.67.166
 test-umvd               A	192.251.67.244
@@ -4771,6 +4770,7 @@ timesolutions-cy03      A	10.130.179.155
 timesolutionscy01archive A	10.130.179.155
 timesolutionscy02archive A	10.130.179.155
 timesolutionsfy01archive A	10.130.179.155
+todo                    A	192.251.67.13
 tourpress               A	167.167.2.109
 prod.tourpress          A	167.167.2.109
 test.tourpress          A	192.251.67.166
@@ -14623,7 +14623,7 @@ ip-192-251-67-96.usush  A	192.251.67.96
 ip-192-251-67-97.usush  A	192.251.67.97
 ip-192-251-67-98.usush  A	192.251.67.98
 ip-192-251-67-99.usush  A	192.251.67.99
-maildrop.usush          A	192.168.25.114
+maildrop.usush          CNAME	maildropdmz.usucp.umusic.com.
 outbound.usush          900	A	192.251.67.207
 usintex35lax.usush      A	192.251.67.254
 usush2kap52.usush       A	192.168.25.214

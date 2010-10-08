@@ -1,10 +1,10 @@
 ;
 ;  Database file defjam.com.dns for defjam.com zone.
-;      Zone version:  2010032301
+;      Zone version:  2010032306
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2010032301   ; serial number
+                        	2010032306   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,22 +14,22 @@
 ;  Zone NS records
 ;
 
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
-@                       NS	ns2.umusic.com.
-ns2.umusic.com.         A	167.167.9.132
 
 ;
 ;  Zone records
 ;
 
 @                       A	167.167.9.54
-@                       MX	10	mx1c25.carrierzone.com.
 @                       MX	110	mx3c25.carrierzone.com.
 @                       MX	120	mx4c25.carrierzone.com.
 @                       MX	100	mx2c25.carrierzone.com.
+@                       MX	10	mx1c25.carrierzone.com.
 112                     CNAME	redirect.islanddefjam.com.
 www.112                 CNAME	redirect.islanddefjam.com.
 334mobb                 CNAME	redirect.islanddefjam.com.
@@ -55,6 +55,7 @@ chingy                  CNAME	redirect.islanddefjam.com.
 www.chingy              CNAME	redirect.islanddefjam.com.
 chrisettemichele        CNAME	redirect.islanddefjam.com.
 www.chrisettemichele    CNAME	redirect.islanddefjam.com.
+currensy                CNAME	redirect.islanddefjam.com.
 defdigital              CNAME	www2.islanddefjam.com.
 defjam25                A	167.167.24.11
 disturbingthapeace      CNAME	redirect.islanddefjam.com.
@@ -67,6 +68,7 @@ www.fabolous            CNAME	redirect.islanddefjam.com.
 firstlook               CNAME	redirect.islanddefjam.com.
 ghostface               CNAME	redirect.islanddefjam.com.
 www.ghostface           CNAME	redirect.islanddefjam.com.
+gitfresh                CNAME	redirect.islanddefjam.com.
 hot                     A	167.167.9.170
 images                  CNAME	images.islanddefjam.com.
 isleybros               CNAME	redirect.islanddefjam.com.
@@ -130,6 +132,7 @@ rihanna                 CNAME	redirect.islanddefjam.com.
 www.rihanna             CNAME	redirect.islanddefjam.com.
 ronaldisley             CNAME	redirect.islanddefjam.com.
 ronisley                CNAME	redirect.islanddefjam.com.
+rydaznrtist             CNAME	redirect.islanddefjam.com.
 samscarfo               CNAME	redirect.islanddefjam.com.
 www.samscarfo           CNAME	redirect.islanddefjam.com.
 serius                  CNAME	redirect.islanddefjam.com.
@@ -141,6 +144,8 @@ www.shawnna             CNAME	redirect.islanddefjam.com.
 shop                    A	167.167.24.13
 www.shop                A	167.167.24.13
 shyne                   CNAME	redirect.islanddefjam.com.
+skibeats                CNAME	redirect.islanddefjam.com.
+skibeatz                CNAME	redirect.islanddefjam.com.
 slickrick               CNAME	redirect.islanddefjam.com.
 smallworld              CNAME	redirect.islanddefjam.com.
 stephjones              CNAME	redirect.islanddefjam.com.

@@ -1,10 +1,10 @@
 ;
 ;  Database file dieantwoord.com.dns for dieantwoord.com zone.
-;      Zone version:  5
+;      Zone version:  14
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	5            ; serial number
+                        	14           ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -24,3 +24,12 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
+@                       A	167.167.24.77
+@                       MX	10	aspmx.l.google.com.
+@                       MX	20	alt1.aspmx.l.google.com.
+@                       MX	20	alt2.aspmx.l.google.com.
+@                       MX	30	aspmx3.googlemail.com.
+@                       MX	30	aspmx2.googlemail.com.
+@                       MX	30	aspmx5.googlemail.com.
+@                       MX	30	aspmx4.googlemail.com.
+www                     CNAME	dieantwoord.com.

@@ -1,10 +1,10 @@
 ;
 ;  Database file interscope.com.dns for interscope.com zone.
-;      Zone version:  2010081800
+;      Zone version:  2010081877
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010081800   ; serial number
+                        	2010081877   ; serial number
                         	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,25 +14,25 @@
 ;  Zone NS records
 ;
 
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
-@                       NS	ns1.umusic.com.
-ns1.umusic.com.         A	167.167.1.141
 
 ;
 ;  Zone records
 ;
 
 @                       7200	A	167.167.24.74
+@                       MX	30	aspmx2.googlemail.com.
+@                       MX	30	aspmx3.googlemail.com.
+@                       MX	30	aspmx4.googlemail.com.
 @                       MX	30	aspmx5.googlemail.com.
 @                       MX	20	alt1.aspmx.l.google.com.
 @                       MX	20	alt2.aspmx.l.google.com.
 @                       MX	10	aspmx.l.google.com.
-@                       MX	30	aspmx2.googlemail.com.
-@                       MX	30	aspmx3.googlemail.com.
-@                       MX	30	aspmx4.googlemail.com.
 att.50cent              CNAME	med1.interscope.com.
 att01.50cent            CNAME	att01.interscope.com.
 att02.50cent            CNAME	att02.interscope.com.
@@ -64,6 +64,7 @@ www06.alexband          CNAME	www06.igadev.com.
 att.allamericanrejects  CNAME	lvp3.interscope.com.
 att.allheartstour       CNAME	lvp2.interscope.com.
 dev.allheartstour       CNAME	dev.interscope.com.
+test.allheartstour      A	167.167.16.33
 att.alyssabernal        A	167.167.24.72
 att01.alyssabernal      CNAME	att01.interscope.com.
 att02.alyssabernal      CNAME	att02.interscope.com.
@@ -139,6 +140,7 @@ att.blacktidemusic      CNAME	lvp3.interscope.com.
 test.blacktidemusic     A	167.167.16.33
 att.blaqkaudio          A	167.167.24.75
 test.blaqkaudio         A	167.167.16.33
+test.blaqstarr          CNAME	test.interscope.com.
 att.blink182            CNAME	med2.interscope.com.
 dev.blink182            A	192.251.67.100
 prod.blink182           A	57.77.2.140
@@ -187,6 +189,7 @@ att04.bush              CNAME	att04.interscope.com.
 att05.bush              CNAME	att05.interscope.com.
 att06.bush              CNAME	att06.interscope.com.
 dev.bush                CNAME	dev.interscope.com.
+test.bushofficial       A	167.167.16.33
 test.bustarhymes        A	167.167.16.33
 test.butterflyboucher   A	167.167.16.33
 cache                   CNAME	cache.interscope.com.edgesuite.net.
@@ -281,6 +284,7 @@ att04.dantalevski       CNAME	att04.interscope.com.
 att05.dantalevski       CNAME	att05.interscope.com.
 att06.dantalevski       CNAME	att06.interscope.com.
 dev.dantalevski         CNAME	dev.interscope.com.
+test.dantalevskimusic   A	167.167.16.33
 att.dashboardconfessional CNAME	med2.interscope.com.
 test.dashboardconfessional A	167.167.16.33
 daveybrothers           A	216.193.195.55
@@ -304,6 +308,8 @@ att04.dieantwoord       CNAME	att04.interscope.com.
 att05.dieantwoord       CNAME	att05.interscope.com.
 att06.dieantwoord       CNAME	att06.interscope.com.
 dev.dieantwoord         CNAME	dev.interscope.com.
+test.dieantwoord        A	167.167.16.33
+test.download           A	167.167.16.33
 att.drdre               A	167.167.24.79
 test.dre2001            A	167.167.16.33
 att.dressuprecords      CNAME	lvp1.interscope.com.
@@ -316,15 +322,16 @@ att04.eldebarge         CNAME	att04.interscope.com.
 att05.eldebarge         CNAME	att05.interscope.com.
 att06.eldebarge         CNAME	att06.interscope.com.
 dev.eldebarge           CNAME	dev.interscope.com.
+test.eldebargemusic     A	167.167.16.33
 att.elementree          CNAME	lvp2.interscope.com.
 
 ;
 ;  Delegated sub-zone:  email.interscope.com.
 ;
-email                   NS	ns1.exacttarget.com.
-ns1.exacttarget.com.    A	66.231.91.222
 email                   NS	ns2.exacttarget.com.
 ns2.exacttarget.com.    A	66.231.94.222
+email                   NS	ns1.exacttarget.com.
+ns1.exacttarget.com.    A	66.231.91.222
 ;  End delegation
 
 att.eminem              A	167.167.24.78
@@ -348,6 +355,7 @@ att.enriqueiglesias     CNAME	med3.interscope.com.
 dev.enriqueiglesias     CNAME	dev.interscope.com.
 att.escapethefate       CNAME	att.interscope.com.
 dev.escapethefate       CNAME	dev.interscope.com.
+test.escapethefate      A	167.167.16.33
 att.esterdean           A	167.167.24.76
 dev.esterdean           A	192.251.67.100
 test.esterdean          A	167.167.16.33
@@ -362,6 +370,8 @@ www06.eve               CNAME	www06.igadev.com.
 2008.evefans            A	167.167.24.46
 att.evefans             CNAME	lvp2.interscope.com.
 test.evefans            A	167.167.16.33
+dev.facebook            A	192.251.67.13
+att.fareastmovement     CNAME	att.interscope.com.
 dev.fareastmovement     CNAME	dev.interscope.com.
 att.freewired.fareastmovement A	167.167.24.73
 att01.freewired.fareastmovement CNAME	att01.interscope.com.
@@ -400,6 +410,7 @@ att04.freesol           CNAME	att04.interscope.com.
 att05.freesol           CNAME	att05.interscope.com.
 att06.freesol           CNAME	att06.interscope.com.
 dev.freesol             CNAME	dev.interscope.com.
+test.freewired          A	167.167.16.33
 ftp                     A	216.193.195.55
 test.g-unit             A	167.167.16.33
 att.g-unitsoldier       A	167.167.24.75
@@ -420,6 +431,7 @@ www03.gregstreetcertified CNAME	www03.igadev.com.
 www04.gregstreetcertified CNAME	www04.igadev.com.
 www05.gregstreetcertified CNAME	www05.igadev.com.
 www06.gregstreetcertified CNAME	www06.igadev.com.
+test.greyson-official   A	167.167.16.33
 att.greysonchance       CNAME	med3.interscope.com.
 att01.greysonchance     CNAME	att01.interscope.com.
 att02.greysonchance     CNAME	att02.interscope.com.
@@ -481,6 +493,24 @@ att.interscope2         CNAME	med3.interscope.com.
 att.interscopemobile    CNAME	lvp1.interscope.com.
 dev.iphone              A	192.251.67.100
 prod.iphone             A	167.167.24.75
+att.isquareofficial     A	167.167.24.71
+att01.isquareofficial   CNAME	att01.interscope.com.
+att02.isquareofficial   CNAME	att02.interscope.com.
+att03.isquareofficial   CNAME	att03.interscope.com.
+att04.isquareofficial   CNAME	att04.interscope.com.
+att05.isquareofficial   CNAME	att05.interscope.com.
+att06.isquareofficial   CNAME	att06.interscope.com.
+dev.isquareofficial     CNAME	dev.interscope.com.
+test.isquareofficial    CNAME	test.interscope.com.
+att.isquareonline       A	167.167.24.71
+att01.isquareonline     CNAME	att01.interscope.com.
+att02.isquareonline     CNAME	att02.interscope.com.
+att03.isquareonline     CNAME	att03.interscope.com.
+att04.isquareonline     CNAME	att04.interscope.com.
+att05.isquareonline     CNAME	att05.interscope.com.
+att06.isquareonline     CNAME	att06.interscope.com.
+dev.isquareonline       CNAME	dev.interscope.com.
+test.isquareonline      CNAME	test.interscope.com.
 att.itsaudiopush        CNAME	lvp4.interscope.com.
 dev.itsaudiopush        CNAME	dev.interscope.com.
 test.itsaudiopush       A	167.167.16.33
@@ -499,6 +529,7 @@ att04.jaredevan         CNAME	att04.interscope.com.
 att05.jaredevan         CNAME	att05.interscope.com.
 att06.jaredevan         CNAME	att06.interscope.com.
 dev.jaredevan           CNAME	dev.interscope.com.
+test.jaredevan          A	167.167.16.33
 att.jibbs               CNAME	lvp4.interscope.com.
 dev.jibbs               A	192.251.67.100
 prod.jibbs              A	57.77.2.145
@@ -530,6 +561,7 @@ test.jojoonline         A	167.167.16.33
 att.jonnyonline         CNAME	lvp4.interscope.com.
 att.jordytowers         CNAME	lvp4.interscope.com.
 dev.jordytowers         CNAME	dev.interscope.com.
+test.jordytowers        A	167.167.16.33
 att.jurassic5           CNAME	lvp1.interscope.com.
 dev.justinbieber        A	192.251.67.100
 att.kacibrown           CNAME	lvp4.interscope.com.
@@ -651,6 +683,7 @@ att06.lloyd             CNAME	att06.interscope.com.
 dev.lloyd               CNAME	dev.interscope.com.
 att.lloydbanks          A	167.167.24.78
 test.lloydbanks         A	167.167.16.33
+test.lloydmusic         A	167.167.16.33
 lmfao                   A	167.167.24.75
 dev.lmfao               CNAME	dev.interscope.com.
 test.lmfao              A	167.167.16.33
@@ -702,6 +735,7 @@ att04.mattmorris        CNAME	att04.interscope.com.
 att05.mattmorris        CNAME	att05.interscope.com.
 att06.mattmorris        CNAME	att06.interscope.com.
 dev.mattmorris          CNAME	dev.interscope.com.
+test.mattmorris         A	167.167.16.33
 att.mattwhite           CNAME	lvp1.interscope.com.
 dev.mattwhite           A	192.251.67.100
 prod.mattwhite          A	57.77.2.144
@@ -725,6 +759,14 @@ dev.melodiesbymjb       CNAME	dev.interscope.com.
 test.melodiesbymjb      A	167.167.16.33
 test.mickeyavalon       A	167.167.16.33
 att.midwaystate         CNAME	lvp4.interscope.com.
+att.mindlessbehavior    CNAME	att.interscope.com.
+att01.mindlessbehavior  CNAME	att01.interscope.com.
+att02.mindlessbehavior  CNAME	att02.interscope.com.
+att03.mindlessbehavior  CNAME	att03.interscope.com.
+att04.mindlessbehavior  CNAME	att04.interscope.com.
+att05.mindlessbehavior  CNAME	att05.interscope.com.
+att06.mindlessbehavior  CNAME	att06.interscope.com.
+dev.mindlessbehavior    CNAME	dev.interscope.com.
 dev.mishon              CNAME	dev.interscope.com.
 prod.mishon             A	57.77.2.145
 test.mishon             A	167.167.16.33
@@ -780,6 +822,7 @@ att04.nicolescherzingermusic CNAME	att04.interscope.com.
 att05.nicolescherzingermusic CNAME	att05.interscope.com.
 att06.nicolescherzingermusic CNAME	att06.interscope.com.
 dev.nicolescherzingermusic CNAME	dev.interscope.com.
+test.nicolescherzingermusic A	167.167.16.33
 att.nlt                 CNAME	lvp3.interscope.com.
 dev.nlt                 A	192.251.67.100
 prod.nlt                A	57.77.2.145
@@ -813,6 +856,7 @@ att.orianthi            7800	A	167.167.24.72
 dev.orianthi            A	192.251.67.100
 test.orianthi           A	167.167.16.33
 dev.orianthi2           CNAME	dev.interscope.com.
+test.orianthi2          CNAME	test.interscope.com.
 origin-cache            7200	A	167.167.24.75
 origin-webassets        A	167.167.24.78
 test.origin-webassets   A	167.167.16.33
@@ -874,6 +918,8 @@ att04.qotsa             CNAME	att04.interscope.com.
 att05.qotsa             CNAME	att05.interscope.com.
 att06.qotsa             CNAME	att06.interscope.com.
 test.qotsa              A	167.167.16.33
+qr                      4200	A	167.167.24.74
+dev.qr                  A	192.251.67.100
 att.raylav              CNAME	lvp3.interscope.com.
 dev.raylav              A	192.251.67.100
 prod.raylav             A	57.77.2.145
@@ -884,10 +930,19 @@ www03.raylav            CNAME	www03.igadev.com.
 www04.raylav            CNAME	www04.igadev.com.
 www05.raylav            CNAME	www05.igadev.com.
 www06.raylav            CNAME	www06.igadev.com.
+att.red-cafe            CNAME	att.interscope.com.
+att01.red-cafe          CNAME	att01.interscope.com.
+att02.red-cafe          CNAME	att02.interscope.com.
+att03.red-cafe          CNAME	att03.interscope.com.
+att04.red-cafe          CNAME	att04.interscope.com.
+att05.red-cafe          CNAME	att05.interscope.com.
+att06.red-cafe          CNAME	att06.interscope.com.
+test.red-cafe           CNAME	test.interscope.com.
 redirect                A	167.167.24.78
 att.reevecarney         CNAME	lvp4.interscope.com.
 test.reevecarney        A	167.167.16.33
 att.reggieandthefulleffect CNAME	lvp1.interscope.com.
+repo                    A	192.251.67.93
 reporting               A	216.193.195.52
 revtheory               A	192.251.67.100
 att.revtheory           CNAME	lvp1.interscope.com.
@@ -992,6 +1047,14 @@ att.shade45             CNAME	lvp2.interscope.com.
 test.shade45            A	167.167.16.33
 att.shadyrecords        CNAME	lvp4.interscope.com.
 test.shadyrecords       A	167.167.16.33
+att01.shareefa          CNAME	att01.interscope.com.
+att02.shareefa          CNAME	att02.interscope.com.
+att03.shareefa          CNAME	att03.interscope.com.
+att04.shareefa          CNAME	att04.interscope.com.
+att05.shareefa          CNAME	att05.interscope.com.
+att06.shareefa          CNAME	att06.interscope.com.
+dev.shareefa            CNAME	dev.interscope.com.
+test.shareefa           CNAME	test.interscope.com.
 2008.sherylcrow         A	167.167.24.46
 att.sherylcrow          CNAME	lvp2.interscope.com.
 att01.sherylcrow        CNAME	att01.interscope.com.
@@ -1121,6 +1184,15 @@ store                   A	167.167.24.75
 dev.store               CNAME	dev.interscope.com.
 test.store              A	167.167.16.33
 att.streetdrumcorps     CNAME	lvp2.interscope.com.
+att.bang.streetdrumcorps A	167.167.24.71
+att01.bang.streetdrumcorps CNAME	att01.interscope.com.
+att02.bang.streetdrumcorps CNAME	att02.interscope.com.
+att03.bang.streetdrumcorps CNAME	att03.interscope.com.
+att04.bang.streetdrumcorps CNAME	att04.interscope.com.
+att05.bang.streetdrumcorps CNAME	att05.interscope.com.
+att06.bang.streetdrumcorps CNAME	att06.interscope.com.
+dev.bang.streetdrumcorps CNAME	dev.interscope.com.
+test.bang.streetdrumcorps CNAME	test.interscope.com.
 dev.streetdrumcorps     CNAME	dev.interscope.com.
 prod.streetdrumcorps    A	57.77.2.144
 test.streetdrumcorps    A	167.167.16.33
@@ -1152,10 +1224,20 @@ att.tatugirls           CNAME	med1.interscope.com.
 test.tatugirls          A	167.167.16.33
 att.tennmanrecords      CNAME	lvp1.interscope.com.
 test.tennmanrecords     A	167.167.16.33
+test                    A	167.167.16.33
 att.teyanaonline        CNAME	lvp1.interscope.com.
 test.teyanaonline       A	167.167.16.33
 att.us.thecaptainandthekid CNAME	lvp3.interscope.com.
 test.thecure            A	167.167.16.33
+att.thedeandreway       A	167.167.24.76
+att01.thedeandreway     CNAME	att01.interscope.com.
+att02.thedeandreway     CNAME	att02.interscope.com.
+att03.thedeandreway     CNAME	att03.interscope.com.
+att04.thedeandreway     CNAME	att04.interscope.com.
+att05.thedeandreway     CNAME	att05.interscope.com.
+att06.thedeandreway     CNAME	att06.interscope.com.
+dev.thedeandreway       CNAME	dev.interscope.com.
+test.thedeandreway      CNAME	test.interscope.com.
 att.thefeelingmusic     CNAME	lvp1.interscope.com.
 att.thefixxers          CNAME	lvp1.interscope.com.
 att.thefratellis-us     CNAME	lvp3.interscope.com.
@@ -1181,6 +1263,7 @@ dev.wale.themusictee    CNAME	dev.interscope.com.
 test.wale.themusictee   A	167.167.16.33
 test.theprettyreckless  A	167.167.16.33
 att.theprocessofseparation CNAME	lvp1.interscope.com.
+test.therealbillyblue   A	167.167.16.33
 att.therelapse          CNAME	med3.interscope.com.
 dev.therelapse          CNAME	dev.interscope.com.
 test.therelapse         A	167.167.16.33
@@ -1211,6 +1294,7 @@ att.tonyyayo            A	167.167.24.73
 test.tonyyayo           A	167.167.16.33
 track                   7200	A	167.167.24.70
 dev.travisgarland       CNAME	dev.interscope.com.
+test.travisgarlandofficial A	167.167.16.33
 att.tremesoundtrack     A	167.167.24.73
 att01.tremesoundtrack   CNAME	att01.interscope.com.
 att02.tremesoundtrack   CNAME	att02.interscope.com.
@@ -1239,6 +1323,8 @@ att.valeriamusic        CNAME	lvp2.interscope.com.
 att.versesimmonds       CNAME	lvp2.interscope.com.
 dev.versesimmonds       CNAME	dev.interscope.com.
 test.versesimmonds      A	167.167.16.33
+dev.virtualsite         CNAME	dev.interscope.com.
+test.virtualsite        CNAME	test.interscope.com.
 2008.vistosobosses      A	167.167.24.46
 att.vistosobosses       CNAME	lvp1.interscope.com.
 dev.vistosobosses       CNAME	dev.interscope.com.
@@ -1299,19 +1385,3 @@ www03.yv-music          CNAME	www03.igadev.com.
 www04.yv-music          CNAME	www04.igadev.com.
 www05.yv-music          CNAME	www05.igadev.com.
 www06.yv-music          CNAME	www06.igadev.com.
-test.jaredevan              A     167.167.16.33
-test.jordytowers            A     167.167.16.33
-test.travisgarlandofficial  A     167.167.16.33
-test.nicolescherzingermusic A     167.167.16.33
-test.eldebargemusic         A     167.167.16.33
-test.greyson-official       A     167.167.16.33
-test.bushofficial           A     167.167.16.33
-test.mattmorris             A     167.167.16.33
-test.allheartstour          A     167.167.16.33
-test.therealbillyblue       A     167.167.16.33
-test.download               A     167.167.16.33
-test.escapethefate          A     167.167.16.33
-test.dantalevskimusic       A     167.167.16.33
-test.dieantwoord            A     167.167.16.33
-test.freewired              A     167.167.16.33
-test.lloydmusic             A     167.167.16.33

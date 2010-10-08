@@ -1,10 +1,10 @@
 ;
 ;  Database file universalsm.com.dns for universalsm.com zone.
-;      Zone version:  2010032301
+;      Zone version:  2010032302
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2010032301   ; serial number
+                        	2010032302   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -30,5 +30,6 @@ awards                  A	167.167.2.109
 test.awards             A	192.251.67.244
 dev                     A	192.251.67.124
 insight                 A	167.167.24.136
+dev.insight             CNAME	dev.universalsm.com.
 localhost               A	127.0.0.1
 www                     CNAME	universalsm.com.

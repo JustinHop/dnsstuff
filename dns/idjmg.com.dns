@@ -1,10 +1,10 @@
 ;
 ;  Database file idjmg.com.dns for idjmg.com zone.
-;      Zone version:  2010032381
+;      Zone version:  2010032399
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2010032381   ; serial number
+                        	2010032399   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,12 +14,12 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns2.umusic.com.
-ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
 
 ;
 ;  Zone records
@@ -76,8 +76,16 @@ att01.bigboi            CNAME	att01.idjmg.com.
 att02.bigboi            CNAME	att02.idjmg.com.
 att03.bigboi            CNAME	att03.idjmg.com.
 att04.bigboi            CNAME	att04.idjmg.com.
+att.contest.bigboi      A	167.167.24.6
+att01.contest.bigboi    CNAME	att01.idjmg.com.
+att02.contest.bigboi    CNAME	att02.idjmg.com.
+att03.contest.bigboi    CNAME	att03.idjmg.com.
+att04.contest.bigboi    CNAME	att04.idjmg.com.
+test.contest.bigboi     CNAME	test.idjmg.com.
 dev.bigboi              A	192.251.67.13
 test.bigboi             CNAME	test.idjmg.com.
+att.blackcards          CNAME	att01.idjmg.com.
+test.blackcards         CNAME	test.idjmg.com.
 bnsrv                   CNAME	defjam.idjmg.com.
 broadway                A	10.130.203.43
 att.burnhammusic        A	167.167.24.6
@@ -319,6 +327,12 @@ test.teflondonross      CNAME	test.idjmg.com.
 test                    A	192.251.67.94
 att.thebravery          CNAME	lb01-high.idjmg.com.
 test.thebravery         CNAME	test.idjmg.com.
+att.thedamnedthings     A	167.167.24.7
+att01.thedamnedthings   CNAME	att01.idjmg.com.
+att02.thedamnedthings   CNAME	att02.idjmg.com.
+att03.thedamnedthings   CNAME	att03.idjmg.com.
+att04.thedamnedthings   CNAME	att04.idjmg.com.
+test.thedamnedthings    CNAME	test.idjmg.com.
 att.thedream            CNAME	lb02-mid.idjmg.com.
 test.thedream           CNAME	test.idjmg.com.
 att.shop.thekillersmusic CNAME	lb02-mid.idjmg.com.

@@ -1,10 +1,10 @@
 ;
 ;  Database file ilovethatsong.com.dns for ilovethatsong.com zone.
-;      Zone version:  2010032305
+;      Zone version:  2010032320
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2010032305   ; serial number
+                        	2010032320   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -26,6 +26,10 @@ ns5.umusic.com.         A	167.167.1.132
 ;
 
 @                       A	167.167.24.136
+@                       MX	10	mx1c25.carrierzone.com.
+@                       MX	100	mx2c25.carrierzone.com.
+@                       MX	110	mx3c25.carrierzone.com.
+@                       MX	120	mx4c25.carrierzone.com.
 att                     A	167.167.24.135
 att01                   A	167.167.24.132
 att02                   A	167.167.24.133
@@ -44,21 +48,31 @@ dev.duevoci             A	192.251.67.13
 att.gretasbakery        A	167.167.24.37
 dev.gretasbakery        A	192.251.67.13
 att.hiposelect          CNAME	att.ilovethatsong.com.
+icon                    A	167.167.24.37
+att.icon                CNAME	icon.ilovethatsong.com.
 dev.icon                A	192.251.67.13
+www.icon                CNAME	icon.ilovethatsong.com.
 att.jackson5            CNAME	att.ilovethatsong.com.
 dev.jackson5            CNAME	dev.ilovethatsong.com.
 localhost               A	127.0.0.1
+mail                    A	64.29.145.40
 missing                 CNAME	ilovethatsong.com.
 mom                     CNAME	ilovethatsong.com.
 att.motown50            CNAME	att.ilovethatsong.com.
 att.oldclassicmotown    CNAME	att.ilovethatsong.com.
 dev.oldclassicmotown    CNAME	dev.ilovethatsong.com.
+petty                   A	167.167.24.37
+dev.petty               A	192.251.67.13
 att.playlistyourway     CNAME	att.ilovethatsong.com.
 prod                    A	192.251.67.166
 rick                    A	167.167.24.136
 att.roadsinger          CNAME	att.ilovethatsong.com.
 shoemakerbonus          A	167.167.24.136
+soundgarden             A	167.167.24.37
+soundgardenworld        A	167.167.24.37
 dev.soundgardenworld    3600	A	192.251.67.13
 att.universalsm         CNAME	att.ilovethatsong.com.
 vault                   A	167.167.24.136
+webmail                 A	64.29.145.44
+dev.shop.weezer         CNAME	dev.ilovethatsong.com.
 www                     CNAME	ilovethatsong.com.

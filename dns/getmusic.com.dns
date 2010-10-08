@@ -1,10 +1,10 @@
 ;
 ;  Database file getmusic.com.dns for getmusic.com zone.
-;      Zone version:  2010032303
+;      Zone version:  2010032304
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010032303   ; serial number
+                        	2010032304   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,12 +14,12 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns1.umusic.com.
-ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
 
 ;
 ;  Zone records
@@ -35,7 +35,7 @@ iga                     CNAME	getmusic.com.
 d2c.iga                 CNAME	getmusic.com.
 localhost               A	127.0.0.1
 *.m                     900	A	199.106.104.143
-d2c.m                   A	212.235.1.25
+d2c.m                   A	194.90.44.20
 jimmy.m                 A	212.235.1.25
 motricity               900	A	199.106.104.143
 pv-motricity            A	199.106.104.143

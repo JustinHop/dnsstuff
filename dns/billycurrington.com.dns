@@ -1,10 +1,10 @@
 ;
 ;  Database file billycurrington.com.dns for billycurrington.com zone.
-;      Zone version:  2010032300
+;      Zone version:  2010032301
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2010032300   ; serial number
+                        	2010032301   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -13,7 +13,6 @@
 ;
 ;  Zone NS records
 ;
-
 
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
@@ -26,12 +25,12 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-
 @                       A	167.167.24.135
-@                       MX	10	mx1c25.carrierzone.com.
-@                       MX	100	mx2c25.carrierzone.com.
 @                       MX	110	mx3c25.carrierzone.com.
 @                       MX	120	mx4c25.carrierzone.com.
+@                       MX	10	mx1c25.carrierzone.com.
+@                       MX	100	mx2c25.carrierzone.com.
 localhost               A	127.0.0.1
+prettygood              A	167.167.24.37
 test                    A	192.251.67.244
 www                     CNAME	billycurrington.com.

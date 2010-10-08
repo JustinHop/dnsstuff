@@ -1,10 +1,10 @@
 ;
 ;  Database file weezer.com.dns for weezer.com zone.
-;      Zone version:  2010032300
+;      Zone version:  2010032306
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010032300   ; serial number
+                        	2010032306   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -13,7 +13,6 @@
 ;
 ;  Zone NS records
 ;
-
 
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
@@ -26,14 +25,15 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-
-@                       A	167.167.24.75
-@                       MX	100	mx2c25.carrierzone.com.
+@                       A	8.6.19.68
 @                       MX	110	mx3c25.carrierzone.com.
 @                       MX	120	mx4c25.carrierzone.com.
 @                       MX	10	mx1c25.carrierzone.com.
+@                       MX	100	mx2c25.carrierzone.com.
+classic                 A	167.167.24.75
 localhost               A	127.0.0.1
 mail                    A	64.29.145.40
 makebelieve             A	167.167.24.80
+shop                    A	167.167.24.136
 webmail                 A	64.29.145.44
 www                     CNAME	weezer.com.

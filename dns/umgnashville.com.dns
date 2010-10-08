@@ -1,10 +1,10 @@
 ;
 ;  Database file umgnashville.com.dns for umgnashville.com zone.
-;      Zone version:  2010032308
+;      Zone version:  2010032309
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010032308   ; serial number
+                        	2010032309   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -43,6 +43,7 @@ att.billycurrington     CNAME	att.umgnashville.com.
 att01.billycurrington   CNAME	att01.umgnashville.com.
 att02.billycurrington   CNAME	att02.umgnashville.com.
 att03.billycurrington   CNAME	att03.umgnashville.com.
+attphp.billycurrington  A	167.167.24.37
 dev.billycurrington     CNAME	dev.umgnashville.com.
 dev2.billycurrington    CNAME	dev2.umgnashville.com.
 dev3.billycurrington    A	192.251.67.13

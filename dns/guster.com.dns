@@ -1,0 +1,35 @@
+;
+;  Database file guster.com.dns for guster.com zone.
+;      Zone version:  14
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	14           ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
+
+;
+;  Zone records
+;
+
+@                       A	167.167.24.100
+@                       MX	10	mx.guster.com.cust.hostedemail.com.
+archives                A	216.200.125.192
+journals                A	216.200.125.192
+mail                    CNAME	mail.guster.com.cust.hostedemail.com.
+mailadmin               CNAME	admin.hostedemail.com.
+msgboard                A	216.200.125.192
+store                   A	63.238.22.72
+www                     CNAME	guster.com.

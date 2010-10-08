@@ -1,10 +1,10 @@
 ;
 ;  Database file juanesweb.com.dns for juanesweb.com zone.
-;      Zone version:  2010032307
+;      Zone version:  2010032308
 ;
 
 @                       600	IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010032307   ; serial number
+                        	2010032308   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -29,6 +29,7 @@ ns1.umusic.com.         A	167.167.1.141
 comunidad               A	192.251.67.166
 dev                     A	192.251.67.124
 dev-comunidad           A	192.251.67.124
+fanwall                 A	94.23.161.229
 prod                    A	192.251.67.166
 prod-comunidad          A	192.251.67.166
 splash                  A	167.167.24.200

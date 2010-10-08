@@ -1,10 +1,10 @@
 ;
 ;  Database file umgd.net.dns for umgd.net zone.
-;      Zone version:  2010032322
+;      Zone version:  2010032323
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010032322   ; serial number
+                        	2010032323   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -25,6 +25,7 @@ ns2.umusic.com.         A	167.167.9.132
 ;  Zone records
 ;
 
+dev.apoyatumusica       CNAME	dev.umgd.net.
 att01                   A	167.167.24.132
 att02                   A	167.167.24.133
 att03                   A	167.167.24.134
