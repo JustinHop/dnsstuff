@@ -1,10 +1,10 @@
 ;
 ;  Database file islanddefjam.com.dns for islanddefjam.com zone.
-;      Zone version:  2010032304
+;      Zone version:  2010032305
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2010032304   ; serial number
+                        	2010032305   ; serial number
                         	1800         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,22 +14,22 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns1.umusic.com.
-ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
 
 ;
 ;  Zone records
 ;
 
 @                       A	167.167.24.14
-@                       MX	100	mx2c25.carrierzone.com.
-@                       MX	10	mx1c25.carrierzone.com.
 @                       MX	110	mx3c25.carrierzone.com.
 @                       MX	120	mx4c25.carrierzone.com.
+@                       MX	100	mx2c25.carrierzone.com.
+@                       MX	10	mx1c25.carrierzone.com.
 aisfeed                 CNAME	awsservices.umusic.com.
 allaccess               A	64.27.23.111
 arftp                   CNAME	ftp-na.umusic.com.
@@ -53,10 +53,10 @@ ecard                   CNAME	www3.islanddefjam.com.
 ;
 ;  Delegated sub-zone:  email.islanddefjam.com.
 ;
-email                   NS	ns1.exacttarget.com.
-ns1.exacttarget.com.    A	66.231.91.222
 email                   NS	ns2.exacttarget.com.
 ns2.exacttarget.com.    A	66.231.94.222
+email                   NS	ns1.exacttarget.com.
+ns1.exacttarget.com.    A	66.231.91.222
 ;  End delegation
 
 images                  A	167.167.9.105
@@ -66,7 +66,7 @@ media                   A	167.167.2.100
 message                 A	167.167.9.162
 mobile                  CNAME	dtmoecom.moviso.com.
 music                   CNAME	www6.islanddefjam.com.
-origin-cache            A	167.167.24.25
+origin-cache            A	167.167.24.7
 redirect                7200	A	167.167.24.10
 spencer                 CNAME	www2.islanddefjam.com.
 staging                 A	167.167.9.173
