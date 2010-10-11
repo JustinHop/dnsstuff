@@ -1,13 +1,13 @@
 ;
-;  Database file melodiesbymjb.com.dns for melodiesbymjb.com zone.
-;      Zone version:  20100107
+;  Database file jessiejofficial.com.dns for jessiejofficial.com zone.
+;      Zone version:  7
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	20100107     ; serial number
+                        	7            ; serial number
                         	900          ; refresh
                         	600          ; retry
-                        	2419200      ; expire
+                        	86400        ; expire
                         	3600       ) ; default TTL
 
 ;
@@ -24,5 +24,5 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-@                       600	A	66.240.233.109
-www                     CNAME	melodiesbymjb.com.
+@                       A	167.167.24.101
+www                     CNAME	jessiejofficial.com.

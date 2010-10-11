@@ -1,10 +1,10 @@
 ;
 ;  Database file vervemusicgroup.com.dns for vervemusicgroup.com zone.
-;      Zone version:  2010032331
+;      Zone version:  2010032332
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010032331   ; serial number
+                        	2010032332   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,12 +14,12 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns1.umusic.com.
-ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
 
 ;
 ;  Zone records
@@ -147,6 +147,7 @@ att03.thebridges        CNAME	att03.vervemusicgroup.com.
 dev.thebridges          CNAME	dev.vervemusicgroup.com.
 prod.thebridges         CNAME	prod.vervemusicgroup.com.
 dev.thepuppinisisters   A	192.251.67.13
+dev.ecard.thepuppinisisters A	192.251.67.13
 att.ultimateledhead     CNAME	att.vervemusicgroup.com.
 dev.ultimateledhead     CNAME	dev.vervemusicgroup.com.
 att.ververemixed        CNAME	att.vervemusicgroup.com.

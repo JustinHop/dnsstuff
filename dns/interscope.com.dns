@@ -1,10 +1,10 @@
 ;
 ;  Database file interscope.com.dns for interscope.com zone.
-;      Zone version:  2010081877
+;      Zone version:  2010081896
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010081877   ; serial number
+                        	2010081896   ; serial number
                         	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,25 +14,25 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns1.umusic.com.
-ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
 
 ;
 ;  Zone records
 ;
 
 @                       7200	A	167.167.24.74
+@                       MX	20	alt1.aspmx.l.google.com.
+@                       MX	20	alt2.aspmx.l.google.com.
+@                       MX	10	aspmx.l.google.com.
 @                       MX	30	aspmx2.googlemail.com.
 @                       MX	30	aspmx3.googlemail.com.
 @                       MX	30	aspmx4.googlemail.com.
 @                       MX	30	aspmx5.googlemail.com.
-@                       MX	20	alt1.aspmx.l.google.com.
-@                       MX	20	alt2.aspmx.l.google.com.
-@                       MX	10	aspmx.l.google.com.
 att.50cent              CNAME	med1.interscope.com.
 att01.50cent            CNAME	att01.interscope.com.
 att02.50cent            CNAME	att02.interscope.com.
@@ -328,10 +328,10 @@ att.elementree          CNAME	lvp2.interscope.com.
 ;
 ;  Delegated sub-zone:  email.interscope.com.
 ;
-email                   NS	ns2.exacttarget.com.
-ns2.exacttarget.com.    A	66.231.94.222
 email                   NS	ns1.exacttarget.com.
 ns1.exacttarget.com.    A	66.231.91.222
+email                   NS	ns2.exacttarget.com.
+ns2.exacttarget.com.    A	66.231.94.222
 ;  End delegation
 
 att.eminem              A	167.167.24.78
@@ -592,6 +592,8 @@ att03.kerihilson        CNAME	att03.interscope.com.
 att04.kerihilson        CNAME	att04.interscope.com.
 att05.kerihilson        CNAME	att05.interscope.com.
 att06.kerihilson        CNAME	att06.interscope.com.
+dev.kerihilson          CNAME	dev.interscope.com.
+dev2.kerihilson         CNAME	dev.interscope.com.
 test.kerihilson         A	167.167.16.33
 att.keyshiacole         CNAME	med1.interscope.com.
 test.keyshiacole        A	167.167.16.33
@@ -1293,6 +1295,14 @@ test.tokiohotel-us      A	167.167.16.33
 att.tonyyayo            A	167.167.24.73
 test.tonyyayo           A	167.167.16.33
 track                   7200	A	167.167.24.70
+att01.travisbarker      CNAME	att01.interscope.com.
+att02.travisbarker      CNAME	att02.interscope.com.
+att03.travisbarker      CNAME	att03.interscope.com.
+att04.travisbarker      CNAME	att04.interscope.com.
+att05.travisbarker      CNAME	att05.interscope.com.
+att06.travisbarker      CNAME	att06.interscope.com.
+dev.travisbarker        CNAME	dev.interscope.com.
+test.travisbarker       CNAME	test.interscope.com.
 dev.travisgarland       CNAME	dev.interscope.com.
 test.travisgarlandofficial A	167.167.16.33
 att.tremesoundtrack     A	167.167.24.73
@@ -1385,3 +1395,12 @@ www03.yv-music          CNAME	www03.igadev.com.
 www04.yv-music          CNAME	www04.igadev.com.
 www05.yv-music          CNAME	www05.igadev.com.
 www06.yv-music          CNAME	www06.igadev.com.
+att.zanderbleck         A	167.167.24.72
+att01.zanderbleck       CNAME	att01.interscope.com.
+att02.zanderbleck       CNAME	att02.interscope.com.
+att03.zanderbleck       CNAME	att03.interscope.com.
+att04.zanderbleck       CNAME	att04.interscope.com.
+att05.zanderbleck       CNAME	att05.interscope.com.
+att06.zanderbleck       CNAME	att06.interscope.com.
+dev.zanderbleck         CNAME	dev.interscope.com.
+test.zanderbleck        CNAME	test.interscope.com.
