@@ -1,10 +1,10 @@
 ;
 ;  Database file vervemusicgroup.com.dns for vervemusicgroup.com zone.
-;      Zone version:  2010032332
+;      Zone version:  2010032333
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010032332   ; serial number
+                        	2010032333   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -26,10 +26,10 @@ ns1.umusic.com.         A	167.167.1.141
 ;
 
 @                       A	167.167.24.137
-@                       MX	10	mx1c25.carrierzone.com.
 @                       MX	100	mx2c25.carrierzone.com.
 @                       MX	120	mx4c25.carrierzone.com.
 @                       MX	110	mx3c25.carrierzone.com.
+@                       MX	10	mx1c25.carrierzone.com.
 att.16frames            CNAME	att.vervemusicgroup.com.
 att01.16frames          CNAME	att01.vervemusicgroup.com.
 att02.16frames          CNAME	att02.vervemusicgroup.com.
@@ -50,6 +50,7 @@ att01.avantofficial     CNAME	att01.vervemusicgroup.com.
 att02.avantofficial     CNAME	att02.vervemusicgroup.com.
 att03.avantofficial     CNAME	att03.vervemusicgroup.com.
 dev.avantofficial       CNAME	dev.vervemusicgroup.com.
+dev2.avantofficial      A	192.251.67.13
 att.braziliangirls      CNAME	att.vervemusicgroup.com.
 dev.braziliangirls      CNAME	dev.vervemusicgroup.com.
 prod.braziliangirls     CNAME	prod.vervemusicgroup.com.

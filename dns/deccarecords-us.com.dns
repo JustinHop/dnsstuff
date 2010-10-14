@@ -1,10 +1,10 @@
 ;
 ;  Database file deccarecords-us.com.dns for deccarecords-us.com zone.
-;      Zone version:  2010032303
+;      Zone version:  2010032306
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010032303   ; serial number
+                        	2010032306   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -32,6 +32,7 @@ att02.boyziimen         A	167.167.24.133
 att03.boyziimen         A	167.167.24.134
 dev.boyziimen           A	192.251.67.124
 dev                     A	192.251.67.124
+press                   A	205.186.183.115
 prod                    A	192.251.67.166
 test                    A	192.251.67.94
 www                     CNAME	deccarecords-us.com.

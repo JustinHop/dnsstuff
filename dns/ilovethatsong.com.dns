@@ -1,10 +1,10 @@
 ;
 ;  Database file ilovethatsong.com.dns for ilovethatsong.com zone.
-;      Zone version:  2010032320
+;      Zone version:  2010032323
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2010032320   ; serial number
+                        	2010032323   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -26,10 +26,10 @@ ns5.umusic.com.         A	167.167.1.132
 ;
 
 @                       A	167.167.24.136
+@                       MX	120	mx4c25.carrierzone.com.
 @                       MX	10	mx1c25.carrierzone.com.
 @                       MX	100	mx2c25.carrierzone.com.
 @                       MX	110	mx3c25.carrierzone.com.
-@                       MX	120	mx4c25.carrierzone.com.
 att                     A	167.167.24.135
 att01                   A	167.167.24.132
 att02                   A	167.167.24.133
@@ -74,5 +74,8 @@ dev.soundgardenworld    3600	A	192.251.67.13
 att.universalsm         CNAME	att.ilovethatsong.com.
 vault                   A	167.167.24.136
 webmail                 A	64.29.145.44
+att01.shop.weezer       CNAME	att01.ilovethatsong.com.
+att02.shop.weezer       CNAME	att02.ilovethatsong.com.
+att03.shop.weezer       CNAME	att03.ilovethatsong.com.
 dev.shop.weezer         CNAME	dev.ilovethatsong.com.
 www                     CNAME	ilovethatsong.com.

@@ -1,10 +1,10 @@
 ;
 ;  Database file idjmg.com.dns for idjmg.com zone.
-;      Zone version:  2010032399
+;      Zone version:  2010032401
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2010032399   ; serial number
+                        	2010032401   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -190,6 +190,7 @@ att02.jayzhitscollection CNAME	att02.idjmg.com.
 att03.jayzhitscollection CNAME	att03.idjmg.com.
 att04.jayzhitscollection CNAME	att04.idjmg.com.
 test.jayzhitscollection CNAME	test.idjmg.com.
+test2.jayzhitscollection CNAME	test2.idjmg.com.
 att.jennaandrews        CNAME	lb01-high.idjmg.com.
 test.jennaandrews       CNAME	test.idjmg.com.
 att.jeremih             CNAME	lb02-high.idjmg.com.
@@ -325,6 +326,7 @@ test.teen-beats         CNAME	test.idjmg.com.
 att.teflondonross       CNAME	lb01-high.idjmg.com.
 test.teflondonross      CNAME	test.idjmg.com.
 test                    A	192.251.67.94
+test2                   A	167.167.16.34
 att.thebravery          CNAME	lb01-high.idjmg.com.
 test.thebravery         CNAME	test.idjmg.com.
 att.thedamnedthings     A	167.167.24.7
