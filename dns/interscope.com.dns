@@ -1,10 +1,10 @@
 ;
 ;  Database file interscope.com.dns for interscope.com zone.
-;      Zone version:  2010081898
+;      Zone version:  2010081909
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010081898   ; serial number
+                        	2010081909   ; serial number
                         	600          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -26,13 +26,13 @@ ns2.umusic.com.         A	167.167.9.132
 ;
 
 @                       7200	A	167.167.24.74
+@                       MX	30	aspmx5.googlemail.com.
+@                       MX	20	alt1.aspmx.l.google.com.
 @                       MX	20	alt2.aspmx.l.google.com.
 @                       MX	10	aspmx.l.google.com.
 @                       MX	30	aspmx2.googlemail.com.
 @                       MX	30	aspmx3.googlemail.com.
 @                       MX	30	aspmx4.googlemail.com.
-@                       MX	30	aspmx5.googlemail.com.
-@                       MX	20	alt1.aspmx.l.google.com.
 att.50cent              CNAME	med1.interscope.com.
 att01.50cent            CNAME	att01.interscope.com.
 att02.50cent            CNAME	att02.interscope.com.
@@ -136,6 +136,14 @@ att05.billyblue         CNAME	att05.interscope.com.
 att06.billyblue         CNAME	att06.interscope.com.
 dev.billyblue           CNAME	dev.interscope.com.
 test.billyblue          CNAME	test.interscope.com.
+att.thebeginning.blackeyedpeas A	167.167.24.76
+att01.thebeginning.blackeyedpeas CNAME	att01.interscope.com.
+att02.thebeginning.blackeyedpeas CNAME	att02.interscope.com.
+att03.thebeginning.blackeyedpeas CNAME	att03.interscope.com.
+att04.thebeginning.blackeyedpeas CNAME	att04.interscope.com.
+att05.thebeginning.blackeyedpeas CNAME	att05.interscope.com.
+att06.thebeginning.blackeyedpeas CNAME	att06.interscope.com.
+dev.thebeginning.blackeyedpeas CNAME	dev.interscope.com.
 att.blacktidemusic      CNAME	lvp3.interscope.com.
 test.blacktidemusic     A	167.167.16.33
 att.blaqkaudio          A	167.167.24.75
@@ -597,6 +605,7 @@ dev.kerihilson          CNAME	dev.interscope.com.
 dev2.kerihilson         CNAME	dev.interscope.com.
 test.kerihilson         A	167.167.16.33
 att.keyshiacole         CNAME	med1.interscope.com.
+dev2.keyshiacole        CNAME	dev.interscope.com.
 test.keyshiacole        A	167.167.16.33
 att.kickballrecords     CNAME	lvp4.interscope.com.
 att.kingsburystudio     CNAME	lvp4.interscope.com.
@@ -1134,6 +1143,7 @@ att04.sonsofsylvia      CNAME	att04.interscope.com.
 att05.sonsofsylvia      CNAME	att05.interscope.com.
 att06.sonsofsylvia      CNAME	att06.interscope.com.
 dev.sonsofsylvia        CNAME	dev.interscope.com.
+dev2.sonsofsylvia       CNAME	dev.interscope.com.
 dev.store.sonsofsylvia  CNAME	dev.interscope.com.
 test.store.sonsofsylvia A	167.167.16.33
 test.sonsofsylvia       CNAME	test.interscope.com.
@@ -1405,4 +1415,5 @@ att04.zanderbleck       CNAME	att04.interscope.com.
 att05.zanderbleck       CNAME	att05.interscope.com.
 att06.zanderbleck       CNAME	att06.interscope.com.
 dev.zanderbleck         CNAME	dev.interscope.com.
+dev2.zanderbleck        CNAME	dev2.interscope.com.
 test.zanderbleck        CNAME	test.interscope.com.

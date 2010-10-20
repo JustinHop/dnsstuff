@@ -1,13 +1,13 @@
 ;
-;  Database file justbetruetowhoyouare.com.dns for justbetruetowhoyouare.com zone.
-;      Zone version:  8
+;  Database file escapethefaterock.com.dns for escapethefaterock.com zone.
+;      Zone version:  2010101505
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	8            ; serial number
+                        	2010101505   ; serial number
                         	900          ; refresh
                         	600          ; retry
-                        	86400        ; expire
+                        	2419200      ; expire
                         	3600       ) ; default TTL
 
 ;
@@ -24,6 +24,5 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-@                       A	167.167.24.101
-att                     A	167.167.24.101
-www                     CNAME	justbetruetowhoyouare.com.
+@                       A	167.167.24.76
+www                     CNAME	escapethefaterock.com.

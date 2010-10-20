@@ -1,0 +1,26 @@
+;
+;  Database file thepuppinisisters.com.dns for thepuppinisisters.com zone.
+;      Zone version:  6
+;
+
+@                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
+                        	6            ; serial number
+                        	900          ; refresh
+                        	600          ; retry
+                        	86400        ; expire
+                        	3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	ns1.umusic.com.
+
+;
+;  Zone records
+;
+
+@                       A	212.53.89.138
+@                       MX	10	relay1.netnames.net.
+@                       MX	100	relay2.netnames.net.
+www                     CNAME	thepuppinisisters.com.
