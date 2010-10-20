@@ -1,10 +1,10 @@
 ;
 ;  Database file idjmg.com.dns for idjmg.com zone.
-;      Zone version:  2010032401
+;      Zone version:  2010101400
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2010032401   ; serial number
+                        	2010101400   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
