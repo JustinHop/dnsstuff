@@ -1,10 +1,10 @@
 ;
 ;  Database file deanmartin.com.dns for deanmartin.com zone.
-;      Zone version:  2009110302
+;      Zone version:  2009110303
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2009110302   ; serial number
+                        	2009110303   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,23 +14,24 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns2.umusic.com.
-ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
+@                       NS	ns2.umusic.com.
+ns2.umusic.com.         A	167.167.9.132
 
 ;
 ;  Zone records
 ;
 
 @                       A	167.167.24.136
+@                       MX	10	mx1c25.carrierzone.com.
 @                       MX	10	mx3c25.carrierzone.com.
 @                       MX	10	mx4c25.carrierzone.com.
 @                       MX	10	mx2c25.carrierzone.com.
-@                       MX	10	mx1c25.carrierzone.com.
 ecard                   A	167.167.24.36
 dev.ecard               A	192.251.67.13
+dev.game                A	192.251.67.13
 store                   CNAME	deanmartin.com.
 www                     CNAME	deanmartin.com.

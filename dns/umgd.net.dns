@@ -1,10 +1,10 @@
 ;
 ;  Database file umgd.net.dns for umgd.net zone.
-;      Zone version:  2010032323
+;      Zone version:  2010032325
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010032323   ; serial number
+                        	2010032325   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,12 +14,12 @@
 ;  Zone NS records
 ;
 
-@                       NS	ns5.umusic.com.
-ns5.umusic.com.         A	167.167.1.132
 @                       NS	ns1.umusic.com.
 ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
+@                       NS	ns5.umusic.com.
+ns5.umusic.com.         A	167.167.1.132
 
 ;
 ;  Zone records
@@ -30,6 +30,8 @@ att01                   A	167.167.24.132
 att02                   A	167.167.24.133
 att03                   A	167.167.24.134
 cache                   CNAME	cache.umgd.net.edgesuite.net.
+christmasincanaan       CNAME	umgd.net.
+dev.christmasincanaan   CNAME	dev.umgd.net.
 dev                     A	192.251.67.94
 eadr                    A	167.167.24.135
 att.eadr                A	167.167.24.135

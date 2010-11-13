@@ -1,10 +1,10 @@
 ;
-;  Database file thepuppinisisters.com.dns for thepuppinisisters.com zone.
-;      Zone version:  7
+;  Database file christmasincanaan.com.dns for christmasincanaan.com zone.
+;      Zone version:  3
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	7            ; serial number
+                        	3            ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -20,7 +20,5 @@
 ;  Zone records
 ;
 
-@                       A	167.167.24.38
-@                       MX	10	relay1.netnames.net.
-@                       MX	100	relay2.netnames.net.
-www                     CNAME	thepuppinisisters.com.
+@                       A	167.167.24.135
+www                     CNAME	christmasincanaan.com.

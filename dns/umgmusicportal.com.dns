@@ -1,10 +1,10 @@
 ;
 ;  Database file umgmusicportal.com.dns for umgmusicportal.com zone.
-;      Zone version:  2010032300
+;      Zone version:  2010032302
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2010032300   ; serial number
+                        	2010032302   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,19 +14,19 @@
 ;  Zone NS records
 ;
 
-
-@                       NS	ns1.umusic.com.
-ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
 
 ;
 ;  Zone records
 ;
 
-
 @                       A	167.167.2.60
 localhost               A	127.0.0.1
+uploader                A	167.167.2.28
+                        A	167.167.2.62
 www                     CNAME	umgmusicportal.com.

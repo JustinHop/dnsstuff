@@ -1,10 +1,10 @@
 ;
 ;  Database file umgnashville.com.dns for umgnashville.com zone.
-;      Zone version:  2010032309
+;      Zone version:  2010032312
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2010032309   ; serial number
+                        	2010032312   ; serial number
                         	7200         ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -88,6 +88,7 @@ dev-wp.leeannwomack     A	192.251.67.13
 linux.leeannwomack      A	167.167.24.37
 prod.leeannwomack       CNAME	prod.umgnashville.com.
 localhost               A	127.0.0.1
+lx-sdbx                 A	192.251.67.13
 att.mallaryhope         A	167.167.24.135
 dev.mallaryhope         CNAME	dev.umgnashville.com.
 matt-sandbox            A	192.251.67.124
@@ -97,6 +98,8 @@ att.peoplearecrazy      A	167.167.24.37
 dev.peoplearecrazy      300	A	192.251.67.13
 att.randyexp            300	A	167.167.24.37
 dev.randyexp            A	192.251.67.13
+sand                    A	192.251.67.13
+sandbox                 CNAME	sand.umgnashville.com.
 att.sugarland           CNAME	att.umgnashville.com.
 dev.sugarland           A	192.251.67.124
 dev.thejayhawksofficialstore CNAME	dev.umgnashville.com.

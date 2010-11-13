@@ -1,10 +1,10 @@
 ;
-;  Database file weezeralbums.com.dns for weezeralbums.com zone.
-;      Zone version:  2008042502
+;  Database file mastercardmusic.ca.dns for mastercardmusic.ca zone.
+;      Zone version:  7
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster.umusic.com. (
-                        	2008042502   ; serial number
+                        	7            ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	86400        ; expire
@@ -24,5 +24,5 @@ ns5.umusic.com.         A	167.167.1.132
 ;  Zone records
 ;
 
-@                       A	167.167.24.80
-www                     CNAME	weezeralbums.com.
+@                       A	167.167.24.138
+www                     CNAME	mastercardmusic.ca.

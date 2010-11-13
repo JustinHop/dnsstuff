@@ -1,10 +1,10 @@
 ;
 ;  Database file idjmg.com.dns for idjmg.com zone.
-;      Zone version:  2010101411
+;      Zone version:  2010102003
 ;
 
 @                       IN  SOA ns1.umusic.com.  hostmaster-us.umusic.com. (
-                        	2010101411   ; serial number
+                        	2010102003   ; serial number
                         	900          ; refresh
                         	600          ; retry
                         	2419200      ; expire
@@ -14,12 +14,12 @@
 ;  Zone NS records
 ;
 
+@                       NS	ns1.umusic.com.
+ns1.umusic.com.         A	167.167.1.141
 @                       NS	ns2.umusic.com.
 ns2.umusic.com.         A	167.167.9.132
 @                       NS	ns5.umusic.com.
 ns5.umusic.com.         A	167.167.1.132
-@                       NS	ns1.umusic.com.
-ns1.umusic.com.         A	167.167.1.141
 
 ;
 ;  Zone records
@@ -36,25 +36,30 @@ att02.aaronfresh        CNAME	att02.idjmg.com.
 att03.aaronfresh        CNAME	att03.idjmg.com.
 att04.aaronfresh        CNAME	att04.idjmg.com.
 test.aaronfresh         CNAME	test.idjmg.com.
+test2.aaronfresh        A	167.167.16.34
 att.aaronfresh-artist   A	167.167.24.7
 att01.aaronfresh-artist CNAME	att01.idjmg.com.
 att02.aaronfresh-artist CNAME	att02.idjmg.com.
 att03.aaronfresh-artist CNAME	att03.idjmg.com.
 att04.aaronfresh-artist CNAME	att04.idjmg.com.
 test.aaronfresh-artist  CNAME	test.idjmg.com.
+test2.aaronfresh-artist A	167.167.16.34
 att.abrahammcdonald     A	167.167.24.6
 att01.abrahammcdonald   CNAME	att01.idjmg.com.
 att02.abrahammcdonald   CNAME	att02.idjmg.com.
 att03.abrahammcdonald   CNAME	att03.idjmg.com.
 att04.abrahammcdonald   CNAME	att04.idjmg.com.
 test.abrahammcdonald    CNAME	test.idjmg.com.
+test2.abrahammcdonald   A	167.167.16.34
 att.adriennebailon      CNAME	lb01-high.idjmg.com.
 test.adriennebailon     CNAME	test.idjmg.com.
+test2.adriennebailon    A	167.167.16.34
 att.amerie              CNAME	lb01-high.idjmg.com.
 test.amerie             CNAME	test.idjmg.com.
 dev.artist              A	192.251.67.124
 prod.artist             A	167.167.2.18
 test.artiststaging      CNAME	test.idjmg.com.
+test2.artiststaging     A	167.167.16.34
 2008.ashesdivide        A	167.167.24.26
 2008_att01.ashesdivide  A	167.167.25.1
 2008_att02.ashesdivide  A	167.167.25.2
@@ -70,6 +75,7 @@ lb01.ashesdivide        CNAME	lb01-mid.idjmg.com.
 lb02.ashesdivide        CNAME	lb02-mid.idjmg.com.
 prod.ashesdivide        A	167.167.2.18
 test.ashesdivide        A	192.251.67.94
+test2.ashesdivide       A	167.167.16.34
 www01.ashesdivide       A	167.167.2.102
 www02.ashesdivide       A	167.167.2.101
 origin.assets           A	167.167.24.11
@@ -102,10 +108,13 @@ att02.contest.bigboi    CNAME	att02.idjmg.com.
 att03.contest.bigboi    CNAME	att03.idjmg.com.
 att04.contest.bigboi    CNAME	att04.idjmg.com.
 test.contest.bigboi     CNAME	test.idjmg.com.
+test2.contest.bigboi    A	167.167.16.34
 dev.bigboi              A	192.251.67.13
 test.bigboi             CNAME	test.idjmg.com.
+test2.bigboi            A	167.167.16.34
 att.blackcards          CNAME	att01.idjmg.com.
 test.blackcards         CNAME	test.idjmg.com.
+test2.blackcards        A	167.167.16.34
 2008.blackcardsmusic    A	167.167.24.25
 2008_att01.blackcardsmusic A	167.167.25.1
 2008_att02.blackcardsmusic A	167.167.25.2
@@ -124,6 +133,7 @@ att02.burnhammusic      CNAME	att02.idjmg.com.
 att03.burnhammusic      CNAME	att03.idjmg.com.
 att04.burnhammusic      CNAME	att04.idjmg.com.
 test.burnhammusic       CNAME	test.idjmg.com.
+test2.burnhammusic      A	167.167.16.34
 callisto                CNAME	webboard.islanddefjam.com.
 chat                    CNAME	chat.islanddefjam.com.
 chat1                   CNAME	chat.islanddefjam.com.
@@ -137,6 +147,7 @@ chat4                   CNAME	lvs6.islanddefjam.com.
 2008_att04.chrisettemichele A	167.167.25.4
 att.chrisettemichele    CNAME	lb02-high.idjmg.com.
 test.chrisettemichele   CNAME	test.idjmg.com.
+test2.chrisettemichele  A	167.167.16.34
 creative                A	167.167.9.173
 defjam                  A	167.167.9.103
 2008.shop.defjam        A	167.167.24.26
@@ -145,8 +156,10 @@ defjam                  A	167.167.9.103
 2008_att03.shop.defjam  A	167.167.25.3
 2008_att04.shop.defjam  A	167.167.25.4
 test.shop.defjam        CNAME	test.idjmg.com.
+test2.shop.defjam       A	167.167.16.34
 att.defjam25            CNAME	lb02-mid.idjmg.com.
 test.defjam25           CNAME	test.idjmg.com.
+test2.defjam25          A	167.167.16.34
 2008.defjam25th         A	167.167.24.24
 2008_att01.defjam25th   A	167.167.25.1
 2008_att02.defjam25th   A	167.167.25.2
@@ -162,6 +175,7 @@ dev04                   A	192.251.67.122
 dev.ecrmint             CNAME	dev.idjmg.com.
 att.electrikred         CNAME	lb02-mid.idjmg.com.
 test.electrikred        CNAME	test.idjmg.com.
+test2.electrikred       A	167.167.16.34
 att.falloutboy          CNAME	redirect.islanddefjam.com.
 att01.falloutboy        CNAME	att01.idjmg.com.
 att02.falloutboy        CNAME	att02.idjmg.com.
@@ -170,6 +184,7 @@ att04.falloutboy        CNAME	att04.idjmg.com.
 dev.falloutboy          CNAME	dev.idjmg.com.
 prod.falloutboy         CNAME	lb01-mid.idjmg.com.
 test.falloutboy         CNAME	test.idjmg.com.
+test2.falloutboy        A	167.167.16.34
 2008.falloutboyrock     A	167.167.24.26
 2008_att01.falloutboyrock A	167.167.25.1
 2008_att02.falloutboyrock A	167.167.25.2
@@ -181,6 +196,7 @@ test.falloutboy         CNAME	test.idjmg.com.
 2008_att03.fameisdead   A	167.167.25.3
 2008_att04.fameisdead   A	167.167.25.4
 test.fameisdead         CNAME	test.idjmg.com.
+test2.fameisdead        A	167.167.16.34
 farm                    CNAME	defjam.idjmg.com.
 2008.fefedobson         A	167.167.24.26
 2008_att01.fefedobson   A	167.167.25.1
@@ -189,16 +205,19 @@ farm                    CNAME	defjam.idjmg.com.
 2008_att04.fefedobson   A	167.167.25.4
 att.fefedobson          CNAME	lb01-high.idjmg.com.
 test.fefedobson         CNAME	test.idjmg.com.
+test2.fefedobson        A	167.167.16.34
 prod.fob                CNAME	lb01-mid.idjmg.com.
 att.ghostface           A	167.167.24.10
 dev.ghostface           CNAME	test.idjmg.com.
 test.ghostface          CNAME	test.idjmg.com.
+test2.ghostface         A	167.167.16.34
 2008.ghostfacekillah    A	167.167.24.25
 2008_att01.ghostfacekillah A	167.167.25.1
 2008_att02.ghostfacekillah A	167.167.25.2
 2008_att03.ghostfacekillah A	167.167.25.3
 2008_att04.ghostfacekillah A	167.167.25.4
 test.hedleyonline       CNAME	test.idjmg.com.
+test2.hedleyonline      A	167.167.16.34
 2008.holerock           A	167.167.24.25
 2008_att01.holerock     A	167.167.25.1
 2008_att02.holerock     A	167.167.25.2
@@ -215,18 +234,22 @@ att02.hoobastank        CNAME	att02.idjmg.com.
 att03.hoobastank        CNAME	att03.idjmg.com.
 att04.hoobastank        CNAME	att04.idjmg.com.
 test.hoobastank         CNAME	test.idjmg.com.
+test2.hoobastank        A	167.167.16.34
 att.idj                 CNAME	lb02-mid.idjmg.com.
 att01.idj               CNAME	att01.idjmg.com.
 att02.idj               CNAME	att02.idjmg.com.
 att03.idj               CNAME	att03.idjmg.com.
 att04.idj               CNAME	att04.idjmg.com.
 test.idj                CNAME	test.idjmg.com.
+test2.idj               A	167.167.16.34
 att.idj2                A	167.167.24.7
 att01.idj2              CNAME	att01.idjmg.com.
 att02.idj2              CNAME	att02.idjmg.com.
 att03.idj2              CNAME	att03.idjmg.com.
 att04.idj2              CNAME	att04.idjmg.com.
 test.idj2               CNAME	test.idjmg.com.
+test2.idj2              A	167.167.16.34
+dev.idjmedia            A	192.251.67.13
 2008.att.idj2.idjmg     A	167.167.24.25
 2008_att01.att.idj2.idjmg A	167.167.25.1
 2008_att02.att.idj2.idjmg A	167.167.25.2
@@ -247,6 +270,7 @@ dev.innerpartysystem    CNAME	dev.idjmg.com.
 prod.innerpartysystem   CNAME	lb02-mid.idjmg.com.
 test.innerpartysystem   CNAME	test.idjmg.com.
 test.ipad-comp          CNAME	test.idjmg.com.
+test2.ipad-comp         A	167.167.16.34
 att.ips                 CNAME	lb02-mid.idjmg.com.
 att01.ips               CNAME	att01.idjmg.com.
 att02.ips               CNAME	att02.idjmg.com.
@@ -289,6 +313,7 @@ att03.jadakiss          CNAME	att03.idjmg.com.
 att04.jadakiss          CNAME	att04.idjmg.com.
 prod.jadakiss           CNAME	lb02-mid-idjmg.com.
 test.jadakiss           CNAME	test.idjmg.com.
+test2.jadakiss          A	167.167.16.34
 2008.jayzhitscollection A	167.167.24.26
 2008_att01.jayzhitscollection A	167.167.25.1
 2008_att02.jayzhitscollection A	167.167.25.2
@@ -303,6 +328,7 @@ test.jayzhitscollection CNAME	test.idjmg.com.
 test2.jayzhitscollection CNAME	test2.idjmg.com.
 att.jennaandrews        CNAME	lb01-high.idjmg.com.
 test.jennaandrews       CNAME	test.idjmg.com.
+test2.jennaandrews      A	167.167.16.34
 2008.jennaandrewsworld  A	167.167.24.26
 2008_att01.jennaandrewsworld A	167.167.25.1
 2008_att02.jennaandrewsworld A	167.167.25.2
@@ -315,18 +341,21 @@ test.jennaandrews       CNAME	test.idjmg.com.
 2008_att04.jeremih      A	167.167.25.4
 att.jeremih             CNAME	lb02-high.idjmg.com.
 test.jeremih            CNAME	test.idjmg.com.
+test2.jeremih           A	167.167.16.34
 att.jessiejames         CNAME	lb01-high.idjmg.com.
 att01.jessiejames       CNAME	att01.idjmg.com.
 att02.jessiejames       CNAME	att02.idjmg.com.
 att03.jessiejames       CNAME	att03.idjmg.com.
 att04.jessiejames       CNAME	att04.idjmg.com.
 test.jessiejames        CNAME	test.idjmg.com.
+test2.jessiejames       A	167.167.16.34
 2008.jessiejamesmusic   A	167.167.24.26
 2008_att01.jessiejamesmusic A	167.167.25.1
 2008_att02.jessiejamesmusic A	167.167.25.2
 2008_att03.jessiejamesmusic A	167.167.25.3
 2008_att04.jessiejamesmusic A	167.167.25.4
 test.jimihendrix_cart   CNAME	test.idjmg.com.
+test2.jimihendrix_cart  A	167.167.16.34
 att.justdance           CNAME	lb01-mid.idjmg.com.
 test.justdance          CNAME	test.idjmg.com.
 2008.justdanceremix     A	167.167.24.24
@@ -342,7 +371,9 @@ att02.justinbieber      CNAME	att02.idjmg.com.
 att03.justinbieber      CNAME	att03.idjmg.com.
 att04.justinbieber      CNAME	att04.idjmg.com.
 test.justinbieber       CNAME	test.idjmg.com.
+test2.justinbieber      A	167.167.16.34
 test.justinbieber_cart  CNAME	test.idjmg.com.
+test2.justinbieber_cart A	167.167.16.34
 2008.justinbiebermusic  A	167.167.24.24
 2008_att01.justinbiebermusic A	167.167.25.1
 2008_att02.justinbiebermusic A	167.167.25.2
@@ -356,6 +387,7 @@ att04.kerli             CNAME	att04.idjmg.com.
 dev.kerli               A	192.251.67.124
 prod.kerli              A	167.167.2.18
 test.kerli              A	192.251.67.94
+test2.kerli             A	167.167.16.34
 www01.kerli             A	167.167.2.102
 www02.kerli             A	167.167.2.101
 2008.kerlimusic         A	167.167.24.24
@@ -374,6 +406,7 @@ att02.kristinia         CNAME	att02.idjmg.com.
 att03.kristinia         CNAME	att03.idjmg.com.
 att04.kristinia         CNAME	att04.idjmg.com.
 test.kristinia          CNAME	test.idjmg.com.
+test2.kristinia         A	167.167.16.34
 2008.kristiniadebarge   A	167.167.24.25
 2008_att01.kristiniadebarge A	167.167.25.1
 2008_att02.kristiniadebarge A	167.167.25.2
@@ -392,6 +425,7 @@ localhost               A	127.0.0.1
 2008_att04.loveamerie   A	167.167.25.4
 att.loveamerie          CNAME	lb01-high.idjmg.com.
 test.loveamerie         CNAME	test.idjmg.com.
+test2.loveamerie        A	167.167.16.34
 att.ludo                CNAME	lb01-mid.idjmg.com.
 att01.ludo              CNAME	att01.idjmg.com.
 att02.ludo              CNAME	att02.idjmg.com.
@@ -400,12 +434,14 @@ att04.ludo              CNAME	att04.idjmg.com.
 dev.ludo                CNAME	dev.idjmg.com.
 prod.ludo               CNAME	lb01-mid.idjmg.com.
 test.ludo               CNAME	test.idjmg.com.
+test2.ludo              A	167.167.16.34
 2008.ludorock           A	167.167.24.25
 2008_att01.ludorock     A	167.167.25.1
 2008_att02.ludorock     A	167.167.25.2
 2008_att03.ludorock     A	167.167.25.3
 2008_att04.ludorock     A	167.167.25.4
 test.mannsworld         A	192.251.67.94
+test2.mannsworld        A	167.167.16.34
 att.iphone.mariah       A	167.167.24.37
 att03.iphone.mariah     A	167.167.24.34
 att04.iphone.mariah     A	167.167.24.35
@@ -417,6 +453,7 @@ dev.iphone.mariah       A	192.251.67.13
 2008_att04.matthewmorrison A	167.167.25.4
 att.matthewmorrison     A	167.167.24.12
 test.matthewmorrison    CNAME	test.idjmg.com.
+test2.matthewmorrison   A	167.167.16.34
 2008.methandredmusic    A	167.167.24.26
 2008_att01.methandredmusic A	167.167.25.1
 2008_att02.methandredmusic A	167.167.25.2
@@ -424,8 +461,10 @@ test.matthewmorrison    CNAME	test.idjmg.com.
 2008_att04.methandredmusic A	167.167.25.4
 att.methandredmusic     CNAME	lb01-mid.idjmg.com.
 test.methandredmusic    CNAME	test.idjmg.com.
+test2.methandredmusic   A	167.167.16.34
 att.methraeghost        CNAME	lb02-mid.idjmg.com.
 test.methraeghost       CNAME	test.idjmg.com.
+test2.methraeghost      A	167.167.16.34
 2008.mrabrahammcdonald  A	167.167.24.24
 2008_att01.mrabrahammcdonald A	167.167.25.1
 2008_att02.mrabrahammcdonald A	167.167.25.2
@@ -438,6 +477,7 @@ test.methraeghost       CNAME	test.idjmg.com.
 2008_att04.mydarkestdays A	167.167.25.4
 att.mydarkestdays       CNAME	lb01-mid.idjmg.com.
 test.mydarkestdays      CNAME	test.idjmg.com.
+test2.mydarkestdays     A	167.167.16.34
 att.neyo                CNAME	lb01-mid.idjmg.com.
 att01.neyo              CNAME	att01.idjmg.com.
 att02.neyo              CNAME	att02.idjmg.com.
@@ -446,12 +486,14 @@ att04.neyo              CNAME	att04.idjmg.com.
 dev.neyo                CNAME	dev.idjmg.com.
 prod.neyo               CNAME	lb01-mid.idjmg.com.
 test.neyo               CNAME	test.idjmg.com.
+test2.neyo              A	167.167.16.34
 att.nobodysdaughter     A	167.167.24.27
 att01.nobodysdaughter   CNAME	att01.idjmg.com.
 att02.nobodysdaughter   CNAME	att02.idjmg.com.
 att03.nobodysdaughter   CNAME	att03.idjmg.com.
 att04.nobodysdaughter   CNAME	att04.idjmg.com.
 test.nobodysdaughter    A	192.251.67.94
+test2.nobodysdaughter   A	167.167.16.34
 att.oneblockradius      CNAME	lb02-mid.idjmg.com.
 att01.oneblockradius    CNAME	att01.idjmg.com.
 att02.oneblockradius    CNAME	att02.idjmg.com.
@@ -460,11 +502,14 @@ att04.oneblockradius    CNAME	att04.idjmg.com.
 dev.oneblockradius      CNAME	dev.idjmg.com.
 prod.oneblockradius     CNAME	lb02-mid.idjmg.com.
 test.oneblockradius     CNAME	test.idjmg.com.
+test2.oneblockradius    A	167.167.16.34
 att.parachute           A	167.167.24.7
 test.parachute          CNAME	test.idjmg.com.
+test2.parachute         A	167.167.16.34
 prod                    A	167.167.2.18
 att.rickross            CNAME	lb02-mid.idjmg.com.
 test.rickross           A	192.251.67.94
+test2.rickross          A	167.167.16.34
 2008.rickrossdeeperthanrap A	167.167.24.26
 2008_att01.rickrossdeeperthanrap A	167.167.25.1
 2008_att02.rickrossdeeperthanrap A	167.167.25.2
@@ -473,6 +518,7 @@ test.rickross           A	192.251.67.94
 att.roar                CNAME	att01.idjmg.com.
 dev.roar                CNAME	dev.idjmg.com.
 test.roar               CNAME	test.idjmg.com.
+test2.roar              A	167.167.16.34
 dev.roc                 A	192.251.67.124
 prod.roc                A	167.167.2.18
 www01.roc               A	167.167.2.102
@@ -482,12 +528,15 @@ www02.roc               A	167.167.2.101
 2008_att02.romanceonarocketship A	167.167.25.2
 2008_att03.romanceonarocketship A	167.167.25.3
 2008_att04.romanceonarocketship A	167.167.25.4
+att.ronisley            CNAME	att.idjmg.com.
+test.ronisley           CNAME	test.idjmg.com.
 att.rydaznartists       A	167.167.24.6
 att01.rydaznartists     CNAME	att01.idjmg.com.
 att02.rydaznartists     CNAME	att02.idjmg.com.
 att03.rydaznartists     CNAME	att03.idjmg.com.
 att04.rydaznartists     CNAME	att04.idjmg.com.
 test.rydaznartists      CNAME	test.idjmg.com.
+test2.rydaznartists     A	167.167.16.34
 2008.rydaznartistsmusic A	167.167.24.26
 2008_att01.rydaznartistsmusic A	167.167.25.1
 2008_att02.rydaznartistsmusic A	167.167.25.2
@@ -502,6 +551,7 @@ test.rydaznrtist        CNAME	test.idjmg.com.
 2008_att04.saliva       A	167.167.25.4
 att.saliva              CNAME	att01.idjmg.com.
 test.saliva             CNAME	test.idjmg.com.
+test2.saliva            A	167.167.16.34
 2008.schoolgyrls        A	167.167.24.25
 2008_att01.schoolgyrls  A	167.167.25.1
 2008_att02.schoolgyrls  A	167.167.25.2
@@ -509,8 +559,10 @@ test.saliva             CNAME	test.idjmg.com.
 2008_att04.schoolgyrls  A	167.167.25.4
 att.schoolgyrls         CNAME	att01.idjmg.com.
 test.schoolgyrls        CNAME	test.idjmg.com.
+test2.schoolgyrls       A	167.167.16.34
 att.shonie              CNAME	lb01-mid.idjmg.com.
 test.shonie             CNAME	test.idjmg.com.
+test2.shonie            A	167.167.16.34
 2008.shoniemusic        A	167.167.24.24
 2008_att01.shoniemusic  A	167.167.25.1
 2008_att02.shoniemusic  A	167.167.25.2
@@ -523,6 +575,7 @@ test.shonie             CNAME	test.idjmg.com.
 2008_att04.shopmariah   A	167.167.25.4
 att.shopmariah          CNAME	lb02-mid.idjmg.com.
 test.shopmariah         CNAME	test.idjmg.com.
+test2.shopmariah        A	167.167.16.34
 spencer                 CNAME	defjam.idjmg.com.
 staging                 CNAME	staging.islanddefjam.com.
 2008.sum41              A	167.167.24.24
@@ -536,8 +589,10 @@ att02.sum41             CNAME	att02.idjmg.com.
 att03.sum41             CNAME	att03.idjmg.com.
 att04.sum41             CNAME	att04.idjmg.com.
 test.sum41              CNAME	test.idjmg.com.
+test2.sum41             A	167.167.16.34
 att.teen-beats          CNAME	lb02-mid.idjmg.com.
 test.teen-beats         CNAME	test.idjmg.com.
+test2.teen-beats        A	167.167.16.34
 2008.teflondonross      A	167.167.24.25
 2008_att01.teflondonross A	167.167.25.1
 2008_att02.teflondonross A	167.167.25.2
@@ -545,6 +600,7 @@ test.teen-beats         CNAME	test.idjmg.com.
 2008_att04.teflondonross A	167.167.25.4
 att.teflondonross       CNAME	lb01-high.idjmg.com.
 test.teflondonross      CNAME	test.idjmg.com.
+test2.teflondonross     A	167.167.16.34
 test                    A	192.251.67.94
 test2                   A	167.167.16.34
 2008.the-dreammusic     A	167.167.24.24
@@ -559,6 +615,7 @@ test2                   A	167.167.16.34
 2008_att04.thebravery   A	167.167.25.4
 att.thebravery          CNAME	lb01-high.idjmg.com.
 test.thebravery         CNAME	test.idjmg.com.
+test2.thebravery        A	167.167.16.34
 2008.thedamnedthings    A	167.167.24.24
 2008_att01.thedamnedthings A	167.167.25.1
 2008_att02.thedamnedthings A	167.167.25.2
@@ -570,8 +627,10 @@ att02.thedamnedthings   CNAME	att02.idjmg.com.
 att03.thedamnedthings   CNAME	att03.idjmg.com.
 att04.thedamnedthings   CNAME	att04.idjmg.com.
 test.thedamnedthings    CNAME	test.idjmg.com.
+test2.thedamnedthings   A	167.167.16.34
 att.thedream            CNAME	lb02-mid.idjmg.com.
 test.thedream           CNAME	test.idjmg.com.
+test2.thedream          A	167.167.16.34
 2008.shop.thekillersmusic A	167.167.24.26
 2008_att01.shop.thekillersmusic A	167.167.25.1
 2008_att02.shop.thekillersmusic A	167.167.25.2
@@ -590,6 +649,7 @@ att02.themakeupbagcontest CNAME	att02.idjmg.com.
 att03.themakeupbagcontest CNAME	att03.idjmg.com.
 att04.themakeupbagcontest CNAME	att04.idjmg.com.
 test.themakeupbagcontest CNAME	test.idjmg.com.
+test2.themakeupbagcontest A	167.167.16.34
 2008.thepyrex           A	167.167.24.24
 2008_att01.thepyrex     A	167.167.25.1
 2008_att02.thepyrex     A	167.167.25.2
@@ -603,6 +663,7 @@ att04.thepyrex          CNAME	att04.idjmg.com.
 dev.thepyrex            CNAME	dev.idjmg.com.
 prod.thepyrex           CNAME	prod.idjmg.com.
 test.thepyrex           CNAME	test.idjmg.com.
+test2.thepyrex          A	167.167.16.34
 www01.thepyrex          A	167.167.2.102
 www02.thepyrex          A	167.167.2.101
 2008.therocketsummer    A	167.167.24.25
@@ -612,6 +673,7 @@ www02.thepyrex          A	167.167.2.101
 2008_att04.therocketsummer A	167.167.25.4
 att.therocketsummer     CNAME	lb01-high.idjmg.com.
 test.therocketsummer    CNAME	test.idjmg.com.
+test2.therocketsummer   A	167.167.16.34
 2008.thisiselectrikred  A	167.167.24.25
 2008_att01.thisiselectrikred A	167.167.25.1
 2008_att02.thisiselectrikred A	167.167.25.2
@@ -623,6 +685,7 @@ test.therocketsummer    CNAME	test.idjmg.com.
 2008_att03.thisisyounglove A	167.167.25.3
 2008_att04.thisisyounglove A	167.167.25.4
 test.tools              CNAME	test.idjmg.com.
+test2.tools             A	167.167.16.34
 2008.triplecs305        A	167.167.24.25
 2008_att01.triplecs305  A	167.167.25.1
 2008_att02.triplecs305  A	167.167.25.2
@@ -630,6 +693,7 @@ test.tools              CNAME	test.idjmg.com.
 2008_att04.triplecs305  A	167.167.25.4
 att.triplecs305         CNAME	att03.idjmg.com.
 test.triplecs305        CNAME	test.idjmg.com.
+test2.triplecs305       A	167.167.16.34
 2008.utada              A	167.167.24.25
 2008_att01.utada        A	167.167.25.1
 2008_att02.utada        A	167.167.25.2
@@ -641,6 +705,7 @@ att02.utada             CNAME	att02.idjmg.com.
 att03.utada             CNAME	att03.idjmg.com.
 att04.utada             CNAME	att04.idjmg.com.
 test.utada              CNAME	test.idjmg.com.
+test2.utada             A	167.167.16.34
 video-dj                CNAME	usucplvapp001.global.umusic.net.
 att.video-dj            CNAME	llvp2.att.umusic.com.
 dev.video-dj            CNAME	usucplvapp001.global.umusic.net.
@@ -665,3 +730,4 @@ www                     CNAME	defjam.idjmg.com.
 2008_att03.yearofthegentleman A	167.167.25.3
 2008_att04.yearofthegentleman A	167.167.25.4
 att.younglove           CNAME	lb02-mid.idjmg.com.
+test2.younglove         A	167.167.16.34
